@@ -1,2 +1,50 @@
-Use this README file to introduce your application and point to useful places in the API for learning more.
-Run "rake doc:app" to generate API documentation for your models, controllers, helpers, and libraries.
+-- EoJ Card Browser --
+
+Scripts and instructions useful for the application will be added here.
+
+-- Get all cards
+
+The cards in the fixtures are updated from a known EOJ card data source - eojinfo.com
+
+require 'hpricot'
+require 'open-uri'
+# page for all cards
+doc = Hpricot(open("http://eojinfo.com/cards.php"))
+pages = (doc/"table#cards_table//a").collect{|e| e.attributes['href']}.uniq
+cards = Array.new
+
+pages.each do |page|
+  # page for 1 card
+  doc = Hpricot(open("http://eojinfo.com/#{page}"))
+  elements = (doc/"td.td_carddetail")
+
+  # set all values
+  set = elements[0].inner_html
+  number = elements[1].inner_html
+  title = elements[2].inner_html
+  element = elements[3].inner_html
+  race = elements[4].inner_html
+  s_cost = elements[6].inner_html
+  a_cost = elements[7].inner_html
+  hp = elements[8].inner_html
+  attack = elements[9].inner_html
+  rarity = elements[10].inner_html
+  special_attributes = elements[12].inner_html
+  body = elements[13].inner_html
+  
+  card =
+"#{number}_#{title.downcase.gsub(' ', '_')}:
+  set: #{set}
+  number: #{number}
+  title: #{title}
+  element: #{element}
+  race: #{race}
+  summoning_cost: #{s_cost}
+  activation_cost: #{a_cost}
+  health_points: #{hp}
+  attack: #{attack}
+  rarity: #{rarity}
+  special_attributes: #{special_attributes}
+  body: #{body}"
+  cards << card
+end

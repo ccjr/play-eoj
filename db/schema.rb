@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20081013065755) do
+ActiveRecord::Schema.define(:version => 20081013110120) do
 
   create_table "cards", :force => true do |t|
     t.integer  "number"
@@ -17,9 +17,9 @@ ActiveRecord::Schema.define(:version => 20081013065755) do
     t.string   "title"
     t.string   "element"
     t.string   "race"
-    t.integer  "summoning_cost"
-    t.integer  "activation_cost"
-    t.integer  "health_points"
+    t.string   "summoning_cost"
+    t.string   "activation_cost"
+    t.string   "health_points"
     t.string   "attack"
     t.string   "rarity"
     t.integer  "card_limit"
