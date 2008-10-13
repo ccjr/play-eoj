@@ -1,0 +1,37 @@
+.toolbar
+  %h1#pageTitle EoJ Card Browser
+  %a#backButton.button{:href => "#"}
+  %a.button{:href => "#searchForm"} Search
+
+%ul#home{:title => "EoJ Card Browser", :selected => "true"}
+  %li= link_to 'All cards', '#cards'
+  %li= link_to 'By Element', '#elements'
+  /
+    %li= link_to 'Stats', 'stats.php'
+  %li= link_to 'Author', 'http://ccjr.name', :target => "_self"
+  %li Nothing
+
+%ul#cards{:title => 'Cards'}
+  - for card in Card.all
+    %li= link_to card.title, '#card'
+
+%ul#elements{:title => 'By Element'}
+  %li= link_to 'Fire', '#cards'
+  %li= link_to 'Earth', '#cards'
+  %li= link_to 'Water', '#cards'
+  %li= link_to 'Wood', '#cards'
+
+#card.panel{:title => 'Card'}
+  %h2 Flame Magus
+  %h3 text here 
+
+%form{:id => "searchForm", :class => "dialog", :action => "search.php"}
+  %fieldset
+    %h1 Card Search
+    %a.button.leftButton{:type => "cancel"} Cancel
+    %a.button.blueButton{:type => "submit"} Search
+
+    %label Number:
+    %input{:type => "text", :name => "number"}
+    %label Card name:
+    %input{:type => "text", :name => "title"}

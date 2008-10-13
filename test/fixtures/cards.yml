@@ -1,0 +1,27 @@
+1_flame_magus:
+  number: 1
+  set: 1
+  title: Flame Magus
+  element: Fire
+  race: Human
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 1
+  attack: 1
+  rarity: Common
+  special_attributes: Magic Attack
+
+50_arelai_the_protector:
+  number: 50
+  set: 1
+  title: Arelai the Protector
+  element: Earth
+  race: Hero
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 3
+  attack: 2+
+  rarity: Ultra Rare
+  race_limit: 1
+  special_attributes: Gains Protection, Attack Power +, Grants Protection
+  body: Arelai gains Protection equal to the number of Earth fields. Arelai adds 1 to his Attack if at least one target creature is on an Earth field. All other allied creatures on Earth fields gain +1 Protection.
