@@ -28,15 +28,18 @@ pages.each do |page|
   a_cost = elements[7].inner_html
   hp = elements[8].inner_html
   attack = elements[9].inner_html
-  rarity = elements[10].inner_html
   special_attributes = elements[12].inner_html
   body = elements[13].inner_html
+  
+  # rarity element has its own class
+  rarity = ''
+  ['common', 'uncommon', 'rare', 'ultra_rare'].each {|r| rarity = r.titleize if (doc/"td.td_carddetail_#{r}").any?}
   
   card =
 "#{number}_#{title.downcase.gsub(' ', '_')}:
   set: #{set}
   number: #{number}
-  title: #{title}
+  title: \"#{title}\"
   element: #{element}
   race: #{race}
   summoning_cost: #{s_cost}
@@ -45,6 +48,7 @@ pages.each do |page|
   attack: #{attack}
   rarity: #{rarity}
   special_attributes: #{special_attributes}
-  body: #{body}"
+  body: \"#{body}\""
   cards << card
 end
+puts cards.join("\n")

@@ -1,6 +1,6 @@
 1_flame_magus:
-  number: 1
   set: 1
+  number: 1
   title: Flame Magus
   element: Fire
   race: Human
@@ -9,19 +9,2801 @@
   health_points: 1
   attack: 1
   rarity: Common
-  special_attributes: Magic Attack
-
-50_arelai_the_protector:
-  number: 50
+  special_attributes: Magic&nbsp;Attack
+  body: 
+2_hellfire_spitter:
   set: 1
+  number: 2
+  title: Hellfire Spitter
+  element: Fire
+  race: Bug
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 1
+  attack: 1
+  rarity: Common
+  special_attributes: Quickness
+  body: 
+3_freedonian_wanderer:
+  set: 1
+  number: 3
+  title: Freedonian Wanderer
+  element: Fire
+  race: Elemental
+  summoning_cost: 2
+  activation_cost: 1
+  health_points: 2
+  attack: 1
+  rarity: Common
+  special_attributes: 
+  body: While Freedonian Wanderer is on a non-Fire field, you gain 1 mana each time you summon an allied creature.
+4_partmole_flame_lizard:
+  set: 1
+  number: 4
+  title: Partmole Flame Lizard
+  element: Fire
+  race: Lizard
+  summoning_cost: 2
+  activation_cost: 2 -
+  health_points: 2
+  attack: 2
+  rarity: Common
+  special_attributes: Quickness, Attack&nbsp;Cost&nbsp;-
+  body: The Activation Cost to attack with Partmole Flame Lizard is 1 less than listed.
+5_firefly_ninja:
+  set: 1
+  number: 5
+  title: Firefly Ninja
+  element: Fire
+  race: Human
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 2
+  attack: 1
+  rarity: Uncommon
+  special_attributes: Gains&nbsp;Invisibility, Gains&nbsp;Perfect&nbsp;Dodge
+  body: While Firefly Ninja is on a Fire field it gains Perfect Dodge.  Firefly Ninja gains Invisibility while at least one allied Spider Ninja is on the board.
+6_great_minos_of_sciondar:
+  set: 1
+  number: 6
+  title: Great Minos of Sciondar
+  element: Fire
+  race: Titan
+  summoning_cost: 3
+  activation_cost: 2 -
+  health_points: 1
+  attack: 2
+  rarity: Rare
+  special_attributes: Perfect&nbsp;Dodge, Attack&nbsp;Cost&nbsp;-
+  body: The Activation Cost to attack with Great Minos is 1 less than listed.  Destroy Great Minos if he is on a non-Fire field.
+7_flame_ascetic:
+  set: 1
+  number: 7
+  title: Flame Ascetic
+  element: Fire
+  race: Human
+  summoning_cost: 3
+  activation_cost: 3 -
+  health_points: 3
+  attack: 2 +
+  rarity: Common
+  special_attributes: Attack&nbsp;Power&nbsp;+, Attack&nbsp;Cost&nbsp;-
+  body: Flame Ascetic adds 2 to its Attack half the time.  The Activation Cost to attack with Flame Ascetic is 2 less than listed.
+8_partmole_flame_guard:
+  set: 1
+  number: 8
+  title: Partmole Flame Guard
+  element: Fire
+  race: Demon
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 3
+  attack: 1 +
+  rarity: Uncommon
+  special_attributes: Attack&nbsp;Power&nbsp;+
+  body: Partmole Flame Guard adds 2 to its Attack if at least one target creature is on a Water field.
+9_lesser_granvenoa:
+  set: 1
+  number: 9
+  title: Lesser Granvenoa
+  element: Fire
+  race: Base
+  summoning_cost: 4
+  activation_cost: 2
+  health_points: 4
+  attack: 2
+  rarity: Uncommon
+  special_attributes: Fortress
+  body: Fields adjacent to Lesser Granvenoa cannot be fieldquaked or exchanged.  Destroy Lesser Granvenoa if it is on a Water field.
+10_partmole_fire_oracle:
+  set: 1
+  number: 10
+  title: Partmole Fire Oracle
+  element: Fire
+  race: Demon
+  summoning_cost: 4
+  activation_cost: 2
+  health_points: 3
+  attack: 2
+  rarity: Uncommon
+  special_attributes: Magic&nbsp;Attack
+  body: If Partmole Fire Oracle is destroyed, all allied creatures on board gain 1 HP.
+11_triceptaur_behemoth:
+  set: 1
+  number: 11
+  title: Triceptaur Behemoth
+  element: Fire
+  race: Beast
+  summoning_cost: 5
+  activation_cost: 5
+  health_points: 4
+  attack: 5 -
+  rarity: Rare
+  special_attributes: Attack&nbsp;Power&nbsp;-
+  body: When Triceptaur Behemoth attacks 2 creatures, subtract 2 from its Attack.  When attacking 3 creatures, subtract 4 from its Attack.
+12_pursuer_of_saint_dhees:
+  set: 1
+  number: 12
+  title: Pursuer of Saint Dhees
+  element: Fire
+  race: Demon
+  summoning_cost: 6
+  activation_cost: 6 -
+  health_points: 4
+  attack: 5 +
+  rarity: Rare
+  special_attributes: Attack&nbsp;Power&nbsp;+, Attack&nbsp;Cost&nbsp;-
+  body: Pursuer of Saint Dhees' Attack is equal to 5 plus the number of other creatures on the board.  The Activation Cost to attack with Pursuer of Saint Dhees is 5 less than listed.
+13_infernal_sciondar_dragon:
+  set: 1
+  number: 13
+  title: Infernal Sciondar Dragon
+  element: Fire
+  race: Dragon
+  summoning_cost: 7
+  activation_cost: 4 -
+  health_points: 8
+  attack: 5 +
+  rarity: Rare
+  special_attributes: Attack&nbsp;Power&nbsp;+, Attack&nbsp;Cost&nbsp;-
+  body: Infernal Sciondar Dragon's Attack is equal to 5 plus the number of other Fire creatures on the board.  While Infernal Sciondar Dragon is on a Fire field, its Activation Cost to attack is 3 less than listed.
+14_didi_the_enlightened:
+  set: 1
+  number: 14
+  title: Didi the Enlightened
+  element: Fire
+  race: Hero
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 4
+  attack: 2 +
+  rarity: Ultra Rare
+  special_attributes: Quickness, Attack&nbsp;Power&nbsp;+
+  body: Didi attacks the same target twice.  The target's counterattack occurs after the second attack.  Didi adds 1 to his Attack if the target creature is on a Fire field.  While Didi is on the board, no Fire field can be fieldquaked or exchanged.
+15_warden_hilda:
+  set: 1
+  number: 15
+  title: Warden Hilda
+  element: Fire
+  race: Betrayer
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 4
+  attack: 2 +
+  rarity: Ultra Rare
+  special_attributes: Attack&nbsp;Power&nbsp;+
+  body: Warden Hilda adds 1 to her Attack if the target creature is a Fire creature.  While on a non-Fire field, Hilda gains Possession of all enemies on Fire fields.
+16_crucible_king_dios_iv:
+  set: 1
+  number: 16
+  title: Crucible King Dios IV
+  element: Fire
+  race: Noble
+  summoning_cost: 6
+  activation_cost: 4
+  health_points: 6
+  attack: 3 + -
+  rarity: Ultra Rare
+  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+, Attack&nbsp;Power&nbsp;-
+  body: King Dios attacks the same target twice.  The counterattack of the target creature occurs after second attack.<br /><br />While King Dios is on a Fire field, he must use his Magic Attack, which affects the target and all enemies adjacent to it.  The attack value is equal to the number of Fire fields.
+17_sciondar_fire_god:
+  set: 1
+  number: 17
+  title: Sciondar Fire God
+  element: Fire
+  race: God
+  summoning_cost: 9
+  activation_cost: 5
+  health_points: 9
+  attack: 3
+  rarity: Ultra Rare
+  special_attributes: Incarnation, Magic&nbsp;Attack, Summoning&nbsp;Lock
+  body: Sciondar Fire God's Magic Attack targets all enemies on non-Fire fields.  Destroy Sciondar Fire God if he is on a Biolith Field.
+18_red_cubic:
+  set: 1
+  number: 18
+  title: Red Cubic
+  element: Fire
+  race: Egg
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 1
+  attack: 0
+  rarity: Rare
+  special_attributes: 
+  body: Sacrifice Red Cubic to summon a non-cubic Fire creature in its place (facing any direction) without paying the Summoning Cost.  The summoned creature cannot attack on this turn.  This does not end your turn.
+19_monk_elder_of_okunada:
+  set: 1
+  number: 19
+  title: Monk Elder of Okunada
+  element: Water
+  race: Merfolk
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 1
+  attack: 0
+  rarity: Common
+  special_attributes: Grants&nbsp;Dodge&nbsp;Attempt
+  body: All allied creatures on adjacent fields gain one Dodge attempt.
+20_tritonan_ice_guard:
+  set: 1
+  number: 20
+  title: Tritonan Ice Guard
+  element: Water
+  race: Elemental
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 1
+  attack: 1
+  rarity: Common
+  special_attributes: 
+  body: When Tritonan Ice Guard is summoned to a non-Water field, draw a card.
+21_tritonan_harpoonsman:
+  set: 1
+  number: 21
+  title: Tritonan Harpoonsman
+  element: Water
+  race: Merfolk
+  summoning_cost: 2
+  activation_cost: 1
+  health_points: 2
+  attack: 1
+  rarity: Common
+  special_attributes: Gains&nbsp;Dodge&nbsp;Attempt
+  body: While on a Water field, Tritonan Harpoonsman gains one Dodge attempt.
+22_aluhja_priestess:
+  set: 1
+  number: 22
+  title: Aluhja Priestess
+  element: Water
+  race: Human
+  summoning_cost: 2
+  activation_cost: 1
+  health_points: 1
+  attack: 1
+  rarity: Common
+  special_attributes: Magic&nbsp;Attack, Gains&nbsp;Dodge&nbsp;Attempt
+  body: While on a Water field, Aluhja Priestess gains one Dodge attempt.
+23_tentacles_of_possession:
+  set: 1
+  number: 23
+  title: Tentacles of Possession
+  element: Water
+  race: Beast
+  summoning_cost: 2
+  activation_cost: 1
+  health_points: 2
+  attack: 0
+  rarity: Uncommon
+  special_attributes: Possession
+  body: Tentacles of Possession gain Possession of the enemy directly in front of it.
+24_wolf_ninja:
+  set: 1
+  number: 24
+  title: Wolf Ninja
+  element: Water
+  race: Human
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 3
+  attack: 1
+  rarity: Uncommon
+  special_attributes: Gains&nbsp;Invisibility
+  body: Wolf Ninja gains invisibility while at least one allied Swallow Ninja is on the board.  If Wolf Ninja damages a creature on a Water field, it changes place with that creature (who cannot counterattack).
+25_cloud_runner:
+  set: 1
+  number: 25
+  title: Cloud Runner
+  element: Water
+  race: Weapon
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 2
+  attack: 1
+  rarity: Uncommon
+  special_attributes: Dodge&nbsp;Attempt
+  body: When Cloud Runner is summoned, draw cards equal to the number of Water fields.
+26_dancing_temptress:
+  set: 1
+  number: 26
+  title: Dancing Temptress
+  element: Water
+  race: Undead
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 1
+  attack: 0
+  rarity: Rare
+  special_attributes: 
+  body: If Dancing Temptress is destroyed, you steal 1 mana from the owner of the creature on the field in front of her.  If Dancing Temptress is destroyed, the creature on the field in front of her is moved to the field she was previously on.
+27_venoan_assassin:
+  set: 1
+  number: 27
+  title: Venoan Assassin
+  element: Water
+  race: Human
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 3
+  attack: 2
+  rarity: Common
+  special_attributes: 
+  body: Venoan Assassin always attacks the back of its target.
+28_queen's_servant:
+  set: 1
+  number: 28
+  title: Queen's Servant
+  element: Water
+  race: Elemental
+  summoning_cost: 4
+  activation_cost: 2
+  health_points: 1
+  attack: 1
+  rarity: Rare
+  special_attributes: Perfect&nbsp;Dodge, Magic&nbsp;Attack
+  body: If Queen's Servant is destroyed, steal 1 mana from your opponent.
+29_moving_isle_of_kadena:
+  set: 1
+  number: 29
+  title: Moving Isle of Kadena
+  element: Water
+  race: Beast
+  summoning_cost: 4
+  activation_cost: 2
+  health_points: 4
+  attack: 1
+  rarity: Rare
+  special_attributes: Fortress
+  body: If Moving Isle of Kadena is summoned to a non-Water field, steal mana from your opponent equal to the number of Water fields.  Destroy Moving Isle of Kadena if it is on a Fire field.
+30_don_of_venoa:
+  set: 1
+  number: 30
+  title: Don of Venoa
+  element: Water
+  race: Titan
+  summoning_cost: 5
+  activation_cost: 3
+  health_points: 3
+  attack: 2
+  rarity: Rare
+  special_attributes: Grants&nbsp;Dodge&nbsp;Attempt, Gains&nbsp;Dodge&nbsp;Attempt
+  body: While on a Water field, Don must use his sceondary attack.  Don gains one Dodge attempt for each adjacent enemy.  Adjacent allied creatures gain one Dodge attempt.
+31_dragon_of_voice_sea:
+  set: 1
+  number: 31
+  title: Dragon of Voice Sea
+  element: Water
+  race: Dragon
+  summoning_cost: 7
+  activation_cost: 4
+  health_points: 8
+  attack: 5 +
+  rarity: Rare
+  special_attributes: Attack&nbsp;Power&nbsp;+
+  body: Dragon of Voice Sea's Attack is equal to 5 plus the number of other Water creatures on the board.  While Dragon of Voice Sea is on a Water field, if you summon a creature to an adjacent field, draw a card.
+32_mercenary_savior_latoo:
+  set: 1
+  number: 32
+  title: Mercenary Savior Latoo
+  element: Water
+  race: Hero
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 3
+  attack: 2
+  rarity: Ultra Rare
+  special_attributes: Dodge&nbsp;Attempt, Grants&nbsp;Dodge&nbsp;Attempt
+  body: Latoo adds 1 to his Attack if at least one target creature is on a Water field.  While Latoo is on the board, all other allied creatures on Water fields gain one Dodge attempt.
+33_siam,_traitor_of_the_seas:
+  set: 1
+  number: 33
+  title: Siam, Traitor of the Seas
+  element: Water
+  race: Betrayer
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 4
+  attack: 2 +
+  rarity: Ultra Rare
+  special_attributes: Attack&nbsp;Power&nbsp;+
+  body: Siam attacks the same target twice.  The counterattack of target creature ocurs after second attack.  Siam adds 1 to his Attack if the target creature is a Water creature.  All enemies on Water fields subtract 1 from their Attack.
+34_imposter_queen_anfisa:
+  set: 1
+  number: 34
+  title: Imposter Queen Anfisa
+  element: Water
+  race: Noble
+  summoning_cost: 6
+  activation_cost: 2
+  health_points: 5
+  attack: 2
+  rarity: Ultra Rare
+  special_attributes: Magic&nbsp;Attack
+  body: When on a water field, Imposter Queen Anfisa gains Possession of all enemies on adjacent fields.
+35_goddess_tritona:
+  set: 1
+  number: 35
+  title: Goddess Tritona
+  element: Water
+  race: God
+  summoning_cost: 9
+  activation_cost: 5
+  health_points: 9
+  attack: 3
+  rarity: Ultra Rare
+  special_attributes: Incarnation, Magic&nbsp;Attack
+  body: Goddess Tritona's Magic Attack targets all enemies on non-Water fields.  Destroy Goddess Tritona if she is on a Biolith field.
+36_blue_cubic:
+  set: 1
+  number: 36
+  title: Blue Cubic
+  element: Water
+  race: Egg
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 1
+  attack: 0
+  rarity: Rare
+  special_attributes: 
+  body: Sacrifice Blue Cubic to Summon a non-cubic Water creature in its place (facing any direction) without paying the Summoning Cost.  The summoned creature cannot attack this turn.  This does not end your turn.
+37_verzar_canine:
+  set: 1
+  number: 37
+  title: Verzar Canine
+  element: Earth
+  race: Beast
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 1
+  attack: 1
+  rarity: Common
+  special_attributes: Grants&nbsp;Protection
+  body: Allied creatures on adjacent fields gain +1 Protection.
+38_verzar_foot_soldier:
+  set: 1
+  number: 38
+  title: Verzar Foot Soldier
+  element: Earth
+  race: Human
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 2
+  attack: 1 +
+  rarity: Common
+  special_attributes: Attack&nbsp;Power&nbsp;+
+  body: Verzar Foot Soldier adds 1 to his Attack if at least one other allied Verzar Foot Soldier is on the board.
+39_stone_wing_dwarf:
+  set: 1
+  number: 39
+  title: Stone Wing Dwarf
+  element: Earth
+  race: Dwarf
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 1
+  attack: 1
+  rarity: Common
+  special_attributes: Gains&nbsp;Protection
+  body: Stone Wing Dwarf gains Protection equal to the number of allied Giant Axe Dwarves on the board.
+40_skeleton_soldier:
+  set: 1
+  number: 40
+  title: Skeleton Soldier
+  element: Earth
+  race: Undead
+  summoning_cost: 2
+  activation_cost: 1
+  health_points: 2
+  attack: 1
+  rarity: Common
+  special_attributes: 
+  body: If Skeleton Soldier is destroyed, you gain 1 additional mana.
+41_giant_axe_dwarf:
+  set: 1
+  number: 41
+  title: Giant Axe Dwarf
+  element: Earth
+  race: Dwarf
+  summoning_cost: 2
+  activation_cost: 1
+  health_points: 3
+  attack: 1 +
+  rarity: Common
+  special_attributes: Attack&nbsp;Power&nbsp;+
+  body: Giant Axe Dwarf adds 1 to his Attack for every allied Stone Wing Dwarf on the board.
+42_spider_ninja:
+  set: 1
+  number: 42
+  title: Spider Ninja
+  element: Earth
+  race: Human
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 2
+  attack: 1
+  rarity: Uncommon
+  special_attributes: Gains&nbsp;Invisibility, Magic&nbsp;Attack
+  body: Spider Ninja gains Invisibility while at least one allied Wolf Ninja is on the board.  If Spider Ninja damages a creature on an Earth field, it switches locations with that creature (who cannot counterattack).
+43_novogus_catapult:
+  set: 1
+  number: 43
+  title: Novogus Catapult
+  element: Earth
+  race: Weapon
+  summoning_cost: 3
+  activation_cost: 1
+  health_points: 4
+  attack: 2
+  rarity: Uncommon
+  special_attributes: 
+  body: If Novogus Catapult is destroyed, you gain mana equal to the number of Earth fields.
+44_dark_yokozuna_sekimaru:
+  set: 1
+  number: 44
+  title: Dark Yokozuna Sekimaru
+  element: Earth
+  race: Titan
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 3
+  attack: 2
+  rarity: Uncommon
+  special_attributes: 
+  body: If Dark Yokozuna Sekimaru attacks (but does not destroy) a creature, that creature is pushed back one field in the direction of the attack (provided the field is empty) and cannot counterattack.
+45_se_hollyn_fortress:
+  set: 1
+  number: 45
+  title: Se Hollyn Fortress
+  element: Earth
+  race: Base
+  summoning_cost: 4
+  activation_cost: 2
+  health_points: 4
+  attack: 1
+  rarity: Uncommon
+  special_attributes: Fortress, Grants&nbsp;Protection
+  body: Allied creatures on adjaent fields gain +2 Protection.  Destroy Se Hollyn Fortress if it is on a Wood field.
+46_novogus_golem:
+  set: 1
+  number: 46
+  title: Novogus Golem
+  element: Earth
+  race: Beast
+  summoning_cost: 4
+  activation_cost: 2
+  health_points: 3
+  attack: 2
+  rarity: Rare
+  special_attributes: Gains&nbsp;Protection
+  body: Novogus Golem gains Protection equal to the number of empty fields.
+47_dungeon_of_ten_tyrants:
+  set: 1
+  number: 47
+  title: Dungeon of Ten Tyrants
+  element: Earth
+  race: Base
+  summoning_cost: 4
+  activation_cost: 2
+  health_points: 4
+  attack: 1
+  rarity: Uncommon
+  special_attributes: Fortress
+  body: While Dungeon of Ten Tyrants is on a non-Earth field, gain 1 mana during your Resolution Phase.  Destroy Dungeon of Ten Tyrants if it is on a Wood Field.
+48_verzar_elephant_brigade:
+  set: 1
+  number: 48
+  title: Verzar Elephant Brigade
+  element: Earth
+  race: Elemental
+  summoning_cost: 5
+  activation_cost: 3
+  health_points: 5
+  attack: 2
+  rarity: Uncommon
+  special_attributes: 
+  body: Verzar Elephant Brigade must use its secondary attack while it is on an Earth field.  While Verzar Elephant Brigade is on an Earth field, allied creatures on adjacent fields add 2 to their attack and 1 to their Activation Cost.
+49_undead_dragon:
+  set: 1
+  number: 49
+  title: Undead Dragon
+  element: Earth
+  race: Dragon
+  summoning_cost: 7
+  activation_cost: 4
+  health_points: 8
+  attack: 5 +
+  rarity: Rare
+  special_attributes: Attack&nbsp;Power&nbsp;+
+  body: Undead Dragon's Attack is equal to 5 plus the number of other Earth creatures on the board.  While Undead Dragon is on an Earth field, gain 1 additional mana whenever an adjacent allied creature is destroyed.
+50_arelai_the_protector:
+  set: 1
+  number: 50
   title: Arelai the Protector
   element: Earth
   race: Hero
   summoning_cost: 3
   activation_cost: 2
   health_points: 3
-  attack: 2+
+  attack: 2 +
   rarity: Ultra Rare
-  race_limit: 1
-  special_attributes: Gains Protection, Attack Power +, Grants Protection
-  body: Arelai gains Protection equal to the number of Earth fields. Arelai adds 1 to his Attack if at least one target creature is on an Earth field. All other allied creatures on Earth fields gain +1 Protection.
+  special_attributes: Gains&nbsp;Protection, Attack&nbsp;Power&nbsp;+, Grants&nbsp;Protection
+  body: Arelai gains Protection equal to the number of Earth fields.  Arelai adds 1 to his Attack if at least one target creature is on an Earth field.  All other allied creatures on Earth fields gain +1 Protection.
+51_black_hood_dwarf_vulitra:
+  set: 1
+  number: 51
+  title: Black Hood Dwarf Vulitra
+  element: Earth
+  race: Betrayer
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 4
+  attack: 2 +
+  rarity: Ultra Rare
+  special_attributes: Attack&nbsp;Power&nbsp;+
+  body: Vulitra adds 1 to his Attack if at least one target creature is an Earth creature.  If Vulitra is destroyed on a non-Earth field, your opponent must discard cards equal to the number of Earth fields.
+52_undead_king_novogus:
+  set: 1
+  number: 52
+  title: Undead King Novogus
+  element: Earth
+  race: Noble
+  summoning_cost: 6
+  activation_cost: 3
+  health_points: 6
+  attack: 2
+  rarity: Ultra Rare
+  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  body: If Undead King Novogus is on a non-Earth field and damages a creature, fieldquake the target creature's field.  The target creature cannot counterattack.
+53_novogus_gravekeeper:
+  set: 1
+  number: 53
+  title: Novogus Gravekeeper
+  element: Earth
+  race: God
+  summoning_cost: 9
+  activation_cost: 5
+  health_points: 9
+  attack: 3
+  rarity: Ultra Rare
+  special_attributes: Incarnation, Magic&nbsp;Attack
+  body: Novogus Gravekeeper's Magic Attack targets all enemies on non-Earth fields.  Destroy Novogus Gravekeeper if it is on a Biolith field.
+54_yellow_cubic:
+  set: 1
+  number: 54
+  title: Yellow Cubic
+  element: Earth
+  race: Egg
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 1
+  attack: 0
+  rarity: Rare
+  special_attributes: 
+  body: Sacrifice Yellow Cubic to summon a non-cubic Earth creature in its place (facing any direction) without paying the Summoning Cost.  The summoned creature cannot attack this turn.  This does not end your turn.
+55_leapfrog_bandit:
+  set: 1
+  number: 55
+  title: Leapfrog Bandit
+  element: Wood
+  race: Anthromorph
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 1
+  attack: 1
+  rarity: Common
+  special_attributes: 
+  body: If Leapfrog Bandit is destroyed on a non-Wood field, your opponent must discard 1 card.
+56_green_lycanthrope:
+  set: 1
+  number: 56
+  title: Green Lycanthrope
+  element: Wood
+  race: Anthromorph
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 1 +
+  attack: 0 +
+  rarity: Common
+  special_attributes: Attack&nbsp;Power&nbsp;+, HP&nbsp;+
+  body: When Green Lycanthrope is summoned, half the time add 3 to its HP and 2 to its Attack.
+57_bewitching_elf_archeress:
+  set: 1
+  number: 57
+  title: Bewitching Elf Archeress
+  element: Wood
+  race: Elf
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 2
+  attack: 1
+  rarity: Common
+  special_attributes: 
+  body: When Archeress damages (but does not destroy) a creature, that creature is rotated 180 degrees and cannot counterattack.
+58_sleeptrap:
+  set: 1
+  number: 58
+  title: Sleeptrap
+  element: Wood
+  race: Plant
+  summoning_cost: 2
+  activation_cost: 1
+  health_points: 2
+  attack: 0
+  rarity: Common
+  special_attributes: 
+  body: Enemies on adjacent fields add 1 to their Activation Cost.
+59_elven_berserker_maiden:
+  set: 1
+  number: 59
+  title: Elven Berserker Maiden
+  element: Wood
+  race: Elf
+  summoning_cost: 2
+  activation_cost: 2
+  health_points: 3
+  attack: 1 +
+  rarity: Uncommon
+  special_attributes: Attack&nbsp;Power&nbsp;+, Gains&nbsp;Dodge&nbsp;Attempt
+  body: While Elven Berserker Maiden has exactly 1 HP, she adds 2 to her Attack and gains a Dodge attempt.
+60_samurai_nagirashu:
+  set: 1
+  number: 60
+  title: Samurai Nagirashu
+  element: Wood
+  race: Human
+  summoning_cost: 2
+  activation_cost: 2
+  health_points: 2
+  attack: 2
+  rarity: Uncommon
+  special_attributes: 
+  body: If Samurai Nagirashu is destroyed on a Wood field, your opponent must discard 1 card.
+61_twin_goblins:
+  set: 1
+  number: 61
+  title: Twin Goblins
+  element: Wood
+  race: Goblin
+  summoning_cost: 2
+  activation_cost: 1
+  health_points: 3
+  attack: 1
+  rarity: Common
+  special_attributes: 
+  body: 
+62_swallow_ninja:
+  set: 1
+  number: 62
+  title: Swallow Ninja
+  element: Wood
+  race: Human
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 3
+  attack: 1
+  rarity: Uncommon
+  special_attributes: Gains&nbsp;Invisibility
+  body: Swallow Ninja gains Invisibility while at least one allied Firefly Ninja is on the board.  When Swallow Ninja damages (but does not destroy) a creature, that creature is rotated so that its back faces Swallow Ninja.  The target creature cannot counter.
+63_juno_tree_haunt:
+  set: 1
+  number: 63
+  title: Juno Tree Haunt
+  element: Wood
+  race: Titan
+  summoning_cost: 3
+  activation_cost: 1
+  health_points: 1
+  attack: 2
+  rarity: Rare
+  special_attributes: Perfect&nbsp;Dodge
+  body: Destroy Juno Tree Haunt if it is on a non-Wood field.
+64_elven_rider:
+  set: 1
+  number: 64
+  title: Elven Rider
+  element: Wood
+  race: Elf
+  summoning_cost: 4
+  activation_cost: 2
+  health_points: 4
+  attack: 2
+  rarity: Uncommon
+  special_attributes: 
+  body: If Elven Rider is destroyed on a non-Wood field, your opponent must discard cards equal to the number of Wood fields.
+65_juno_prisoner_trap:
+  set: 1
+  number: 65
+  title: Juno Prisoner Trap
+  element: Wood
+  race: Plant
+  summoning_cost: 4
+  activation_cost: 2
+  health_points: 4
+  attack: 0
+  rarity: Uncommon
+  special_attributes: 
+  body: When an enemy is summoned to a field adjacent to Juno Prisoner Trap, all other allied creatures gain 1 HP.  Destroy Prisoner Trap if it is on an Earth field.
+66_elven_death_dancer:
+  set: 1
+  number: 66
+  title: Elven Death Dancer
+  element: Wood
+  race: Elf
+  summoning_cost: 5
+  activation_cost: 4
+  health_points: 3
+  attack: 1
+  rarity: Rare
+  special_attributes: Magic&nbsp;Attack
+  body: If Elven Death Dancer damages (but does not destroy) a creature, she switches locations with that creature (who cannot counterattack).  Enemies on adjacent fields add 3 to their Activation Cost.
+67_juno_forest_dragon:
+  set: 1
+  number: 67
+  title: Juno Forest Dragon
+  element: Wood
+  race: Dragon
+  summoning_cost: 7
+  activation_cost: 4
+  health_points: 8
+  attack: 5 +
+  rarity: Rare
+  special_attributes: Attack&nbsp;Power&nbsp;+
+  body: Juno Forest Dragon's Attack is equal to 5 plus the number of other Wood creatures on the board.  While Juno Forest Dragon is on a Wood field, enemies on adjacent fields add 2 to their Activation Cost.
+68_edin_the_persecuted:
+  set: 1
+  number: 68
+  title: Edin the Persecuted
+  element: Wood
+  race: Hero
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 3
+  attack: 2 +
+  rarity: Ultra Rare
+  special_attributes: Magic&nbsp;Attack, Attack&nbsp;Power&nbsp;+, Grants&nbsp;Invisibility
+  body: Edin adds 1 to her Attack if the target creature is on a Wood field.  All other allied creatures on Wood fields gain Invisibility.
+69_inquisitor_koog:
+  set: 1
+  number: 69
+  title: Inquisitor Koog
+  element: Wood
+  race: Betrayer
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 3
+  attack: 2 +
+  rarity: Ultra Rare
+  special_attributes: Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  body: Inquisitor Koog adds 1 to his Attack if the target creature is a Wood creature.  If Inquisitor Koog is destroyed, you gain additional mana equal to the number of enemies.
+70_green_erlking_zomba:
+  set: 1
+  number: 70
+  title: Green Erlking Zomba
+  element: Wood
+  race: Noble
+  summoning_cost: 6
+  activation_cost: 3
+  health_points: 6
+  attack: 3
+  rarity: Ultra Rare
+  special_attributes: 
+  body: Zomba must use its secondary attack while it is on a Wood field.  While Zomba is on a Wood field, each time an allied creature is destroyed, your opponent must discard a card.
+71_exalted_elven_deity:
+  set: 1
+  number: 71
+  title: Exalted Elven Deity
+  element: Wood
+  race: God
+  summoning_cost: 9
+  activation_cost: 5
+  health_points: 9
+  attack: 3
+  rarity: Ultra Rare
+  special_attributes: Incarnation, Magic&nbsp;Attack
+  body: Exalted Elven Diety's Magic Attack targets all enemies on non-Wood fields.  Destroy Exalted Elven Dieth if it is on a Biolith field.
+72_green_cubic:
+  set: 1
+  number: 72
+  title: Green Cubic
+  element: Wood
+  race: Egg
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 1
+  attack: 0
+  rarity: Rare
+  special_attributes: 
+  body: Sacrifice Green Cubic to summon a non-cubic Wood creature in its place (facing any direction) without paying the Summoning Cost.  The summoned creature cannot attack this turn.  This does not end your turn.
+73_biolith_bomber:
+  set: 1
+  number: 73
+  title: Biolith Bomber
+  element: Biolith
+  race: Blitz
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 3
+  attack: 1 +
+  rarity: Common
+  special_attributes: Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  body: Biolith Bomber adds 2 to its Attack if the target creature has a Summoning Cost of 2 or lower.
+74_biolith_stinger:
+  set: 1
+  number: 74
+  title: Biolith Stinger
+  element: Biolith
+  race: Bug
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 1
+  attack: 0
+  rarity: Rare
+  special_attributes: Dodge&nbsp;Attempt, Summoning&nbsp;Lock
+  body: If Biolith Stinger damages (but does not destroy) a creature, it switches locations with that creature (who cannot counterattack).
+75_imperial_biolith_guard:
+  set: 1
+  number: 75
+  title: Imperial Biolith Guard
+  element: Biolith
+  race: Mech
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 4
+  attack: 2
+  rarity: Common
+  special_attributes: Summoning&nbsp;Lock
+  body: Gain 1 mana each time you summon a creature to a Biolith field.
+76_biolith_battle_chariot:
+  set: 1
+  number: 76
+  title: Biolith Battle Chariot
+  element: Biolith
+  race: Weapon
+  summoning_cost: 4
+  activation_cost: 4
+  health_points: 5
+  attack: 3
+  rarity: Common
+  special_attributes: Summoning&nbsp;Lock
+  body: 
+77_morning_star_warrior:
+  set: 1
+  number: 77
+  title: Morning Star Warrior
+  element: Biolith
+  race: Mech
+  summoning_cost: 4
+  activation_cost: 2
+  health_points: 3
+  attack: 2 +
+  rarity: Common
+  special_attributes: Gains&nbsp;Protection, Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  body: Morning Star Warrior adds 2 to its Attack if the target creature has 5 or more HPs.  Morning Star Warrior gains Protection equal to the number of allied Biolith creatures.
+78_biolith_ninja:
+  set: 1
+  number: 78
+  title: Biolith Ninja
+  element: Biolith
+  race: Mech
+  summoning_cost: 4
+  activation_cost: 2
+  health_points: 4
+  attack: 2
+  rarity: Rare
+  special_attributes: Summoning&nbsp;Lock, Gains&nbsp;Perfect&nbsp;Dodge
+  body: While Biolith Ninja is on a Biolith field, it gains Perfect Dodge.  Biolith Ninja always attacks the back of its target.
+79_behemoth_groundbreaker:
+  set: 1
+  number: 79
+  title: Behemoth Groundbreaker
+  element: Biolith
+  race: Weapon
+  summoning_cost: 4
+  activation_cost: 3
+  health_points: 4
+  attack: 1
+  rarity: Uncommon
+  special_attributes: Summoning&nbsp;Lock
+  body: When Behemoth Groundbreaker is summoned, fieldquake all adjacent fields.
+80_dragoon_dragon_cavalry:
+  set: 1
+  number: 80
+  title: Dragoon Dragon Cavalry
+  element: Biolith
+  race: Mech
+  summoning_cost: 5
+  activation_cost: 3
+  health_points: 5
+  attack: 3 +
+  rarity: Uncommon
+  special_attributes: Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  body: Dragoon Dragoon Cavalry attacks the same target twice.  The counterattack of the target creature occurs after the second attack.<br /><br />All enemy dragons subtract 3 from their attack.
+81_taurus_monolith:
+  set: 1
+  number: 81
+  title: Taurus Monolith
+  element: Biolith
+  race: Titan
+  summoning_cost: 5
+  activation_cost: 3
+  health_points: 6
+  attack: 3
+  rarity: Uncommon
+  special_attributes: Summoning&nbsp;Lock
+  body: If Taurus Monolith attacks (but does not destroy) a creature, that creature is pushed back one field in the direction of the attack (provided the field is empty) and cannot counterattack.
+82_aegis_citadel:
+  set: 1
+  number: 82
+  title: Aegis Citadel
+  element: Biolith
+  race: Base
+  summoning_cost: 5
+  activation_cost: 3
+  health_points: 5
+  attack: 1
+  rarity: Rare
+  special_attributes: Summoning&nbsp;Lock, Fortress, Grants&nbsp;Invisibility
+  body: All other allied creatures of the same element as the field Aegis citadel is on gain Invisibility.
+83_arc_satellite_cannon:
+  set: 1
+  number: 83
+  title: Arc Satellite Cannon
+  element: Biolith
+  race: Blitz
+  summoning_cost: 5
+  activation_cost: 4
+  health_points: 5
+  attack: 4
+  rarity: Rare
+  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  body: 
+84_ouroboros_dragon:
+  set: 1
+  number: 84
+  title: Ouroboros Dragon
+  element: Biolith
+  race: Dragon
+  summoning_cost: 7
+  activation_cost: 4
+  health_points: 10
+  attack: 7 +
+  rarity: Ultra Rare
+  special_attributes: Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  body: Ouroboros Dragon's Attack is equal to 7 plus the number of other Biolith creatures on the board.  While Ouroboros Dragon is on a Biolith field, no field can be fieldquaked or exchanged.
+85_tino_son_of_scion:
+  set: 1
+  number: 85
+  title: Tino Son of Scion
+  element: Biolith
+  race: Hero
+  summoning_cost: 4
+  activation_cost: 3
+  health_points: 4
+  attack: 1 +
+  rarity: Ultra Rare
+  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  body: Tino's Magic Attack targets all enemies of the same elemnt as the target.  While Tino is on a Biolith field, his Attack is equal to 1 plus the number of other allied Biolith creatures.  Gain 1 mana each time you summon a creature.
+86_wormak,_biolith_heir:
+  set: 1
+  number: 86
+  title: Wormak, Biolith Heir
+  element: Biolith
+  race: Betrayer
+  summoning_cost: 4
+  activation_cost: 2
+  health_points: 4
+  attack: 2 +
+  rarity: Ultra Rare
+  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  body: If the target is an enemy Biolith, Wormak's Attack is equal to 2 plus the number of non-Biolith creatures on the board.  Gain 1 mana each time an enemy is summoned.
+87_scion_biolith_lord:
+  set: 1
+  number: 87
+  title: Scion Biolith Lord
+  element: Biolith
+  race: Noble
+  summoning_cost: 6
+  activation_cost: 3
+  health_points: 5
+  attack: 2
+  rarity: Ultra Rare
+  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  body: Scion's Magic Attack targets all enemies of the same element as the target.  All other allied Biolith creatures subtract 2 from their Activation Cost.
+88_guardian_watchtower:
+  set: 1
+  number: 88
+  title: Guardian Watchtower
+  element: Biolith
+  race: Ancient
+  summoning_cost: 6
+  activation_cost: 3
+  health_points: 10
+  attack: 1
+  rarity: Ultra Rare
+  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  body: Magic Attack targets all enemies of the same element.  When damaging a creature, that creature is rotated 180 degrees and cannot counter.  While an allied Scion is on the board, gain mana equal to the number of allied creatures during your Resolution Phas
+89_phaseus,_biolith_god:
+  set: 1
+  number: 89
+  title: Phaseus, Biolith God
+  element: Biolith
+  race: God
+  summoning_cost: 9
+  activation_cost: 6
+  health_points: 12
+  attack: 4
+  rarity: Ultra Rare
+  special_attributes: Incarnation, Magic&nbsp;Attack, Summoning&nbsp;Lock
+  body: Phaseus's Magic Attack targets all enemies.  Destroy Phaseus if he is on a non-Biolith field.
+90_white_cubic:
+  set: 1
+  number: 90
+  title: White Cubic
+  element: 
+  race: Egg
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 1
+  attack: 0
+  rarity: Ultra Rare
+  special_attributes: Dodge&nbsp;Attempt
+  body: White Cubic does not belong to any element.  Sacrifice White Cubic to summon any creaute in its place (facing any direction) without paying the Summoning Cost.  This summoned creautre cannot attack this turn.  This does not end your turn.
+91_parmetic_holy_feast:
+  set: 1
+  number: 91
+  title: Parmetic Holy Feast
+  element: Spell
+  race: Ritual
+  summoning_cost: 0
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Uncommon
+  special_attributes: 
+  body: Discard a creature.  You gain 2 mana.
+92_goghlie_altar:
+  set: 1
+  number: 92
+  title: Goghlie Altar
+  element: Spell
+  race: Ritual
+  summoning_cost: 0
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Uncommon
+  special_attributes: 
+  body: Both players gain mana equal to the number of enemies on the board.
+93_summoner_mesmer's_lapse:
+  set: 1
+  number: 93
+  title: Summoner Mesmer's Lapse
+  element: Spell
+  race: Ritual
+  summoning_cost: 0
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Uncommon
+  special_attributes: 
+  body: Discard a creature. Your opponent loses mana equal to the summoning cost of the discarded creature.
+94_beguiling_fog:
+  set: 1
+  number: 94
+  title: Beguiling Fog
+  element: Spell
+  race: Conjuration
+  summoning_cost: 0
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Common
+  special_attributes: 
+  body: Rotate target creature in any direction.
+95_yuga's_mesmerizing_fog:
+  set: 1
+  number: 95
+  title: Yuga's Mesmerizing Fog
+  element: Spell
+  race: Conjuration
+  summoning_cost: 1
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Common
+  special_attributes: 
+  body: Choose one allied creature. Rotate all adjacent enemies so that their backs are facing that creature.
+96_clare_wil's_banner:
+  set: 1
+  number: 96
+  title: Clare Wil's Banner
+  element: Spell
+  race: Conjuration
+  summoning_cost: 1
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Common
+  special_attributes: 
+  body: Add 2 to the Attack of one allied creature until the end of the turn.
+97_healing_shower:
+  set: 1
+  number: 97
+  title: Healing Shower
+  element: Spell
+  race: Conjuration
+  summoning_cost: 2
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Common
+  special_attributes: 
+  body: All allied creatures of a chosen element gain 3 HP.
+98_fissures_of_goghlie:
+  set: 1
+  number: 98
+  title: Fissures of Goghlie
+  element: Spell
+  race: Conjuration
+  summoning_cost: 2
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Common
+  special_attributes: 
+  body: Fieldquake any 1 field.
+99_great_tolicore_quake:
+  set: 1
+  number: 99
+  title: Great Tolicore Quake
+  element: Spell
+  race: Conjuration
+  summoning_cost: 4
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Rare
+  special_attributes: 
+  body: Fieldquake all fields of the chosen element.
+100_summoner_mesmer's_errand:
+  set: 1
+  number: 100
+  title: Summoner Mesmer's Errand
+  element: Spell
+  race: Conjuration
+  summoning_cost: 1
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Common
+  special_attributes: 
+  body: Draw 2 cards.
+101_tinoan_telekinesis:
+  set: 1
+  number: 101
+  title: Tinoan Telekinesis
+  element: Spell
+  race: Conjuration
+  summoning_cost: 2
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Uncommon
+  special_attributes: 
+  body: Move 1 allied creature to an empty field without changing its orientation.
+102_tinoan_teleportation:
+  set: 1
+  number: 102
+  title: Tinoan Teleportation
+  element: Spell
+  race: Conjuration
+  summoning_cost: 3
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Uncommon
+  special_attributes: 
+  body: Switch the locations of two allied creatures without changing  their orientation.
+103_sciondar_inferno:
+  set: 1
+  number: 103
+  title: Sciondar Inferno
+  element: Spell
+  race: Dominion
+  summoning_cost: 0
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Uncommon
+  special_attributes: Magic&nbsp;Attack
+  body: Discard 2 creatures (at least one must be a Fire creature).  This spell targets all enemies on and adjacent to a selected Fire field.  Target creatures are dealt magic damage equal to the number of Fire fields.
+104_ice_flood_of_okunada:
+  set: 1
+  number: 104
+  title: Ice Flood of Okunada
+  element: Spell
+  race: Dominion
+  summoning_cost: 0
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Uncommon
+  special_attributes: Magic&nbsp;Attack
+  body: Discard 2 creatures (at least one must be a Water creature). This spell targets all enemies on and adjacent to a selected Water field. Target creatures are dealt magic damage equal to the number of Water fields.
+105_fist_of_verzar:
+  set: 1
+  number: 105
+  title: Fist of Verzar
+  element: Spell
+  race: Dominion
+  summoning_cost: 0
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Uncommon
+  special_attributes: Magic&nbsp;Attack
+  body: Discard 2 creatures (at least one must be an Earth creature). This spell targets all enemies on and adjacent to a selected Earth field. Target creatures are dealt magic damage equal to the number of Earth fields.
+106_wrathful_winds_of_juno:
+  set: 1
+  number: 106
+  title: Wrathful Winds of Juno
+  element: Spell
+  race: Dominion
+  summoning_cost: 0
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Uncommon
+  special_attributes: Magic&nbsp;Attack
+  body: Discard 2 creatures (at least one must be a Wood creature). This spell targets all enemies on and adjacent to a selected Wood field. Target creatures are dealt magic damage equal to the number of Wood fields.
+107_blinding_skies:
+  set: 1
+  number: 107
+  title: Blinding Skies
+  element: Spell
+  race: Dominion
+  summoning_cost: 0
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Ultra Rare
+  special_attributes: Magic&nbsp;Attack
+  body: Discard 2 creatures (at least one must be a Biolith creature).  This spell targets all enemies on and adjacent to Biolith fields.  Target creatures are dealt magic damage equal to the number of Biolith fields.  Each target creature is only affected once.
+108_scion's_riotous_impunity:
+  set: 1
+  number: 108
+  title: Scion's Riotous Impunity
+  element: Spell
+  race: Sorcery
+  summoning_cost: 2
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Rare
+  special_attributes: 
+  body: Starting from the center field, all creatures engage in battle, clockwise one at a time.  Playing this card ends your turn.
+109_seer_vizak's_calamity:
+  set: 1
+  number: 109
+  title: Seer Vizak's Calamity
+  element: Spell
+  race: Sorcery
+  summoning_cost: 5
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Rare
+  special_attributes: 
+  body: Fieldquake all fields. Playing this card ends your turn.
+110_call_of_timeless_juno:
+  set: 1
+  number: 110
+  title: Call of Timeless Juno
+  element: Spell
+  race: Sorcery
+  summoning_cost: 5
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Rare
+  special_attributes: 
+  body: Exchange two fields.  Creatures remain in the same location while the fields are exchanged.  Playing this card ends your turn.
+111_flame_novice:
+  set: 2
+  number: 111
+  title: Flame Novice
+  element: Fire
+  race: Human
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 1
+  attack: 1 +
+  rarity: Common
+  special_attributes: Attack&nbsp;Power&nbsp;+
+  body: Flame Novice adds 1 to its Attack <i>half the time.</i><br /><br />Each adjacent enemy gets -1 HP for each of its <i>Dodge</i> attempts.
+112_flame_guard_recruit:
+  set: 2
+  number: 112
+  title: Flame Guard Recruit
+  element: Fire
+  race: Demon
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 2
+  attack: 0 +
+  rarity: Common
+  special_attributes: Attack&nbsp;Power&nbsp;+
+  body: Flame Guard Recruit adds 2 to its attack if the target creature is on a Water field.
+113_flame_lizard_archer:
+  set: 2
+  number: 113
+  title: Flame Lizard Archer
+  element: Fire
+  race: Lizard
+  summoning_cost: 2
+  activation_cost: 2
+  health_points: 2
+  attack: 1
+  rarity: Common
+  special_attributes: 
+  body: Flame Lizard Archer attacks the same target twice.  The target's counterattack occurs after the second attack.
+114_partmole_warhound:
+  set: 2
+  number: 114
+  title: Partmole Warhound
+  element: Fire
+  race: Beast
+  summoning_cost: 2
+  activation_cost: 1
+  health_points: 2
+  attack: 1
+  rarity: Common
+  special_attributes: Return, Grants&nbsp;Magic&nbsp;Protection
+  body: Allied creatures on adjacent fields gain +1 Magic Protection.
+115_partmole_axethrower:
+  set: 2
+  number: 115
+  title: Partmole Axethrower
+  element: Fire
+  race: Lizard
+  summoning_cost: 3
+  activation_cost: 3
+  health_points: 2
+  attack: 2
+  rarity: Common
+  special_attributes: Quickness
+  body: 
+116_beacon_of_cai-shae:
+  set: 2
+  number: 116
+  title: Beacon of Cai-Shae
+  element: Fire
+  race: Weapon
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 1
+  attack: 0
+  rarity: Common
+  special_attributes: Perfect&nbsp;Dodge
+  body: While an allied Did the Enlightened is on the board, all allied creatures gain <i>Quickness</i>.<br /><br />Subtract 1 from the Summoning Cost of other allied Fire creatures (minimum 1).
+117_shrine_of_mourning:
+  set: 2
+  number: 117
+  title: Shrine of Mourning
+  element: Fire
+  race: Base
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 3
+  attack: 1
+  rarity: Uncommon
+  special_attributes: Magic&nbsp;Attack
+  body: If there are no enemy Fire creatures on the board, subtract 1 from the Attack of all adjacent enemies.<br /><br />If an allied Cult of Mourning creature would add to its attack <i>half the time</i>, it now always adds to its attack.
+118_behemorph:
+  set: 2
+  number: 118
+  title: Behemorph
+  element: Fire
+  race: Beast
+  summoning_cost: 3
+  activation_cost: 3
+  health_points: 3
+  attack: 1 +
+  rarity: Uncommon
+  special_attributes: Attack&nbsp;Power&nbsp;+
+  body: When Behemorph is summoned, half the time add 2 to its Attack and it must use its secondary attack.
+119_flame_lizard_commander:
+  set: 2
+  number: 119
+  title: Flame Lizard Commander
+  element: Fire
+  race: Lizard
+  summoning_cost: 4
+  activation_cost: 4
+  health_points: 4
+  attack: 3
+  rarity: Rare
+  special_attributes: Quickness
+  body: Gain 1 mana each time you summon an allied Lizard creature.  <br /><br />All other allied Lizard creatures subtract 1 from their Activation Cost.
+120_parmetic_deathspeaker:
+  set: 2
+  number: 120
+  title: Parmetic Deathspeaker
+  element: Fire
+  race: Demon
+  summoning_cost: 4
+  activation_cost: 3
+  health_points: 4
+  attack: 2
+  rarity: Rare
+  special_attributes: Magic&nbsp;Attack, Return
+  body: When Parmetic Deathspeaker is summoned, the allied creature directly in front of her gains 2 HP.
+121_noram_zealot:
+  set: 2
+  number: 121
+  title: Noram Zealot
+  element: Fire
+  race: Missionary
+  summoning_cost: 4
+  activation_cost: 2
+  health_points: 3
+  attack: 1
+  rarity: Uncommon
+  special_attributes: 
+  body: You steal the exit mana of enemy Water creatures.<br /><br />Subtract 1 from the Attack of adjacent enemies for each allied Earth Missionary creature.<br /><br />Subtract 2 from the Summoning Cost of allied Earth Missionary Creatures (minimum 1).
+122_flame_archmage:
+  set: 2
+  number: 122
+  title: Flame Archmage
+  element: Fire
+  race: Human
+  summoning_cost: 5
+  activation_cost: 4
+  health_points: 3
+  attack: 2
+  rarity: Rare
+  special_attributes: Magic&nbsp;Attack
+  body: Flame Archmage's <i>Magic Attack</i> targets all enemies of the same race as the target.<br /><br />Subtract 1 from the Summoning Cost of other allied Church of Parmus creatures (minimum 1).
+123_flameheart:
+  set: 2
+  number: 123
+  title: Flameheart
+  element: Fire
+  race: Beast
+  summoning_cost: 5
+  activation_cost: 3
+  health_points: 4
+  attack: 0
+  rarity: Uncommon
+  special_attributes: Grants&nbsp;Magic&nbsp;Protection
+  body: Any Earth field within the 2 Fields in front of Flameheart is also treated as a Fire field.<br /><br />Other Allied Creatures gain +2 Magic Protection.<br /><br />Subtract 1 from the Summoning Cost of other allied Fire creatures (minimum 1).
+124_fire_witch_freedonia:
+  set: 2
+  number: 124
+  title: Fire Witch Freedonia
+  element: Fire
+  race: Hero
+  summoning_cost: 5
+  activation_cost: 4
+  health_points: 5
+  attack: 2 +
+  rarity: Ultra Rare
+  special_attributes: Magic&nbsp;Attack, Attack&nbsp;Power&nbsp;+
+  body: Fire Witch Freedonia's Magic attack targets all enemies of the same element as the target.<br /><br />When Freedonia attacks a Biolith creature, add your current mana to her attack. While Fire Witch Freedonia is on a field, adjacent allied creatures have return.
+125_shaman_zolda:
+  set: 2
+  number: 125
+  title: Shaman Zolda
+  element: Fire
+  race: Betrayer
+  summoning_cost: 5
+  activation_cost: 4
+  health_points: 3
+  attack: 2
+  rarity: Ultra Rare
+  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  body: During your opponent's Resolution Phase, choose another creature with Summoning Cost less than or equal to the number of Lizard creatures in your graveyard. Return that creature to its owner's hand.
+126_general_lug:
+  set: 2
+  number: 126
+  title: General Lug
+  element: Fire
+  race: Warlord
+  summoning_cost: 6
+  activation_cost: 5
+  health_points: 4
+  attack: 3
+  rarity: Ultra Rare
+  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock, Invocation
+  body: General Lug's Magic attack targets all enemies on and adjacent to the target Fire field.  <br /><br />While General Lug is on the board, creatures with <i>Invisibility</i> can be attacked as though they didn't have that ability.  <br /><br />Subtract 1 from the Summoning Cost of other allied Fire creatures (minimum 1).
+127_cloudrunner_marauder:
+  set: 2
+  number: 127
+  title: Cloudrunner Marauder
+  element: Water
+  race: Merfolk
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 2
+  attack: 1
+  rarity: Common
+  special_attributes: 
+  body: While an allied Siam, Traitor of the Seas is on the board, if Cloudrunner Marauder is destroyed, steal 1 mana from your opponent.
+128_queen's_courier:
+  set: 2
+  number: 128
+  title: Queen's Courier
+  element: Water
+  race: Elemental
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 2
+  attack: 0
+  rarity: Common
+  special_attributes: 
+  body: When Queen's Courier is summoned, draw 2 cards, then discard 2 cards.
+129_frost_guards:
+  set: 2
+  number: 129
+  title: Frost Guards
+  element: Water
+  race: Elemental
+  summoning_cost: 2
+  activation_cost: 1
+  health_points: 3
+  attack: 1
+  rarity: Common
+  special_attributes: Gains&nbsp;Perfect&nbsp;Dodge
+  body: Frost Guards gain <i>Perfect Dodge</i> when attacked by Fire creatures.
+130_venoan_spy:
+  set: 2
+  number: 130
+  title: Venoan Spy
+  element: Water
+  race: Merfolk
+  summoning_cost: 2
+  activation_cost: 2
+  health_points: 2
+  attack: 1
+  rarity: Uncommon
+  special_attributes: 
+  body: Each time another allied creature is destroyed, draw a card.
+131_siam's_lookout:
+  set: 2
+  number: 131
+  title: Siam's Lookout
+  element: Water
+  race: Merfolk
+  summoning_cost: 3
+  activation_cost: 1
+  health_points: 3
+  attack: 1
+  rarity: Common
+  special_attributes: 
+  body: Each time an allied creature is summoned, draw a card then shuffle a card from your hand into your library.
+132_aluhja_moving_citadel:
+  set: 2
+  number: 132
+  title: Aluhja Moving Citadel
+  element: Water
+  race: Base
+  summoning_cost: 3
+  activation_cost: 1
+  health_points: 3
+  attack: 1
+  rarity: Uncommon
+  special_attributes: Magic&nbsp;Attack
+  body: Each adjacent enemy gets -1 HP for each <i>Protection</i> it has.<br /><br />Destroy Aluhja Moving Citadel if it is on a Fire field.
+133_ghost_ship:
+  set: 2
+  number: 133
+  title: Ghost Ship
+  element: Water
+  race: Weapon
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 1
+  attack: 0
+  rarity: Common
+  special_attributes: Perfect&nbsp;Dodge
+  body: Ghost Ship gains <i>Possession</i> of enemy creatures on Water fields within the 2 fields in front of it.
+134_shadow_diver:
+  set: 2
+  number: 134
+  title: Shadow Diver
+  element: Water
+  race: Human
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 2
+  attack: 1
+  rarity: Common
+  special_attributes: Dodge&nbsp;Attempt
+  body: Shadow Diver always attacks the back of his target.
+135_ship's_surgeon:
+  set: 2
+  number: 135
+  title: Ship's Surgeon
+  element: Water
+  race: Merfolk
+  summoning_cost: 4
+  activation_cost: 2
+  health_points: 4
+  attack: 2
+  rarity: Rare
+  special_attributes: 
+  body: Each time an allied Siam Pirates creature dodges an attack, steal 1 mana from your opponent.  <br /><br />Each time an allied Water creature is destroyed, you may search your library for a creature that is not Ultra Rare, reveal it and put it in your hand. Then, shuffle your library.
+136_okunada_moving_temple:
+  set: 2
+  number: 136
+  title: Okunada Moving Temple
+  element: Water
+  race: Base
+  summoning_cost: 4
+  activation_cost: 2
+  health_points: 3
+  attack: 1
+  rarity: Rare
+  special_attributes: Fortress, Grants&nbsp;Perfect&nbsp;Dodge
+  body: While Okunada Moving Temple is on a non-Water field, adjacent allied creatures gain <i>Perfect Dodge</i> in your opponent's turn.<br /><br />Destroy Okunada Moving Temple if it is on a Fire field.
+137_aluhja_zealot:
+  set: 2
+  number: 137
+  title: Aluhja Zealot
+  element: Water
+  race: Missionary
+  summoning_cost: 4
+  activation_cost: 3
+  health_points: 3
+  attack: 2
+  rarity: Uncommon
+  special_attributes: Magic&nbsp;Attack
+  body: You steal the exit mana of enemy Fire creatures.<br /><br />Add 1 to the Summoning Cost of spells cast by your opponent for each allied Wood Missionary creature.<br /><br />Subtract 2 from the Summoning Cost of allied Wood Missionary creatures (minimum 1).
+138_queen's_emissary:
+  set: 2
+  number: 138
+  title: Queen's Emissary
+  element: Water
+  race: Elemental
+  summoning_cost: 5
+  activation_cost: 3
+  health_points: 3
+  attack: 0
+  rarity: Uncommon
+  special_attributes: 
+  body: A Wood field adjacent to Queen's Emissary is also treated as a Water field.<br /><br />Queen's Emissary gains <i>Possession</i> of all enemy creatures on adjacent Water fields.
+139_aluhja_inquisitrix:
+  set: 2
+  number: 139
+  title: Aluhja Inquisitrix
+  element: Water
+  race: Human
+  summoning_cost: 5
+  activation_cost: 3
+  health_points: 5
+  attack: 2
+  rarity: Rare
+  special_attributes: Magic&nbsp;Attack, Grants&nbsp;Dodge&nbsp;Attempt
+  body: Each time a creature is summoned to a Water field, you may search your library for any number of creatures with the same name as the summoned creature, reveal them and put them into your hand.  Then shuffle your library.  <br /><br />All other allied Church of Parmus creatures gain 1 Dodge attempt.
+140_sarma_of_tinoa:
+  set: 2
+  number: 140
+  title: Sarma of Tinoa
+  element: Water
+  race: Hero
+  summoning_cost: 5
+  activation_cost: 3
+  health_points: 4
+  attack: 3
+  rarity: Ultra Rare
+  special_attributes: 
+  body: When Sarma of Tinoa is summoned, other allied Water creatures on Water fields gain HP equal to the number of Water fields.<br /><br />If Sarma of Tinoa attacks (but does not destroy) a creature, that creature is pushed back one field in the direction of the attack (provided the field is empty) and cannot counterattack.<br /><br />Add 2 to the Summoning Cost of enemies on adjacent fields.
+141_corleo,_venoan_capo:
+  set: 2
+  number: 141
+  title: Corleo, Venoan Capo
+  element: Water
+  race: Betrayer
+  summoning_cost: 5
+  activation_cost: 3
+  health_points: 4
+  attack: 2 +
+  rarity: Ultra Rare
+  special_attributes: Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+, Grants&nbsp;Dodge&nbsp;Attempt
+  body: Corleo's Attack is equal to 2 plus the number of other allied Corsez Family creatures.<br /><br />Each time an allied creature <i>dodges</i> an attack, steal 1 mana from your opponent for each allied Corsez Family creature.<br /><br />Other allied creatures gain 1 <i>Dodge</i> attempt.
+142_admiral_belta:
+  set: 2
+  number: 142
+  title: Admiral Belta
+  element: Water
+  race: Warlord
+  summoning_cost: 6
+  activation_cost: 2
+  health_points: 5
+  attack: 1
+  rarity: Ultra Rare
+  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock, Invocation
+  body: Magic Attack targets all enemies on and adjacent to the target Water field.  <br /><br />During your Resolution Phase, fieldquake all Fire fields. <br /><br />Subtract 1 from the Summoning Cost of other allied Water creatures (min 1).
+143_verzar_swordsman:
+  set: 2
+  number: 143
+  title: Verzar Swordsman
+  element: Earth
+  race: Human
+  summoning_cost: 1
+  activation_cost: 2
+  health_points: 1
+  attack: 2
+  rarity: Common
+  special_attributes: 
+  body: 
+144_relentless_skeleton:
+  set: 2
+  number: 144
+  title: Relentless Skeleton
+  element: Earth
+  race: Undead
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 1
+  attack: 1
+  rarity: Common
+  special_attributes: 
+  body: While Relentless Skeleton is on a non-Earth field, he gains <i>Resurrection.</i>
+145_far_land_sand_dog:
+  set: 2
+  number: 145
+  title: Far Land Sand Dog
+  element: Earth
+  race: Beast
+  summoning_cost: 2
+  activation_cost: 1
+  health_points: 2
+  attack: 1
+  rarity: Common
+  special_attributes: 
+  body: Far Land Sand Dog gains <i>Decoy</i> for the enemy directly in front of him. (That enemy can only attack creatures with <i>Decoy</i>)
+146_dwarf_sniper:
+  set: 2
+  number: 146
+  title: Dwarf Sniper
+  element: Earth
+  race: Dwarf
+  summoning_cost: 2
+  activation_cost: 1
+  health_points: 3
+  attack: 1
+  rarity: Common
+  special_attributes: Gains&nbsp;Protection
+  body: Enemies within the 2 fields in front of Dwarf Sniper cannot <i>Dodge.</i><br /><br />While an allied Blackhood Dwarf Vulitra is on the board, Dwarf Sniper gains +1 <i>Protection.</i>
+147_battering_ram:
+  set: 2
+  number: 147
+  title: Battering Ram
+  element: Earth
+  race: Weapon
+  summoning_cost: 3
+  activation_cost: 3
+  health_points: 3
+  attack: 1 +
+  rarity: Uncommon
+  special_attributes: Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+, Grants&nbsp;Protection
+  body: When Battering Ram attacks a Base creature, it adds 3 to its Attack.<br /><br />Adjacent allied creatures gain +1 <i>Protection</i>
+148_novogus_bandwagon:
+  set: 2
+  number: 148
+  title: Novogus Bandwagon
+  element: Earth
+  race: Undead
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 2
+  attack: 0
+  rarity: Rare
+  special_attributes: 
+  body: While there is an Undead creature adjacent to Novogus Bandwagon, all other allied Undead creatures gain <i>Decoy</i> for all enemies. (Those enemies can only attack creatures with Decoy)<br /><br />Destroy Novogus Bandwagon if it is on a Wood field.
+149_novogus_warrior:
+  set: 2
+  number: 149
+  title: Novogus Warrior
+  element: Earth
+  race: Undead
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 2
+  attack: 2
+  rarity: Uncommon
+  special_attributes: Resurrection
+  body: 
+150_verzar_golem:
+  set: 2
+  number: 150
+  title: Verzar Golem
+  element: Earth
+  race: Elemental
+  summoning_cost: 3
+  activation_cost: 3
+  health_points: 3
+  attack: 0 +
+  rarity: Rare
+  special_attributes: Attack&nbsp;Power&nbsp;+
+  body: Verzar Golem adds 1 to its Attack for each empty field.
+151_dwarf_battlebuggy:
+  set: 2
+  number: 151
+  title: Dwarf Battlebuggy
+  element: Earth
+  race: Dwarf
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 3
+  attack: 1 +
+  rarity: Common
+  special_attributes: Attack&nbsp;Power&nbsp;+
+  body: "When Dwarf Battlebuggy attacks a non-adjacent enemy, it adds 1 to it's Attack.<br /><br />While there is an allied Dwarf creature adjacent to Dwarf Battlebuggy, Dwarf Battlebuggy gains <i>Decoy</i> for adjacent enemies (Those enemies can only attack creatures with <i>Decoy</i>). <br /><br /><i>Note: The text on the printed card is incorrect.</i>"
+152_dwarf_warbanner:
+  set: 2
+  number: 152
+  title: Dwarf Warbanner
+  element: Earth
+  race: Dwarf
+  summoning_cost: 4
+  activation_cost: 2
+  health_points: 4
+  attack: 0
+  rarity: Uncommon
+  special_attributes: 
+  body: All Dwarf creatures subtract 1 from their Attack and gain +1 <i>Protection</i> for each Dwarf creature on the board.
+153_dwarf_battle_forge:
+  set: 2
+  number: 153
+  title: Dwarf Battle Forge
+  element: Earth
+  race: Base
+  summoning_cost: 4
+  activation_cost: 3
+  health_points: 5
+  attack: 0
+  rarity: Uncommon
+  special_attributes: 
+  body: Any Fire fields adjacent to Dwarf Battle Forge are also treated as Earth fields.<br /><br />All allied Dwarf creatures add 1 to their Attack.<br /><br />Destroy Dwarf Battle Forge if it is on a  Wood field.
+154_visvar_vaas_zealot:
+  set: 2
+  number: 154
+  title: Visvar Vaas Zealot
+  element: Earth
+  race: Missionary
+  summoning_cost: 4
+  activation_cost: 2
+  health_points: 3
+  attack: 2
+  rarity: Uncommon
+  special_attributes: 
+  body: "You steal the exit mana of enemy Wood creatures.<br /><br />During <b>your opponent's</b> Resolution Phase, your opponent loses mana equal to the number of allied Water Missionary creatures.<br /><br />Subtract 2 from the Summoning Cost of allied Water Missionary creatures (minimum 1).<br /><br /><i>Note: The printed text on the card is incorrect.</i>"
+155_novogus_sinbearer:
+  set: 2
+  number: 155
+  title: Novogus Sinbearer
+  element: Earth
+  race: Undead
+  summoning_cost: 5
+  activation_cost: 3
+  health_points: 5
+  attack: 0
+  rarity: Rare
+  special_attributes: 
+  body: While Novogus Sinbearer is on an Earth field, each time another allied creature is destroyed, you gain 1 mana for each Undead creature in your graveyard.<br /><br />While Novogus Sinbearer is on a non-Earth field, all other allied creatures gain +1 Protection.<br /><br />Destroy Novogus Sinbearer if it is on a Wood field.
+156_archbishop_jirva:
+  set: 2
+  number: 156
+  title: Archbishop Jirva
+  element: Earth
+  race: Hero
+  summoning_cost: 5
+  activation_cost: 3
+  health_points: 5
+  attack: 1 +
+  rarity: Ultra Rare
+  special_attributes: Attack&nbsp;Power&nbsp;+
+  body: Archbisshop Jirva adds your current mana to his attack.<br /><br />You gain 1 mana during your reosultion phase.
+157_vamas,_tomb_sentinel:
+  set: 2
+  number: 157
+  title: Vamas, Tomb Sentinel
+  element: Earth
+  race: Betrayer
+  summoning_cost: 5
+  activation_cost: 4
+  health_points: 5
+  attack: 2 +
+  rarity: Ultra Rare
+  special_attributes: Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  body: While Vamas, Tomb Sentinel is on a non-Earth field, it must use its secondary attack. <br /><br />Vamas adds 1 to its Attack for each Undead creature in your graveyard. <br /><br />Each time an enemy creature is destroyed, choose 1 Earth creature that is not an Ultra Rare from your graveyard and return it to your hand.
+158_marshal_akhum:
+  set: 2
+  number: 158
+  title: Marshal Akhum
+  element: Earth
+  race: Warlord
+  summoning_cost: 6
+  activation_cost: 3
+  health_points: 7
+  attack: 1
+  rarity: Ultra Rare
+  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock, Invocation
+  body: Magic Attack targets all enemies on and adjacent to the target Earth field. <br /><br />If your opponent forces you to discard one or more cards, they must discard instead of you.  <br /><br />Subtract 1 from the Summoning Cost of other allied Earth creatures (minimum 1).
+159_tree_foxes:
+  set: 2
+  number: 159
+  title: Tree Foxes
+  element: Wood
+  race: Beast
+  summoning_cost: 1
+  activation_cost: 2
+  health_points: 1
+  attack: 1
+  rarity: Common
+  special_attributes: 
+  body: "When Tree Foxes is summoned, rotate any creature directly in front of it 180 degrees.<br /><br /><i>Note: The printed text on the card is incorrect.</i>"
+160_elven_soul_hunter:
+  set: 2
+  number: 160
+  title: Elven Soul Hunter
+  element: Wood
+  race: Elf
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 1
+  attack: 1
+  rarity: Common
+  special_attributes: 
+  body: If Elven Soul Hunter is destroyed on a non-Wood field, take any 1 creature from your graveyard with 3 or less Summoning Cost that is not called Elven Soul Hunter and is not Ultra Rare, and shuffle it into your library.
+161_white_tree_haunt:
+  set: 2
+  number: 161
+  title: White Tree Haunt
+  element: Wood
+  race: Titan
+  summoning_cost: 2
+  activation_cost: 1
+  health_points: 1
+  attack: 0
+  rarity: Uncommon
+  special_attributes: Perfect&nbsp;Dodge
+  body: Enemy creatures that are destroyed adjacent to White Tree Haunt do not generate exit mana.<br /><br />Destroy White Tree Haunt if it is on non-Wood field.
+162_leapfrog_boss:
+  set: 2
+  number: 162
+  title: Leapfrog Boss
+  element: Wood
+  race: Anthromorph
+  summoning_cost: 2
+  activation_cost: 1
+  health_points: 1
+  attack: 1
+  rarity: Common
+  special_attributes: 
+  body: If Leapfrog Boss is destroyed, your oponent loses 1 mana for each Wood field.
+163_elven_plaguedancer:
+  set: 2
+  number: 163
+  title: Elven Plaguedancer
+  element: Wood
+  race: Elf
+  summoning_cost: 2
+  activation_cost: 2
+  health_points: 2
+  attack: 1
+  rarity: Uncommon
+  special_attributes: Magic&nbsp;Attack
+  body: If Elven Plaguedancer attacks (but does not destroy) a creature, that creature is rotated 180 degrees and cannot counterattack.<br /><br />While Elven Plaguedancer is on a Wood field, add 1 to the Activation Cost of adjacent enemy creatures.
+164_goblin_basher:
+  set: 2
+  number: 164
+  title: Goblin Basher
+  element: Wood
+  race: Goblin
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 3
+  attack: 1
+  rarity: Common
+  special_attributes: 
+  body: 
+165_goblin_bomber:
+  set: 2
+  number: 165
+  title: Goblin Bomber
+  element: Wood
+  race: Goblin
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 3
+  attack: 2
+  rarity: Common
+  special_attributes: 
+  body: 
+166_darksword_samurai:
+  set: 2
+  number: 166
+  title: Darksword Samurai
+  element: Wood
+  race: Human
+  summoning_cost: 4
+  activation_cost: 3
+  health_points: 4
+  attack: 1 +
+  rarity: Rare
+  special_attributes: Attack&nbsp;Power&nbsp;+
+  body: "Darksword Samurai's Attack is equal to 1 plus the number of other creatures on the board.<br /><br />Subtract 2 from the Attack of adjacent allied creatures."
+167_goblin_fort:
+  set: 2
+  number: 167
+  title: Goblin Fort
+  element: Wood
+  race: Base
+  summoning_cost: 4
+  activation_cost: 3
+  health_points: 6
+  attack: 1
+  rarity: Rare
+  special_attributes: Fortress, Grants&nbsp;Dodge&nbsp;Attempt
+  body: Each time an allied Green Bandits creature is summoned, switch the printed HP and Attack of that creature. <br /><br />Allied Green Bandits creatures gain a Dodge attempt if their remaining HP is 1. <br /><br />Destroy Goblin Fort if it is on an Earth field.
+168_reaper's_golem:
+  set: 2
+  number: 168
+  title: Reaper's Golem
+  element: Wood
+  race: Elemental
+  summoning_cost: 4
+  activation_cost: 3
+  health_points: 3
+  attack: 1
+  rarity: Uncommon
+  special_attributes: 
+  body: "Any Water field within the 2 fields in front of Reaper's Golem is also treated as a Wood field. <br /><br />During your opponent's turn, each time an allied creature is destroyed, choose a creature from your graveyard with 3 or less Summoning Cost that is not Ultra Rare, and shuffle it into your library.<br /><br />All allied Elf creatures on adjacent Wood fields gain Invisibility."
+169_tolicore_zealot:
+  set: 2
+  number: 169
+  title: Tolicore Zealot
+  element: Wood
+  race: Missionary
+  summoning_cost: 4
+  activation_cost: 3
+  health_points: 3
+  attack: 2
+  rarity: Uncommon
+  special_attributes: 
+  body: "You steal the exit mana of all enemy Earth creatures.<br /><br />During <b>your opponent's</b> Resolution Phase, your opponent must discard a card for each allied Fire Missionary creature on the board. <br /><br />Subtract 2 from the Summoning Cost of allied Fire Missionary creatures (minimum 1).<br /><br /><i>Note: The printed text on the card is incorrect.</i>"
+170_alchemist's_lab:
+  set: 2
+  number: 170
+  title: Alchemist's Lab
+  element: Wood
+  race: Base
+  summoning_cost: 5
+  activation_cost: 3
+  health_points: 4
+  attack: 2
+  rarity: Uncommon
+  special_attributes: Magic&nbsp;Attack
+  body: "While Alchemist's Lab is on a non-Wood field, each time your opponent summons a creature to an adjacent field, they put the top card of their library into their graveyard.<br /><br />Allied Elf creatures cannot be targeted by spells.<br /><br />Destroy Alchemist's Lab if it is on an Earth field."
+171_elven_night_rider:
+  set: 2
+  number: 171
+  title: Elven Night Rider
+  element: Wood
+  race: Elf
+  summoning_cost: 5
+  activation_cost: 4
+  health_points: 4
+  attack: 2 +
+  rarity: Rare
+  special_attributes: Attack&nbsp;Power&nbsp;+
+  body: Elven Night Rider's Attack is equal to 2 plus the number of Elf creatures on the board.<br /><br />While Elven Night Rider is on a non-Wood field, each time an allied Elf creature is destroyed, Elven Night Rider gains 1 HP.<br /><br />Enemies within the 2 fields in front of Elven Night Rider cannot <i>Dodge</i>.
+172_prince_lusirion:
+  set: 2
+  number: 172
+  title: Prince Lusirion
+  element: Wood
+  race: Hero
+  summoning_cost: 5
+  activation_cost: 3
+  health_points: 5
+  attack: 2
+  rarity: Ultra Rare
+  special_attributes: Summoning&nbsp;Lock
+  body: Each time an Elf creature is summoned, you may choose a Wood creature from your graveyard that is not Ultra Rare, and return it to your hand.<br /><br />Each time an enemy is summoned to an adjacent field, your opponent discards a card.<br /><br />All other non-Elf creatures add 2 to their activation cost.
+173_preacher_noova:
+  set: 2
+  number: 173
+  title: Preacher Noova
+  element: Wood
+  race: Betrayer
+  summoning_cost: 5
+  activation_cost: 4
+  health_points: 4
+  attack: 3
+  rarity: Ultra Rare
+  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  body: Each time a Green Bandits creature is summoned to an adjacent field, your opponent puts the top card of their library into their graveyard.<br /><br />Each time a non-Wood enemy is destroyed, choose a Green Bandits creature from your graveyard that is not Ultra Rare and return it to your hand.
+174_lord_hu:
+  set: 2
+  number: 174
+  title: Lord Hu
+  element: Wood
+  race: Warlord
+  summoning_cost: 6
+  activation_cost: 4
+  health_points: 4
+  attack: 2
+  rarity: Ultra Rare
+  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock, Invocation
+  body: "Lord Hu's Magic Attack targets all enemies on and adjacent to the target Wood field.<br /><br />Each time an enemy is destroyed, you gain 1 mana.  <br /><br />Subtract 1 from the Summoning cost of other allied Wood creatures (minimum 1)."
+175_athenix_citadel:
+  set: 2
+  number: 175
+  title: Athenix Citadel
+  element: Biolith
+  race: Base
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 4
+  attack: 1
+  rarity: Uncommon
+  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock, Grants&nbsp;Magic&nbsp;Protection
+  body: All other allied creatures of the same element as the field where Athenix Citadel is located gain +1 Magic Protection.
+176_flailmonger:
+  set: 2
+  number: 176
+  title: Flailmonger
+  element: Biolith
+  race: Mech
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 4
+  attack: 1
+  rarity: Uncommon
+  special_attributes: Summoning&nbsp;Lock
+  body: Add 2 to the Summoning Cost of any enemy summoned within the 2 fields in front of Flailmonger.
+177_biolith_centurion:
+  set: 2
+  number: 177
+  title: Biolith Centurion
+  element: Biolith
+  race: Mech
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 4
+  attack: 1
+  rarity: Common
+  special_attributes: Summoning&nbsp;Lock
+  body: While Biolith Centurion is on a Biolith field, subtract 1 from the Activation Cost of adjacent allied creatures.
+178_biolith_war_chariot:
+  set: 2
+  number: 178
+  title: Biolith War Chariot
+  element: Biolith
+  race: Weapon
+  summoning_cost: 4
+  activation_cost: 4
+  health_points: 4
+  attack: 2 +
+  rarity: Common
+  special_attributes: Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  body: When Biolith War Chariot attacks a creature whose Summoning Cost is 4 or more, it adds 2 to its Attack.
+179_behemoth_terrorformer:
+  set: 2
+  number: 179
+  title: Behemoth Terrorformer
+  element: Biolith
+  race: Weapon
+  summoning_cost: 4
+  activation_cost: 2
+  health_points: 4
+  attack: 1
+  rarity: Uncommon
+  special_attributes: Summoning&nbsp;Lock
+  body: After Behemoth Terrorformer attacks a creature, exchange its field with the target's field.
+180_biolith_transporter:
+  set: 2
+  number: 180
+  title: Biolith Transporter
+  element: Biolith
+  race: Bug
+  summoning_cost: 4
+  activation_cost: 4
+  health_points: 3
+  attack: 0
+  rarity: Common
+  special_attributes: Dodge&nbsp;Attempt, Summoning&nbsp;Lock
+  body: "If Biolith Transporter attacks (but does not destroy) any creature, the creatures on the field in front of and field to the right of Biolith Transporter switch locations.<br /><br />If there's a creature on only one of those fields, that creature still swaps fields.<br /><br />There is no counterattack."
+181_archiver:
+  set: 2
+  number: 181
+  title: Archiver
+  element: Biolith
+  race: Mech
+  summoning_cost: 5
+  activation_cost: 3
+  health_points: 5
+  attack: 0
+  rarity: Rare
+  special_attributes: Summoning&nbsp;Lock
+  body: The adjacent field in front of the Archiver is also treated as a Biolith field.<br /><br />Each time an allied creature is summoned, other allied creatures of the same element as the summoned creature gain 1 HP.
+182_battle_master:
+  set: 2
+  number: 182
+  title: Battle Master
+  element: Biolith
+  race: Mech
+  summoning_cost: 6
+  activation_cost: 4
+  health_points: 6
+  attack: 3
+  rarity: Ultra Rare
+  special_attributes: Summoning&nbsp;Lock
+  body: "Battle Master attacks the same target twice.  The target's counterattack occurs after the second attack.<br /><br />When Battle Master is summoned, you may take a Scion, Biolith Lord from your library, reveal it to your opponent, and put it into your hand.  Then shuffle your library.<br /><br />Enemies within the 2 fields to the front, back, left, and right of battle master add 2 to their Activation Cost and cannot <i>Dodge</i>"
+183_magic_master:
+  set: 2
+  number: 183
+  title: Magic Master
+  element: Biolith
+  race: Mech
+  summoning_cost: 6
+  activation_cost: 4
+  health_points: 6
+  attack: 2
+  rarity: Ultra Rare
+  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  body: Magic Master's magic attack targets all enemies of the same element as the target.<br /><br />Adjacent allied creatures cannot be targeted by spells.<br /><br />All allied Church of Parmus creatures add 1 to their Attack.
+184_biolith_battleship:
+  set: 2
+  number: 184
+  title: Biolith Battleship
+  element: Biolith
+  race: Weapon
+  summoning_cost: 7
+  activation_cost: 4
+  health_points: 8
+  attack: 2
+  rarity: Ultra Rare
+  special_attributes: "Magic&nbsp;Attack, Summoning&nbsp;Lock, Grants&nbsp;Magic&nbsp;Protection"
+  body: "<b>While Biolith Battleship is on a Biolith field,</b> Biolith Battleship intercepts a summoned enemy creature <i>half the time.</i><br /><br /><b>While on a non-Biolith field</b> all other allied creatures add <b>+2</b> <i>Magic Protection.</i><br /><br /><i>Note: The printed text on the card is incorrect.</i>"
+185_biolith_temple:
+  set: 2
+  number: 185
+  title: Biolith Temple
+  element: Biolith
+  race: Base
+  summoning_cost: 7
+  activation_cost: 5
+  health_points: 7
+  attack: 3
+  rarity: Ultra Rare
+  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  body: "Biolith Temple's Magic Attack targets all enemies of the same race as the target.<br /><br />Each time an enemy is summoned, choose a creature from your graveyard that is not Ultra Rare, and shuffle it into your library.<br /><br />Each time an allied Church of Parmus creature is summoned, you may choose a Church of Parmus creature from your graveyard that is not Ultra Rare, and return it to your hand.<br /><br />If an allied Scion, Biolith Lord is on the board, you steal the exit mana of enemy creatures."
+186_sciondar_gateway:
+  set: 2
+  number: 186
+  title: Sciondar Gateway
+  element: Biolith
+  race: Ancient
+  summoning_cost: 7
+  activation_cost: 5
+  health_points: 6
+  attack: 0
+  rarity: Ultra Rare
+  special_attributes: Summoning&nbsp;Lock, Invocation
+  body: Each time an enemy is summoned, reveal the top card of your library.  If the revealed card is a Biolith creature, you may summon it immediately if you are able.  If you do not summon it, put it into your graveyard.  That creature cannot attack this turn.<br /><br />Biolith <i>Invocation</i>.<br /><br />Subtract 1 from the Summoning Cost of other allied Biolith creatures (minimum 1).
+187_sword_of_juno:
+  set: 2
+  number: 187
+  title: Sword of Juno
+  element: 
+  race: Sacred
+  summoning_cost: 6
+  activation_cost: 4
+  health_points: 5
+  attack: 4
+  rarity: Rare
+  special_attributes: Incarnation, Summoning&nbsp;Lock
+  body: Sword of Juno does not belong to any element.<br /><br />Sword of Juno can use Incarnation on any allied non-Biolith creature.<br /><br />Subtract 2 from the Attack of enemy creatures within the 2 fields in front of Sword of Juno.
+188_hammer_of_juno:
+  set: 2
+  number: 188
+  title: Hammer of Juno
+  element: 
+  race: Sacred
+  summoning_cost: 6
+  activation_cost: 4
+  health_points: 5
+  attack: 0
+  rarity: Rare
+  special_attributes: Incarnation, Summoning&nbsp;Lock
+  body: Hammer of Juno does not belong to any element.<br /><br />Hammer of Juno can use Incarnation on any allied non-Biolith creature.<br /><br />If Hammer of Juno attacks (but does not destroy) a creature, return that creature to its owner's hand f its Summoning Cost is equal to or less than Hammer of Juno's current HP.
+189_spire_of_juno:
+  set: 2
+  number: 189
+  title: Spire of Juno
+  element: 
+  race: Sacred
+  summoning_cost: 8
+  activation_cost: 8
+  health_points: 8
+  attack: 8
+  rarity: Ultra Rare
+  special_attributes: Incarnation, Magic&nbsp;Attack, Summoning&nbsp;Lock
+  body: "Spire of Juno does not belong to any element.<br /><br />Spire of Juno can use Incarnation on any allied non-Biolith creature.<br /><br />If there are any enemy Biolith creatures on the board during your opponent's Resolution Phase, you gain 2 mana."
+190_fist_of_juno:
+  set: 2
+  number: 190
+  title: Fist of Juno
+  element: 
+  race: Sacred
+  summoning_cost: 9
+  activation_cost: 9
+  health_points: 9
+  attack: 9
+  rarity: Ultra Rare
+  special_attributes: Incarnation, Summoning&nbsp;Lock
+  body: Fist of Juno does not belong to any element.<br /><br />Fist of Juno can use Incarnation on any allied non-Biolith creature.<br /><br />Enemies on Biolith fields and fields adjacent to Biolith fields cannot <i>Dodge</i> attacks.
+191_absolver_sacrament:
+  set: 2
+  number: 191
+  title: Absolver Sacrament
+  element: Spell
+  race: Ritual
+  summoning_cost: 0
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Uncommon
+  special_attributes: 
+  body: "Sacrifice an allied creature. You gain mana equal to the sacrificed creature's Summoning Cost."
+192_granvenoa_altar:
+  set: 2
+  number: 192
+  title: Granvenoa Altar
+  element: Spell
+  race: Ritual
+  summoning_cost: 0
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Uncommon
+  special_attributes: 
+  body: Discard a creature.  Steal 1 mana from your opponent.
+
+193_caisen_riot:
+  set: 2
+  number: 193
+  title: Caisen Riot
+  element: Spell
+  race: Ritual
+  summoning_cost: 0
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Uncommon
+  special_attributes: 
+  body: Each player loses 1 mana for each of their allied creatures.
+194_elven_dismissal:
+  set: 2
+  number: 194
+  title: Elven Dismissal
+  element: Spell
+  race: Conjuration
+  summoning_cost: 0
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Rare
+  special_attributes: 
+  body: "X is equal to 1 plus the Summoning Cost of the target creature.<br /><br />Choose a creature adjacent to an allied creature. Return the target creature to its owner's hand."
+195_dhees_command:
+  set: 2
+  number: 195
+  title: "Dhee's Command"
+  element: Spell
+  race: Conjuration
+  summoning_cost: 3
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Common
+  special_attributes: 
+  body: Choose one allied creature that you can activate to attack.  The target creature attacks without paying its Activation Cost.
+196_aluhjan_regeneration:
+  set: 2
+  number: 196
+  title: Aluhjan Regeneration
+  element: Spell
+  race: Conjuration
+  summoning_cost: 4
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Common
+  special_attributes: 
+  body: Choose a creature that is not Ultra Rare of the same element as the target allied creature from your graveyard, and summon it without paying the Summoning Cost.  The summoned creature cannot attack this turn.<br /><br />If this effect summons a creature, your turn ends.
+197_lament_for_clare_wil:
+  set: 2
+  number: 197
+  title: Lament for Clare Wil
+  element: Spell
+  race: Conjuration
+  summoning_cost: 1
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Common
+  special_attributes: 
+  body: All enemies are dealt magic damage equal to the number of <i>Dodge</i> attempts they have.
+198_mesmers_envoy:
+  set: 2
+  number: 198
+  title: "Mesmer's Envoy"
+  element: Spell
+  race: Conjuration
+  summoning_cost: 1
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Rare
+  special_attributes: 
+  body: Draw 3 cards, then shuffle 2 cards from your hand into your library.
+199_ninja_fate_enhancer:
+  set: 2
+  number: 199
+  title: Ninja Fate Enhancer
+  element: Spell
+  race: Conjuration
+  summoning_cost: 1
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Common
+  special_attributes: 
+  body: Choose a creature on the board then reveal the top card of your library.  If the card is the same race as the target creature, you may summon it without paying its Summoning Cost.<br /><br />If summoned, the creature cannot attack this turn and your turn ends.  If you do not summon it, put it into your graveyard.
+200_binding_shadows:
+  set: 2
+  number: 200
+  title: Binding Shadows
+  element: Spell
+  race: Conjuration
+  summoning_cost: 1
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Rare
+  special_attributes: 
+  body: Your opponent must discard a card.
+201_aluhjan_fieldbond:
+  set: 2
+  number: 201
+  title: Aluhjan Fieldbond
+  element: Spell
+  race: Conjuration
+  summoning_cost: 2
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Common
+  special_attributes: 
+  body: Target creature has <i>fieldmorph.</i>
+202_aluhjan_spellshield:
+  set: 2
+  number: 202
+  title: Aluhjan Spellshield
+  element: Spell
+  race: Conjuration
+  summoning_cost: 1
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Rare
+  special_attributes: 
+  body: "During this turn and your opponent's next turn, they cannot cast spells."
+203_festival_of_fire:
+  set: 2
+  number: 203
+  title: Festival of Fire
+  element: Spell
+  race: Dominion
+  summoning_cost: 0
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Uncommon
+  special_attributes: 
+  body: "Discard two cards (at least one must be a Fire creature).<br /><br />During your opponent's next turn, add 3 to the Summoning Cost of creatures on non-Fire fields."
+204_festival_of_water:
+  set: 2
+  number: 204
+  title: Festival of Water
+  element: Spell
+  race: Dominion
+  summoning_cost: 0
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Uncommon
+  special_attributes: 
+  body: "Discard two creatures (at least one must be a Water creature).<br /><br />During your opponent's next turn, add 3 to the Summoning Cost of creatures on non-Water fields."
+205_festival_of_earth:
+  set: 2
+  number: 205
+  title: Festival of Earth
+  element: Spell
+  race: Dominion
+  summoning_cost: 0
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Uncommon
+  special_attributes: 
+  body: "Discard two creatures (at least one must be a Earth creature).<br /><br />During your opponent's next turn, add 3 to the Summoning Cost of creatures on non-Earth fields."
+206_festival_of_wood:
+  set: 2
+  number: 206
+  title: Festival of Wood
+  element: Spell
+  race: Dominion
+  summoning_cost: 0
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Uncommon
+  special_attributes: 
+  body: "Discard two creatures (at least one must be a Wood creature).<br /><br />During your opponent's next turn, add 3 to the Summoning Cost of creatures on non-Wood fields."
+207_biolith_ascension:
+  set: 2
+  number: 207
+  title: Biolith Ascension
+  element: Spell
+  race: Dominion
+  summoning_cost: 0
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Ultra Rare
+  special_attributes: Summoning&nbsp;Lock
+  body: Choose one allied non-Biolith creature.  You  may sacrifice the target creature to summon a Biolith creature in its place (facing any direction) without paying the Summoning Cost.<br /><br />The summoned creature cannot attack this turn.<br /><br />This does not end your turn.
+208_scions_revelation:
+  set: 2
+  number: 208
+  title: "Scion's Revelation"
+  element: Spell
+  race: Sorcery
+  summoning_cost: 1
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Rare
+  special_attributes: 
+  body: "Choose creatures from your graveyard that are not Ultra Rare up to the number of cards in your hand.  Discard your hand then return the chosen cards to your hand.<br /><br /><b>Playing this card ends your turn.</b><br /><br /><i>Note: The printed text on the card is incorrect.</i>"
+209_seer_vizaks_cleansing:
+  set: 2
+  number: 209
+  title: "Seer Vizak's Cleansing"
+  element: Spell
+  race: Sorcery
+  summoning_cost: 3
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Rare
+  special_attributes: 
+  body: "Fieldquake all fields whose reverse side is the same as the target field's reverse side. This has no effect on a field whose reverse side is Biolith. Playing this card ends your turn.<br /><br /><i>Note: The printed text on the card is incorrect.</i>"
+210_benediction_of_juno:
+  set: 2
+  number: 210
+  title: Benediction of Juno
+  element: Spell
+  race: Sorcery
+  summoning_cost: 3
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Rare
+  special_attributes: 
+  body: "Choose a creature on a field.  Until the end of your next turn <b>all creatures of the same element as the target gain <i>Fieldmorph</i>.  Playing this card ends your turn.</b><br /><br /><i>Note: The printed text on the card is incorrect.</i>"
+240_reverend_father_vlo:
+  set: 3
+  number: 240
+  title: Reverend Father Vlo
+  element: Water
+  race: Warlord
+  summoning_cost: 4
+  activation_cost: 3
+  health_points: 3
+  attack: 1
+  rarity: Ultra Rare
+  special_attributes: Magic&nbsp;Attack
+  body: "Reverend Father Vlo's <i>Magic Attack</i> targets all enemies on and adjacent to the target Water field.<br /><br />When Reverend Father Vlo is summoned, you may take a Didi the Enlightened from your library, reveal it, and add it to your hand, then shuffle your library.<br /><br />Water <i>Invocation</i> (non-Ultra Rare cards only).<br /><br />While your creatures outnumber enemy creatures, all adjacent alied creatures gain a <i>Dodge</i> attempt and subtract 2 from their Attack."
+259_goblin_fanfare:
+  set: 3
+  number: 259
+  title: Goblin Fanfare
+  element: Wood
+  race: Goblin
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 2
+  attack: 0
+  rarity: Uncommon
+  special_attributes: 
+  body: If there are no enemy creatures on the board, your opponent loses 2 mana when you summon Goblin Fanfare.<br /><br />While Goblin Fanfare is on the board, subtract 1 from the Activation Cost to rotate allied Green Bandits creatures.
+279_toxic_intruder:
+  set: 3
+  number: 279
+  title: Toxic Intruder
+  element: Biolith
+  race: Mech
+  summoning_cost: 4
+  activation_cost: 3
+  health_points: 4
+  attack: 2
+  rarity: Uncommon
+  special_attributes: Summoning&nbsp;Lock
+  body: After Toxic Intruder attacks (but does not destroy) a creature, the target loses half of its HP (rounded down).
+288_romili_reloaded:
+  set: 3
+  number: 288
+  title: Romili Reloaded
+  element: Biolith
+  race: Hero
+  summoning_cost: 4
+  activation_cost: 4
+  health_points: 4
+  attack: 2
+  rarity: Ultra Rare
+  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  body: Romili's <i>Magic Attach</i> targets all enemies of the same element as the target.<br /><br />Romili <i>Possesses</i> adjacent enemy creatures on Biolith fields.<br /><br />Subtract 1 from the Activation Cost of any adjacent creature.<br /><br />While an allied Lesser Granvenoa is on the board, fields adjacent to allied Lesser Granvenoa are also treated as Biolith fields.
+301_yaksha_stimulants:
+  set: 3
+  number: 301
+  title: Yaksha Stimulants
+  element: Spell
+  race: Conjuration
+  summoning_cost: 4
+  activation_cost: 
+  health_points: 
+  attack: 
+  rarity: Common
+  special_attributes: 
+  body: Switch the HP and Attack of the target creature.
+311_dioskuri:
+  set: 3
+  number: 311
+  title: Dioskuri
+  element: Biolith
+  race: Ancient
+  summoning_cost: 12
+  activation_cost: 3
+  health_points: 5
+  attack: 2
+  rarity: Ultra Rare
+  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  body: This creature can only be summoned by <i>Incarnation</i> on either allied Pollux or allied Kastor.<br /><br />Dioskuri's <i>Magic Attack</i> targets all enemy creatures.  Dioskuri's Attack is equal to 2 plus both players' combined mana.<br /><br />If you put Dioskuri on top of Pollux to create Dioskuri, the creature steals exit mana from enemies on Biolith fields.<br /><br />If you put Dioskuri on top of Kastor to create Dioskuri, all other allied creatures on Biolith fields gain 1 HP in each Resolution Phase while Dioskuri is on the board.
