@@ -530,7 +530,7 @@
   attack: 1 +
   rarity: Common
   special_attributes: Attack&nbsp;Power&nbsp;+
-  body: Giant Axe Dwarf adds 1 to his Attack for every allied Stone Wing Dwarf on the board.
+  body: Giant Axe Dwarf adds 1 to his Attack for every allied <a href="/cards/588584536">Stone Wing Dwarf</a> on the board.
 42_spider_ninja:
   set: 1
   number: 42
