@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20081013110120) do
+ActiveRecord::Schema.define(:version => 20081014181134) do
 
   create_table "cards", :force => true do |t|
     t.integer  "number"
@@ -26,6 +26,13 @@ ActiveRecord::Schema.define(:version => 20081013110120) do
     t.integer  "race_limit"
     t.string   "special_attributes"
     t.text     "body"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "definitions", :force => true do |t|
+    t.string   "name"
+    t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
