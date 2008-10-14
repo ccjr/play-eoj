@@ -1,5 +1,6 @@
 module CardsHelper
   def title_for(options)
-    "Cards :D"
+    title = "#{options[:race]} #{options[:element]}"
+    title.blank? ? "All Cards" : title
   end
 end
