@@ -1,0 +1,13 @@
+#card{:title => "Card ##{@card.number}"}
+  %h3= @card.title
+  %h3== #{@card.element} - #{@card.rarity}
+  %p 
+    == SC: #{@card.summoning_cost} AC: #{@card.activation_cost}
+    %br
+    == HP: #{@card.health_points} Attack: #{@card.attack}
+    - unless @card.special_attributes.blank?
+      == <br/> #{@card.special_attributes}
+    - unless @card.body.blank?
+      == <br/> #{@card.body}
+
+  %p= image_tag "http://www.eojmanager.com/cardimagessmall/#{@card.number}.jpg"

@@ -1,0 +1,10 @@
+%form{:id => "searchForm", :class => "dialog", :action => "search.php"}
+  %fieldset
+    %h1 Card Search
+    %a.button.leftButton{:type => "cancel"} Cancel
+    %a.button.blueButton{:type => "submit"} Search
+
+    %label #:
+    %input{:type => "text", :name => "number"}
+    %label Name:
+    %input{:type => "text", :name => "title"}

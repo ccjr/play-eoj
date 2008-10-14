@@ -1,0 +1,3 @@
+%ul#races{:title => 'By Race'}
+  - for race in Card.races.collect(&:race)
+    %li= link_to race, '#cards'
