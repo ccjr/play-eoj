@@ -1,6 +1,3 @@
 %ul#elements{:title => 'By Element'}
-  %li= link_to 'Fire', '#cards'
-  %li= link_to 'Earth', '#cards'
-  %li= link_to 'Water', '#cards'
-  %li= link_to 'Wood', '#cards'
-  %li= link_to 'Spell', '#cards'
+  - Card::ELEMENTS.each do |element|
+    %li= link_to element, list_cards_path(:element => element)

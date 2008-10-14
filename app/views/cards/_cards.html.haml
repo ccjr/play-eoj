@@ -1,5 +1,0 @@
-%ul#cards{:title => 'Cards'}
-  - cards.group_by(&:first_letter_of_title).each do |letter, cards_for_letter|
-    %li.group= letter
-    - for card in cards_for_letter
-      %li= link_to card.title, card
