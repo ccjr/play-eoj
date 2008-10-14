@@ -2,6 +2,10 @@
 
 Scripts and instructions useful for the application will be added here.
 
+-- Required gems
+
+HAML - sudo gem install haml
+
 -- Get all cards
 
 The cards in the fixtures are updated from a known EOJ card data source - eojinfo.com
