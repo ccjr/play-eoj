@@ -6,7 +6,7 @@ class Card < ActiveRecord::Base
   named_scope :where_element, lambda {|element| { :conditions => ["cards.element = ?", element] }}
   named_scope :where_race, lambda {|race| { :conditions => ["cards.race = ?", race] }}
   
-  ELEMENTS = %w{ Fire Earth Water Wood Spell }
+  ELEMENTS = %w{ Biolith Earth Fire Water Wood Spell }
 
   def self.list(options={})
     order = options[:order] || 'title'
