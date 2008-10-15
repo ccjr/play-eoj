@@ -21,4 +21,8 @@ class Card < ActiveRecord::Base
   def first_letter_of_title
     title.first
   end
+  
+  def spell?
+    self.element == 'Spell'
+  end
 end

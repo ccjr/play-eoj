@@ -370,3 +370,67 @@ fieldset > .row:last-child {
     background-image: url(loading.gif), url(selection.png),
         url(blueButton.png), url(listArrowSel.png), url(listGroup.png);
 }
+
+/************************************************************************************************/
+
+.numbers {
+	list-style: none;
+	padding: 0;
+	background-image: url(/images/numbers_background.png);
+	height:235px;
+	width:147px;
+	color: white;
+}
+
+.spell {
+	list-style: none;
+	padding: 0;
+	background-image: url(/images/spell_background.png);
+	height:116px;
+	width:113px;
+	color: white;
+}
+
+.spell .summoning_cost {
+	float:left;
+	font-size:3em;
+	margin-left:27px;
+	padding-top:30px;
+	text-align:center;
+	width:61px;
+}
+
+.summoning_cost {
+	font-size:3em;
+	margin-left:33px;
+	padding-top:36px;
+	text-align:center;
+	width:60px;
+	float:left;
+}
+
+.activation_cost {
+	font-size:1.6em;
+	margin-left:101px;
+	padding-top:73px;
+	text-align:center;
+	width:30px;
+}
+
+.health_points {
+	clear:both;
+	font-size:1.5em;
+	margin-left:71px;
+	padding-top:36px;
+	text-align:center;
+	width:47px;
+}
+
+.attack {
+	clear:both;
+	font-size:1.5em;
+	margin-left:71px;
+	padding-top:27px;
+	text-align:center;
+	width:47px;
+}
