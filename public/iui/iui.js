@@ -89,10 +89,14 @@ window.iui =
 
         if (args)
         {
-            req.open(method || "GET", href, true);
+						requestedMethod = method || "GET";						
+			      if (requestedMethod == 'GET')
+			        href += (href.indexOf('?') > -1 ? '&' : '?') + args.join("&");
+
+            req.open(requestedMethod, href, true);
             req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
             req.setRequestHeader("Content-Length", args.length);
-            req.send(args.join("&"));
+          	req.send(args.join("&"));
         }
         else
         {

@@ -1,10 +1,13 @@
 #card{:title => "Card ##{@card.number}"}
   %h3= @card.title
   %h3== #{@card.element} - #{@card.rarity}
+  %ul{:class => (@card.spell? ? 'spell' : 'numbers')}
+    %li.summoning_cost= @card.summoning_cost
+    - unless @card.spell?
+      %li.activation_cost= @card.activation_cost
+      %li.health_points= @card.health_points
+      %li.attack= @card.attack
   %p 
-    == SC: #{@card.summoning_cost} AC: #{@card.activation_cost}
-    %br
-    == HP: #{@card.health_points} Attack: #{@card.attack}
     - unless @card.special_attributes.blank?
       == <br/> #{@card.special_attributes}
     - unless @card.body.blank?
