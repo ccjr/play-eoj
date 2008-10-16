@@ -8,6 +8,8 @@
       %li.health_points= @card.health_points
       %li.attack= @card.attack
   %p 
+    - unless @card.affiliation.blank?
+      == <br/> #{@card.affiliation}
     - unless @card.special_attributes.blank?
       == <br/> #{@card.special_attributes}
     - unless @card.body.blank?
