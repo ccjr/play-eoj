@@ -1,13 +1,15 @@
 #card{:title => "Card ##{@card.number}"}
-  %h3= @card.title
-  %h3== #{@card.element} - #{@card.rarity}
+  %h3.title= @card.title
   %ul{:class => (@card.spell? ? 'spell' : 'numbers')}
     %li.summoning_cost= @card.summoning_cost
     - unless @card.spell?
       %li.activation_cost= @card.activation_cost
       %li.health_points= @card.health_points
       %li.attack= @card.attack
-  %p 
+  %p.creature= image_tag "http://www.eojmanager.com/creatures/#{@card.number}.png", :width => "150px"
+  %span.element{:class => (@card.element.blank? ? 'none' : @card.element.downcase)}= @card.element
+  %p.title.clear== #{@card.element} - #{@card.rarity}
+  %p.description
     - unless @card.affiliation.blank?
       == <br/> #{@card.affiliation}
     - unless @card.special_attributes.blank?

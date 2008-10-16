@@ -373,64 +373,106 @@ fieldset > .row:last-child {
 
 /************************************************************************************************/
 
+#card {
+	width: 320px;
+	height: 350px;
+}
+
+.title {
+	text-align: center;
+}
+
+.description {
+	font-size: 0.8em;
+	margin: 10px;
+}
+
 .numbers {
+	margin: 10px;
 	list-style: none;
 	padding: 0;
 	background-image: url(/images/numbers_background.png);
-	height:235px;
-	width:147px;
+	height:118px;
+	width:73px;
 	color: white;
+	float: left;
 }
 
 .spell {
+	margin: 10px;
 	list-style: none;
 	padding: 0;
 	background-image: url(/images/spell_background.png);
-	height:116px;
-	width:113px;
+	height:58px;
+	width:56px;
 	color: white;
+	float: left;
 }
 
 .spell .summoning_cost {
 	float:left;
-	font-size:3em;
-	margin-left:27px;
-	padding-top:30px;
-	text-align:center;
-	width:61px;
-}
-
-.summoning_cost {
-	font-size:3em;
-	margin-left:33px;
-	padding-top:36px;
-	text-align:center;
-	width:60px;
-	float:left;
-}
-
-.activation_cost {
-	font-size:1.6em;
-	margin-left:101px;
-	padding-top:73px;
+	font-size:1.5em;
+	margin-left:14px;
+	padding-top:15px;
 	text-align:center;
 	width:30px;
 }
 
+.summoning_cost {
+	font-size:1.5em;
+	margin-left:17px;
+	padding-top:18px;
+	text-align:center;
+	width:30px;
+	float:left;
+}
+
+.activation_cost {
+	font-size:0.8em;
+	margin-left:50px;
+	padding-top:37px;
+	text-align:center;
+	width:15px;
+}
+
 .health_points {
 	clear:both;
-	font-size:1.5em;
-	margin-left:71px;
-	padding-top:36px;
+	font-size:0.75em;
+	margin-left:35px;
+	padding-top:18px;
 	text-align:center;
-	width:47px;
+	width:23px;
 }
 
 .attack {
 	clear:both;
-	font-size:1.5em;
-	margin-left:71px;
-	padding-top:27px;
+	font-size:0.75em;
+	margin-left:35px;
+	padding-top:13px;
 	text-align:center;
-	width:47px;
+	width:26px;
 }
+
+.creature {
+	text-align: center;
+	width: 150px;
+	float: left;
+}
+
+.element {
+	text-indent:-90000px;
+	height: 53px;
+	width: 53px;
+	margin: 10px;
+	float: right;
+}
+
+.element.biolith { background: transparent url(/images/biolith.png) no-repeat;}
+.element.fire 	 { background: transparent url(/images/fire.png) no-repeat;}
+.element.water 	 { background: transparent url(/images/water.png) no-repeat;}
+.element.earth 	 { background: transparent url(/images/earth.png) no-repeat;}
+.element.wood	   { background: transparent url(/images/wood.png) no-repeat;}
+.element.spell   { background: transparent url(/images/spell.png) no-repeat;}
+.element.none    { background: transparent url(/images/none.png) no-repeat;}
+
+.clear {clear: both;}
