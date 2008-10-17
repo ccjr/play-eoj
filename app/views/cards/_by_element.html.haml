@@ -1,3 +1,3 @@
 %ul#elements{:title => 'By Element'}
   - Card::ELEMENTS.each do |element|
-    %li= link_to element, list_cards_path(:element => element)
+    %li= link_to_element element
