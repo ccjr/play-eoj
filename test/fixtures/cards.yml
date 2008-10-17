@@ -1516,6 +1516,7 @@
   title: Flame Novice
   element: Fire
   race: Human
+  affiliation: Cult of Mourning
   summoning_cost: 1
   activation_cost: 1
   health_points: 1
@@ -1529,6 +1530,7 @@
   title: Flame Guard Recruit
   element: Fire
   race: Demon
+  affiliation: Dhees Empire
   summoning_cost: 1
   activation_cost: 1
   health_points: 2
@@ -1542,6 +1544,7 @@
   title: Flame Lizard Archer
   element: Fire
   race: Lizard
+  affiliation: Dhees Empire
   summoning_cost: 2
   activation_cost: 2
   health_points: 2
@@ -1555,6 +1558,7 @@
   title: Partmole Warhound
   element: Fire
   race: Beast
+  affiliation: Dhees Empire
   summoning_cost: 2
   activation_cost: 1
   health_points: 2
@@ -1568,6 +1572,7 @@
   title: Partmole Axethrower
   element: Fire
   race: Lizard
+  affiliation: Dhees Empire
   summoning_cost: 3
   activation_cost: 3
   health_points: 2
@@ -1581,6 +1586,7 @@
   title: Beacon of Cai-Shae
   element: Fire
   race: Weapon
+  affiliation: Cai-Shae
   summoning_cost: 3
   activation_cost: 2
   health_points: 1
@@ -1594,6 +1600,7 @@
   title: Shrine of Mourning
   element: Fire
   race: Base
+  affiliation: Cult of Mourning
   summoning_cost: 3
   activation_cost: 2
   health_points: 3
@@ -1607,6 +1614,7 @@
   title: Behemorph
   element: Fire
   race: Beast
+  affiliation: Cai-Shae
   summoning_cost: 3
   activation_cost: 3
   health_points: 3
@@ -1620,6 +1628,7 @@
   title: Flame Lizard Commander
   element: Fire
   race: Lizard
+  affiliation: Dhees Empire
   summoning_cost: 4
   activation_cost: 4
   health_points: 4
@@ -1633,6 +1642,7 @@
   title: Parmetic Deathspeaker
   element: Fire
   race: Demon
+  affiliation: Church of Parmus
   summoning_cost: 4
   activation_cost: 3
   health_points: 4
@@ -1646,6 +1656,7 @@
   title: Noram Zealot
   element: Fire
   race: Missionary
+  affiliation: Church of Parmus
   summoning_cost: 4
   activation_cost: 2
   health_points: 3
@@ -1659,6 +1670,7 @@
   title: Flame Archmage
   element: Fire
   race: Human
+  affiliation: Church of Parmus
   summoning_cost: 5
   activation_cost: 4
   health_points: 3
@@ -1672,6 +1684,7 @@
   title: Flameheart
   element: Fire
   race: Beast
+  affiliation: Dhees Empire
   summoning_cost: 5
   activation_cost: 3
   health_points: 4
@@ -1698,6 +1711,7 @@
   title: Shaman Zolda
   element: Fire
   race: Betrayer
+  affiliation: Dhees Empire
   summoning_cost: 5
   activation_cost: 4
   health_points: 3
@@ -1711,6 +1725,7 @@
   title: General Lug
   element: Fire
   race: Warlord
+  affiliation: Dhees Empire
   summoning_cost: 6
   activation_cost: 5
   health_points: 4
@@ -1724,6 +1739,7 @@
   title: Cloudrunner Marauder
   element: Water
   race: Merfolk
+  affiliation: Siam Pirates
   summoning_cost: 1
   activation_cost: 1
   health_points: 2
@@ -1737,6 +1753,7 @@
   title: Queen's Courier
   element: Water
   race: Elemental
+  affiliation: Tritonan Queendom
   summoning_cost: 1
   activation_cost: 1
   health_points: 2
@@ -1750,6 +1767,7 @@
   title: Frost Guards
   element: Water
   race: Elemental
+  affiliation: Tritonan Queendom
   summoning_cost: 2
   activation_cost: 1
   health_points: 3
@@ -1763,6 +1781,7 @@
   title: Venoan Spy
   element: Water
   race: Merfolk
+  affiliation: Corsez Family
   summoning_cost: 2
   activation_cost: 2
   health_points: 2
@@ -1776,6 +1795,7 @@
   title: Siam's Lookout
   element: Water
   race: Merfolk
+  affiliation: Siam Pirates
   summoning_cost: 3
   activation_cost: 1
   health_points: 3
@@ -1789,6 +1809,7 @@
   title: Aluhja Moving Citadel
   element: Water
   race: Base
+  affiliation: Church of Parmus
   summoning_cost: 3
   activation_cost: 1
   health_points: 3
@@ -1802,6 +1823,7 @@
   title: Ghost Ship
   element: Water
   race: Weapon
+  affiliation: Unknown
   summoning_cost: 3
   activation_cost: 2
   health_points: 1
@@ -1815,6 +1837,7 @@
   title: Shadow Diver
   element: Water
   race: Human
+  affiliation: Corsez Family
   summoning_cost: 3
   activation_cost: 2
   health_points: 2
@@ -1828,6 +1851,7 @@
   title: Ship's Surgeon
   element: Water
   race: Merfolk
+  affiliation: Siam Pirates
   summoning_cost: 4
   activation_cost: 2
   health_points: 4
@@ -1841,6 +1865,7 @@
   title: Okunada Moving Temple
   element: Water
   race: Base
+  affiliation: Okunada Monastery
   summoning_cost: 4
   activation_cost: 2
   health_points: 3
@@ -1854,6 +1879,7 @@
   title: Aluhja Zealot
   element: Water
   race: Missionary
+  affiliation: Church of Parmus
   summoning_cost: 4
   activation_cost: 3
   health_points: 3
@@ -1867,6 +1893,7 @@
   title: Queen's Emissary
   element: Water
   race: Elemental
+  affiliation: Tritonan Queendom
   summoning_cost: 5
   activation_cost: 3
   health_points: 3
@@ -1880,6 +1907,7 @@
   title: Aluhja Inquisitrix
   element: Water
   race: Human
+  affiliation: Church of Parmus
   summoning_cost: 5
   activation_cost: 3
   health_points: 5
@@ -1893,6 +1921,7 @@
   title: Sarma of Tinoa
   element: Water
   race: Hero
+  affiliation: Tritonan Queendom
   summoning_cost: 5
   activation_cost: 3
   health_points: 4
@@ -1906,6 +1935,7 @@
   title: Corleo, Venoan Capo
   element: Water
   race: Betrayer
+  affiliation: Corsez Family
   summoning_cost: 5
   activation_cost: 3
   health_points: 4
@@ -1919,6 +1949,7 @@
   title: Admiral Belta
   element: Water
   race: Warlord
+  affiliation: Tritonan Queendom
   summoning_cost: 6
   activation_cost: 2
   health_points: 5
@@ -1932,6 +1963,7 @@
   title: Verzar Swordsman
   element: Earth
   race: Human
+  affiliation: Saint Val Devotee
   summoning_cost: 1
   activation_cost: 2
   health_points: 1
@@ -1945,6 +1977,7 @@
   title: Relentless Skeleton
   element: Earth
   race: Undead
+  affiliation: Novogus Dynasty
   summoning_cost: 1
   activation_cost: 1
   health_points: 1
@@ -1958,6 +1991,7 @@
   title: Far Land Sand Dog
   element: Earth
   race: Beast
+  affiliation: Saint Val Devotee
   summoning_cost: 2
   activation_cost: 1
   health_points: 2
@@ -1971,6 +2005,7 @@
   title: Dwarf Sniper
   element: Earth
   race: Dwarf
+  affiliation: Blackhoods
   summoning_cost: 2
   activation_cost: 1
   health_points: 3
@@ -1984,6 +2019,7 @@
   title: Battering Ram
   element: Earth
   race: Weapon
+  affiliation: Val na Vos
   summoning_cost: 3
   activation_cost: 3
   health_points: 3
@@ -1997,6 +2033,7 @@
   title: Novogus Bandwagon
   element: Earth
   race: Undead
+  affiliation: Novogus Dynasty
   summoning_cost: 3
   activation_cost: 2
   health_points: 2
@@ -2010,6 +2047,7 @@
   title: Novogus Warrior
   element: Earth
   race: Undead
+  affiliation: Novogus Dynasty
   summoning_cost: 3
   activation_cost: 2
   health_points: 2
@@ -2023,6 +2061,7 @@
   title: Verzar Golem
   element: Earth
   race: Elemental
+  affiliation: Val na Vos
   summoning_cost: 3
   activation_cost: 3
   health_points: 3
@@ -2036,6 +2075,7 @@
   title: Dwarf Battlebuggy
   element: Earth
   race: Dwarf
+  affiliation: Hammer Valley
   summoning_cost: 3
   activation_cost: 2
   health_points: 3
@@ -2049,6 +2089,7 @@
   title: Dwarf Warbanner
   element: Earth
   race: Dwarf
+  affiliation: Hammer Valley
   summoning_cost: 4
   activation_cost: 2
   health_points: 4
@@ -2062,6 +2103,7 @@
   title: Dwarf Battle Forge
   element: Earth
   race: Base
+  affiliation: Hammer Valley
   summoning_cost: 4
   activation_cost: 3
   health_points: 5
@@ -2075,6 +2117,7 @@
   title: Visvar Vaas Zealot
   element: Earth
   race: Missionary
+  affiliation: Church of Parmus
   summoning_cost: 4
   activation_cost: 2
   health_points: 3
@@ -2088,6 +2131,7 @@
   title: Novogus Sinbearer
   element: Earth
   race: Undead
+  affiliation: Novogus Dynasty
   summoning_cost: 5
   activation_cost: 3
   health_points: 5
@@ -2101,6 +2145,7 @@
   title: Archbishop Jirva
   element: Earth
   race: Hero
+  affiliation: Hammer Valley
   summoning_cost: 5
   activation_cost: 3
   health_points: 5
@@ -2114,6 +2159,7 @@
   title: Vamas, Tomb Sentinel
   element: Earth
   race: Betrayer
+  affiliation: Novogus Dynasty
   summoning_cost: 5
   activation_cost: 4
   health_points: 5
@@ -2127,6 +2173,7 @@
   title: Marshal Akhum
   element: Earth
   race: Warlord
+  affiliation: Novogus Dynasty
   summoning_cost: 6
   activation_cost: 3
   health_points: 7
@@ -2153,6 +2200,7 @@
   title: Elven Soul Hunter
   element: Wood
   race: Elf
+  affiliation: Til Vorg Monarchy
   summoning_cost: 1
   activation_cost: 1
   health_points: 1
@@ -2166,6 +2214,7 @@
   title: White Tree Haunt
   element: Wood
   race: Titan
+  affiliation: Northern Forces
   summoning_cost: 2
   activation_cost: 1
   health_points: 1
@@ -2179,6 +2228,7 @@
   title: Leapfrog Boss
   element: Wood
   race: Anthromorph
+  affiliation: Green Bandits
   summoning_cost: 2
   activation_cost: 1
   health_points: 1
@@ -2192,6 +2242,7 @@
   title: Elven Plaguedancer
   element: Wood
   race: Elf
+  affiliation: Black Forest
   summoning_cost: 2
   activation_cost: 2
   health_points: 2
@@ -2205,6 +2256,7 @@
   title: Goblin Basher
   element: Wood
   race: Goblin
+  affiliation: Green Bandits
   summoning_cost: 3
   activation_cost: 2
   health_points: 3
@@ -2218,6 +2270,7 @@
   title: Goblin Bomber
   element: Wood
   race: Goblin
+  affiliation: Green Bandits
   summoning_cost: 3
   activation_cost: 2
   health_points: 3
@@ -2231,6 +2284,7 @@
   title: Darksword Samurai
   element: Wood
   race: Human
+  affiliation: Nagirashu
   summoning_cost: 4
   activation_cost: 3
   health_points: 4
@@ -2244,6 +2298,7 @@
   title: Goblin Fort
   element: Wood
   race: Base
+  affiliation: Green Bandits
   summoning_cost: 4
   activation_cost: 3
   health_points: 6
@@ -2257,6 +2312,7 @@
   title: Reaper's Golem
   element: Wood
   race: Elemental
+  affiliation: Til Vorg Monarchy
   summoning_cost: 4
   activation_cost: 3
   health_points: 3
@@ -2270,6 +2326,7 @@
   title: Tolicore Zealot
   element: Wood
   race: Missionary
+  affiliation: Church of Parmus
   summoning_cost: 4
   activation_cost: 3
   health_points: 3
@@ -2283,6 +2340,7 @@
   title: Alchemist's Lab
   element: Wood
   race: Base
+  affiliation: Black Forest
   summoning_cost: 5
   activation_cost: 3
   health_points: 4
@@ -2296,6 +2354,7 @@
   title: Elven Night Rider
   element: Wood
   race: Elf
+  affiliation: Black Forest
   summoning_cost: 5
   activation_cost: 4
   health_points: 4
@@ -2309,6 +2368,7 @@
   title: Prince Lusirion
   element: Wood
   race: Hero
+  affiliation: Til Vorg Monarchy
   summoning_cost: 5
   activation_cost: 3
   health_points: 5
@@ -2322,6 +2382,7 @@
   title: Preacher Noova
   element: Wood
   race: Betrayer
+  affiliation: Green Bandits
   summoning_cost: 5
   activation_cost: 4
   health_points: 4
@@ -2335,6 +2396,7 @@
   title: Lord Hu
   element: Wood
   race: Warlord
+  affiliation: Til Vorg Monarchy
   summoning_cost: 6
   activation_cost: 4
   health_points: 4
@@ -2348,6 +2410,7 @@
   title: Athenix Citadel
   element: Biolith
   race: Base
+  affiliation: Biolith Castle
   summoning_cost: 3
   activation_cost: 2
   health_points: 4
@@ -2361,6 +2424,7 @@
   title: Flailmonger
   element: Biolith
   race: Mech
+  affiliation: Biolith Castle
   summoning_cost: 3
   activation_cost: 2
   health_points: 4
@@ -2374,6 +2438,7 @@
   title: Biolith Centurion
   element: Biolith
   race: Mech
+  affiliation: Biolith Castle
   summoning_cost: 3
   activation_cost: 2
   health_points: 4
@@ -2387,6 +2452,7 @@
   title: Biolith War Chariot
   element: Biolith
   race: Weapon
+  affiliation: Biolith Castle
   summoning_cost: 4
   activation_cost: 4
   health_points: 4
@@ -2400,6 +2466,7 @@
   title: Behemoth Terrorformer
   element: Biolith
   race: Weapon
+  affiliation: Biolith Castle
   summoning_cost: 4
   activation_cost: 2
   health_points: 4
@@ -2413,6 +2480,7 @@
   title: Biolith Transporter
   element: Biolith
   race: Bug
+  affiliation: Biolith Castle
   summoning_cost: 4
   activation_cost: 4
   health_points: 3
@@ -2426,6 +2494,7 @@
   title: Archiver
   element: Biolith
   race: Mech
+  affiliation: Biolith Castle
   summoning_cost: 5
   activation_cost: 3
   health_points: 5
@@ -2439,6 +2508,7 @@
   title: Battle Master
   element: Biolith
   race: Mech
+  affiliation: Biolith Castle
   summoning_cost: 6
   activation_cost: 4
   health_points: 6
@@ -2452,6 +2522,7 @@
   title: Magic Master
   element: Biolith
   race: Mech
+  affiliation: Biolith Castle
   summoning_cost: 6
   activation_cost: 4
   health_points: 6
@@ -2465,6 +2536,7 @@
   title: Biolith Battleship
   element: Biolith
   race: Weapon
+  affiliation: Biolith Castle
   summoning_cost: 7
   activation_cost: 4
   health_points: 8
@@ -2478,6 +2550,7 @@
   title: Biolith Temple
   element: Biolith
   race: Base
+  affiliation: Biolith Castle
   summoning_cost: 7
   activation_cost: 5
   health_points: 7
@@ -2491,6 +2564,7 @@
   title: Sciondar Gateway
   element: Biolith
   race: Ancient
+  affiliation: Biolith Castle
   summoning_cost: 7
   activation_cost: 5
   health_points: 6
@@ -2504,6 +2578,7 @@
   title: Sword of Juno
   element: 
   race: Sacred
+  affiliation: Unknown
   summoning_cost: 6
   activation_cost: 4
   health_points: 5
@@ -2517,6 +2592,7 @@
   title: Hammer of Juno
   element: 
   race: Sacred
+  affiliation: Unknown
   summoning_cost: 6
   activation_cost: 4
   health_points: 5
@@ -2530,6 +2606,7 @@
   title: Spire of Juno
   element: 
   race: Sacred
+  affiliation: Unknown
   summoning_cost: 8
   activation_cost: 8
   health_points: 8
@@ -2543,6 +2620,7 @@
   title: Fist of Juno
   element: 
   race: Sacred
+  affiliation: Unknown
   summoning_cost: 9
   activation_cost: 9
   health_points: 9
