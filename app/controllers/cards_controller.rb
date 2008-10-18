@@ -7,5 +7,5 @@ class CardsController < ApplicationController
   
   def list
     @cards = Card.list params
-  end
+  end  
 end
