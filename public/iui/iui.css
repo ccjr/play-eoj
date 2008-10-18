@@ -475,4 +475,8 @@ fieldset > .row:last-child {
 .element.spell   { background: transparent url(/images/spell.png) no-repeat;}
 .element.none    { background: transparent url(/images/none.png) no-repeat;}
 
+.directions {
+	text-align: center;
+}
+
 .clear {clear: both;}
