@@ -3560,7 +3560,7 @@
   title: Blackhood Anti-Mystic
   element: Earth
   race: Dwarf
-  affiliation: Black Hoods
+  affiliation: Blackhoods
   summoning_cost: 4
   activation_cost: 3
   health_points: 4
@@ -3599,7 +3599,7 @@
   title: Blackhood Caravan
   element: Earth
   race: Base
-  affiliation: Black Hoods
+  affiliation: Blackhoods
   summoning_cost: 6
   activation_cost: 3
   health_points: 5
