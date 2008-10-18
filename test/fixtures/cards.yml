@@ -3029,6 +3029,384 @@
   summoning_cost: 3
   rarity: Rare
   body: |    Choose a creature on a field.  Until the end of your next turn <b>all creatures of the same element as the target gain <i>Fieldmorph</i>.  Playing this card ends your turn.</b><br /><br /><i>Note: The printed text on the card is incorrect.</i>
+
+211_partmole_gatekeeper:
+  set: 3
+  number: 211
+  title: Partmole Gatekeeper
+  element: Fire
+  race: Demon
+  affiliation: Dhees Empire
+  summoning_cost: 1
+  activation_cost: 2
+  health_points: 1
+  attack: 1+
+  rarity: Common
+
+212_rageflame_spitter:
+  set: 3
+  number: 212
+  title: Rageflame Spitter
+  element: Fire
+  race: Bug
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 2
+  attack: 1
+  rarity: Common
+
+213_fire_witch's_familiar:
+  set: 3
+  number: 213
+  title: Fire Witch's Familiar
+  element: Fire
+  race: Demon
+  summoning_cost: 2
+  activation_cost: 12
+  health_points: 1+
+  attack: -
+  rarity: Uncommon
+  limit: 
+
+214_crimson_mimic:
+  set: 3
+  number: 214
+  title: Crimson Mimic
+  element: Fire
+  race: Egg
+  summoning_cost: 2
+  activation_cost: 1
+  health_points: 2
+  attack: 0
+  rarity: Rare
+
+215_lizard_shocktrooper:
+  set: 3
+  number: 215
+  title: Lizard Shocktrooper
+  element: Fire
+  race: Lizard
+  affiliation: Dhees Empire
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 3
+  attack: 2
+  rarity: Common
+
+216_flame_lizard_barracks:
+  set: 3
+  number: 216
+  title: Flame Lizard Barracks
+  element: Fire
+  race: Base
+  affiliation: Dhees Empire
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 4
+  attack: 1
+  rarity: Uncommon
+
+217_cai-shae_brazier:
+  set: 3
+  number: 217
+  title: Cai-Shae Brazier
+  element: Fire
+  race: Weapon
+  affiliation: Cai-Shae
+  summoning_cost: 3
+  activation_cost: 3
+  health_points: 1
+  attack: 0
+  rarity: Common
+
+218_flame_wyvern:
+  set: 3
+  number: 218
+  title: Flame Wyvern
+  element: Fire
+  race: Dragon
+  affiliation: Dhees Empire
+  summoning_cost: 4
+  activation_cost: 3
+  health_points: 4
+  attack: 1+
+  rarity: Rare
+
+219_mourning_cenobite:
+  set: 3
+  number: 219
+  title: Mourning Cenobite
+  element: Fire
+  race: Human
+  affiliation: Cult of Mourning
+  summoning_cost: 4
+  activation_cost: 2
+  health_points: 3
+  attack: 2+
+  rarity: Common
+
+220_mourning_buffalo:
+  set: 3
+  number: 220
+  title: Mourning Buffalo
+  element: Fire
+  race: Beast
+  affiliation: Cult of Mourning
+  summoning_cost: 5
+  activation_cost: 2
+  health_points: 5
+  attack: 2
+  rarity: Uncommon
+
+221_torrid_nightmare:
+  set: 3
+  number: 221
+  title: Torrid Nightmare
+  element: Fire
+  race: Demon
+  affiliation: Church of Parmus
+  summoning_cost: 5
+  activation_cost: 4
+  health_points: 4
+  attack: 0
+  rarity: Uncommon
+
+222_flame_lizard_general:
+  set: 3
+  number: 222
+  title: Flame Lizard General
+  element: Fire
+  race: Lizard
+  affiliation: Dhees Empire
+  summoning_cost: 6
+  activation_cost: 4
+  health_points: 5
+  attack: 3+
+  rarity: Uncommon
+
+223_partmole_scout_balloon:
+  set: 3
+  number: 223
+  title: Partmole Scout Balloon
+  element: Fire
+  race: Lizard
+  affiliation: Dhees Empire
+  summoning_cost: 6
+  activation_cost: 4
+  health_points: 6
+  attack: 3
+  rarity: Rare
+
+224_logan_zurtur:
+  set: 3
+  number: 224
+  title: Logan Zurtur
+  element: Fire
+  race: Betrayer
+  affiliation: Unknown
+  summoning_cost: 4
+  activation_cost: 4
+  health_points: 4
+  attack: 2+
+  rarity: Ultra-Rare
+  limit: 1 of race
+
+225_ragin_pyrathrax:
+  set: 3
+  number: 225
+  title: Ragin Pyrathrax
+  element: Fire
+  race: Dragon
+  summoning_cost: 8
+  activation_cost: 4
+  health_points: 8
+  attack: 5+
+  rarity: Ultra-Rare
+  limit: 1 of card
+
+226_carlo_the_scorched:
+  set: 3
+  number: 226
+  title: Carlo the Scorched
+  element: Fire
+  race: Noble
+  affiliation: Dhees Empire
+  summoning_cost: 6
+  activation_cost: 4
+  health_points: 4
+  attack: 2+
+  rarity: Phantom
+  limit: 1 of race
+
+
+227_blue_lycanthrope:
+  set: 3
+  number: 227
+  title: Blue Lycanthrope
+  element: Water
+  race: Anthromorph
+  affiliation: Tritonan Queendom
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 1
+  attack: 0+
+  rarity: Uncommon
+
+228_cloudrunner_shipmate:
+  set: 3
+  number: 228
+  title: Cloudrunner Shipmate
+  element: Water
+  race: Merfolk
+  affiliation: Siam Pirates
+  summoning_cost: 1
+  activation_cost: 2
+  health_points: 2
+  attack: 1
+  rarity: Common
+
+229_darkwater_syren:
+  set: 3
+  number: 229
+  title: Darkwater Syren
+  element: Water
+  race: Undead
+  affiliation: Church of Parmus
+  summoning_cost: 2
+  activation_cost: 1
+  health_points: 2
+  attack: 0
+  rarity: Common
+
+230_indigo_mimic:
+  set: 3
+  number: 230
+  title: Indigo Mimic
+  element: Water
+  race: Egg
+  summoning_cost: 2
+  activation_cost: 1
+  health_points: 2
+  attack: 0
+  rarity: Rare
+
+231_corsez_henchman:
+  set: 3
+  number: 231
+  title: Corsez Henchman
+  element: Water
+  race: Merfolk
+  affiliation: Corsez Family
+  summoning_cost: 3
+  activation_cost: 1
+  health_points: 3
+  attack: 1
+  rarity: Common
+
+232_corsez_moving_citadel:
+  set: 3
+  number: 232
+  title: Corsez Moving Citadel
+  element: Water
+  race: Base
+  affiliation: Corsez Family
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 3
+  attack: 0
+  rarity: Common
+
+233_aluhja_prioress:
+  set: 3
+  number: 233
+  title: Aluhja Prioress
+  element: Water
+  race: Human
+  affiliation: Church of Parmus
+  summoning_cost: 3
+  activation_cost: 3
+  health_points: 3
+  attack: 2
+  rarity: Uncommon
+
+234_sea_serpent:
+  set: 3
+  number: 234
+  title: Sea Serpent
+  element: Water
+  race: Dragon
+  affiliation: Tritonan Queendom
+  summoning_cost: 4
+  activation_cost: 3
+  health_points: 4
+  attack: 1+
+  rarity: Rare
+
+235_siam's_sentinel:
+  set: 3
+  number: 235
+  title: Siam's Sentinel
+  element: Water
+  race: Merfolk
+  affiliation: Siam Pirates
+  summoning_cost: 4
+  activation_cost: 3
+  health_points: 4
+  attack: 2
+  rarity: Uncommon
+
+236_queen's_commissioner:
+  set: 3
+  number: 236
+  title: Queen's Commissioner
+  element: Water
+  race: Elemental
+  affiliation: Tritonan Queendom
+  summoning_cost: 5
+  activation_cost: 3
+  health_points: 1
+  attack: 2
+  rarity: Uncommon
+
+237_don's_double:
+  set: 3
+  number: 237
+  title: Don's Double
+  element: Water
+  race: Merfolk
+  affiliation: Corsez Family
+  summoning_cost: 5
+  activation_cost: 3
+  health_points: 5
+  attack: 1+
+  rarity: Common
+
+238_tritonan_sacred_court:
+  set: 3
+  number: 238
+  title: Tritonan Sacred Court
+  element: Water
+  race: Base
+  affiliation: Tritonan Queendom
+  summoning_cost: 6
+  activation_cost: 4
+  health_points: 4
+  attack: 2
+  rarity: Rare
+
+239_missionary_ship:
+  set: 3
+  number: 239
+  title: Missionary Ship
+  element: Water
+  race: Weapon
+  affiliation: Church of Parmus
+  summoning_cost: 6
+  activation_cost: 3
+  health_points: 4
+  attack: 2
+  rarity: Uncommon
+
 240_reverend_father_vlo:
   set: 3
   number: 240
@@ -3045,6 +3423,244 @@
   attack_directions: Magic Blast
   defense_directions: None Blind Back
   body: |    Reverend Father Vlo's <i>Magic Attack</i> targets all enemies on and adjacent to the target Water field.<br /><br />When Reverend Father Vlo is summoned, you may take a Didi the Enlightened from your library, reveal it, and add it to your hand, then shuffle your library.<br /><br />Water <i>Invocation</i> (non-Ultra Rare cards only).<br /><br />While your creatures outnumber enemy creatures, all adjacent alied creatures gain a <i>Dodge</i> attempt and subtract 2 from their Attack.
+
+241_capricious_hydromancer:
+  set: 3
+  number: 241
+  title: Capricious Hydromancer
+  element: Water
+  race: Dragon
+  summoning_cost: 8
+  activation_cost: 4
+  health_points: 8
+  attack: 5+
+  rarity: Ultra-Rare
+  limit: 1 of card
+
+242_clare_wil_the_valiant:
+  set: 3
+  number: 242
+  title: Clare Wil the Valiant
+  element: Water
+  race: Noble
+  affiliation: Tritonan Queendom
+  summoning_cost: 6
+  activation_cost: 3
+  health_points: 4
+  attack: 2+
+  rarity: Phantom
+  limit: 1 of race
+
+243_skeleton_archer:
+  set: 3
+  number: 243
+  title: Skeleton Archer
+  element: Earth
+  race: Undead
+  affiliation: Novogus Dynasty
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 2
+  attack: 1
+  rarity: Common
+
+244_verzar_defender:
+  set: 3
+  number: 244
+  title: Verzar Defender
+  element: Earth
+  race: Human
+  affiliation: Val na Vos
+  summoning_cost: 1
+  activation_cost: 1
+  health_points: 2
+  attack: 0
+  rarity: Common
+
+245_stone_wing_veteran:
+  set: 3
+  number: 245
+  title: Stone Wing Veteran
+  element: Earth
+  race: Dwarf
+  affiliation: Hammer Valley
+  summoning_cost: 2
+  activation_cost: 1
+  health_points: 2
+  attack: 1
+  rarity: Common
+
+246_ochre_mimic:
+  set: 3
+  number: 246
+  title: Ochre Mimic
+  element: Earth
+  race: Egg
+  summoning_cost: 2
+  activation_cost: 1
+  health_points: 2
+  attack: 0
+  rarity: Rare
+
+247_dwarf_miner:
+  set: 3
+  number: 247
+  title: Dwarf Miner
+  element: Earth
+  race: Dwarf
+  affiliation: Hammer Valley
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 3
+  attack: 1
+  rarity: Uncommon
+
+248_forgotten_fortress:
+  set: 3
+  number: 248
+  title: Forgotten Fortress
+  element: Earth
+  race: Base
+  affiliation: Val na Vos
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 4
+  attack: 0
+  rarity: Uncommon
+
+249_roving_penitentiary:
+  set: 3
+  number: 249
+  title: Roving Penitentiary
+  element: Earth
+  race: Base
+  affiliation: Novogus Dynasty
+  summoning_cost: 3
+  activation_cost: 2
+  health_points: 4
+  attack: 1
+  rarity: Common
+
+250_bone_drake:
+  set: 3
+  number: 250
+  title: Bone Drake
+  element: Earth
+  race: Dragon
+  affiliation: Novogus Dynasty
+  summoning_cost: 4
+  activation_cost: 3
+  health_points: 4
+  attack: 1+
+  rarity: Rare
+
+251_blackhood_anti-mystic:
+  set: 3
+  number: 251
+  title: Blackhood Anti-Mystic
+  element: Earth
+  race: Dwarf
+  affiliation: Black Hoods
+  summoning_cost: 4
+  activation_cost: 3
+  health_points: 4
+  attack: 2+
+  rarity: Common
+
+252_novogus_war_mammoth:
+  set: 3
+  number: 252
+  title: Novogus War Mammoth
+  element: Earth
+  race: Beast
+  affiliation: Novogus Dynasty
+  summoning_cost: 5
+  activation_cost: 3
+  health_points: 5
+  attack: 2
+  rarity: Uncommon
+
+253_dark_ozeki_kihomaru:
+  set: 3
+  number: 253
+  title: Dark Ozeki Kihomaru
+  element: Earth
+  race: Titan
+  affiliation: Val na Vos
+  summoning_cost: 5
+  activation_cost: 3
+  health_points: 5
+  attack: 1+
+  rarity: Uncommon
+
+254_blackhood_caravan:
+  set: 3
+  number: 254
+  title: Blackhood Caravan
+  element: Earth
+  race: Base
+  affiliation: Black Hoods
+  summoning_cost: 6
+  activation_cost: 3
+  health_points: 5
+  attack: 2
+  rarity: Uncommon
+
+255_parmetic_vengeress:
+  set: 3
+  number: 255
+  title: Parmetic Vengeress
+  element: Earth
+  race: Human
+  affiliation: Church of Parmus
+  summoning_cost: 6
+  activation_cost: 4
+  health_points: 6
+  attack: 2+
+  rarity: Rare
+
+256_captain_xerabis:
+  set: 3
+  number: 256
+  title: Captain Xerabis
+  element: Earth
+  race: Hero
+  affiliation: Novogus Dynasty
+  summoning_cost: 4
+  activation_cost: 3
+  health_points: 5
+  attack: 2+
+  rarity: Ultra-Rare
+  limit: 1 of race
+
+257_callous_gaiakhan:
+  set: 3
+  number: 257
+  title: Callous Gaiakhan
+  element: Earth
+  race: Dragon
+  summoning_cost: 8
+  activation_cost: 4
+  health_points: 8
+  attack: 5+
+  rarity: Ultra-Rare
+  limit: 1 of card
+
+258_king_sanavaan:
+  set: 3
+  number: 258
+  title: King Sanavaan
+  element: Earth
+  race: Noble
+  affiliation: Val na Vos
+  summoning_cost: 6
+  activation_cost: 3
+  health_points: 6
+  attack: 2+
+  rarity: Phantom
+  limit: 1 of race
+
+
 259_goblin_fanfare:
   set: 3
   number: 259
