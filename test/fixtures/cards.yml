@@ -55,7 +55,7 @@
   health_points: 2
   attack: 2
   rarity: Common
-  special_attributes: Quickness, Attack&nbsp;Cost&nbsp;-
+  special_attributes: <a href="#definition_834811005">Quickness</a>, Attack&nbsp;Cost&nbsp;-
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    The Activation Cost to attack with Partmole Flame Lizard is 1 less than listed.
@@ -213,7 +213,7 @@
   health_points: 4
   attack: 2 +
   rarity: Ultra Rare
-  special_attributes: Quickness, Attack&nbsp;Power&nbsp;+
+  special_attributes: <a href="#definition_834811005">Quickness</a>, Attack&nbsp;Power&nbsp;+
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    Didi attacks the same target twice.  The target's counterattack occurs after the second attack.  Didi adds 1 to his Attack if the target creature is on a Fire field.  While Didi is on the board, no Fire field can be fieldquaked or exchanged.
@@ -1672,7 +1672,7 @@
   health_points: 2
   attack: 2
   rarity: Common
-  special_attributes: Quickness
+  special_attributes: <a href="#definition_834811005">Quickness</a>
   attack_directions: Arc Longrange Strike
   defense_directions: Arc Blind Back
 
@@ -1691,7 +1691,7 @@
   special_attributes: Perfect&nbsp;Dodge
   attack_directions: No Attack
   defense_directions: None
-  body: |    While an allied Did the Enlightened is on the board, all allied creatures gain <i>Quickness</i>.<br /><br />Subtract 1 from the Summoning Cost of other allied Fire creatures (minimum 1).
+  body: |    While an allied Did the Enlightened is on the board, all allied creatures gain <i><a href="#definition_834811005">Quickness</a></i>.<br /><br />Subtract 1 from the Summoning Cost of other allied Fire creatures (minimum 1).
 117_shrine_of_mourning:
   set: 2
   number: 117
@@ -1736,7 +1736,7 @@
   health_points: 4
   attack: 3
   rarity: Rare
-  special_attributes: Quickness
+  special_attributes: <a href="#definition_834811005">Quickness</a>
   attack_directions: Lancer
   defense_directions: Standard Blind Arc
   body: |    Gain 1 mana each time you summon an allied Lizard creature.  <br /><br />All other allied Lizard creatures subtract 1 from their Activation Cost.
