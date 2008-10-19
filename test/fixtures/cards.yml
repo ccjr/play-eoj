@@ -25,7 +25,7 @@
   health_points: 1
   attack: 1
   rarity: Common
-  special_attributes: Quickness
+  special_attributes: <a href="#definition_834811005">Quickness</a>
   attack_directions: Selective Full Circle
   defense_directions: Full
 
