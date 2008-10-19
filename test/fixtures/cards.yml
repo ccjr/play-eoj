@@ -71,7 +71,7 @@
   health_points: 2
   attack: 1
   rarity: Uncommon
-  special_attributes: Gains Invisibility, Gains Perfect Dodge
+  special_attributes: Gains <a href="#definition_277591766">Invisibility</a>, Gains <a href="#definition_26233555">Perfect Dodge</a>
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    While Firefly Ninja is on a Fire field it gains Perfect Dodge.  Firefly Ninja gains Invisibility while at least one allied Spider Ninja is on the board.
@@ -86,7 +86,7 @@
   health_points: 1
   attack: 2
   rarity: Rare
-  special_attributes: Perfect Dodge, Attack Cost -
+  special_attributes: <a href="#definition_26233555">Perfect Dodge</a>, Attack Cost -
   attack_directions: Lancer
   defense_directions: Standard Blind Back
   body: |    The Activation Cost to attack with Great Minos is 1 less than listed.  Destroy Great Minos if he is on a non-Fire field.
@@ -134,7 +134,7 @@
   health_points: 4
   attack: 2
   rarity: Uncommon
-  special_attributes: Fortress
+  special_attributes: <a href="#definition_369701777">Fortress</a>
   attack_directions: Selective Full Circle
   defense_directions: Full
   body: |    Fields adjacent to Lesser Granvenoa cannot be fieldquaked or exchanged.  Destroy Lesser Granvenoa if it is on a Water field.
@@ -261,7 +261,7 @@
   health_points: 9
   attack: 3
   rarity: Ultra Rare
-  special_attributes: Incarnation, Magic Attack, <a href="#definition_632695613">Summoning Lock</a>
+  special_attributes: <a href="#definition_496719324">Incarnation</a>, <a href="#definition_468552885">Magic Attack</a>, <a href="#definition_632695613">Summoning Lock</a>
   attack_directions: Magic Nuke
   defense_directions: None
   body: |    Sciondar Fire God's Magic Attack targets all enemies on non-Fire fields.  Destroy Sciondar Fire God if he is on a Biolith Field.
@@ -277,7 +277,7 @@
   health_points: 1
   attack: 0
   rarity: Rare
-  special_attributes: Sacrifice
+  special_attributes: <a href="#definition_373885792">Sacrifice</a>
   attack_directions: No Attack
   defense_directions: None Blind Arc
   body: |    Sacrifice Red Cubic to summon a non-cubic Fire creature in its place (facing any direction) without paying the Summoning Cost.  The summoned creature cannot attack on this turn.  This does not end your turn.
@@ -355,7 +355,7 @@
   health_points: 2
   attack: 0
   rarity: Uncommon
-  special_attributes: Possession
+  special_attributes: <a href="#definition_246638434">Possession</a>
   attack_directions: No Attack
   defense_directions: None Blind Back
   body: |    Tentacles of Possession gain Possession of the enemy directly in front of it.
@@ -371,7 +371,7 @@
   health_points: 3
   attack: 1
   rarity: Uncommon
-  special_attributes: Gains Invisibility
+  special_attributes: Gains <a href="#definition_277591766">Invisibility</a>
   attack_directions: Arc Longrange Strike
   defense_directions: Arc Blind Back
   body: |    Wolf Ninja gains invisibility while at least one allied Swallow Ninja is on the board.  If Wolf Ninja damages a creature on a Water field, it changes place with that creature (who cannot counterattack).
@@ -432,7 +432,7 @@
   health_points: 1
   attack: 1
   rarity: Rare
-  special_attributes: Perfect Dodge, Magic Attack
+  special_attributes: <a href="#definition_26233555">Perfect Dodge</a>, <a href="#definition_468552885">Magic Attack</a>
   attack_directions: Standard Magic
   defense_directions: None Blind Back
   body: |    If Queen's Servant is destroyed, steal 1 mana from your opponent.
@@ -448,7 +448,7 @@
   health_points: 4
   attack: 1
   rarity: Rare
-  special_attributes: Fortress
+  special_attributes: <a href="#definition_369701777">Fortress</a>
   attack_directions: Selective Full Circle
   defense_directions: Full
   body: |    If Moving Isle of Kadena is summoned to a non-Water field, steal mana from your opponent equal to the number of Water fields.  Destroy Moving Isle of Kadena if it is on a Fire field.
@@ -543,7 +543,7 @@
   health_points: 9
   attack: 3
   rarity: Ultra Rare
-  special_attributes: Incarnation, Magic Attack
+  special_attributes: <a href="#definition_496719324">Incarnation</a>, <a href="#definition_468552885">Magic Attack</a>
   attack_directions: Magic Nuke
   defense_directions: None
   body: |    Goddess Tritona's Magic Attack targets all enemies on non-Water fields.  Destroy Goddess Tritona if she is on a Biolith field.
@@ -559,7 +559,7 @@
   health_points: 1
   attack: 0
   rarity: Rare
-  special_attributes: Sacrifice
+  special_attributes: <a href="#definition_373885792">Sacrifice</a>
   attack_directions: No Attack
   defense_directions: None Blind Arc
   body: |    Sacrifice Blue Cubic to Summon a non-cubic Water creature in its place (facing any direction) without paying the Summoning Cost.  The summoned creature cannot attack this turn.  This does not end your turn.
@@ -575,7 +575,7 @@
   health_points: 1
   attack: 1
   rarity: Common
-  special_attributes: Grants Protection
+  special_attributes: Grants <a href="#definition_567700710">Protection</a>
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    Allied creatures on adjacent fields gain +1 Protection.
@@ -607,7 +607,7 @@
   health_points: 1
   attack: 1
   rarity: Common
-  special_attributes: Gains Protection
+  special_attributes: Gains <a href="#definition_567700710">Protection</a>
   attack_directions: Selective Full Circle
   defense_directions: Full
   body: |    Stone Wing Dwarf gains Protection equal to the number of allied Giant Axe Dwarves on the board.
@@ -654,7 +654,7 @@
   health_points: 2
   attack: 1
   rarity: Uncommon
-  special_attributes: Gains Invisibility, Magic Attack
+  special_attributes: Gains <a href="#definition_277591766">Invisibility</a>, <a href="#definition_468552885">Magic Attack</a>
   attack_directions: Standard Magic
   defense_directions: None Blind Back
   body: |    Spider Ninja gains Invisibility while at least one allied Wolf Ninja is on the board.  If Spider Ninja damages a creature on an Earth field, it switches locations with that creature (who cannot counterattack).
@@ -700,7 +700,7 @@
   health_points: 4
   attack: 1
   rarity: Uncommon
-  special_attributes: Fortress, Grants Protection
+  special_attributes: <a href="#definition_369701777">Fortress</a>, Grants <a href="#definition_567700710">Protection</a>
   attack_directions: Selective Full Circle
   defense_directions: Full
   body: |    Allied creatures on adjaent fields gain +2 Protection.  Destroy Se Hollyn Fortress if it is on a Wood field.
@@ -716,7 +716,7 @@
   health_points: 3
   attack: 2
   rarity: Rare
-  special_attributes: Gains Protection
+  special_attributes: Gains <a href="#definition_567700710">Protection</a>
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    Novogus Golem gains Protection equal to the number of empty fields.
@@ -732,7 +732,7 @@
   health_points: 4
   attack: 1
   rarity: Uncommon
-  special_attributes: Fortress
+  special_attributes: <a href="#definition_369701777">Fortress</a>
   attack_directions: Selective Full Circle
   defense_directions: Full
   body: |    While Dungeon of Ten Tyrants is on a non-Earth field, gain 1 mana during your Resolution Phase.  Destroy Dungeon of Ten Tyrants if it is on a Wood Field.
@@ -779,7 +779,7 @@
   health_points: 3
   attack: 2 +
   rarity: Ultra Rare
-  special_attributes: Gains Protection, Attack Power +, Grants Protection
+  special_attributes: Gains <a href="#definition_567700710">Protection</a>, Attack Power +, Grants <a href="#definition_567700710">Protection</a>
   attack_directions: Front Back Strike
   defense_directions: Front Back
   body: |    Arelai gains Protection equal to the number of Earth fields.  Arelai adds 1 to his Attack if at least one target creature is on an Earth field.  All other allied creatures on Earth fields gain +1 Protection.
@@ -827,7 +827,7 @@
   health_points: 9
   attack: 3
   rarity: Ultra Rare
-  special_attributes: Incarnation, Magic Attack
+  special_attributes: <a href="#definition_496719324">Incarnation</a>, <a href="#definition_468552885">Magic Attack</a>
   attack_directions: Magic Nuke
   defense_directions: None
   body: |    Novogus Gravekeeper's Magic Attack targets all enemies on non-Earth fields.  Destroy Novogus Gravekeeper if it is on a Biolith field.
@@ -843,7 +843,7 @@
   health_points: 1
   attack: 0
   rarity: Rare
-  special_attributes: Sacrifice
+  special_attributes: <a href="#definition_373885792">Sacrifice</a>
   attack_directions: No Attack
   defense_directions: None Blind Arc
   body: |    Sacrifice Yellow Cubic to summon a non-cubic Earth creature in its place (facing any direction) without paying the Summoning Cost.  The summoned creature cannot attack this turn.  This does not end your turn.
@@ -965,7 +965,7 @@
   health_points: 3
   attack: 1
   rarity: Uncommon
-  special_attributes: Gains Invisibility
+  special_attributes: Gains <a href="#definition_277591766">Invisibility</a>
   attack_directions: Lancer
   defense_directions: Standard Blind Back
   body: |    Swallow Ninja gains Invisibility while at least one allied Firefly Ninja is on the board.  When Swallow Ninja damages (but does not destroy) a creature, that creature is rotated so that its back faces Swallow Ninja.  The target creature cannot counter.
@@ -981,7 +981,7 @@
   health_points: 1
   attack: 2
   rarity: Rare
-  special_attributes: Perfect Dodge
+  special_attributes: <a href="#definition_26233555">Perfect Dodge</a>
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   body: |    Destroy Juno Tree Haunt if it is on a non-Wood field.
@@ -1059,7 +1059,7 @@
   health_points: 3
   attack: 2 +
   rarity: Ultra Rare
-  special_attributes: <a href="#definition_468552885">Magic Attack</a>, Attack Power +, Grants Invisibility
+  special_attributes: <a href="#definition_468552885">Magic Attack</a>, Attack Power +, Grants <a href="#definition_277591766">Invisibility</a>
   attack_directions: Standard Magic
   defense_directions: None Blind Back
   body: |    Edin adds 1 to her Attack if the target creature is on a Wood field.  All other allied creatures on Wood fields gain Invisibility.
@@ -1106,7 +1106,7 @@
   health_points: 9
   attack: 3
   rarity: Ultra Rare
-  special_attributes: Incarnation, Magic Attack
+  special_attributes: <a href="#definition_496719324">Incarnation</a>, <a href="#definition_468552885">Magic Attack</a>
   attack_directions: Magic Nuke
   defense_directions: None
   body: |    Exalted Elven Diety's Magic Attack targets all enemies on non-Wood fields.  Destroy Exalted Elven Dieth if it is on a Biolith field.
@@ -1122,7 +1122,7 @@
   health_points: 1
   attack: 0
   rarity: Rare
-  special_attributes: Sacrifice
+  special_attributes: <a href="#definition_373885792">Sacrifice</a>
   attack_directions: No Attack
   defense_directions: None Blind Arc
   body: |    Sacrifice Green Cubic to summon a non-cubic Wood creature in its place (facing any direction) without paying the Summoning Cost.  The summoned creature cannot attack this turn.  This does not end your turn.
@@ -1202,7 +1202,7 @@
   health_points: 3
   attack: 2 +
   rarity: Common
-  special_attributes: Gains Protection, <a href="#definition_632695613">Summoning Lock</a>, Attack Power +
+  special_attributes: Gains <a href="#definition_567700710">Protection</a>, <a href="#definition_632695613">Summoning Lock</a>, Attack Power +
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   body: |    Morning Star Warrior adds 2 to its Attack if the target creature has 5 or more HPs.  Morning Star Warrior gains Protection equal to the number of allied Biolith creatures.
@@ -1218,7 +1218,7 @@
   health_points: 4
   attack: 2
   rarity: Rare
-  special_attributes: <a href="#definition_632695613">Summoning Lock</a>, Gains Perfect Dodge
+  special_attributes: <a href="#definition_632695613">Summoning Lock</a>, Gains <a href="#definition_26233555">Perfect Dodge</a>
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    While Biolith Ninja is on a Biolith field, it gains Perfect Dodge.  Biolith Ninja always attacks the back of its target.
@@ -1282,7 +1282,7 @@
   health_points: 5
   attack: 1
   rarity: Rare
-  special_attributes: <a href="#definition_632695613">Summoning Lock</a>, Fortress, Grants Invisibility
+  special_attributes: <a href="#definition_632695613">Summoning Lock</a>, Fortress, Grants <a href="#definition_277591766">Invisibility</a>
   attack_directions: Selective Full Circle
   defense_directions: Full
   body: |    All other allied creatures of the same element as the field Aegis citadel is on gain Invisibility.
@@ -1393,7 +1393,7 @@
   health_points: 12
   attack: 4
   rarity: Ultra Rare
-  special_attributes: Incarnation, Magic Attack, <a href="#definition_632695613">Summoning Lock</a>
+  special_attributes: <a href="#definition_496719324">Incarnation</a>, <a href="#definition_468552885">Magic Attack</a>, <a href="#definition_632695613">Summoning Lock</a>
   attack_directions: Magic Nuke
   defense_directions: None
   body: |    Phaseus's Magic Attack targets all enemies.  Destroy Phaseus if he is on a non-Biolith field.
@@ -1408,7 +1408,7 @@
   health_points: 1
   attack: 0
   rarity: Ultra Rare
-  special_attributes: Dodge Attempt, Sacrifice
+  special_attributes: Dodge Attempt, <a href="#definition_373885792">Sacrifice</a>
   attack_directions: No Attack
   defense_directions: None Blind Arc
   body: |    White Cubic does not belong to any element.  Sacrifice White Cubic to summon any creaute in its place (facing any direction) without paying the Summoning Cost.  This summoned creautre cannot attack this turn.  This does not end your turn.
@@ -1656,7 +1656,7 @@
   health_points: 2
   attack: 1
   rarity: Common
-  special_attributes: Return, Grants Magic Protection
+  special_attributes: <a href="#definition_83630333">Return</a>, Grants <a href="#definition_644322934">Magic Protection</a>
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    Allied creatures on adjacent fields gain +1 Magic Protection.
@@ -1688,7 +1688,7 @@
   health_points: 1
   attack: 0
   rarity: Common
-  special_attributes: Perfect Dodge
+  special_attributes: <a href="#definition_26233555">Perfect Dodge</a>
   attack_directions: No Attack
   defense_directions: None
   body: |    While an allied Did the Enlightened is on the board, all allied creatures gain <i><a href="#definition_834811005">Quickness</a></i>.<br /><br />Subtract 1 from the Summoning Cost of other allied Fire creatures (minimum 1).
@@ -1752,7 +1752,7 @@
   health_points: 4
   attack: 2
   rarity: Rare
-  special_attributes: <a href="#definition_468552885">Magic Attack</a>, Return
+  special_attributes: <a href="#definition_468552885">Magic Attack</a>, <a href="#definition_83630333">Return</a>
   attack_directions: Standard Magic
   defense_directions: None Blind Back
   body: |    When Parmetic Deathspeaker is summoned, the allied creature directly in front of her gains 2 HP.
@@ -1799,7 +1799,7 @@
   health_points: 4
   attack: 0
   rarity: Uncommon
-  special_attributes: Grants Magic Protection
+  special_attributes: Grants <a href="#definition_644322934">Magic Protection</a>
   attack_directions: No Attack
   defense_directions: None Blind Back
   body: |    Any Earth field within the 2 Fields in front of Flameheart is also treated as a Fire field.<br /><br />Other Allied Creatures gain +2 Magic Protection.<br /><br />Subtract 1 from the Summoning Cost of other allied Fire creatures (minimum 1).
@@ -1892,7 +1892,7 @@
   health_points: 3
   attack: 1
   rarity: Common
-  special_attributes: Gains Perfect Dodge
+  special_attributes: Gains <a href="#definition_26233555">Perfect Dodge</a>
   attack_directions: Left Right Strike
   defense_directions: Left Right
   body: |    Frost Guards gain <i>Perfect Dodge</i> when attacked by Fire creatures.
@@ -1954,7 +1954,7 @@
   health_points: 1
   attack: 0
   rarity: Common
-  special_attributes: Perfect Dodge
+  special_attributes: <a href="#definition_26233555">Perfect Dodge</a>
   attack_directions: No Attack
   defense_directions: None
   body: |    Ghost Ship gains <i>Possession</i> of enemy creatures on Water fields within the 2 fields in front of it.
@@ -2001,7 +2001,7 @@
   health_points: 3
   attack: 1
   rarity: Rare
-  special_attributes: Fortress, Grants Perfect Dodge
+  special_attributes: <a href="#definition_369701777">Fortress</a>, Grants <a href="#definition_26233555">Perfect Dodge</a>
   attack_directions: Selective Full Circle
   defense_directions: Full
   body: |    While Okunada Moving Temple is on a non-Water field, adjacent allied creatures gain <i>Perfect Dodge</i> in your opponent's turn.<br /><br />Destroy Okunada Moving Temple if it is on a Fire field.
@@ -2156,7 +2156,7 @@
   health_points: 3
   attack: 1
   rarity: Common
-  special_attributes: Gains Protection
+  special_attributes: Gains <a href="#definition_567700710">Protection</a>
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   body: |    Enemies within the 2 fields in front of Dwarf Sniper cannot <i>Dodge.</i><br /><br />While an allied Blackhood Dwarf Vulitra is on the board, Dwarf Sniper gains +1 <i>Protection.</i>
@@ -2172,7 +2172,7 @@
   health_points: 3
   attack: 1 +
   rarity: Uncommon
-  special_attributes: <a href="#definition_632695613">Summoning Lock</a>, Attack Power +, Grants Protection
+  special_attributes: <a href="#definition_632695613">Summoning Lock</a>, Attack Power +, Grants <a href="#definition_567700710">Protection</a>
   attack_directions: Lancer
   defense_directions: Standard Blind Back
   body: |    When Battering Ram attacks a Base creature, it adds 3 to its Attack.<br /><br />Adjacent allied creatures gain +1 <i>Protection</i>
@@ -2203,7 +2203,7 @@
   health_points: 2
   attack: 2
   rarity: Uncommon
-  special_attributes: Resurrection
+  special_attributes: <a href="#definition_1030593540">Resurrection</a>
   attack_directions: Front Back Strike
   defense_directions: Front Back
 
@@ -2388,7 +2388,7 @@
   health_points: 1
   attack: 0
   rarity: Uncommon
-  special_attributes: Perfect Dodge
+  special_attributes: <a href="#definition_26233555">Perfect Dodge</a>
   attack_directions: No Attack
   defense_directions: None Blind Full
   body: |    Enemy creatures that are destroyed adjacent to White Tree Haunt do not generate exit mana.<br /><br />Destroy White Tree Haunt if it is on non-Wood field.
@@ -2481,7 +2481,7 @@
   health_points: 6
   attack: 1
   rarity: Rare
-  special_attributes: Fortress, Grants Dodge Attempt
+  special_attributes: <a href="#definition_369701777">Fortress</a>, Grants Dodge Attempt
   attack_directions: Selective Full Circle
   defense_directions: Full
   body: |    Each time an allied Green Bandits creature is summoned, switch the printed HP and Attack of that creature. <br /><br />Allied Green Bandits creatures gain a Dodge attempt if their remaining HP is 1. <br /><br />Destroy Goblin Fort if it is on an Earth field.
@@ -2607,7 +2607,7 @@
   health_points: 4
   attack: 1
   rarity: Uncommon
-  special_attributes: <a href="#definition_468552885">Magic Attack</a>, <a href="#definition_632695613">Summoning Lock</a>, Grants Magic Protection
+  special_attributes: <a href="#definition_468552885">Magic Attack</a>, <a href="#definition_632695613">Summoning Lock</a>, Grants <a href="#definition_644322934">Magic Protection</a>
   attack_directions: Standard Magic
   defense_directions: None
   body: |    All other allied creatures of the same element as the field where Athenix Citadel is located gain +1 Magic Protection.
@@ -2751,7 +2751,7 @@
   health_points: 8
   attack: 2
   rarity: Ultra Rare
-  special_attributes: <a href="#definition_468552885">Magic Attack</a>, <a href="#definition_632695613">Summoning Lock</a>, Grants Magic Protection
+  special_attributes: <a href="#definition_468552885">Magic Attack</a>, <a href="#definition_632695613">Summoning Lock</a>, Grants <a href="#definition_644322934">Magic Protection</a>
   attack_directions: Standard Magic
   defense_directions: None
   body: |    <b>While Biolith Battleship is on a Biolith field,</b> Biolith Battleship intercepts a summoned enemy creature <i>half the time.</i><br /><br /><b>While on a non-Biolith field</b> all other allied creatures add <b>+2</b> <i>Magic Protection.</i><br /><br /><i>Note: The printed text on the card is incorrect.</i>
@@ -2798,7 +2798,7 @@
   health_points: 5
   attack: 4
   rarity: Rare
-  special_attributes: Incarnation, <a href="#definition_632695613">Summoning Lock</a>
+  special_attributes: <a href="#definition_496719324">Incarnation</a>, <a href="#definition_632695613">Summoning Lock</a>
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   body: |    Sword of Juno does not belong to any element.<br /><br />Sword of Juno can use Incarnation on any allied non-Biolith creature.<br /><br />Subtract 2 from the Attack of enemy creatures within the 2 fields in front of Sword of Juno.
@@ -2813,7 +2813,7 @@
   health_points: 5
   attack: 0
   rarity: Rare
-  special_attributes: Incarnation, <a href="#definition_632695613">Summoning Lock</a>
+  special_attributes: <a href="#definition_496719324">Incarnation</a>, <a href="#definition_632695613">Summoning Lock</a>
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   body: |    Hammer of Juno does not belong to any element.<br /><br />Hammer of Juno can use Incarnation on any allied non-Biolith creature.<br /><br />If Hammer of Juno attacks (but does not destroy) a creature, return that creature to its owner's hand f its Summoning Cost is equal to or less than Hammer of Juno's current HP.
@@ -2828,7 +2828,7 @@
   health_points: 8
   attack: 8
   rarity: Ultra Rare
-  special_attributes: Incarnation, Magic Attack, <a href="#definition_632695613">Summoning Lock</a>
+  special_attributes: <a href="#definition_496719324">Incarnation</a>, <a href="#definition_468552885">Magic Attack</a>, <a href="#definition_632695613">Summoning Lock</a>
   attack_directions: Standard Magic
   defense_directions: None
   body: |    Spire of Juno does not belong to any element.<br /><br />Spire of Juno can use Incarnation on any allied non-Biolith creature.<br /><br />If there are any enemy Biolith creatures on the board during your opponent's Resolution Phase, you gain 2 mana.
@@ -2843,7 +2843,7 @@
   health_points: 9
   attack: 9
   rarity: Ultra Rare
-  special_attributes: Incarnation, <a href="#definition_632695613">Summoning Lock</a>
+  special_attributes: <a href="#definition_496719324">Incarnation</a>, <a href="#definition_632695613">Summoning Lock</a>
   attack_directions: Lancer
   defense_directions: Standard Blind Back
   body: |    Fist of Juno does not belong to any element.<br /><br />Fist of Juno can use Incarnation on any allied non-Biolith creature.<br /><br />Enemies on Biolith fields and fields adjacent to Biolith fields cannot <i>Dodge</i> attacks.
@@ -2855,7 +2855,7 @@
   race: Ritual
   summoning_cost: 0
   rarity: Uncommon
-  special_attributes: Sacrifice
+  special_attributes: <a href="#definition_373885792">Sacrifice</a>
   body: |    Sacrifice an allied creature. You gain mana equal to the sacrificed creature's Summoning Cost.
 192_granvenoa_altar:
   set: 2
@@ -3000,7 +3000,7 @@
   race: Dominion
   summoning_cost: 0
   rarity: Ultra Rare
-  special_attributes: <a href="#definition_632695613">Summoning Lock</a>, Sacrifice
+  special_attributes: <a href="#definition_632695613">Summoning Lock</a>, <a href="#definition_373885792">Sacrifice</a>
   body: |    Choose one allied non-Biolith creature.  You  may sacrifice the target creature to summon a Biolith creature in its place (facing any direction) without paying the Summoning Cost.<br /><br />The summoned creature cannot attack this turn.<br /><br />This does not end your turn.
 208_scion's_revelation:
   set: 2
@@ -3717,7 +3717,7 @@
   health_points: 2
   attack: 0
   rarity: Rare
-  special_attributes: Sacrifice
+  special_attributes: <a href="#definition_373885792">Sacrifice</a>
   attack_directions: No Attack
   defense_directions: None
   body: |    Instead of a rotate action, you may sacrifice Jade Mimic and summon any non-Ultra Rare Wood creature (other than another Jade Mimic) from your graveyard in its place at no Summoning Cost.  The new creature may be placed in any orientation, but cannot attack in the turn it was summoned.  This does not end your turn.
@@ -3762,7 +3762,7 @@
   health_points: 3
   attack: 1
   rarity: Common
-  special_attributes: Gains Invisibility
+  special_attributes: Gains <a href="#definition_277591766">Invisibility</a>
   attack_directions: Selective Full Circle
   defense_directions: Full
   body: |    Each time Goblin Chickenrider rotates, he gains <i>Invisibility</i> until the end of the following player's turn.<br /><br />While an allied Preacher Noova is on the board, Goblin Chickenrider subtracts 1 from his Activation Cost to rotate.
@@ -3841,7 +3841,7 @@
   health_points: 4
   attack: 1
   rarity: Uncommon
-  special_attributes: <a href="#definition_632695613">Summoning Lock</a>, Fortress, Grants Invisibility
+  special_attributes: <a href="#definition_632695613">Summoning Lock</a>, Fortress, Grants <a href="#definition_277591766">Invisibility</a>
   attack_directions: Full Longrange Strike
   defense_directions: Full
   body: |    While Moggy Howdah is on a non-Biolith field, all other allied creatures with the same orientation as Moggy Howdah gain <i>Invisibility</i>.<br /><br />Destroy Moggy Howdah if it is on an Earth field.
@@ -3902,7 +3902,7 @@
   health_points: 4
   attack: 0
   rarity: Common
-  special_attributes: <a href="#definition_632695613">Summoning Lock</a>, Grants Protection
+  special_attributes: <a href="#definition_632695613">Summoning Lock</a>, Grants <a href="#definition_567700710">Protection</a>
   attack_directions: No Attack
   defense_directions: None
   body: |    All other allied creatures of the same element as the field Architekt is on gain +2 <i>Protection</i><br /><br />Any creature adjacent to Architekt cannot move or rotate.
@@ -3918,7 +3918,7 @@
   health_points: 4
   attack: 1
   rarity: Rare
-  special_attributes: <a href="#definition_632695613">Summoning Lock</a>, Sacrifice
+  special_attributes: <a href="#definition_632695613">Summoning Lock</a>, <a href="#definition_373885792">Sacrifice</a>
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    Instead of an attack action, you may sacrifice Biolith Transmorph and summon any non-Ultra Rare elemental creature (other than another Biolith Transmorph) from your library in its place at no Summoning Cost.<br /><br />The new creature may be placed in any orientation, but cannot attac kin the turn in which it was summoned.  This does not end your turn.  Then shuffle your library.
@@ -4030,7 +4030,7 @@
   health_points: 7
   attack: 1
   rarity: Rare
-  special_attributes: <a href="#definition_468552885">Magic Attack</a>, <a href="#definition_632695613">Summoning Lock</a>, Gains Perfect Dodge
+  special_attributes: <a href="#definition_468552885">Magic Attack</a>, <a href="#definition_632695613">Summoning Lock</a>, Gains <a href="#definition_26233555">Perfect Dodge</a>
   attack_directions: Standard Magic
   defense_directions: None
   body: |    Scion's Peace loses 1 HP during each Resolution Phase, unless this would cause it to fall below 1 HP.<br /><br />Scion's Peace adds 1 to its Attack during each Resolution Phase.<br /><br />While Scion's Peace is on a Biolith field, it gains <i>Perfect Dodge</i>
@@ -4207,7 +4207,7 @@
   race: Conjuration
   summoning_cost: 2
   rarity: Rare
-  special_attributes: Sacrifice
+  special_attributes: <a href="#definition_373885792">Sacrifice</a>
   body: |    Sacrifice an allied creature.  Search your graveyard for a non-Ultra Rare creature of the same element as the sacrificed creature and summon it to the same field (facing any direction without paying the Summoning Cost.<br /><br />You cannot summon the same creature as one that was summoned in this turn or with the same name as the sacrificed creature.<br /><br />The summoned creature cannot attack this turn.<br /><br />Playing this card ends your turn.
 300_aluhja_seduction:
   set: 3
