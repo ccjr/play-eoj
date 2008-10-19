@@ -10,7 +10,7 @@
   health_points: 1
   attack: 1
   rarity: Common
-  special_attributes: Magic&nbsp;Attack
+  special_attributes: Magic Attack
   attack_directions: Standard Magic
   defense_directions: None Blind Full
 
@@ -55,7 +55,7 @@
   health_points: 2
   attack: 2
   rarity: Common
-  special_attributes: <a href="#definition_834811005">Quickness</a>, Attack&nbsp;Cost&nbsp;-
+  special_attributes: <a href="#definition_834811005">Quickness</a>, Attack Cost -
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    The Activation Cost to attack with Partmole Flame Lizard is 1 less than listed.
@@ -71,7 +71,7 @@
   health_points: 2
   attack: 1
   rarity: Uncommon
-  special_attributes: Gains&nbsp;Invisibility, Gains&nbsp;Perfect&nbsp;Dodge
+  special_attributes: Gains Invisibility, Gains Perfect Dodge
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    While Firefly Ninja is on a Fire field it gains Perfect Dodge.  Firefly Ninja gains Invisibility while at least one allied Spider Ninja is on the board.
@@ -86,7 +86,7 @@
   health_points: 1
   attack: 2
   rarity: Rare
-  special_attributes: Perfect&nbsp;Dodge, Attack&nbsp;Cost&nbsp;-
+  special_attributes: Perfect Dodge, Attack Cost -
   attack_directions: Lancer
   defense_directions: Standard Blind Back
   body: |    The Activation Cost to attack with Great Minos is 1 less than listed.  Destroy Great Minos if he is on a non-Fire field.
@@ -102,7 +102,7 @@
   health_points: 3
   attack: 2 +
   rarity: Common
-  special_attributes: Attack&nbsp;Power&nbsp;+, Attack&nbsp;Cost&nbsp;-
+  special_attributes: Attack Power +, Attack Cost -
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    Flame Ascetic adds 2 to its Attack half the time.  The Activation Cost to attack with Flame Ascetic is 2 less than listed.
@@ -118,7 +118,7 @@
   health_points: 3
   attack: 1 +
   rarity: Uncommon
-  special_attributes: Attack&nbsp;Power&nbsp;+
+  special_attributes: Attack Power +
   attack_directions: Lancer
   defense_directions: Standard Blind Back
   body: |    Partmole Flame Guard adds 2 to its Attack if at least one target creature is on a Water field.
@@ -150,7 +150,7 @@
   health_points: 3
   attack: 2
   rarity: Uncommon
-  special_attributes: Magic&nbsp;Attack
+  special_attributes: Magic Attack
   attack_directions: Standard Magic
   defense_directions: None Blind Back
   body: |    If Partmole Fire Oracle is destroyed, all allied creatures on board gain 1 HP.
@@ -166,7 +166,7 @@
   health_points: 4
   attack: 5 -
   rarity: Rare
-  special_attributes: Attack&nbsp;Power&nbsp;-
+  special_attributes: Attack Power -
   attack_directions: Arc Barrage
   defense_directions: Arc Blind Back
   body: |    When Triceptaur Behemoth attacks 2 creatures, subtract 2 from its Attack.  When attacking 3 creatures, subtract 4 from its Attack.
@@ -181,7 +181,7 @@
   health_points: 4
   attack: 5 +
   rarity: Rare
-  special_attributes: Attack&nbsp;Power&nbsp;+, Attack&nbsp;Cost&nbsp;-
+  special_attributes: Attack Power +, Attack Cost -
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    Pursuer of Saint Dhees' Attack is equal to 5 plus the number of other creatures on the board.  The Activation Cost to attack with Pursuer of Saint Dhees is 5 less than listed.
@@ -197,7 +197,7 @@
   health_points: 8
   attack: 5 +
   rarity: Rare
-  special_attributes: Attack&nbsp;Power&nbsp;+, Attack&nbsp;Cost&nbsp;-
+  special_attributes: Attack Power +, Attack Cost -
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   body: |    Infernal Sciondar Dragon's Attack is equal to 5 plus the number of other Fire creatures on the board.  While Infernal Sciondar Dragon is on a Fire field, its Activation Cost to attack is 3 less than listed.
@@ -213,7 +213,7 @@
   health_points: 4
   attack: 2 +
   rarity: Ultra Rare
-  special_attributes: <a href="#definition_834811005">Quickness</a>, Attack&nbsp;Power&nbsp;+
+  special_attributes: <a href="#definition_834811005">Quickness</a>, Attack Power +
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    Didi attacks the same target twice.  The target's counterattack occurs after the second attack.  Didi adds 1 to his Attack if the target creature is on a Fire field.  While Didi is on the board, no Fire field can be fieldquaked or exchanged.
@@ -229,7 +229,7 @@
   health_points: 4
   attack: 2 +
   rarity: Ultra Rare
-  special_attributes: Attack&nbsp;Power&nbsp;+
+  special_attributes: Attack Power +
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   body: |    Warden Hilda adds 1 to her Attack if the target creature is a Fire creature.  While on a non-Fire field, Hilda gains Possession of all enemies on Fire fields.
@@ -245,7 +245,7 @@
   health_points: 6
   attack: 3 + -
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+, Attack&nbsp;Power&nbsp;-
+  special_attributes: Magic Attack, Summoning Lock, Attack Power +, Attack Power -
   attack_directions: Standard::Magic Blast
   defense_directions: Standard Blind Back
   body: |    King Dios attacks the same target twice.  The counterattack of the target creature occurs after second attack.<br /><br />While King Dios is on a Fire field, he must use his Magic Attack, which affects the target and all enemies adjacent to it.  The attack value is equal to the number of Fire fields.
@@ -261,7 +261,7 @@
   health_points: 9
   attack: 3
   rarity: Ultra Rare
-  special_attributes: Incarnation, Magic&nbsp;Attack, Summoning&nbsp;Lock
+  special_attributes: Incarnation, Magic Attack, Summoning Lock
   attack_directions: Magic Nuke
   defense_directions: None
   body: |    Sciondar Fire God's Magic Attack targets all enemies on non-Fire fields.  Destroy Sciondar Fire God if he is on a Biolith Field.
@@ -293,7 +293,7 @@
   health_points: 1
   attack: 0
   rarity: Common
-  special_attributes: Grants&nbsp;Dodge&nbsp;Attempt
+  special_attributes: Grants Dodge Attempt
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    All allied creatures on adjacent fields gain one Dodge attempt.
@@ -324,7 +324,7 @@
   health_points: 2
   attack: 1
   rarity: Common
-  special_attributes: Gains&nbsp;Dodge&nbsp;Attempt
+  special_attributes: Gains Dodge Attempt
   attack_directions: Lancer
   defense_directions: Standard Blind Back
   body: |    While on a Water field, Tritonan Harpoonsman gains one Dodge attempt.
@@ -340,7 +340,7 @@
   health_points: 1
   attack: 1
   rarity: Common
-  special_attributes: Magic&nbsp;Attack, Gains&nbsp;Dodge&nbsp;Attempt
+  special_attributes: Magic Attack, Gains Dodge Attempt
   attack_directions: Standard Magic
   defense_directions: None Blind Full
   body: |    While on a Water field, Aluhja Priestess gains one Dodge attempt.
@@ -371,7 +371,7 @@
   health_points: 3
   attack: 1
   rarity: Uncommon
-  special_attributes: Gains&nbsp;Invisibility
+  special_attributes: Gains Invisibility
   attack_directions: Arc Longrange Strike
   defense_directions: Arc Blind Back
   body: |    Wolf Ninja gains invisibility while at least one allied Swallow Ninja is on the board.  If Wolf Ninja damages a creature on a Water field, it changes place with that creature (who cannot counterattack).
@@ -387,7 +387,7 @@
   health_points: 2
   attack: 1
   rarity: Uncommon
-  special_attributes: Dodge&nbsp;Attempt
+  special_attributes: Dodge Attempt
   attack_directions: Left Right Longrange
   defense_directions: Left Right Blind Front Back
   body: |    When Cloud Runner is summoned, draw cards equal to the number of Water fields.
@@ -432,7 +432,7 @@
   health_points: 1
   attack: 1
   rarity: Rare
-  special_attributes: Perfect&nbsp;Dodge, Magic&nbsp;Attack
+  special_attributes: Perfect Dodge, Magic Attack
   attack_directions: Standard Magic
   defense_directions: None Blind Back
   body: |    If Queen's Servant is destroyed, steal 1 mana from your opponent.
@@ -464,7 +464,7 @@
   health_points: 3
   attack: 2
   rarity: Rare
-  special_attributes: Grants&nbsp;Dodge&nbsp;Attempt, Gains&nbsp;Dodge&nbsp;Attempt
+  special_attributes: Grants Dodge Attempt, Gains Dodge Attempt
   attack_directions: Front Back Strike::Full Circle Barrage
   defense_directions: Full
   body: |    While on a Water field, Don must use his sceondary attack.  Don gains one Dodge attempt for each adjacent enemy.  Adjacent allied creatures gain one Dodge attempt.
@@ -480,7 +480,7 @@
   health_points: 8
   attack: 5 +
   rarity: Rare
-  special_attributes: Attack&nbsp;Power&nbsp;+
+  special_attributes: Attack Power +
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   body: |    Dragon of Voice Sea's Attack is equal to 5 plus the number of other Water creatures on the board.  While Dragon of Voice Sea is on a Water field, if you summon a creature to an adjacent field, draw a card.
@@ -496,7 +496,7 @@
   health_points: 3
   attack: 2
   rarity: Ultra Rare
-  special_attributes: Dodge&nbsp;Attempt, Grants&nbsp;Dodge&nbsp;Attempt
+  special_attributes: Dodge Attempt, Grants Dodge Attempt
   attack_directions: Lancer
   defense_directions: Standard Blind Back
   body: |    Latoo adds 1 to his Attack if at least one target creature is on a Water field.  While Latoo is on the board, all other allied creatures on Water fields gain one Dodge attempt.
@@ -511,7 +511,7 @@
   health_points: 4
   attack: 2 +
   rarity: Ultra Rare
-  special_attributes: Attack&nbsp;Power&nbsp;+
+  special_attributes: Attack Power +
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    Siam attacks the same target twice.  The counterattack of target creature ocurs after second attack.  Siam adds 1 to his Attack if the target creature is a Water creature.  All enemies on Water fields subtract 1 from their Attack.
@@ -527,7 +527,7 @@
   health_points: 5
   attack: 2
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack
+  special_attributes: Magic Attack
   attack_directions: Standard Magic
   defense_directions: None Blind Back
   body: |    When on a water field, Imposter Queen Anfisa gains Possession of all enemies on adjacent fields.
@@ -543,7 +543,7 @@
   health_points: 9
   attack: 3
   rarity: Ultra Rare
-  special_attributes: Incarnation, Magic&nbsp;Attack
+  special_attributes: Incarnation, Magic Attack
   attack_directions: Magic Nuke
   defense_directions: None
   body: |    Goddess Tritona's Magic Attack targets all enemies on non-Water fields.  Destroy Goddess Tritona if she is on a Biolith field.
@@ -575,7 +575,7 @@
   health_points: 1
   attack: 1
   rarity: Common
-  special_attributes: Grants&nbsp;Protection
+  special_attributes: Grants Protection
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    Allied creatures on adjacent fields gain +1 Protection.
@@ -591,7 +591,7 @@
   health_points: 2
   attack: 1 +
   rarity: Common
-  special_attributes: Attack&nbsp;Power&nbsp;+
+  special_attributes: Attack Power +
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    Verzar Foot Soldier adds 1 to his Attack if at least one other allied Verzar Foot Soldier is on the board.
@@ -607,7 +607,7 @@
   health_points: 1
   attack: 1
   rarity: Common
-  special_attributes: Gains&nbsp;Protection
+  special_attributes: Gains Protection
   attack_directions: Selective Full Circle
   defense_directions: Full
   body: |    Stone Wing Dwarf gains Protection equal to the number of allied Giant Axe Dwarves on the board.
@@ -638,7 +638,7 @@
   health_points: 3
   attack: 1 +
   rarity: Common
-  special_attributes: Attack&nbsp;Power&nbsp;+
+  special_attributes: Attack Power +
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    Giant Axe Dwarf adds 1 to his Attack for every allied Stone Wing Dwarf on the board.
@@ -654,7 +654,7 @@
   health_points: 2
   attack: 1
   rarity: Uncommon
-  special_attributes: Gains&nbsp;Invisibility, Magic&nbsp;Attack
+  special_attributes: Gains Invisibility, Magic Attack
   attack_directions: Standard Magic
   defense_directions: None Blind Back
   body: |    Spider Ninja gains Invisibility while at least one allied Wolf Ninja is on the board.  If Spider Ninja damages a creature on an Earth field, it switches locations with that creature (who cannot counterattack).
@@ -700,7 +700,7 @@
   health_points: 4
   attack: 1
   rarity: Uncommon
-  special_attributes: Fortress, Grants&nbsp;Protection
+  special_attributes: Fortress, Grants Protection
   attack_directions: Selective Full Circle
   defense_directions: Full
   body: |    Allied creatures on adjaent fields gain +2 Protection.  Destroy Se Hollyn Fortress if it is on a Wood field.
@@ -716,7 +716,7 @@
   health_points: 3
   attack: 2
   rarity: Rare
-  special_attributes: Gains&nbsp;Protection
+  special_attributes: Gains Protection
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    Novogus Golem gains Protection equal to the number of empty fields.
@@ -763,7 +763,7 @@
   health_points: 8
   attack: 5 +
   rarity: Rare
-  special_attributes: Attack&nbsp;Power&nbsp;+
+  special_attributes: Attack Power +
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   body: |    Undead Dragon's Attack is equal to 5 plus the number of other Earth creatures on the board.  While Undead Dragon is on an Earth field, gain 1 additional mana whenever an adjacent allied creature is destroyed.
@@ -779,7 +779,7 @@
   health_points: 3
   attack: 2 +
   rarity: Ultra Rare
-  special_attributes: Gains&nbsp;Protection, Attack&nbsp;Power&nbsp;+, Grants&nbsp;Protection
+  special_attributes: Gains Protection, Attack Power +, Grants Protection
   attack_directions: Front Back Strike
   defense_directions: Front Back
   body: |    Arelai gains Protection equal to the number of Earth fields.  Arelai adds 1 to his Attack if at least one target creature is on an Earth field.  All other allied creatures on Earth fields gain +1 Protection.
@@ -795,7 +795,7 @@
   health_points: 4
   attack: 2 +
   rarity: Ultra Rare
-  special_attributes: Attack&nbsp;Power&nbsp;+
+  special_attributes: Attack Power +
   attack_directions: Lancer
   defense_directions: Standard Blind Back
   body: |    Vulitra adds 1 to his Attack if at least one target creature is an Earth creature.  If Vulitra is destroyed on a non-Earth field, your opponent must discard cards equal to the number of Earth fields.
@@ -811,7 +811,7 @@
   health_points: 6
   attack: 2
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  special_attributes: Magic Attack, Summoning Lock
   attack_directions: Standard Magic
   defense_directions: None Blind Back
   body: |    If Undead King Novogus is on a non-Earth field and damages a creature, fieldquake the target creature's field.  The target creature cannot counterattack.
@@ -827,7 +827,7 @@
   health_points: 9
   attack: 3
   rarity: Ultra Rare
-  special_attributes: Incarnation, Magic&nbsp;Attack
+  special_attributes: Incarnation, Magic Attack
   attack_directions: Magic Nuke
   defense_directions: None
   body: |    Novogus Gravekeeper's Magic Attack targets all enemies on non-Earth fields.  Destroy Novogus Gravekeeper if it is on a Biolith field.
@@ -874,7 +874,7 @@
   health_points: 1 +
   attack: 0 +
   rarity: Common
-  special_attributes: Attack&nbsp;Power&nbsp;+, HP&nbsp;+
+  special_attributes: Attack Power +, HP +
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    When Green Lycanthrope is summoned, half the time add 3 to its HP and 2 to its Attack.
@@ -919,7 +919,7 @@
   health_points: 3
   attack: 1 +
   rarity: Uncommon
-  special_attributes: Attack&nbsp;Power&nbsp;+, Gains&nbsp;Dodge&nbsp;Attempt
+  special_attributes: Attack Power +, Gains Dodge Attempt
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   body: |    While Elven Berserker Maiden has exactly 1 HP, she adds 2 to her Attack and gains a Dodge attempt.
@@ -965,7 +965,7 @@
   health_points: 3
   attack: 1
   rarity: Uncommon
-  special_attributes: Gains&nbsp;Invisibility
+  special_attributes: Gains Invisibility
   attack_directions: Lancer
   defense_directions: Standard Blind Back
   body: |    Swallow Ninja gains Invisibility while at least one allied Firefly Ninja is on the board.  When Swallow Ninja damages (but does not destroy) a creature, that creature is rotated so that its back faces Swallow Ninja.  The target creature cannot counter.
@@ -981,7 +981,7 @@
   health_points: 1
   attack: 2
   rarity: Rare
-  special_attributes: Perfect&nbsp;Dodge
+  special_attributes: Perfect Dodge
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   body: |    Destroy Juno Tree Haunt if it is on a non-Wood field.
@@ -1027,7 +1027,7 @@
   health_points: 3
   attack: 1
   rarity: Rare
-  special_attributes: Magic&nbsp;Attack
+  special_attributes: Magic Attack
   attack_directions: Standard Magic
   defense_directions: None Blind Back
   body: |    If Elven Death Dancer damages (but does not destroy) a creature, she switches locations with that creature (who cannot counterattack).  Enemies on adjacent fields add 3 to their Activation Cost.
@@ -1043,7 +1043,7 @@
   health_points: 8
   attack: 5 +
   rarity: Rare
-  special_attributes: Attack&nbsp;Power&nbsp;+
+  special_attributes: Attack Power +
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   body: |    Juno Forest Dragon's Attack is equal to 5 plus the number of other Wood creatures on the board.  While Juno Forest Dragon is on a Wood field, enemies on adjacent fields add 2 to their Activation Cost.
@@ -1059,7 +1059,7 @@
   health_points: 3
   attack: 2 +
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Attack&nbsp;Power&nbsp;+, Grants&nbsp;Invisibility
+  special_attributes: Magic Attack, Attack Power +, Grants Invisibility
   attack_directions: Standard Magic
   defense_directions: None Blind Back
   body: |    Edin adds 1 to her Attack if the target creature is on a Wood field.  All other allied creatures on Wood fields gain Invisibility.
@@ -1075,7 +1075,7 @@
   health_points: 3
   attack: 2 +
   rarity: Ultra Rare
-  special_attributes: Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  special_attributes: Summoning Lock, Attack Power +
   attack_directions: Selective Arc
   defense_directions: Arc Blind Back
   body: |    Inquisitor Koog adds 1 to his Attack if the target creature is a Wood creature.  If Inquisitor Koog is destroyed, you gain additional mana equal to the number of enemies.
@@ -1106,7 +1106,7 @@
   health_points: 9
   attack: 3
   rarity: Ultra Rare
-  special_attributes: Incarnation, Magic&nbsp;Attack
+  special_attributes: Incarnation, Magic Attack
   attack_directions: Magic Nuke
   defense_directions: None
   body: |    Exalted Elven Diety's Magic Attack targets all enemies on non-Wood fields.  Destroy Exalted Elven Dieth if it is on a Biolith field.
@@ -1138,7 +1138,7 @@
   health_points: 3
   attack: 1 +
   rarity: Common
-  special_attributes: Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  special_attributes: Summoning Lock, Attack Power +
   attack_directions: Left Right Longrange Strike
   defense_directions: Full
   body: |    Biolith Bomber adds 2 to its Attack if the target creature has a Summoning Cost of 2 or lower.
@@ -1154,7 +1154,7 @@
   health_points: 1
   attack: 0
   rarity: Rare
-  special_attributes: Dodge&nbsp;Attempt, Summoning&nbsp;Lock
+  special_attributes: Dodge Attempt, Summoning Lock
   attack_directions: Selective Full Circle
   defense_directions: Full
   body: |    If Biolith Stinger damages (but does not destroy) a creature, it switches locations with that creature (who cannot counterattack).
@@ -1170,7 +1170,7 @@
   health_points: 4
   attack: 2
   rarity: Common
-  special_attributes: Summoning&nbsp;Lock
+  special_attributes: Summoning Lock
   attack_directions: Left Right Strike
   defense_directions: Left Right
   body: |    Gain 1 mana each time you summon a creature to a Biolith field.
@@ -1186,7 +1186,7 @@
   health_points: 5
   attack: 3
   rarity: Common
-  special_attributes: Summoning&nbsp;Lock
+  special_attributes: Summoning Lock
   attack_directions: 90 Degree Right
   defense_directions: 90 Degree Right Blind Back
 
@@ -1202,7 +1202,7 @@
   health_points: 3
   attack: 2 +
   rarity: Common
-  special_attributes: Gains&nbsp;Protection, Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  special_attributes: Gains Protection, Summoning Lock, Attack Power +
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   body: |    Morning Star Warrior adds 2 to its Attack if the target creature has 5 or more HPs.  Morning Star Warrior gains Protection equal to the number of allied Biolith creatures.
@@ -1218,7 +1218,7 @@
   health_points: 4
   attack: 2
   rarity: Rare
-  special_attributes: Summoning&nbsp;Lock, Gains&nbsp;Perfect&nbsp;Dodge
+  special_attributes: Summoning Lock, Gains Perfect Dodge
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    While Biolith Ninja is on a Biolith field, it gains Perfect Dodge.  Biolith Ninja always attacks the back of its target.
@@ -1234,7 +1234,7 @@
   health_points: 4
   attack: 1
   rarity: Uncommon
-  special_attributes: Summoning&nbsp;Lock
+  special_attributes: Summoning Lock
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    When Behemoth Groundbreaker is summoned, fieldquake all adjacent fields.
@@ -1250,7 +1250,7 @@
   health_points: 5
   attack: 3 +
   rarity: Uncommon
-  special_attributes: Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  special_attributes: Summoning Lock, Attack Power +
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    Dragoon Dragoon Cavalry attacks the same target twice.  The counterattack of the target creature occurs after the second attack.<br /><br />All enemy dragons subtract 3 from their attack.
@@ -1266,7 +1266,7 @@
   health_points: 6
   attack: 3
   rarity: Uncommon
-  special_attributes: Summoning&nbsp;Lock
+  special_attributes: Summoning Lock
   attack_directions: Lancer
   defense_directions: Standard Blind Back
   body: |    If Taurus Monolith attacks (but does not destroy) a creature, that creature is pushed back one field in the direction of the attack (provided the field is empty) and cannot counterattack.
@@ -1282,7 +1282,7 @@
   health_points: 5
   attack: 1
   rarity: Rare
-  special_attributes: Summoning&nbsp;Lock, Fortress, Grants&nbsp;Invisibility
+  special_attributes: Summoning Lock, Fortress, Grants Invisibility
   attack_directions: Selective Full Circle
   defense_directions: Full
   body: |    All other allied creatures of the same element as the field Aegis citadel is on gain Invisibility.
@@ -1298,7 +1298,7 @@
   health_points: 5
   attack: 4
   rarity: Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  special_attributes: Magic Attack, Summoning Lock
   attack_directions: Standard Magic
   defense_directions: None Blind Back
 
@@ -1314,7 +1314,7 @@
   health_points: 10
   attack: 7 +
   rarity: Ultra Rare
-  special_attributes: Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  special_attributes: Summoning Lock, Attack Power +
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   body: |    Ouroboros Dragon's Attack is equal to 7 plus the number of other Biolith creatures on the board.  While Ouroboros Dragon is on a Biolith field, no field can be fieldquaked or exchanged.
@@ -1330,7 +1330,7 @@
   health_points: 4
   attack: 1 +
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  special_attributes: Magic Attack, Summoning Lock, Attack Power +
   attack_directions: Magic Nuke
   defense_directions: None Blind Back
   body: |    Tino's Magic Attack targets all enemies of the same elemnt as the target.  While Tino is on a Biolith field, his Attack is equal to 1 plus the number of other allied Biolith creatures.  Gain 1 mana each time you summon a creature.
@@ -1345,7 +1345,7 @@
   health_points: 4
   attack: 2 +
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  special_attributes: Magic Attack, Summoning Lock, Attack Power +
   attack_directions: Standard Magic
   defense_directions: Standard Blind Back
   body: |    If the target is an enemy Biolith, Wormak's Attack is equal to 2 plus the number of non-Biolith creatures on the board.  Gain 1 mana each time an enemy is summoned.
@@ -1361,7 +1361,7 @@
   health_points: 5
   attack: 2
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  special_attributes: Magic Attack, Summoning Lock
   attack_directions: Magic Nuke
   defense_directions: None Blind Back
   body: |    Scion's Magic Attack targets all enemies of the same element as the target.  All other allied Biolith creatures subtract 2 from their Activation Cost.
@@ -1377,7 +1377,7 @@
   health_points: 10
   attack: 1
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  special_attributes: Magic Attack, Summoning Lock
   attack_directions: Magic Nuke
   defense_directions: None
   body: |    Magic Attack targets all enemies of the same element.  When damaging a creature, that creature is rotated 180 degrees and cannot counter.  While an allied Scion is on the board, gain mana equal to the number of allied creatures during your Resolution Phas
@@ -1393,7 +1393,7 @@
   health_points: 12
   attack: 4
   rarity: Ultra Rare
-  special_attributes: Incarnation, Magic&nbsp;Attack, Summoning&nbsp;Lock
+  special_attributes: Incarnation, Magic Attack, Summoning Lock
   attack_directions: Magic Nuke
   defense_directions: None
   body: |    Phaseus's Magic Attack targets all enemies.  Destroy Phaseus if he is on a non-Biolith field.
@@ -1408,7 +1408,7 @@
   health_points: 1
   attack: 0
   rarity: Ultra Rare
-  special_attributes: Dodge&nbsp;Attempt, Sacrifice
+  special_attributes: Dodge Attempt, Sacrifice
   attack_directions: No Attack
   defense_directions: None Blind Arc
   body: |    White Cubic does not belong to any element.  Sacrifice White Cubic to summon any creaute in its place (facing any direction) without paying the Summoning Cost.  This summoned creautre cannot attack this turn.  This does not end your turn.
@@ -1528,7 +1528,7 @@
   race: Dominion
   summoning_cost: 0
   rarity: Uncommon
-  special_attributes: Magic&nbsp;Attack
+  special_attributes: Magic Attack
   body: |    Discard 2 creatures (at least one must be a Fire creature).  This spell targets all enemies on and adjacent to a selected Fire field.  Target creatures are dealt magic damage equal to the number of Fire fields.
 104_ice_flood_of_okunada:
   set: 1
@@ -1538,7 +1538,7 @@
   race: Dominion
   summoning_cost: 0
   rarity: Uncommon
-  special_attributes: Magic&nbsp;Attack
+  special_attributes: Magic Attack
   body: |    Discard 2 creatures (at least one must be a Water creature). This spell targets all enemies on and adjacent to a selected Water field. Target creatures are dealt magic damage equal to the number of Water fields.
 105_fist_of_verzar:
   set: 1
@@ -1548,7 +1548,7 @@
   race: Dominion
   summoning_cost: 0
   rarity: Uncommon
-  special_attributes: Magic&nbsp;Attack
+  special_attributes: Magic Attack
   body: |    Discard 2 creatures (at least one must be an Earth creature). This spell targets all enemies on and adjacent to a selected Earth field. Target creatures are dealt magic damage equal to the number of Earth fields.
 106_wrathful_winds_of_juno:
   set: 1
@@ -1558,7 +1558,7 @@
   race: Dominion
   summoning_cost: 0
   rarity: Uncommon
-  special_attributes: Magic&nbsp;Attack
+  special_attributes: Magic Attack
   body: |    Discard 2 creatures (at least one must be a Wood creature). This spell targets all enemies on and adjacent to a selected Wood field. Target creatures are dealt magic damage equal to the number of Wood fields.
 107_blinding_skies:
   set: 1
@@ -1568,7 +1568,7 @@
   race: Dominion
   summoning_cost: 0
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack
+  special_attributes: Magic Attack
   body: |    Discard 2 creatures (at least one must be a Biolith creature).  This spell targets all enemies on and adjacent to Biolith fields.  Target creatures are dealt magic damage equal to the number of Biolith fields.  Each target creature is only affected once.
 108_scion's_riotous_impunity:
   set: 1
@@ -1609,7 +1609,7 @@
   health_points: 1
   attack: 1 +
   rarity: Common
-  special_attributes: Attack&nbsp;Power&nbsp;+
+  special_attributes: Attack Power +
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    Flame Novice adds 1 to its Attack <i>half the time.</i><br /><br />Each adjacent enemy gets -1 HP for each of its <i>Dodge</i> attempts.
@@ -1625,7 +1625,7 @@
   health_points: 2
   attack: 0 +
   rarity: Common
-  special_attributes: Attack&nbsp;Power&nbsp;+
+  special_attributes: Attack Power +
   attack_directions: Front Back Strike
   defense_directions: Front Back Blind Left Right
   body: |    Flame Guard Recruit adds 2 to its attack if the target creature is on a Water field.
@@ -1656,7 +1656,7 @@
   health_points: 2
   attack: 1
   rarity: Common
-  special_attributes: Return, Grants&nbsp;Magic&nbsp;Protection
+  special_attributes: Return, Grants Magic Protection
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    Allied creatures on adjacent fields gain +1 Magic Protection.
@@ -1688,7 +1688,7 @@
   health_points: 1
   attack: 0
   rarity: Common
-  special_attributes: Perfect&nbsp;Dodge
+  special_attributes: Perfect Dodge
   attack_directions: No Attack
   defense_directions: None
   body: |    While an allied Did the Enlightened is on the board, all allied creatures gain <i><a href="#definition_834811005">Quickness</a></i>.<br /><br />Subtract 1 from the Summoning Cost of other allied Fire creatures (minimum 1).
@@ -1704,7 +1704,7 @@
   health_points: 3
   attack: 1
   rarity: Uncommon
-  special_attributes: Magic&nbsp;Attack
+  special_attributes: Magic Attack
   attack_directions: Standard Magic
   defense_directions: None Blind Back
   body: |    If there are no enemy Fire creatures on the board, subtract 1 from the Attack of all adjacent enemies.<br /><br />If an allied Cult of Mourning creature would add to its attack <i>half the time</i>, it now always adds to its attack.
@@ -1720,7 +1720,7 @@
   health_points: 3
   attack: 1 +
   rarity: Uncommon
-  special_attributes: Attack&nbsp;Power&nbsp;+
+  special_attributes: Attack Power +
   attack_directions: Standard::Arc Barrage
   defense_directions: Arc Blind Back
   body: |    When Behemorph is summoned, half the time add 2 to its Attack and it must use its secondary attack.
@@ -1752,7 +1752,7 @@
   health_points: 4
   attack: 2
   rarity: Rare
-  special_attributes: Magic&nbsp;Attack, Return
+  special_attributes: Magic Attack, Return
   attack_directions: Standard Magic
   defense_directions: None Blind Back
   body: |    When Parmetic Deathspeaker is summoned, the allied creature directly in front of her gains 2 HP.
@@ -1783,7 +1783,7 @@
   health_points: 3
   attack: 2
   rarity: Rare
-  special_attributes: Magic&nbsp;Attack
+  special_attributes: Magic Attack
   attack_directions: Magic Nuke
   defense_directions: None Blind Back
   body: |    Flame Archmage's <i>Magic Attack</i> targets all enemies of the same race as the target.<br /><br />Subtract 1 from the Summoning Cost of other allied Church of Parmus creatures (minimum 1).
@@ -1799,7 +1799,7 @@
   health_points: 4
   attack: 0
   rarity: Uncommon
-  special_attributes: Grants&nbsp;Magic&nbsp;Protection
+  special_attributes: Grants Magic Protection
   attack_directions: No Attack
   defense_directions: None Blind Back
   body: |    Any Earth field within the 2 Fields in front of Flameheart is also treated as a Fire field.<br /><br />Other Allied Creatures gain +2 Magic Protection.<br /><br />Subtract 1 from the Summoning Cost of other allied Fire creatures (minimum 1).
@@ -1814,7 +1814,7 @@
   health_points: 5
   attack: 2 +
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Attack&nbsp;Power&nbsp;+
+  special_attributes: Magic Attack, Attack Power +
   attack_directions: Magic Nuke
   defense_directions: None Blind Back
   body: |    Fire Witch Freedonia's Magic attack targets all enemies of the same element as the target.<br /><br />When Freedonia attacks a Biolith creature, add your current mana to her attack. While Fire Witch Freedonia is on a field, adjacent allied creatures have return.
@@ -1830,7 +1830,7 @@
   health_points: 3
   attack: 2
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  special_attributes: Magic Attack, Summoning Lock
   attack_directions: Standard Magic
   defense_directions: None Blind Back
   body: |    During your opponent's Resolution Phase, choose another creature with Summoning Cost less than or equal to the number of Lizard creatures in your graveyard. Return that creature to its owner's hand.
@@ -1846,7 +1846,7 @@
   health_points: 4
   attack: 3
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock, Invocation
+  special_attributes: Magic Attack, Summoning Lock, Invocation
   attack_directions: Magic Blast
   defense_directions: None Blind Back
   body: |    General Lug's Magic attack targets all enemies on and adjacent to the target Fire field.  <br /><br />While General Lug is on the board, creatures with <i>Invisibility</i> can be attacked as though they didn't have that ability.  <br /><br />Subtract 1 from the Summoning Cost of other allied Fire creatures (minimum 1).
@@ -1892,7 +1892,7 @@
   health_points: 3
   attack: 1
   rarity: Common
-  special_attributes: Gains&nbsp;Perfect&nbsp;Dodge
+  special_attributes: Gains Perfect Dodge
   attack_directions: Left Right Strike
   defense_directions: Left Right
   body: |    Frost Guards gain <i>Perfect Dodge</i> when attacked by Fire creatures.
@@ -1938,7 +1938,7 @@
   health_points: 3
   attack: 1
   rarity: Uncommon
-  special_attributes: Magic&nbsp;Attack
+  special_attributes: Magic Attack
   attack_directions: Standard Magic
   defense_directions: Standard Blind Back
   body: |    Each adjacent enemy gets -1 HP for each <i>Protection</i> it has.<br /><br />Destroy Aluhja Moving Citadel if it is on a Fire field.
@@ -1954,7 +1954,7 @@
   health_points: 1
   attack: 0
   rarity: Common
-  special_attributes: Perfect&nbsp;Dodge
+  special_attributes: Perfect Dodge
   attack_directions: No Attack
   defense_directions: None
   body: |    Ghost Ship gains <i>Possession</i> of enemy creatures on Water fields within the 2 fields in front of it.
@@ -1970,7 +1970,7 @@
   health_points: 2
   attack: 1
   rarity: Common
-  special_attributes: Dodge&nbsp;Attempt
+  special_attributes: Dodge Attempt
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    Shadow Diver always attacks the back of his target.
@@ -2001,7 +2001,7 @@
   health_points: 3
   attack: 1
   rarity: Rare
-  special_attributes: Fortress, Grants&nbsp;Perfect&nbsp;Dodge
+  special_attributes: Fortress, Grants Perfect Dodge
   attack_directions: Selective Full Circle
   defense_directions: Full
   body: |    While Okunada Moving Temple is on a non-Water field, adjacent allied creatures gain <i>Perfect Dodge</i> in your opponent's turn.<br /><br />Destroy Okunada Moving Temple if it is on a Fire field.
@@ -2017,7 +2017,7 @@
   health_points: 3
   attack: 2
   rarity: Uncommon
-  special_attributes: Magic&nbsp;Attack
+  special_attributes: Magic Attack
   attack_directions: Standard Magic
   defense_directions: None Blind Back
   body: |    You steal the exit mana of enemy Fire creatures.<br /><br />Add 1 to the Summoning Cost of spells cast by your opponent for each allied Wood Missionary creature.<br /><br />Subtract 2 from the Summoning Cost of allied Wood Missionary creatures (minimum 1).
@@ -2048,7 +2048,7 @@
   health_points: 5
   attack: 2
   rarity: Rare
-  special_attributes: Magic&nbsp;Attack, Grants&nbsp;Dodge&nbsp;Attempt
+  special_attributes: Magic Attack, Grants Dodge Attempt
   attack_directions: Standard Magic
   defense_directions: None Blind Back
   body: |    Each time a creature is summoned to a Water field, you may search your library for any number of creatures with the same name as the summoned creature, reveal them and put them into your hand.  Then shuffle your library.  <br /><br />All other allied Church of Parmus creatures gain 1 Dodge attempt.
@@ -2079,7 +2079,7 @@
   health_points: 4
   attack: 2 +
   rarity: Ultra Rare
-  special_attributes: Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+, Grants&nbsp;Dodge&nbsp;Attempt
+  special_attributes: Summoning Lock, Attack Power +, Grants Dodge Attempt
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    Corleo's Attack is equal to 2 plus the number of other allied Corsez Family creatures.<br /><br />Each time an allied creature <i>dodges</i> an attack, steal 1 mana from your opponent for each allied Corsez Family creature.<br /><br />Other allied creatures gain 1 <i>Dodge</i> attempt.
@@ -2095,7 +2095,7 @@
   health_points: 5
   attack: 1
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock, Invocation
+  special_attributes: Magic Attack, Summoning Lock, Invocation
   attack_directions: Magic Blast
   defense_directions: None Blind Back
   body: |    Magic Attack targets all enemies on and adjacent to the target Water field.  <br /><br />During your Resolution Phase, fieldquake all Fire fields. <br /><br />Subtract 1 from the Summoning Cost of other allied Water creatures (min 1).
@@ -2156,7 +2156,7 @@
   health_points: 3
   attack: 1
   rarity: Common
-  special_attributes: Gains&nbsp;Protection
+  special_attributes: Gains Protection
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   body: |    Enemies within the 2 fields in front of Dwarf Sniper cannot <i>Dodge.</i><br /><br />While an allied Blackhood Dwarf Vulitra is on the board, Dwarf Sniper gains +1 <i>Protection.</i>
@@ -2172,7 +2172,7 @@
   health_points: 3
   attack: 1 +
   rarity: Uncommon
-  special_attributes: Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+, Grants&nbsp;Protection
+  special_attributes: Summoning Lock, Attack Power +, Grants Protection
   attack_directions: Lancer
   defense_directions: Standard Blind Back
   body: |    When Battering Ram attacks a Base creature, it adds 3 to its Attack.<br /><br />Adjacent allied creatures gain +1 <i>Protection</i>
@@ -2219,7 +2219,7 @@
   health_points: 3
   attack: 0 +
   rarity: Rare
-  special_attributes: Attack&nbsp;Power&nbsp;+
+  special_attributes: Attack Power +
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    Verzar Golem adds 1 to its Attack for each empty field.
@@ -2235,7 +2235,7 @@
   health_points: 3
   attack: 1 +
   rarity: Common
-  special_attributes: Attack&nbsp;Power&nbsp;+
+  special_attributes: Attack Power +
   attack_directions: Selective Arc
   defense_directions: Arc Blind Back
   body: |    When Dwarf Battlebuggy attacks a non-adjacent enemy, it adds 1 to it's Attack.<br /><br />While there is an allied Dwarf creature adjacent to Dwarf Battlebuggy, Dwarf Battlebuggy gains <i>Decoy</i> for adjacent enemies (Those enemies can only attack creatures with <i>Decoy</i>). <br /><br /><i>Note: The text on the printed card is incorrect.</i>
@@ -2311,7 +2311,7 @@
   health_points: 5
   attack: 1 +
   rarity: Ultra Rare
-  special_attributes: Attack&nbsp;Power&nbsp;+
+  special_attributes: Attack Power +
   attack_directions: Standard Magic
   defense_directions: None Blind Back
   body: |    Archbisshop Jirva adds your current mana to his attack.<br /><br />You gain 1 mana during your reosultion phase.
@@ -2327,7 +2327,7 @@
   health_points: 5
   attack: 2 +
   rarity: Ultra Rare
-  special_attributes: Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  special_attributes: Summoning Lock, Attack Power +
   attack_directions: Selective Full Circle::Full Circle Barrage
   defense_directions: Full
   body: |    While Vamas, Tomb Sentinel is on a non-Earth field, it must use its secondary attack. <br /><br />Vamas adds 1 to its Attack for each Undead creature in your graveyard. <br /><br />Each time an enemy creature is destroyed, choose 1 Earth creature that is not an Ultra Rare from your graveyard and return it to your hand.
@@ -2343,7 +2343,7 @@
   health_points: 7
   attack: 1
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock, Invocation
+  special_attributes: Magic Attack, Summoning Lock, Invocation
   attack_directions: Magic Blast
   defense_directions: None Blind Back
   body: |    Magic Attack targets all enemies on and adjacent to the target Earth field. <br /><br />If your opponent forces you to discard one or more cards, they must discard instead of you.  <br /><br />Subtract 1 from the Summoning Cost of other allied Earth creatures (minimum 1).
@@ -2388,7 +2388,7 @@
   health_points: 1
   attack: 0
   rarity: Uncommon
-  special_attributes: Perfect&nbsp;Dodge
+  special_attributes: Perfect Dodge
   attack_directions: No Attack
   defense_directions: None Blind Full
   body: |    Enemy creatures that are destroyed adjacent to White Tree Haunt do not generate exit mana.<br /><br />Destroy White Tree Haunt if it is on non-Wood field.
@@ -2419,7 +2419,7 @@
   health_points: 2
   attack: 1
   rarity: Uncommon
-  special_attributes: Magic&nbsp;Attack
+  special_attributes: Magic Attack
   attack_directions: Standard Magic
   defense_directions: None Blind Back
   body: |    If Elven Plaguedancer attacks (but does not destroy) a creature, that creature is rotated 180 degrees and cannot counterattack.<br /><br />While Elven Plaguedancer is on a Wood field, add 1 to the Activation Cost of adjacent enemy creatures.
@@ -2465,7 +2465,7 @@
   health_points: 4
   attack: 1 +
   rarity: Rare
-  special_attributes: Attack&nbsp;Power&nbsp;+
+  special_attributes: Attack Power +
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    Darksword Samurai's Attack is equal to 1 plus the number of other creatures on the board.<br /><br />Subtract 2 from the Attack of adjacent allied creatures.
@@ -2481,7 +2481,7 @@
   health_points: 6
   attack: 1
   rarity: Rare
-  special_attributes: Fortress, Grants&nbsp;Dodge&nbsp;Attempt
+  special_attributes: Fortress, Grants Dodge Attempt
   attack_directions: Selective Full Circle
   defense_directions: Full
   body: |    Each time an allied Green Bandits creature is summoned, switch the printed HP and Attack of that creature. <br /><br />Allied Green Bandits creatures gain a Dodge attempt if their remaining HP is 1. <br /><br />Destroy Goblin Fort if it is on an Earth field.
@@ -2527,7 +2527,7 @@
   health_points: 4
   attack: 2
   rarity: Uncommon
-  special_attributes: Magic&nbsp;Attack
+  special_attributes: Magic Attack
   attack_directions: Standard Magic
   defense_directions: None
   body: |    While Alchemist's Lab is on a non-Wood field, each time your opponent summons a creature to an adjacent field, they put the top card of their library into their graveyard.<br /><br />Allied Elf creatures cannot be targeted by spells.<br /><br />Destroy Alchemist's Lab if it is on an Earth field.
@@ -2543,7 +2543,7 @@
   health_points: 4
   attack: 2 +
   rarity: Rare
-  special_attributes: Attack&nbsp;Power&nbsp;+
+  special_attributes: Attack Power +
   attack_directions: Lancer
   defense_directions: Standard Blind Back
   body: |    Elven Night Rider's Attack is equal to 2 plus the number of Elf creatures on the board.<br /><br />While Elven Night Rider is on a non-Wood field, each time an allied Elf creature is destroyed, Elven Night Rider gains 1 HP.<br /><br />Enemies within the 2 fields in front of Elven Night Rider cannot <i>Dodge</i>.
@@ -2559,7 +2559,7 @@
   health_points: 5
   attack: 2
   rarity: Ultra Rare
-  special_attributes: Summoning&nbsp;Lock
+  special_attributes: Summoning Lock
   attack_directions: Full Longrange Strike
   defense_directions: Full
   body: |    Each time an Elf creature is summoned, you may choose a Wood creature from your graveyard that is not Ultra Rare, and return it to your hand.<br /><br />Each time an enemy is summoned to an adjacent field, your opponent discards a card.<br /><br />All other non-Elf creatures add 2 to their activation cost.
@@ -2575,7 +2575,7 @@
   health_points: 4
   attack: 3
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  special_attributes: Magic Attack, Summoning Lock
   attack_directions: Standard Magic
   defense_directions: None Blind Back
   body: |    Each time a Green Bandits creature is summoned to an adjacent field, your opponent puts the top card of their library into their graveyard.<br /><br />Each time a non-Wood enemy is destroyed, choose a Green Bandits creature from your graveyard that is not Ultra Rare and return it to your hand.
@@ -2591,7 +2591,7 @@
   health_points: 4
   attack: 2
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock, Invocation
+  special_attributes: Magic Attack, Summoning Lock, Invocation
   attack_directions: Magic Blast
   defense_directions: None Blind Back
   body: |    Lord Hu's Magic Attack targets all enemies on and adjacent to the target Wood field.<br /><br />Each time an enemy is destroyed, you gain 1 mana.  <br /><br />Subtract 1 from the Summoning cost of other allied Wood creatures (minimum 1).
@@ -2607,7 +2607,7 @@
   health_points: 4
   attack: 1
   rarity: Uncommon
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock, Grants&nbsp;Magic&nbsp;Protection
+  special_attributes: Magic Attack, Summoning Lock, Grants Magic Protection
   attack_directions: Standard Magic
   defense_directions: None
   body: |    All other allied creatures of the same element as the field where Athenix Citadel is located gain +1 Magic Protection.
@@ -2623,7 +2623,7 @@
   health_points: 4
   attack: 1
   rarity: Uncommon
-  special_attributes: Summoning&nbsp;Lock
+  special_attributes: Summoning Lock
   attack_directions: Lancer
   defense_directions: Standard Blind Back
   body: |    Add 2 to the Summoning Cost of any enemy summoned within the 2 fields in front of Flailmonger.
@@ -2639,7 +2639,7 @@
   health_points: 4
   attack: 1
   rarity: Common
-  special_attributes: Summoning&nbsp;Lock
+  special_attributes: Summoning Lock
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    While Biolith Centurion is on a Biolith field, subtract 1 from the Activation Cost of adjacent allied creatures.
@@ -2655,7 +2655,7 @@
   health_points: 4
   attack: 2 +
   rarity: Common
-  special_attributes: Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  special_attributes: Summoning Lock, Attack Power +
   attack_directions: 90 Degree Right
   defense_directions: 90 Degree Right Blind 90 Degree
   body: |    When Biolith War Chariot attacks a creature whose Summoning Cost is 4 or more, it adds 2 to its Attack.
@@ -2671,7 +2671,7 @@
   health_points: 4
   attack: 1
   rarity: Uncommon
-  special_attributes: Summoning&nbsp;Lock
+  special_attributes: Summoning Lock
   attack_directions: Selective Arc
   defense_directions: Arc Blind Back
   body: |    After Behemoth Terrorformer attacks a creature, exchange its field with the target's field.
@@ -2687,7 +2687,7 @@
   health_points: 3
   attack: 0
   rarity: Common
-  special_attributes: Dodge&nbsp;Attempt, Summoning&nbsp;Lock
+  special_attributes: Dodge Attempt, Summoning Lock
   attack_directions: 90 Degree Right
   defense_directions: None Blind Back
   body: |    If Biolith Transporter attacks (but does not destroy) any creature, the creatures on the field in front of and field to the right of Biolith Transporter switch locations.<br /><br />If there's a creature on only one of those fields, that creature still swaps fields.<br /><br />There is no counterattack.
@@ -2703,7 +2703,7 @@
   health_points: 5
   attack: 0
   rarity: Rare
-  special_attributes: Summoning&nbsp;Lock
+  special_attributes: Summoning Lock
   attack_directions: No Attack
   defense_directions: None
   body: |    The adjacent field in front of the Archiver is also treated as a Biolith field.<br /><br />Each time an allied creature is summoned, other allied creatures of the same element as the summoned creature gain 1 HP.
@@ -2719,7 +2719,7 @@
   health_points: 6
   attack: 3
   rarity: Ultra Rare
-  special_attributes: Summoning&nbsp;Lock
+  special_attributes: Summoning Lock
   attack_directions: Full Longrange Strike
   defense_directions: Full
   body: |    Battle Master attacks the same target twice.  The target's counterattack occurs after the second attack.<br /><br />When Battle Master is summoned, you may take a Scion, Biolith Lord from your library, reveal it to your opponent, and put it into your hand.  Then shuffle your library.<br /><br />Enemies within the 2 fields to the front, back, left, and right of battle master add 2 to their Activation Cost and cannot <i>Dodge</i>
@@ -2735,7 +2735,7 @@
   health_points: 6
   attack: 2
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  special_attributes: Magic Attack, Summoning Lock
   attack_directions: Magic Nuke
   defense_directions: None Blind Back
   body: |    Magic Master's magic attack targets all enemies of the same element as the target.<br /><br />Adjacent allied creatures cannot be targeted by spells.<br /><br />All allied Church of Parmus creatures add 1 to their Attack.
@@ -2751,7 +2751,7 @@
   health_points: 8
   attack: 2
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock, Grants&nbsp;Magic&nbsp;Protection
+  special_attributes: Magic Attack, Summoning Lock, Grants Magic Protection
   attack_directions: Standard Magic
   defense_directions: None
   body: |    <b>While Biolith Battleship is on a Biolith field,</b> Biolith Battleship intercepts a summoned enemy creature <i>half the time.</i><br /><br /><b>While on a non-Biolith field</b> all other allied creatures add <b>+2</b> <i>Magic Protection.</i><br /><br /><i>Note: The printed text on the card is incorrect.</i>
@@ -2767,7 +2767,7 @@
   health_points: 7
   attack: 3
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  special_attributes: Magic Attack, Summoning Lock
   attack_directions: Magic Nuke
   defense_directions: None
   body: |    Biolith Temple's Magic Attack targets all enemies of the same race as the target.<br /><br />Each time an enemy is summoned, choose a creature from your graveyard that is not Ultra Rare, and shuffle it into your library.<br /><br />Each time an allied Church of Parmus creature is summoned, you may choose a Church of Parmus creature from your graveyard that is not Ultra Rare, and return it to your hand.<br /><br />If an allied Scion, Biolith Lord is on the board, you steal the exit mana of enemy creatures.
@@ -2783,7 +2783,7 @@
   health_points: 6
   attack: 0
   rarity: Ultra Rare
-  special_attributes: Summoning&nbsp;Lock, Invocation
+  special_attributes: Summoning Lock, Invocation
   attack_directions: No Attack
   defense_directions: None
   body: |    Each time an enemy is summoned, reveal the top card of your library.  If the revealed card is a Biolith creature, you may summon it immediately if you are able.  If you do not summon it, put it into your graveyard.  That creature cannot attack this turn.<br /><br />Biolith <i>Invocation</i>.<br /><br />Subtract 1 from the Summoning Cost of other allied Biolith creatures (minimum 1).
@@ -2798,7 +2798,7 @@
   health_points: 5
   attack: 4
   rarity: Rare
-  special_attributes: Incarnation, Summoning&nbsp;Lock
+  special_attributes: Incarnation, Summoning Lock
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   body: |    Sword of Juno does not belong to any element.<br /><br />Sword of Juno can use Incarnation on any allied non-Biolith creature.<br /><br />Subtract 2 from the Attack of enemy creatures within the 2 fields in front of Sword of Juno.
@@ -2813,7 +2813,7 @@
   health_points: 5
   attack: 0
   rarity: Rare
-  special_attributes: Incarnation, Summoning&nbsp;Lock
+  special_attributes: Incarnation, Summoning Lock
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   body: |    Hammer of Juno does not belong to any element.<br /><br />Hammer of Juno can use Incarnation on any allied non-Biolith creature.<br /><br />If Hammer of Juno attacks (but does not destroy) a creature, return that creature to its owner's hand f its Summoning Cost is equal to or less than Hammer of Juno's current HP.
@@ -2828,7 +2828,7 @@
   health_points: 8
   attack: 8
   rarity: Ultra Rare
-  special_attributes: Incarnation, Magic&nbsp;Attack, Summoning&nbsp;Lock
+  special_attributes: Incarnation, Magic Attack, Summoning Lock
   attack_directions: Standard Magic
   defense_directions: None
   body: |    Spire of Juno does not belong to any element.<br /><br />Spire of Juno can use Incarnation on any allied non-Biolith creature.<br /><br />If there are any enemy Biolith creatures on the board during your opponent's Resolution Phase, you gain 2 mana.
@@ -2843,7 +2843,7 @@
   health_points: 9
   attack: 9
   rarity: Ultra Rare
-  special_attributes: Incarnation, Summoning&nbsp;Lock
+  special_attributes: Incarnation, Summoning Lock
   attack_directions: Lancer
   defense_directions: Standard Blind Back
   body: |    Fist of Juno does not belong to any element.<br /><br />Fist of Juno can use Incarnation on any allied non-Biolith creature.<br /><br />Enemies on Biolith fields and fields adjacent to Biolith fields cannot <i>Dodge</i> attacks.
@@ -3000,7 +3000,7 @@
   race: Dominion
   summoning_cost: 0
   rarity: Ultra Rare
-  special_attributes: Summoning&nbsp;Lock, Sacrifice
+  special_attributes: Summoning Lock, Sacrifice
   body: |    Choose one allied non-Biolith creature.  You  may sacrifice the target creature to summon a Biolith creature in its place (facing any direction) without paying the Summoning Cost.<br /><br />The summoned creature cannot attack this turn.<br /><br />This does not end your turn.
 208_scion's_revelation:
   set: 2
@@ -3419,7 +3419,7 @@
   health_points: 3
   attack: 1
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Grants&nbsp;Dodge&nbsp;Attempt
+  special_attributes: Magic Attack, Grants Dodge Attempt
   attack_directions: Magic Blast
   defense_directions: None Blind Back
   body: |    Reverend Father Vlo's <i>Magic Attack</i> targets all enemies on and adjacent to the target Water field.<br /><br />When Reverend Father Vlo is summoned, you may take a Didi the Enlightened from your library, reveal it, and add it to your hand, then shuffle your library.<br /><br />Water <i>Invocation</i> (non-Ultra Rare cards only).<br /><br />While your creatures outnumber enemy creatures, all adjacent alied creatures gain a <i>Dodge</i> attempt and subtract 2 from their Attack.
@@ -3702,7 +3702,7 @@
   health_points: 2
   attack: 1
   rarity: Common
-  special_attributes: Magic&nbsp;Attack, Gains&nbsp;Dodge&nbsp;Attempt
+  special_attributes: Magic Attack, Gains Dodge Attempt
   attack_directions: Standard Magic
   defense_directions: None Blind Back
   body: |    While Elven Berserker Witch has exactly 1 HP, she gets +1 Attack and a <i>Dodge</i> attempt.
@@ -3762,7 +3762,7 @@
   health_points: 3
   attack: 1
   rarity: Common
-  special_attributes: Gains&nbsp;Invisibility
+  special_attributes: Gains Invisibility
   attack_directions: Selective Full Circle
   defense_directions: Full
   body: |    Each time Goblin Chickenrider rotates, he gains <i>Invisibility</i> until the end of the following player's turn.<br /><br />While an allied Preacher Noova is on the board, Goblin Chickenrider subtracts 1 from his Activation Cost to rotate.
@@ -3778,7 +3778,7 @@
   health_points: 4
   attack: 1 +
   rarity: Rare
-  special_attributes: Attack&nbsp;Power&nbsp;+, Grants&nbsp;Invocation
+  special_attributes: Attack Power +, Grants Invocation
   attack_directions: Selective Front
   defense_directions: Standard Blind Arc
   body: |    Arboreal Wyrm's Attack is equal to 1 plus the number of other Wood creatures on the board.<br /><br />While Arboreal Wyrm is on a Wood field, adjacent allied creatures get +1 HP.<br /><br />While an allied Flame Wyvern is on the board, all allied creatures other than itself gain Dragon <i>Invocation</i> with no Summoning Cost.
@@ -3809,7 +3809,7 @@
   health_points: 4
   attack: 2
   rarity: Common
-  special_attributes: Magic&nbsp;Attack
+  special_attributes: Magic Attack
   attack_directions: Standard Magic
   defense_directions: None Blind Back
   body: |    If Elven Scout Mistress attacks from a Water or Wood field, any damage she inflicts will reduce the target's Summoning Cost instead of HPs (minimum 1).  If the target's Summoning Cost was 1, it loses HPs as normal.<br /><br />While Elven Scout Mistress is on a Fire or Earth field, non-adjacent enemies cannot move or rotate.
@@ -3825,7 +3825,7 @@
   health_points: 3
   attack: 2 +
   rarity: Uncommon
-  special_attributes: Attack&nbsp;Power&nbsp;+, Gains&nbsp;Dodge&nbsp;Attempt
+  special_attributes: Attack Power +, Gains Dodge Attempt
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   body: |    While Berserker Princess has exactly 1 HP, she gets +2 Attack and <i>Dodge</i>.<br /><br />While Berserker Princess is on a non-Biolith field, all non-Elf creatures generate no exit mana.
@@ -3841,7 +3841,7 @@
   health_points: 4
   attack: 1
   rarity: Uncommon
-  special_attributes: Summoning&nbsp;Lock, Fortress, Grants&nbsp;Invisibility
+  special_attributes: Summoning Lock, Fortress, Grants Invisibility
   attack_directions: Full Longrange Strike
   defense_directions: Full
   body: |    While Moggy Howdah is on a non-Biolith field, all other allied creatures with the same orientation as Moggy Howdah gain <i>Invisibility</i>.<br /><br />Destroy Moggy Howdah if it is on an Earth field.
@@ -3872,7 +3872,7 @@
   health_points: 4
   attack: 2
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack
+  special_attributes: Magic Attack
   defense_directions: None Blind Back
   body: |    Mandragora Triplet's <i>Magic Attack</i> only targets enemies within her Attack Zones.<br /><br />After Mandragora Triplet attacks, if there is another allied Mandragora Triplet on the board who has not yet attacked and has one of the original targets in her Attack Zones, she will attack without paying the Activation Cost.<br /><br />while enemy creatures outnumber your creatures on the board, all other allied creatures get +1 Attack and +1 Activation Cost.
 273_wild_dendrovort:
@@ -3886,7 +3886,7 @@
   health_points: 8
   attack: 5 +
   rarity: Ultra Rare
-  special_attributes: Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  special_attributes: Summoning Lock, Attack Power +
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   body: |    Wild Dendrovort can only be summoned when 2 or more Wood creatures are on the board.<br /><br />Wild Dendrovort's Attack is equal to 5 plus the number of Wood creatures in your graveyard.<br /><br />While Wild Dendrovort is on a non-Biolith field, all adjacent allied creatures get +2 HP.<br /><br />While Wild Dendrovort is on a non-Biolith field, each time any creature rotates, all enemy creatures adjacent to Wild Dendrovort take 1 magic damage.
@@ -3902,7 +3902,7 @@
   health_points: 4
   attack: 0
   rarity: Common
-  special_attributes: Summoning&nbsp;Lock, Grants&nbsp;Protection
+  special_attributes: Summoning Lock, Grants Protection
   attack_directions: No Attack
   defense_directions: None
   body: |    All other allied creatures of the same element as the field Architekt is on gain +2 <i>Protection</i><br /><br />Any creature adjacent to Architekt cannot move or rotate.
@@ -3918,7 +3918,7 @@
   health_points: 4
   attack: 1
   rarity: Rare
-  special_attributes: Summoning&nbsp;Lock, Sacrifice
+  special_attributes: Summoning Lock, Sacrifice
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    Instead of an attack action, you may sacrifice Biolith Transmorph and summon any non-Ultra Rare elemental creature (other than another Biolith Transmorph) from your library in its place at no Summoning Cost.<br /><br />The new creature may be placed in any orientation, but cannot attac kin the turn in which it was summoned.  This does not end your turn.  Then shuffle your library.
@@ -3934,7 +3934,7 @@
   health_points: 3
   attack: 1
   rarity: Common
-  special_attributes: Summoning&nbsp;Lock
+  special_attributes: Summoning Lock
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   body: |    While an enemy creature is on an adjacent field, Barrager attacks the same target twice.  The target creature's counterattack occurs after the second attack.
@@ -3950,7 +3950,7 @@
   health_points: 5
   attack: 0
   rarity: Rare
-  special_attributes: Summoning&nbsp;Lock
+  special_attributes: Summoning Lock
   attack_directions: No Attack
   defense_directions: None Blind Back
   body: |    If your opponent does not summon a creature during their turn, you receive mana equal to the number of Biolith fields in their Resolution Phase.<br /><br />Adjacent allied Plant creatures get +1 Attack.<br /><br />all allied Plant creatures gain 1 HP in each Resolution Phase.
@@ -3966,7 +3966,7 @@
   health_points: 4
   attack: 2
   rarity: Uncommon
-  special_attributes: Summoning&nbsp;Lock
+  special_attributes: Summoning Lock
   attack_directions: Standard
   defense_directions: Standard Blind Back
   body: |    After Toxic Intruder attacks (but does not destroy) a creature, the target loses half of its HP (rounded down).
@@ -3982,7 +3982,7 @@
   health_points: 4
   attack: 2 +
   rarity: Uncommon
-  special_attributes: Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  special_attributes: Summoning Lock, Attack Power +
   attack_directions: Selective Full Circle
   defense_directions: Full
   body: |    While on a Biolith field, Biolith Sentry's Attack is equal to 2 plus the number of cards in your hand.
@@ -3998,7 +3998,7 @@
   health_points: 5
   attack: 2
   rarity: Rare
-  special_attributes: Summoning&nbsp;Lock
+  special_attributes: Summoning Lock
   attack_directions: Magic Nuke
   defense_directions: None Blind Back
   body: |    Biolith Mage Guard's <i>Magic Attack</i> targets all enemies of the same race as the target.<br /><br />When your opponent casts a spell, you may discard 1 spell card from your hand to cancel the action.  Your opponent's Casting Cost is not returned.
@@ -4014,7 +4014,7 @@
   health_points: 5
   attack: 2
   rarity: Uncommon
-  special_attributes: Summoning&nbsp;Lock
+  special_attributes: Summoning Lock
   attack_directions: Lancer
   defense_directions: Standard Blind Back
   body: |    Each time Prototype Behemoth rotates, all fields with the same element as the field it is on are <i>fieldquaked.</i>
@@ -4030,7 +4030,7 @@
   health_points: 7
   attack: 1
   rarity: Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock, Gains&nbsp;Perfect&nbsp;Dodge
+  special_attributes: Magic Attack, Summoning Lock, Gains Perfect Dodge
   attack_directions: Standard Magic
   defense_directions: None
   body: |    Scion's Peace loses 1 HP during each Resolution Phase, unless this would cause it to fall below 1 HP.<br /><br />Scion's Peace adds 1 to its Attack during each Resolution Phase.<br /><br />While Scion's Peace is on a Biolith field, it gains <i>Perfect Dodge</i>
@@ -4046,7 +4046,7 @@
   health_points: 6
   attack: 3
   rarity: Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  special_attributes: Magic Attack, Summoning Lock
   attack_directions: Arc Barrage::Magic Nuke
   defense_directions: None Blind Back
   body: |    While Centipede Tank is on a Biolith field, it must use its secondary <i>Magic Attack</i> which targets all creatures of the same race as the target.<br /><br />While Centipede tank is on a non-Biolith field, add 1 to the Summoning Cost of any enemy creature of the same element as the field Centipede Tank is on.
@@ -4062,7 +4062,7 @@
   health_points: 4
   attack: 2
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  special_attributes: Magic Attack, Summoning Lock
   attack_directions: Selective Front::Magic Nuke
   defense_directions: Standard Blind Back
   body: |    Instead of a rotate action, you may take a Pollux from your library, reveal it, and put it into your hand.  Then suffle your library.<br /><br />If Pollux is on the board, instead of taking an attack action, you may place Kastor on top of Pollux.  This will create Dioskuri, a creature with the two cards' combined HP, Attack equal to 2 plus both players' combined mana, and a <i>Magic Attack</i> that targets all enemy creatures.<br /><br />If you put Kastor on top of Pollux to creatue Dioskuri, the creature steals exit mana from enemies on Biolith fields.
@@ -4078,7 +4078,7 @@
   health_points: 4
   attack: 2
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  special_attributes: Magic Attack, Summoning Lock
   attack_directions: Standard Magic::Magic Nuke
   defense_directions: None Blind Back
   body: |    Instead of a rotate action, you may take a Kastor from your library, reveal it, and put it into your hand.  Then shuffle your library.<br /><br />If Kastor is on the board, instead of taking an attack action, you may place Pollux on top of Kastor.  This will create Dioskuri, a creature with the two cards' combined HP, Attack equal to 2 plus both players' combined mana, and a <i>Magic Attack</i> that targets all enemy creatures.<br /><br />If you put Pollus on top of Kastor to create Dioskuri, all other allied creatures on Biolith fields gain 1 HP in each Resolution Phase while Dioskuri is on the board.
@@ -4094,7 +4094,7 @@
   health_points: 5
   attack: 3 +
   rarity: Ultra Rare
-  special_attributes: Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  special_attributes: Summoning Lock, Attack Power +
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   body: |    Atomic Rudra's Attack is equal to 3 plus the number of other creatures with the same element as the target creature.<br /><br />While Rudra is on the board, any creature on a non-Biolith field loses HP equal to its combined <i>Protection, Magic Protection</i> and <i>Dodge</i> attempts.<br /><br />Each time an allied creature is summoned to a field adjacent to Atomic Rudra, Rudra deals 1 magic damage to all enemy creatures with the same element as the summoned creature.
@@ -4109,7 +4109,7 @@
   health_points: 4
   attack: 2
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  special_attributes: Magic Attack, Summoning Lock
   attack_directions: Magic Nuke
   defense_directions: None Blind Back
   body: |    Romili's <i>Magic Attach</i> targets all enemies of the same element as the target.<br /><br />Romili <i>Possesses</i> adjacent enemy creatures on Biolith fields.<br /><br />Subtract 1 from the Activation Cost of any adjacent creature.<br /><br />While an allied Lesser Granvenoa is on the board, fields adjacent to allied Lesser Granvenoa are also treated as Biolith fields.
@@ -4280,7 +4280,7 @@
   race: Dominion
   summoning_cost: 0
   rarity: Ultra Rare
-  special_attributes: Summoning&nbsp;Lock
+  special_attributes: Summoning Lock
   body: |    Choose an allied creature on the board.  While it is on a non-Biolith field, no enemy creature can receive a field bonus.
 308_first_fall_of_scion:
   set: 3
@@ -4312,7 +4312,7 @@
   health_points: 5
   attack: 2
   rarity: Ultra Rare
-  special_attributes: Magic&nbsp;Attack, Summoning&nbsp;Lock
+  special_attributes: Magic Attack, Summoning Lock
   attack_directions: Magic Nuke
   defense_directions: None Blind Back
   body: |    This creature can only be summoned by <i>Incarnation</i> on either allied Pollux or allied Kastor.<br /><br />Dioskuri's <i>Magic Attack</i> targets all enemy creatures.  Dioskuri's Attack is equal to 2 plus both players' combined mana.<br /><br />If you put Dioskuri on top of Pollux to create Dioskuri, the creature steals exit mana from enemies on Biolith fields.<br /><br />If you put Dioskuri on top of Kastor to create Dioskuri, all other allied creatures on Biolith fields gain 1 HP in each Resolution Phase while Dioskuri is on the board.
