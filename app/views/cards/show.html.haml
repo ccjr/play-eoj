@@ -1,22 +1,20 @@
-#card{:title => "Card ##{@card.number}"}
+#card{:title => "Card ##{@card.number}", :class => @card.element_class}
   %h3.title= @card.title
-  %ul{:class => (@card.spell? ? 'spell' : 'numbers')}
+  %ul{:class => (@card.spell? ? 'spell_bg' : 'numbers')}
     %li.summoning_cost= @card.summoning_cost
     - unless @card.spell?
       %li.activation_cost= @card.activation_cost
       %li.health_points= @card.health_points
       %li.attack= @card.attack
   %p.creature= image_tag "creatures/#{@card.number}.png", :width => "150px"
-  %span.element{:class => (@card.element.blank? ? 'none' : @card.element.downcase)}= @card.element
-  %p.title.clear== #{@card.element} - #{@card.rarity}
+  %span.element{:class => @card.element_class}= @card.element
+  %span.rarity{:class => @card.rarity_class}= @card.rarity
+  %h4.title.clear= [@card.race, @card.affiliation].compact.join(' / ')
   .directions= directions(@card) unless @card.spell?
-
-  %p.description
-    - unless @card.affiliation.blank?
-      == <br/> #{@card.affiliation}
+  %h4.title= link_to "View Card", image_card_path(@card)
+ 
+  .description
     - unless @card.special_attributes.blank?
-      == <br/> #{@card.special_attributes}
+      %p= @card.special_attributes
     - unless @card.body.blank?
-      == <br/> #{@card.body}
-
-  %p= image_tag "http://www.eojmanager.com/cardimagessmall/#{@card.number}.jpg"
+      %p= @card.body

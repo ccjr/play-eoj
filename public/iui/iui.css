@@ -375,11 +375,23 @@ fieldset > .row:last-child {
 
 #card {
 	width: 320px;
-	height: 350px;
+	background-color: #E4DEDE;
 }
+
+#card.biolith { background-color: #E4DEDE;}
+#card.fire 	  { background-color: #FAD9D4;}
+#card.water   { background-color: #EAF4F6;}
+#card.earth 	{ background-color: #FDF7C5;}
+#card.wood	  { background-color: #E7F5D4;}
+#card.spell   { background-color: #DBCEE0;}
+#card.none    { background-color: #FCEEE1;}
 
 .title {
 	text-align: center;
+}
+
+h4.title {
+	font-size: 0.9em;
 }
 
 .description {
@@ -398,7 +410,7 @@ fieldset > .row:last-child {
 	float: left;
 }
 
-.spell {
+.spell_bg {
 	margin: 10px;
 	list-style: none;
 	padding: 0;
@@ -459,7 +471,7 @@ fieldset > .row:last-child {
 	float: left;
 }
 
-.element {
+.element, .rarity {
 	text-indent:-90000px;
 	height: 53px;
 	width: 53px;
@@ -467,13 +479,33 @@ fieldset > .row:last-child {
 	float: right;
 }
 
-.element.biolith { background: transparent url(/images/biolith.png) no-repeat;}
-.element.fire 	 { background: transparent url(/images/fire.png) no-repeat;}
-.element.water 	 { background: transparent url(/images/water.png) no-repeat;}
-.element.earth 	 { background: transparent url(/images/earth.png) no-repeat;}
-.element.wood	   { background: transparent url(/images/wood.png) no-repeat;}
-.element.spell   { background: transparent url(/images/spell.png) no-repeat;}
-.element.none    { background: transparent url(/images/none.png) no-repeat;}
+.element.biolith { background: transparent url(/images/elements/biolith.png) no-repeat;}
+.element.fire 	 { background: transparent url(/images/elements/fire.png) no-repeat;}
+.element.water 	 { background: transparent url(/images/elements/water.png) no-repeat;}
+.element.earth 	 { background: transparent url(/images/elements/earth.png) no-repeat;}
+.element.wood	   { background: transparent url(/images/elements/wood.png) no-repeat;}
+.element.spell   { background: transparent url(/images/elements/spell.png) no-repeat;}
+.element.none    { background: transparent url(/images/elements/none.png) no-repeat;}
+
+.common_1			{ background: transparent url(/images/rarity/black_1.png) no-repeat; }
+.common_2			{ background: transparent url(/images/rarity/black_2.png) no-repeat; }
+.common_3			{ background: transparent url(/images/rarity/black_3.png) no-repeat; }
+.rare_1				{ background: transparent url(/images/rarity/silver_1.png) no-repeat; }
+.rare_2				{ background: transparent url(/images/rarity/silver_2.png) no-repeat; }
+.rare_3				{ background: transparent url(/images/rarity/silver_3.png) no-repeat; }
+.uncommon_1		{ background: transparent url(/images/rarity/white_1.png) no-repeat; }
+.uncommon_2		{ background: transparent url(/images/rarity/white_2.png) no-repeat; }
+.uncommon_3		{ background: transparent url(/images/rarity/white_3.png) no-repeat; }
+
+.ultra_rare_1, .ultra-rare_1, .phantom_1	{ 
+	background: transparent url(/images/rarity/gold_1.png) no-repeat; 
+}
+.ultra_rare_2, .ultra-rare_2, .phantom_2	{ 
+	background: transparent url(/images/rarity/gold_2.png) no-repeat;
+}
+.ultra_rare_3, .ultra-rare_3, .phantom_3	{ 
+	background: transparent url(/images/rarity/gold_3.png) no-repeat; 
+}
 
 .directions {
 	text-align: center;

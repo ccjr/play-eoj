@@ -29,4 +29,11 @@ class Card < ActiveRecord::Base
   def spell?
     self.element == 'Spell'
   end
+  
+  def element_class
+    self.element.blank? ? 'none' : self.element.downcase
+  end
+  def rarity_class
+    "#{self.rarity.gsub(' ','_').downcase}_#{self.set}"
+  end
 end

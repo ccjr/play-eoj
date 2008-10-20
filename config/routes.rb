@@ -1,5 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :cards, :collection => {:list => :get}  
+  map.resources :cards, :collection => {:list => :get}, :member => {:image => :get}  
   map.root :controller => 'cards'
   
   map.connect '/cards/element/:element', :controller => 'cards', :action => 'list'
