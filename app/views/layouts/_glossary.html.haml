@@ -3,6 +3,6 @@
     %li= link_to definition.name, "##{dom_id(definition)}"
 
 - for definition in Definition.all(:order => 'name')
-  .panel{:id => dom_id(definition)}
+  .panel{:id => dom_id(definition), :title => definition.name}
     %h3= definition.name
     %p= definition.description
