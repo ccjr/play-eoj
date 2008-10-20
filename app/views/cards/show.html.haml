@@ -6,7 +6,7 @@
       %li.activation_cost= @card.activation_cost
       %li.health_points= @card.health_points
       %li.attack= @card.attack
-  %p.creature= image_tag "http://www.eojmanager.com/creatures/#{@card.number}.png", :width => "150px"
+  %p.creature= image_tag "creatures/#{@card.number}.png", :width => "150px"
   %span.element{:class => (@card.element.blank? ? 'none' : @card.element.downcase)}= @card.element
   %p.title.clear== #{@card.element} - #{@card.rarity}
   .directions= directions(@card) unless @card.spell?
