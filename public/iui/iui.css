@@ -375,6 +375,7 @@ fieldset > .row:last-child {
 
 #card {
 	width: 320px;
+	min-height: 350px;
 	background-color: #E4DEDE;
 }
 
