@@ -4,12 +4,12 @@ This is a card browser for the "Eye of Judgment" PS3 game.
 
 -- To Do list to launch -- 
 
-* Link to other cards in the description of a card [ccjr]
 * Add Set # information to card page [rida]
 * Cache images [rida]
 
 -- To Do list for after launch -- 
 
+* Link to other cards in the description of a card [ccjr]
 * Get special attributes, body, attack direction information for Set 3 F/W/E cards
 * Get limit information for all cards
 * Make sure the card database is accurate and complete
