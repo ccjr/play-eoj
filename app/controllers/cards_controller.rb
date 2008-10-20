@@ -7,5 +7,6 @@ class CardsController < ApplicationController
   
   def list
     @cards = Card.list params
+    redirect_to @cards.first if (@cards.size == 1)
   end  
 end
