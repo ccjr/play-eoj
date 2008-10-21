@@ -1,12 +1,14 @@
-== EoJ Card browser
+== Play EoJ
 
 This is a card browser for the "Eye of Judgment" PS3 game.
 
-You can access this application from your iPhone at http://eoj.ccjr.name
+You can access this application from your iPhone at http://playeoj.mobi
 
--- To Do list for after launch -- 
+-- To Do list -- 
 
 * Link to other cards in the description of a card [ccjr]
+* Fix display issue with card #12 [rida]
+* Style no-iphone.html [rida]
 * Get special attributes, body, attack direction information for Set 3 F/W/E cards
 * Get limit information for all cards
 * Make sure the card database is accurate and complete
