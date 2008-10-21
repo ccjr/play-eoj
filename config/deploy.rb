@@ -1,7 +1,7 @@
 set :domain,      "rida@scm.spinbits.com"
 set :deploy_to,   "/mnt/www/rails/eoj"
 set :scm,         "git"
-set :repository,  "git://github.com/ccjr/eoj-card-browser.git"
+set :repository,  "git://github.com/ccjr/play-eoj.git"
 
 namespace :vlad do
   desc 'Runs vlad:update, vlad:migrate, vlad:restart_passenger'
