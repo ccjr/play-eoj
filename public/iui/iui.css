@@ -436,7 +436,7 @@ h4.title {
 	margin-left:17px;
 	padding-top:18px;
 	text-align:center;
-	width:30px;
+	width:27px;
 	float:left;
 }
 
@@ -445,12 +445,12 @@ h4.title {
 	margin-left:50px;
 	padding-top:37px;
 	text-align:center;
-	width:15px;
+	width:18px;
 }
 
 .health_points {
 	clear:both;
-	font-size:0.75em;
+	font-size:0.70em;
 	margin-left:35px;
 	padding-top:18px;
 	text-align:center;
