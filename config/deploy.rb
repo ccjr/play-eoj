@@ -1,4 +1,4 @@
-set :domain,      "rida@scm.spinbits.com"
+set :domain,      "spinbits.com"
 set :deploy_to,   "/mnt/www/rails/eoj"
 set :scm,         "git"
 set :repository,  "git://github.com/ccjr/play-eoj.git"
