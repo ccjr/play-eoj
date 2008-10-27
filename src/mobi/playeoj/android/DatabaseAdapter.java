@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-public class CardsDBAdapter {
+public class DatabaseAdapter {
 
     public static final String KEY_NAME = "name";
     public static final String KEY_NUMBER = "number";
@@ -18,7 +18,7 @@ public class CardsDBAdapter {
     private SQLiteDatabase mDb;
     
     /**
-     * Database creation sql statement
+     * Database creation SQL statement
      */
     private static final String DATABASE_CREATE =
             "create table cards (_id integer primary key autoincrement, "
@@ -39,6 +39,9 @@ public class CardsDBAdapter {
         @Override
         public void onCreate(SQLiteDatabase db) {
             db.execSQL(DATABASE_CREATE);
+            // add the data
+            addCards();
+            addDefinitions();
         }
 
         @Override
@@ -48,6 +51,14 @@ public class CardsDBAdapter {
             db.execSQL("DROP TABLE IF EXISTS cards");
             onCreate(db);
         }
+
+        private void addCards() {
+            // TODO: add all cards
+        }
+
+        private void addDefinitions() {
+            // TODO: add all definitions
+        }
     }
 
     /**
@@ -56,7 +67,7 @@ public class CardsDBAdapter {
      * 
      * @param ctx the Context within which to work
      */
-    public CardsDBAdapter(Context ctx) {
+    public DatabaseAdapter(Context ctx) {
         this.mCtx = ctx;
     }
 
@@ -69,7 +80,7 @@ public class CardsDBAdapter {
      *         initialization call)
      * @throws SQLException if the database could be neither opened or created
      */
-    public CardsDBAdapter open() throws SQLException {
+    public DatabaseAdapter open() throws SQLException {
         mDbHelper = new DatabaseHelper(mCtx);
         mDb = mDbHelper.getWritableDatabase();
         return this;
@@ -97,7 +108,6 @@ public class CardsDBAdapter {
      * @throws SQLException if note could not be found/retrieved
      */
     public Cursor fetchCard(long rowId) throws SQLException {
-
         Cursor mCursor =
                 mDb.query(true, DATABASE_TABLE, new String[] {KEY_ROWID,
                         KEY_NAME, KEY_NUMBER}, KEY_ROWID + "=" + rowId, null,
