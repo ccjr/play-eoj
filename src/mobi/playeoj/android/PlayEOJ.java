@@ -10,8 +10,8 @@ import android.widget.ListView;
 
 public class PlayEOJ extends ListActivity {
 
-    private static final int ACTIVITY_LIST_CARDS=0;
-    private static final int ACTIVITY_SHOW_CARD=1;
+    //private static final int ACTIVITY_LIST_CARDS=0;
+    //private static final int ACTIVITY_SHOW_CARD=1;
 
     private static final int MENU_ALL_CARDS = 0;
 
