@@ -2,4 +2,6 @@
 <resources>
     <string name="hello">Hello World, PlayEOJ</string>
     <string name="app_name">PlayEoJ</string>
+	<!-- Menu Options -->
+    <string name="about">About</string>
 </resources>
