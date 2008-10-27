@@ -9,23 +9,23 @@ import android.util.Log;
 
 public class DatabaseAdapter {
 
-    public static final String KEY_NAME = "name";
-    public static final String KEY_NUMBER = "number";
-    public static final String KEY_ROWID = "_id";
-
-    private static final String TAG = "CardsDBAdapter";
+    private static final String TAG = "DatabaseAdapter";
     private DatabaseHelper mDbHelper;
     private SQLiteDatabase mDb;
     
     /**
      * Database creation SQL statement
      */
-    private static final String DATABASE_CREATE =
+    private static final String CARDS_TABLE_CREATE =
             "create table cards (_id integer primary key autoincrement, "
                     + "name string not null, number integer not null);";
+    private static final String DEFINITIONS_TABLE_CREATE =
+        "create table definitions (_id integer primary key autoincrement, "
+                + "name string not null, description text not null);";
 
     private static final String DATABASE_NAME = "play_eoj";
-    private static final String DATABASE_TABLE = "cards";
+    private static final String CARDS_TABLE = "cards";
+    private static final String DEFINITIONS_TABLE = "definitions";
     private static final int DATABASE_VERSION = 1;
 
     private final Context mCtx;
@@ -38,10 +38,9 @@ public class DatabaseAdapter {
 
         @Override
         public void onCreate(SQLiteDatabase db) {
-            db.execSQL(DATABASE_CREATE);
             // add the data
-            addCards();
-            addDefinitions();
+            addCards(db);
+            addDefinitions(db);
         }
 
         @Override
@@ -49,15 +48,18 @@ public class DatabaseAdapter {
             Log.w(TAG, "Upgrading database from version " + oldVersion + " to "
                     + newVersion + ", which will destroy all old data");
             db.execSQL("DROP TABLE IF EXISTS cards");
+            db.execSQL("DROP TABLE IF EXISTS definitions");
             onCreate(db);
         }
 
-        private void addCards() {
+        private void addCards(SQLiteDatabase db) {
             // TODO: add all cards
+            db.execSQL(CARDS_TABLE_CREATE);
         }
 
-        private void addDefinitions() {
+        private void addDefinitions(SQLiteDatabase db) {
             // TODO: add all definitions
+            db.execSQL(DEFINITIONS_TABLE_CREATE);
         }
     }
 
@@ -96,8 +98,8 @@ public class DatabaseAdapter {
      * @return Cursor over all cards
      */
     public Cursor fetchAllCards() {
-        return mDb.query(DATABASE_TABLE, new String[] {KEY_ROWID, KEY_NAME,
-                KEY_NUMBER}, null, null, null, null, null);
+        return mDb.query(CARDS_TABLE, new String[] {"_id", "name",
+                "number"}, null, null, null, null, null);
     }
 
     /**
@@ -109,8 +111,8 @@ public class DatabaseAdapter {
      */
     public Cursor fetchCard(long rowId) throws SQLException {
         Cursor mCursor =
-                mDb.query(true, DATABASE_TABLE, new String[] {KEY_ROWID,
-                        KEY_NAME, KEY_NUMBER}, KEY_ROWID + "=" + rowId, null,
+                mDb.query(true, CARDS_TABLE, new String[] {"_id",
+                        "name", "number"}, "_id" + "=" + rowId, null,
                         null, null, null, null);
         if (mCursor != null) {
             mCursor.moveToFirst();
