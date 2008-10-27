@@ -1,6 +1,7 @@
 package mobi.playeoj.android;
 
 import android.app.ListActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -8,7 +9,10 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class PlayEOJ extends ListActivity {
-	
+
+    private static final int ACTIVITY_LIST_CARDS=0;
+    private static final int ACTIVITY_SHOW_CARD=1;
+
     private static final int MENU_ALL_CARDS = 0;
 
     @Override
@@ -33,5 +37,12 @@ public class PlayEOJ extends ListActivity {
             Log.w("onListItemClick", "user wants all cards");
             break;
         }
+        // show a card for any menu item
+        showCard();
+    }
+    
+    private void showCard() {
+        Intent i = new Intent(this, ShowCard.class);
+        startActivity(i);
     }
 }
