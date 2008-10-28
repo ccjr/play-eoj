@@ -12,5 +12,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".ShowCard"></activity>
+        <activity android:name=".ListDefinitions"></activity>
     </application>
 </manifest> 

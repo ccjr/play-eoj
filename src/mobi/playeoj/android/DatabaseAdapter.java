@@ -1,5 +1,6 @@
 package mobi.playeoj.android;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.SQLException;
@@ -60,6 +61,17 @@ public class DatabaseAdapter {
         private void addDefinitions(SQLiteDatabase db) {
             // TODO: add all definitions
             db.execSQL(DEFINITIONS_TABLE_CREATE);
+
+            // add some data for testing
+            addDefinition(db, "Quickness", "Lorem ipsum dolor sit..");
+            addDefinition(db, "Magic Attack", "Lorem ipsum dolor sit..");
+        }
+
+        private void addDefinition(SQLiteDatabase db, String name, String definition) {
+            ContentValues initialValues = new ContentValues();
+            initialValues.put("name", name);
+            initialValues.put("description", definition);
+            db.insert("definitions", null, initialValues);
         }
     }
 
@@ -113,6 +125,34 @@ public class DatabaseAdapter {
         Cursor mCursor =
                 mDb.query(true, CARDS_TABLE, new String[] {"_id",
                         "name", "number"}, "_id" + "=" + rowId, null,
+                        null, null, null, null);
+        if (mCursor != null) {
+            mCursor.moveToFirst();
+        }
+        return mCursor;
+    }
+
+    /**
+     * Return a Cursor over the list of all definitions in the database
+     *
+     * @return Cursor over all cards
+     */
+    public Cursor fetchAllDefinitions() {
+        return mDb.query(DEFINITIONS_TABLE, new String[] {"_id", "name",
+                "description"}, null, null, null, null, null);
+    }
+
+    /**
+     * Return a Cursor positioned at the card that matches the given rowId
+     *
+     * @param rowId id of note to retrieve
+     * @return Cursor positioned to matching card, if found
+     * @throws SQLException if note could not be found/retrieved
+     */
+    public Cursor fetchDefinition(long rowId) throws SQLException {
+        Cursor mCursor =
+                mDb.query(true, DEFINITIONS_TABLE, new String[] {"_id",
+                        "name", "description"}, "_id" + "=" + rowId, null,
                         null, null, null, null);
         if (mCursor != null) {
             mCursor.moveToFirst();
