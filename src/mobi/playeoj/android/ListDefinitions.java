@@ -19,8 +19,6 @@ public class ListDefinitions extends ListActivity {
         mDbHelper = new DatabaseAdapter(this);
         mDbHelper.open();
         fillData();
-
-        getListView().setTextFilterEnabled(true);
     }
     
     private void fillData() {
@@ -28,16 +26,14 @@ public class ListDefinitions extends ListActivity {
         mCursor = mDbHelper.fetchAllDefinitions();
         startManagingCursor(mCursor);
         
-        // Create an array to specify the fields we want to display in the list (only TITLE)
-        String[] from = new String[]{"name"};
-
-        // and an array of the fields we want to bind those fields to (in this case just text1)
-        int[] to = new int[]{};
-        
         // Now create a simple cursor adapter and set it to display
-        SimpleCursorAdapter notes = 
-        	    new SimpleCursorAdapter(this, R.layout.definitions_list, mCursor, from, to);
-        setListAdapter(notes);
+        SimpleCursorAdapter definitions = 
+        	    new SimpleCursorAdapter(this, 
+        	    		android.R.layout.simple_list_item_1, 
+        	    		mCursor, 
+        	    		new String[]{DatabaseAdapter.DEFINITION_KEY_NAME}, 
+        	    		new int[]{android.R.id.text1});
+        setListAdapter(definitions);
     }
     
     protected void onListItemClick(ListView l, View v, int position, long id) {
