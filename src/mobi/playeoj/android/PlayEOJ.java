@@ -10,7 +10,11 @@ import android.widget.ListView;
 public class PlayEOJ extends ListActivity {
 
     private static final int MENU_ALL_CARDS = 0;
+    private static final int MENU_BY_ELEMENT = 1;
+    private static final int MENU_BY_RACE = 2;
+    private static final int MENU_BY_AFFILIATION = 3;
     private static final int MENU_GLOSSARY = 4;
+    private static final int MENU_ABOUT = 5;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -33,8 +37,20 @@ public class PlayEOJ extends ListActivity {
         case MENU_ALL_CARDS:
             showCard();
             break;
+        case MENU_BY_ELEMENT:
+            showCard();
+            break;
+        case MENU_BY_RACE:
+            showCard();
+            break;
+        case MENU_BY_AFFILIATION:
+            showCard();
+            break;
         case MENU_GLOSSARY:
             showGlossary();
+            break;
+        case MENU_ABOUT:
+            showAbout();
             break;
         }
     }
@@ -49,4 +65,7 @@ public class PlayEOJ extends ListActivity {
         startActivity(i);
     }
 
+    private void showAbout() {
+    	// TODO: Show a styled resource
+    }
 }
