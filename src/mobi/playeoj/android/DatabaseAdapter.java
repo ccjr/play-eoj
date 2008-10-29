@@ -11,6 +11,7 @@ import android.util.Log;
 public class DatabaseAdapter {
 
 	public static final String DEFINITION_KEY_NAME = "name";
+	public static final String DEFINITION_KEY_DESCRIPTION = "description";
 	
     private static final String TAG = "DatabaseAdapter";
     private DatabaseHelper mDbHelper;

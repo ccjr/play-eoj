@@ -1,5 +1,6 @@
 package mobi.playeoj.android;
 
+import android.app.AlertDialog;
 import android.app.ListActivity;
 import android.database.Cursor;
 import android.os.Bundle;
@@ -40,5 +41,14 @@ public class ListDefinitions extends ListActivity {
         super.onListItemClick(l, v, position, id);
         
         mCursor = mDbHelper.fetchDefinition(id);
+        startManagingCursor(mCursor);
+
+        String description = mCursor.getString(
+            mCursor.getColumnIndexOrThrow(DatabaseAdapter.DEFINITION_KEY_DESCRIPTION));
+        String name = mCursor.getString(
+            mCursor.getColumnIndexOrThrow(DatabaseAdapter.DEFINITION_KEY_NAME));
+
+        new AlertDialog.Builder(ListDefinitions.this)
+            .setMessage(name + ": " + description).show();
     }
 }
