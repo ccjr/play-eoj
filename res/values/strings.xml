@@ -3,6 +3,11 @@
     <string name="hello">Hello World, PlayEOJ</string>
     <string name="app_name">PlayEoJ</string>
 	<!-- Menu Options -->
+    <string name="all_cards">All Cards</string>
+    <string name="by_element">By Element</string>
+    <string name="by_race">By Race</string>
+    <string name="by_affiliation">By Affiliation</string>
+    <string name="glossary">Glossary</string>
     <string name="about">About</string>
     <!-- Show Card -->
     <string name="card_name">Card Name</string>

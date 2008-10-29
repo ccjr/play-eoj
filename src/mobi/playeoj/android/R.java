@@ -19,13 +19,18 @@ public final class R {
         public static final int show_card=0x7f030001;
     }
     public static final class string {
+        public static final int about=0x7f040007;
         /**  Menu Options 
          */
-        public static final int about=0x7f040002;
+        public static final int all_cards=0x7f040002;
         public static final int app_name=0x7f040001;
+        public static final int by_affiliation=0x7f040005;
+        public static final int by_element=0x7f040003;
+        public static final int by_race=0x7f040004;
         /**  Show Card 
          */
-        public static final int card_name=0x7f040003;
+        public static final int card_name=0x7f040008;
+        public static final int glossary=0x7f040006;
         public static final int hello=0x7f040000;
     }
 }
