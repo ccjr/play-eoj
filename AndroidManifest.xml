@@ -13,5 +13,6 @@
         </activity>
         <activity android:name=".ShowCard"></activity>
         <activity android:name=".ListDefinitions"></activity>
+        <activity android:name=".About"></activity>
     </application>
 </manifest> 

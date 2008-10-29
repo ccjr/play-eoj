@@ -68,6 +68,7 @@ public class PlayEOJ extends ListActivity {
     }
 
     private void showAbout() {
-    	// TODO: Show a styled resource
+        Intent i = new Intent(this, About.class);
+        startActivity(i);
     }
 }

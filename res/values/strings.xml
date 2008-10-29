@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, PlayEOJ</string>
-    <string name="app_name">PlayEoJ</string>
+    <string name="hello">Hello World, Play EOJ</string>
+    <string name="app_name">Play EoJ</string>
 	<!-- Menu Options -->
     <string name="all_cards">All Cards</string>
     <string name="by_element">By Element</string>
@@ -11,4 +11,10 @@
     <string name="about">About</string>
     <!-- Show Card -->
     <string name="card_name">Card Name</string>
+    <!-- About -->
+    <string name="about_why"><b>WHY</b> "Play EoJ" has been created by 2 EoJ enthusiasts and RoR hackers who needed quick access to card information when learning to play EoJ. There's no better device to get this done than the iPhone, so this micro app was born.</string>
+	<string name="about_how"><b>HOW</b> Just access this very same site from your iPhone and you're ready to go.</string>
+	<string name="about_authors"><b>AUTHORS</b> Cloves Carneiro Jr. and Rida Al Barazi. Feel free to add us on PSN for a game, ccarneiroj and rbarazi. We challenge you.</string>
+	<string name="about_credit"><b>CREDIT</b> All content has been extracted from the great work done by the EoJ community sites. The card database information was extracted from eojinfo.com , the card images are from eojmanager.com , and the awesome glossary from sprybry at lbshooters.com</string>
+	<string name="about_open_source"><b>OPEN SOURCE</b> All the code for this application is open source, released under the MIT license. If you know Ruby on Rails or some HTML/CSS and want to help (and play), check the code at GitHub and feel free to jump in.</string>
 </resources>

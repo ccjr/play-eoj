@@ -15,11 +15,19 @@ public final class R {
         public static final int icon=0x7f020001;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
-        public static final int show_card=0x7f030001;
+        public static final int about=0x7f030000;
+        public static final int main=0x7f030001;
+        public static final int show_card=0x7f030002;
     }
     public static final class string {
         public static final int about=0x7f040007;
+        public static final int about_authors=0x7f04000b;
+        public static final int about_credit=0x7f04000c;
+        public static final int about_how=0x7f04000a;
+        public static final int about_open_source=0x7f04000d;
+        /**  About 
+         */
+        public static final int about_why=0x7f040009;
         /**  Menu Options 
          */
         public static final int all_cards=0x7f040002;
