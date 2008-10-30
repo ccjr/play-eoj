@@ -10,8 +10,8 @@ import android.util.Log;
 
 public class DatabaseAdapter {
 
-	public static final String DEFINITION_KEY_NAME = "name";
-	public static final String DEFINITION_KEY_DESCRIPTION = "description";
+    public static final String DEFINITION_KEY_NAME = "name";
+    public static final String DEFINITION_KEY_DESCRIPTION = "description";
 	
     private static final String TAG = "DatabaseAdapter";
     private DatabaseHelper mDbHelper;
@@ -30,7 +30,7 @@ public class DatabaseAdapter {
     private static final String DATABASE_NAME = "play_eoj";
     private static final String CARDS_TABLE = "cards";
     private static final String DEFINITIONS_TABLE = "definitions";
-    private static final int DATABASE_VERSION = 2;
+    private static final int DATABASE_VERSION = 3;
 
     private final Context mCtx;
 

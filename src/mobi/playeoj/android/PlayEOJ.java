@@ -21,7 +21,9 @@ public class PlayEOJ extends ListActivity {
         super.onCreate(savedInstanceState);
 
         String[] menuStrings =  {
-             	"All Cards", "By Element", "By Race", "By Affiliation", "Glossary", getString(R.string.about)
+            getString(R.string.all_cards), getString(R.string.by_element),
+            getString(R.string.by_race), getString(R.string.by_affiliation),
+            getString(R.string.glossary), getString(R.string.about)
         };
         
         // Use an existing ListAdapter that will map an array of strings to TextViews
@@ -66,6 +68,7 @@ public class PlayEOJ extends ListActivity {
     }
 
     private void showAbout() {
-    	// TODO: Show a styled resource
+        Intent i = new Intent(this, About.class);
+        startActivity(i);
     }
 }

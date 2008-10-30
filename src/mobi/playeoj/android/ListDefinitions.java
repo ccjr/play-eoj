@@ -16,6 +16,8 @@ public class ListDefinitions extends ListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        this.setTitle("Play EoJ >> Glossary");
+        
         // Get all of the rows from the database and create the item list
         mDbHelper = new DatabaseAdapter(this);
         mDbHelper.open();
