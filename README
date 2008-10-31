@@ -6,7 +6,6 @@ You can access this application from your iPhone at http://playeoj.mobi
 
 -- To Do list -- 
 
-* Link to other cards in the description of a card [ccjr]
-* Get special attributes, body, attack direction information for Set 3 F/W/E cards
-* Get limit information for all cards
 * Make sure the card database is accurate and complete
+  * Link to other cards in the description of a card [ccjr]
+  * Get limit information for all cards [ccjr]
