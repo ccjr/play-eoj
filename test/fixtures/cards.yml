@@ -13,7 +13,6 @@
   special_attributes: <a href="#definition_468552885">Magic Attack</a>
   attack_directions: Standard Magic
   defense_directions: None Blind Full
-
 2_hellfire_spitter:
   set: 1
   number: 2
@@ -28,7 +27,6 @@
   special_attributes: <a href="#definition_834811005">Quickness</a>
   attack_directions: Selective Full Circle
   defense_directions: Full
-
 3_freedonian_wanderer:
   set: 1
   number: 3
@@ -4085,6 +4083,22 @@
   defense_directions: Standard Blind Back
   limit: 1 of card
   body: |    Wild Dendrovort can only be summoned when 2 or more Wood creatures are on the board.<br /><br />Wild Dendrovort's Attack is equal to 5 plus the number of Wood creatures in your graveyard.<br /><br />While Wild Dendrovort is on a non-Biolith field, all adjacent allied creatures get +2 HP.<br /><br />While Wild Dendrovort is on a non-Biolith field, each time any creature rotates, all enemy creatures adjacent to Wild Dendrovort take 1 magic damage.
+274_pope-queen_cyrstin_ii:
+  set: 3
+  number: 274
+  title: Pope-Queen Cyrstin II
+  element: Wood
+  race: Noble
+  summoning_cost: 6
+  activation_cost: 4
+  health_points: 5
+  attack: 2 +
+  rarity: Ultra Rare
+  special_attributes: Summoning&nbsp;Lock, Attack&nbsp;Power&nbsp;+
+  attack_directions: Standard Ranged::Magic Blast
+  defense_directions: Standard Blind Back
+  limit: 1 of race
+  body: |    While Pope-Queen Cyrstin II is adjacent to two or more enemy creatures, she must use her secondary <i>Magic Attack</i>, which targets all enemy creatures of the same element as the target.<br /><br />When attacking a non-Wood creature, Pope-Queen Cyrstin II's attack is equal to 2 plus the number of Wood fields.<br /><br />In your opponent's resolution phase, your opponent loses mana equal to the number of enemy Biolith creatures on non-Biolith fields.<br /><br />All adjacent allied Wood creatures gain Fieldmorph.
 275_architekt:
   set: 3
   number: 275
@@ -4313,6 +4327,22 @@
   defense_directions: None Blind Back
   limit: 1 of race
   body: |    Romili's <i>Magic Attach</i> targets all enemies of the same element as the target.<br /><br />Romili <i>Possesses</i> adjacent enemy creatures on Biolith fields.<br /><br />Subtract 1 from the Activation Cost of any adjacent creature.<br /><br />While an allied Lesser Granvenoa is on the board, fields adjacent to allied Lesser Granvenoa are also treated as Biolith fields.
+289_scion_triumphant:
+  set: 3
+  number: 289
+  title: Scion Triumphant
+  element: Biolith
+  race: Noble
+  affiliation: Biolith Castle
+  summoning_cost: 9
+  activation_cost: 6
+  health_points: 8
+  attack: 2
+  rarity: Ultra Rare
+  attack_directions: Magic Nuke
+  defense_directions: None Blind Back
+  limit: 1 of race
+  body: |    Scion Triumphant can only be summoned when two or more Biolith creatures are on the board.<br /><br />Magic attack targets all enemies.<br /><br />While Scion Triumphant is on a Biolith field, in your opponent's resolution phase, choose a non-Biolith creature on the board who's summoning cost is less than or equal to the number of Biolith fields and return it to its owners hand.Any empty field is also treated as a Biolith field.
 290_the_eye_of_juno:
   set: 3
   number: 290
@@ -4509,6 +4539,15 @@
   summoning_cost: 2
   rarity: Rare
   body: |    Choose a creature on the board.  While it is on the board, it will deal 1 magic damage to all adjacent enemies each time you summon a creature.  Playing this card ends your turn.
+310_juno's_admonition:
+  set: 3
+  number: 310
+  title: Juno's Admonition
+  element: Spell
+  race: Sorcery
+  summoning_cost: 3
+  rarity: Rare
+  body: |    Choose a creature on the board.  While it is on the board, any fields whose reverse side is the same element as the creature are <i>fieldquaked</i> in either player's Resolution Phase.<br /><br />This spell has no effect on creatures with no element.<br /><br />Playing this card ends your turn.
 311_dioskuri:
   set: 3
   number: 311
