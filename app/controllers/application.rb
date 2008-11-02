@@ -12,8 +12,10 @@ class ApplicationController < ActionController::Base
   include HoptoadNotifier::Catcher
   
   def no_iphone_page
-    unless request.env["HTTP_USER_AGENT"] && request.env["HTTP_USER_AGENT"][/(Mobile\/.+Safari)/]
-      redirect_to '/no-iphone.html'
+    if RAILS_ENV == 'production'
+      unless request.env["HTTP_USER_AGENT"] && request.env["HTTP_USER_AGENT"][/(Mobile\/.+Safari)/]
+        redirect_to '/no-iphone.html'
+      end
     end
   end
 end
