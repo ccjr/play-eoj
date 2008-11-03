@@ -7,6 +7,5 @@ You can access this application from your iPhone at http://playeoj.mobi
 -- To Do list -- 
 
 * Make sure the card database is accurate and complete
-  * Create new table/model for special attributes [ccjr]
-  * Remove HTML from body and special attributes field [ccjr]
+  * Remove HTML from body field [ccjr]
   * Link to other cards in the description of a card [ccjr]
