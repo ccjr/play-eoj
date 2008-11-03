@@ -10,6 +10,9 @@ affiliation:
 attack:
   name: Attack
   description: "All creatures have an Attack score. This is the amount of damage it inflicts (Hit Points deducted) when it attacks another creature. An attack may be either physical or a Magic Attack."
+attack_cost:
+  name: Attack Cost
+  description: "The amount of mana you must spend to make one of your creatures attack."
 attack_zones:
   name: Attack Zones
   description: "The fields that a creature can attack with respect to its location and orientation. The black box shows the creature’s location on the board with the white side at the front. Red arrows show default target(s), pink arrows are optional targets. For Magic Attacks a pink arrow on a purple burst indicates that the field will be targeted if conditions are met."
@@ -37,6 +40,9 @@ discard:
 dodge:
   name: Dodge 
   description: A creature with Dodge avoids all damage from physical attacks half the time. A creature may have more than one Dodge attempt – only one needs to succeed to negate all damage. 
+dodge_attempt:
+  name: Dodge Attempt
+  description: A creature with Dodge avoids all damage from physical attacks half the time.
 draw:
   name: Draw 
   description: Taking a card from your library into your hand. 
@@ -84,7 +90,7 @@ hand:
   name: Hand 
   description: The cards held by a player and kept hidden from his opponent. You start with a hand of 5 cards and may never hold more than 7 cards at the end of your turn. 
 hit_points:
-  name: Hit Points (HPs) 
+  name: Hit Points (HPs)
   description: Used to measure a creature’s life. Hit Points are reduced when a creature takes damage from an attack or spell. When a creature’s HPs reach zero, it is destroyed. 
 intercept:
   name: Intercept 

@@ -1,0 +1,1039 @@
+1_flame_magus_magic_attack:
+  card_id: 371754166
+  definition_id: 468552885
+2_hellfire_spitter_quickness:
+  card_id: 35237801
+  definition_id: 834811005
+4_partmole_flame_lizard_quickness:
+  card_id: 888875883
+  definition_id: 834811005
+4_partmole_flame_lizard_attack_cost:
+  card_id: 888875883
+  definition_id: 790531735
+  minus: true
+5_firefly_ninja_invisibility:
+  card_id: 289829462
+  definition_id: 277591766
+  gains: true
+5_firefly_ninja_perfect_dodge:
+  card_id: 289829462
+  definition_id: 26233555
+6_great_minos_of_sciondar_perfect_dodge:
+  card_id: 707327378
+  definition_id: 26233555
+6_great_minos_of_sciondar_attack_cost:
+  card_id: 707327378
+  definition_id: 790531735
+  minus: true
+7_flame_ascetic_attack:
+  card_id: 38210739
+  definition_id: 155008980
+  plus: true
+7_flame_ascetic_attack_cost:
+  card_id: 38210739
+  definition_id: 790531735
+  minus: true
+8_partmole_flame_guard_attack:
+  card_id: 468666840
+  definition_id: 155008980
+  plus: true
+9_lesser_granvenoa_fortress:
+  card_id: 338975697
+  definition_id: 369701777
+10_partmole_fire_oracle_magic_attack:
+  card_id: 591562644
+  definition_id: 468552885
+11_triceptaur_behemoth_attack:
+  card_id: 284323983
+  definition_id: 155008980
+  minus: true
+12_pursuer_of_saint_dhees_attack:
+  card_id: 790959467
+  definition_id: 155008980
+  plus: true
+12_pursuer_of_saint_dhees_attack_cost:
+  card_id: 790959467
+  definition_id: 790531735
+  minus: true
+13_infernal_sciondar_dragon_attack:
+  card_id: 110326985
+  definition_id: 155008980
+  plus: true
+13_infernal_sciondar_dragon_attack_cost:
+  card_id: 110326985
+  definition_id: 790531735
+  minus: true
+14_didi_the_enlightened_quickness:
+  card_id: 495571048
+  definition_id: 834811005
+14_didi_the_enlightened_attack:
+  card_id: 495571048
+  definition_id: 155008980
+  plus: true
+15_warden_hilda_attack:
+  card_id: 251653899
+  definition_id: 155008980
+  plus: true
+16_crucible_king_dios_iv_magic_attack:
+  card_id: 500606191
+  definition_id: 468552885
+16_crucible_king_dios_iv_summoning_lock:
+  card_id: 500606191
+  definition_id: 632695613
+16_crucible_king_dios_iv_attack:
+  card_id: 500606191
+  definition_id: 155008980
+  plus: true
+16_crucible_king_dios_iv_attack:
+  card_id: 500606191
+  definition_id: 155008980
+  minus: true
+17_sciondar_fire_god_incarnation:
+  card_id: 1025229279
+  definition_id: 496719324
+17_sciondar_fire_god_magic_attack:
+  card_id: 1025229279
+  definition_id: 468552885
+17_sciondar_fire_god_summoning_lock:
+  card_id: 1025229279
+  definition_id: 632695613
+18_red_cubic_sacrifice:
+  card_id: 871923300
+  definition_id: 373885792
+19_monk_elder_of_okunada_dodge_attempt:
+  card_id: 1061582278
+  definition_id: 603739320
+  grants: true
+21_tritonan_harpoonsman_dodge_attempt:
+  card_id: 439037722
+  definition_id: 603739320
+  gains: true
+22_aluhja_priestess_magic_attack:
+  card_id: 397684083
+  definition_id: 468552885
+22_aluhja_priestess_dodge_attempt:
+  card_id: 397684083
+  definition_id: 603739320
+23_tentacles_of_possession_possession:
+  card_id: 553452459
+  definition_id: 246638434
+24_wolf_ninja_invisibility:
+  card_id: 12820062
+  definition_id: 277591766
+  gains: true
+25_cloud_runner_dodge_attempt:
+  card_id: 353778559
+  definition_id: 603739320
+28_queen's_servant_perfect_dodge:
+  card_id: 73482570
+  definition_id: 26233555
+28_queen's_servant_magic_attack:
+  card_id: 73482570
+  definition_id: 468552885
+29_moving_isle_of_kadena_fortress:
+  card_id: 794746937
+  definition_id: 369701777
+30_don_of_venoa_dodge_attempt:
+  card_id: 1042974810
+  definition_id: 603739320
+  grants: true
+30_don_of_venoa_dodge_attempt:
+  card_id: 1042974810
+  definition_id: 603739320
+31_dragon_of_voice_sea_attack:
+  card_id: 237447215
+  definition_id: 155008980
+  plus: true
+32_mercenary_savior_latoo_dodge_attempt:
+  card_id: 716812127
+  definition_id: 603739320
+32_mercenary_savior_latoo_dodge_attempt:
+  card_id: 716812127
+  definition_id: 603739320
+33_siam,_traitor_of_the_seas_attack:
+  card_id: 406979388
+  definition_id: 155008980
+  plus: true
+34_imposter_queen_anfisa_magic_attack:
+  card_id: 633590202
+  definition_id: 468552885
+35_goddess_tritona_incarnation:
+  card_id: 480573187
+  definition_id: 496719324
+35_goddess_tritona_magic_attack:
+  card_id: 480573187
+  definition_id: 468552885
+36_blue_cubic_sacrifice:
+  card_id: 51624537
+  definition_id: 373885792
+37_verzar_canine_protection:
+  card_id: 822636629
+  definition_id: 567700710
+  grants: true
+38_verzar_foot_soldier_attack:
+  card_id: 59139715
+  definition_id: 155008980
+  plus: true
+39_stone_wing_dwarf_protection:
+  card_id: 588584536
+  definition_id: 567700710
+  gains: true
+41_giant_axe_dwarf_attack:
+  card_id: 143500257
+  definition_id: 155008980
+  plus: true
+42_spider_ninja_invisibility:
+  card_id: 276556154
+  definition_id: 277591766
+  gains: true
+42_spider_ninja_magic_attack:
+  card_id: 276556154
+  definition_id: 468552885
+45_se_hollyn_fortress_fortress:
+  card_id: 193188950
+  definition_id: 369701777
+45_se_hollyn_fortress_protection:
+  card_id: 193188950
+  definition_id: 567700710
+46_novogus_golem_protection:
+  card_id: 657817541
+  definition_id: 567700710
+  gains: true
+47_dungeon_of_ten_tyrants_fortress:
+  card_id: 345854768
+  definition_id: 369701777
+49_undead_dragon_attack:
+  card_id: 818451785
+  definition_id: 155008980
+  plus: true
+50_arelai_the_protector_protection:
+  card_id: 767603276
+  definition_id: 567700710
+  gains: true
+50_arelai_the_protector_attack:
+  card_id: 767603276
+  definition_id: 155008980
+  plus: true
+50_arelai_the_protector_protection:
+  card_id: 767603276
+  definition_id: 567700710
+51_black_hood_dwarf_vulitra_attack:
+  card_id: 811643526
+  definition_id: 155008980
+  plus: true
+52_undead_king_novogus_magic_attack:
+  card_id: 996523901
+  definition_id: 468552885
+52_undead_king_novogus_summoning_lock:
+  card_id: 996523901
+  definition_id: 632695613
+53_novogus_gravekeeper_incarnation:
+  card_id: 1049293612
+  definition_id: 496719324
+53_novogus_gravekeeper_magic_attack:
+  card_id: 1049293612
+  definition_id: 468552885
+54_yellow_cubic_sacrifice:
+  card_id: 546174354
+  definition_id: 373885792
+56_green_lycanthrope_attack:
+  card_id: 975482622
+  definition_id: 155008980
+  plus: true
+56_green_lycanthrope_hit_points_(hps):
+  card_id: 975482622
+  definition_id: 182477216
+  plus: true
+59_elven_berserker_maiden_attack:
+  card_id: 366996843
+  definition_id: 155008980
+  plus: true
+59_elven_berserker_maiden_dodge_attempt:
+  card_id: 366996843
+  definition_id: 603739320
+62_swallow_ninja_invisibility:
+  card_id: 724930853
+  definition_id: 277591766
+  gains: true
+63_juno_tree_haunt_perfect_dodge:
+  card_id: 26810962
+  definition_id: 26233555
+66_elven_death_dancer_magic_attack:
+  card_id: 93452684
+  definition_id: 468552885
+67_juno_forest_dragon_attack:
+  card_id: 281601276
+  definition_id: 155008980
+  plus: true
+68_edin_the_persecuted_magic_attack:
+  card_id: 770782218
+  definition_id: 468552885
+68_edin_the_persecuted_attack:
+  card_id: 770782218
+  definition_id: 155008980
+  plus: true
+68_edin_the_persecuted_invisibility:
+  card_id: 770782218
+  definition_id: 277591766
+69_inquisitor_koog_summoning_lock:
+  card_id: 61479034
+  definition_id: 632695613
+69_inquisitor_koog_attack:
+  card_id: 61479034
+  definition_id: 155008980
+  plus: true
+71_exalted_elven_deity_incarnation:
+  card_id: 758060249
+  definition_id: 496719324
+71_exalted_elven_deity_magic_attack:
+  card_id: 758060249
+  definition_id: 468552885
+72_green_cubic_sacrifice:
+  card_id: 1002021595
+  definition_id: 373885792
+73_biolith_bomber_summoning_lock:
+  card_id: 190637775
+  definition_id: 632695613
+73_biolith_bomber_attack:
+  card_id: 190637775
+  definition_id: 155008980
+  plus: true
+74_biolith_stinger_dodge_attempt:
+  card_id: 478644812
+  definition_id: 603739320
+74_biolith_stinger_summoning_lock:
+  card_id: 478644812
+  definition_id: 632695613
+75_imperial_biolith_guard_summoning_lock:
+  card_id: 585590021
+  definition_id: 632695613
+76_biolith_battle_chariot_summoning_lock:
+  card_id: 866760027
+  definition_id: 632695613
+77_morning_star_warrior_protection:
+  card_id: 38431719
+  definition_id: 567700710
+  gains: true
+77_morning_star_warrior_summoning_lock:
+  card_id: 38431719
+  definition_id: 632695613
+77_morning_star_warrior_attack:
+  card_id: 38431719
+  definition_id: 155008980
+  plus: true
+78_biolith_ninja_summoning_lock:
+  card_id: 1070646464
+  definition_id: 632695613
+78_biolith_ninja_perfect_dodge:
+  card_id: 1070646464
+  definition_id: 26233555
+79_behemoth_groundbreaker_summoning_lock:
+  card_id: 494647255
+  definition_id: 632695613
+80_dragoon_dragon_cavalry_summoning_lock:
+  card_id: 715319443
+  definition_id: 632695613
+80_dragoon_dragon_cavalry_attack:
+  card_id: 715319443
+  definition_id: 155008980
+  plus: true
+81_taurus_monolith_summoning_lock:
+  card_id: 637922599
+  definition_id: 632695613
+82_aegis_citadel_summoning_lock:
+  card_id: 885819164
+  definition_id: 632695613
+82_aegis_citadel_fortress:
+  card_id: 885819164
+  definition_id: 369701777
+82_aegis_citadel_invisibility:
+  card_id: 885819164
+  definition_id: 277591766
+83_arc_satellite_cannon_magic_attack:
+  card_id: 509958488
+  definition_id: 468552885
+83_arc_satellite_cannon_summoning_lock:
+  card_id: 509958488
+  definition_id: 632695613
+84_ouroboros_dragon_summoning_lock:
+  card_id: 465920646
+  definition_id: 632695613
+84_ouroboros_dragon_attack:
+  card_id: 465920646
+  definition_id: 155008980
+  plus: true
+85_tino_son_of_scion_magic_attack:
+  card_id: 447567256
+  definition_id: 468552885
+85_tino_son_of_scion_summoning_lock:
+  card_id: 447567256
+  definition_id: 632695613
+85_tino_son_of_scion_attack:
+  card_id: 447567256
+  definition_id: 155008980
+  plus: true
+86_wormak,_biolith_heir_magic_attack:
+  card_id: 32855829
+  definition_id: 468552885
+86_wormak,_biolith_heir_summoning_lock:
+  card_id: 32855829
+  definition_id: 632695613
+86_wormak,_biolith_heir_attack:
+  card_id: 32855829
+  definition_id: 155008980
+  plus: true
+87_scion_biolith_lord_magic_attack:
+  card_id: 490803390
+  definition_id: 468552885
+87_scion_biolith_lord_summoning_lock:
+  card_id: 490803390
+  definition_id: 632695613
+88_guardian_watchtower_magic_attack:
+  card_id: 171044801
+  definition_id: 468552885
+88_guardian_watchtower_summoning_lock:
+  card_id: 171044801
+  definition_id: 632695613
+89_phaseus,_biolith_god_incarnation:
+  card_id: 545069607
+  definition_id: 496719324
+89_phaseus,_biolith_god_magic_attack:
+  card_id: 545069607
+  definition_id: 468552885
+89_phaseus,_biolith_god_summoning_lock:
+  card_id: 545069607
+  definition_id: 632695613
+90_white_cubic_dodge_attempt:
+  card_id: 534387371
+  definition_id: 603739320
+90_white_cubic_sacrifice:
+  card_id: 534387371
+  definition_id: 373885792
+103_sciondar_inferno_magic_attack:
+  card_id: 758509961
+  definition_id: 468552885
+104_ice_flood_of_okunada_magic_attack:
+  card_id: 11581515
+  definition_id: 468552885
+105_fist_of_verzar_magic_attack:
+  card_id: 954146559
+  definition_id: 468552885
+106_wrathful_winds_of_juno_magic_attack:
+  card_id: 20703827
+  definition_id: 468552885
+107_blinding_skies_magic_attack:
+  card_id: 798758250
+  definition_id: 468552885
+111_flame_novice_attack:
+  card_id: 318347257
+  definition_id: 155008980
+  plus: true
+112_flame_guard_recruit_attack:
+  card_id: 2632760
+  definition_id: 155008980
+  plus: true
+114_partmole_warhound_return:
+  card_id: 364270933
+  definition_id: 83630333
+114_partmole_warhound_magic_protection:
+  card_id: 364270933
+  definition_id: 644322934
+115_partmole_axethrower_quickness:
+  card_id: 848959706
+  definition_id: 834811005
+116_beacon_of_cai-shae_perfect_dodge:
+  card_id: 183467644
+  definition_id: 26233555
+117_shrine_of_mourning_magic_attack:
+  card_id: 314397147
+  definition_id: 468552885
+118_behemorph_attack:
+  card_id: 560729137
+  definition_id: 155008980
+  plus: true
+119_flame_lizard_commander_quickness:
+  card_id: 634406325
+  definition_id: 834811005
+120_parmetic_deathspeaker_magic_attack:
+  card_id: 12052750
+  definition_id: 468552885
+120_parmetic_deathspeaker_return:
+  card_id: 12052750
+  definition_id: 83630333
+122_flame_archmage_magic_attack:
+  card_id: 907702686
+  definition_id: 468552885
+123_flameheart_magic_protection:
+  card_id: 564979536
+  definition_id: 644322934
+  grants: true
+124_fire_witch_freedonia_magic_attack:
+  card_id: 556656931
+  definition_id: 468552885
+124_fire_witch_freedonia_attack:
+  card_id: 556656931
+  definition_id: 155008980
+  plus: true
+125_shaman_zolda_magic_attack:
+  card_id: 292290094
+  definition_id: 468552885
+125_shaman_zolda_summoning_lock:
+  card_id: 292290094
+  definition_id: 632695613
+126_general_lug_magic_attack:
+  card_id: 108324971
+  definition_id: 468552885
+126_general_lug_summoning_lock:
+  card_id: 108324971
+  definition_id: 632695613
+126_general_lug_invocation:
+  card_id: 108324971
+  definition_id: 300499897
+129_frost_guards_perfect_dodge:
+  card_id: 435559228
+  definition_id: 26233555
+  gains: true
+132_aluhja_moving_citadel_magic_attack:
+  card_id: 241755360
+  definition_id: 468552885
+133_ghost_ship_perfect_dodge:
+  card_id: 939356578
+  definition_id: 26233555
+134_shadow_diver_dodge_attempt:
+  card_id: 356189976
+  definition_id: 603739320
+136_okunada_moving_temple_fortress:
+  card_id: 759732266
+  definition_id: 369701777
+136_okunada_moving_temple_perfect_dodge:
+  card_id: 759732266
+  definition_id: 26233555
+137_aluhja_zealot_magic_attack:
+  card_id: 285797022
+  definition_id: 468552885
+139_aluhja_inquisitrix_magic_attack:
+  card_id: 644788422
+  definition_id: 468552885
+139_aluhja_inquisitrix_dodge_attempt:
+  card_id: 644788422
+  definition_id: 603739320
+141_corleo,_venoan_capo_summoning_lock:
+  card_id: 820834368
+  definition_id: 632695613
+141_corleo,_venoan_capo_attack:
+  card_id: 820834368
+  definition_id: 155008980
+  plus: true
+141_corleo,_venoan_capo_dodge_attempt:
+  card_id: 820834368
+  definition_id: 603739320
+142_admiral_belta_magic_attack:
+  card_id: 806652005
+  definition_id: 468552885
+142_admiral_belta_summoning_lock:
+  card_id: 806652005
+  definition_id: 632695613
+142_admiral_belta_invocation:
+  card_id: 806652005
+  definition_id: 300499897
+146_dwarf_sniper_protection:
+  card_id: 18737048
+  definition_id: 567700710
+  gains: true
+147_battering_ram_summoning_lock:
+  card_id: 104846996
+  definition_id: 632695613
+147_battering_ram_attack:
+  card_id: 104846996
+  definition_id: 155008980
+  plus: true
+147_battering_ram_protection:
+  card_id: 104846996
+  definition_id: 567700710
+149_novogus_warrior_resurrection:
+  card_id: 575460770
+  definition_id: 1030593540
+150_verzar_golem_attack:
+  card_id: 388337856
+  definition_id: 155008980
+  plus: true
+151_dwarf_battlebuggy_attack:
+  card_id: 193260439
+  definition_id: 155008980
+  plus: true
+156_archbishop_jirva_attack:
+  card_id: 405740942
+  definition_id: 155008980
+  plus: true
+157_vamas,_tomb_sentinel_summoning_lock:
+  card_id: 92923556
+  definition_id: 632695613
+157_vamas,_tomb_sentinel_attack:
+  card_id: 92923556
+  definition_id: 155008980
+  plus: true
+158_marshal_akhum_magic_attack:
+  card_id: 220808556
+  definition_id: 468552885
+158_marshal_akhum_summoning_lock:
+  card_id: 220808556
+  definition_id: 632695613
+158_marshal_akhum_invocation:
+  card_id: 220808556
+  definition_id: 300499897
+161_white_tree_haunt_perfect_dodge:
+  card_id: 159865936
+  definition_id: 26233555
+163_elven_plaguedancer_magic_attack:
+  card_id: 474749757
+  definition_id: 468552885
+166_darksword_samurai_attack:
+  card_id: 587574408
+  definition_id: 155008980
+  plus: true
+167_goblin_fort_fortress:
+  card_id: 60127559
+  definition_id: 369701777
+167_goblin_fort_dodge_attempt:
+  card_id: 60127559
+  definition_id: 603739320
+170_alchemist's_lab_magic_attack:
+  card_id: 971698324
+  definition_id: 468552885
+171_elven_night_rider_attack:
+  card_id: 1034634339
+  definition_id: 155008980
+  plus: true
+172_prince_lusirion_summoning_lock:
+  card_id: 161126154
+  definition_id: 632695613
+173_preacher_noova_magic_attack:
+  card_id: 984766669
+  definition_id: 468552885
+173_preacher_noova_summoning_lock:
+  card_id: 984766669
+  definition_id: 632695613
+174_lord_hu_magic_attack:
+  card_id: 835077350
+  definition_id: 468552885
+174_lord_hu_summoning_lock:
+  card_id: 835077350
+  definition_id: 632695613
+174_lord_hu_invocation:
+  card_id: 835077350
+  definition_id: 300499897
+175_athenix_citadel_magic_attack:
+  card_id: 932041552
+  definition_id: 468552885
+175_athenix_citadel_summoning_lock:
+  card_id: 932041552
+  definition_id: 632695613
+175_athenix_citadel_magic_protection:
+  card_id: 932041552
+  definition_id: 644322934
+176_flailmonger_summoning_lock:
+  card_id: 306705686
+  definition_id: 632695613
+177_biolith_centurion_summoning_lock:
+  card_id: 196518680
+  definition_id: 632695613
+178_biolith_war_chariot_summoning_lock:
+  card_id: 70485874
+  definition_id: 632695613
+178_biolith_war_chariot_attack:
+  card_id: 70485874
+  definition_id: 155008980
+  plus: true
+179_behemoth_terrorformer_summoning_lock:
+  card_id: 1032774602
+  definition_id: 632695613
+180_biolith_transporter_dodge_attempt:
+  card_id: 37455059
+  definition_id: 603739320
+180_biolith_transporter_summoning_lock:
+  card_id: 37455059
+  definition_id: 632695613
+181_archiver_summoning_lock:
+  card_id: 559368772
+  definition_id: 632695613
+182_battle_master_summoning_lock:
+  card_id: 807614666
+  definition_id: 632695613
+183_magic_master_magic_attack:
+  card_id: 929596512
+  definition_id: 468552885
+183_magic_master_summoning_lock:
+  card_id: 929596512
+  definition_id: 632695613
+184_biolith_battleship_magic_attack:
+  card_id: 245285415
+  definition_id: 468552885
+184_biolith_battleship_summoning_lock:
+  card_id: 245285415
+  definition_id: 632695613
+184_biolith_battleship_magic_protection:
+  card_id: 245285415
+  definition_id: 644322934
+185_biolith_temple_magic_attack:
+  card_id: 892318381
+  definition_id: 468552885
+185_biolith_temple_summoning_lock:
+  card_id: 892318381
+  definition_id: 632695613
+186_sciondar_gateway_summoning_lock:
+  card_id: 921480399
+  definition_id: 632695613
+186_sciondar_gateway_invocation:
+  card_id: 921480399
+  definition_id: 300499897
+187_sword_of_juno_incarnation:
+  card_id: 927437145
+  definition_id: 496719324
+187_sword_of_juno_summoning_lock:
+  card_id: 927437145
+  definition_id: 632695613
+188_hammer_of_juno_incarnation:
+  card_id: 261057845
+  definition_id: 496719324
+188_hammer_of_juno_summoning_lock:
+  card_id: 261057845
+  definition_id: 632695613
+189_spire_of_juno_incarnation:
+  card_id: 6927487
+  definition_id: 496719324
+189_spire_of_juno_magic_attack:
+  card_id: 6927487
+  definition_id: 468552885
+189_spire_of_juno_summoning_lock:
+  card_id: 6927487
+  definition_id: 632695613
+190_fist_of_juno_incarnation:
+  card_id: 13580936
+  definition_id: 496719324
+190_fist_of_juno_summoning_lock:
+  card_id: 13580936
+  definition_id: 632695613
+191_absolver_sacrament_sacrifice:
+  card_id: 294323093
+  definition_id: 373885792
+207_biolith_ascension_summoning_lock:
+  card_id: 987320106
+  definition_id: 632695613
+207_biolith_ascension_sacrifice:
+  card_id: 987320106
+  definition_id: 373885792
+211_partmole_gatekeeper_attack:
+  card_id: 1070674837
+  definition_id: 155008980
+  plus: true
+213_fire_witch's_familiar_magic_attack:
+  card_id: 923891747
+  definition_id: 468552885
+213_fire_witch's_familiar_attack:
+  card_id: 923891747
+  definition_id: 155008980
+  plus: true
+214_crimson_mimic_sacrifice:
+  card_id: 36821005
+  definition_id: 373885792
+215_lizard_shocktrooper_attack:
+  card_id: 807748363
+  definition_id: 155008980
+  plus: true
+216_flame_lizard_barracks_fortress:
+  card_id: 382524480
+  definition_id: 369701777
+217_cai-shae_brazier_perfect_dodge:
+  card_id: 339262656
+  definition_id: 26233555
+218_flame_wyvern_attack:
+  card_id: 32371713
+  definition_id: 155008980
+  plus: true
+219_mourning_cenobite_magic_attack:
+  card_id: 530842884
+  definition_id: 468552885
+219_mourning_cenobite_attack:
+  card_id: 530842884
+  definition_id: 155008980
+  plus: true
+221_torrid_nightmare_magic_attack:
+  card_id: 737980687
+  definition_id: 468552885
+221_torrid_nightmare_attack:
+  card_id: 737980687
+  definition_id: 155008980
+  plus: true
+222_flame_lizard_general_quickness:
+  card_id: 788523045
+  definition_id: 834811005
+222_flame_lizard_general_attack:
+  card_id: 788523045
+  definition_id: 155008980
+  plus: true
+223_partmole_scout_balloon_quickness:
+  card_id: 954327189
+  definition_id: 834811005
+  grants: true
+224_logan_zurtur_attack:
+  card_id: 234119443
+  definition_id: 155008980
+  plus: true
+225_ragin_pyrathrax_summoning_lock:
+  card_id: 201073571
+  definition_id: 632695613
+225_ragin_pyrathrax_attack:
+  card_id: 201073571
+  definition_id: 155008980
+  plus: true
+225_ragin_pyrathrax_magic_protection:
+  card_id: 201073571
+  definition_id: 644322934
+226_carlo_the_scorched_summoning_lock:
+  card_id: 750692197
+  definition_id: 632695613
+226_carlo_the_scorched_attack:
+  card_id: 750692197
+  definition_id: 155008980
+  plus: true
+227_blue_lycanthrope_attack:
+  card_id: 921943298
+  definition_id: 155008980
+  plus: true
+230_indigo_mimic_sacrifice:
+  card_id: 554431866
+  definition_id: 373885792
+232_corsez_moving_citadel_fortress:
+  card_id: 326888980
+  definition_id: 369701777
+233_aluhja_prioress_magic_attack:
+  card_id: 882865841
+  definition_id: 468552885
+234_sea_serpent_attack:
+  card_id: 784156729
+  definition_id: 155008980
+  plus: true
+235_siam's_sentinel_perfect_dodge:
+  card_id: 759452191
+  definition_id: 26233555
+  grants: true
+236_queen's_commissioner_perfect_dodge:
+  card_id: 939733588
+  definition_id: 26233555
+236_queen's_commissioner_magic_attack:
+  card_id: 939733588
+  definition_id: 468552885
+238_tritonan_sacred_court_magic_attack:
+  card_id: 217104119
+  definition_id: 468552885
+240_reverend_father_vlo_magic_attack:
+  card_id: 419763028
+  definition_id: 468552885
+240_reverend_father_vlo_dodge_attempt:
+  card_id: 419763028
+  definition_id: 603739320
+241_capricious_hydromancer_summoning_lock:
+  card_id: 897753033
+  definition_id: 632695613
+241_capricious_hydromancer_attack:
+  card_id: 897753033
+  definition_id: 155008980
+  plus: true
+241_capricious_hydromancer_dodge_attempt:
+  card_id: 897753033
+  definition_id: 603739320
+242_clare_wil_the_valiant_summoning_lock:
+  card_id: 296962358
+  definition_id: 632695613
+242_clare_wil_the_valiant_attack:
+  card_id: 296962358
+  definition_id: 155008980
+  plus: true
+245_stone_wing_veteran_protection:
+  card_id: 509060329
+  definition_id: 567700710
+  grants: true
+246_ochre_mimic_sacrifice:
+  card_id: 269530464
+  definition_id: 373885792
+249_roving_penitentiary_fortress:
+  card_id: 986828185
+  definition_id: 369701777
+250_bone_drake_attack:
+  card_id: 484170683
+  definition_id: 155008980
+  plus: true
+251_blackhood_anti-mystic_attack:
+  card_id: 1016171834
+  definition_id: 155008980
+  plus: true
+251_blackhood_anti-mystic_magic_protection:
+  card_id: 1016171834
+  definition_id: 644322934
+253_dark_ozeki_kihomaru_attack:
+  card_id: 914567936
+  definition_id: 155008980
+  plus: true
+256_captain_xerabis_attack:
+  card_id: 589758272
+  definition_id: 155008980
+  plus: true
+257_callous_gaiakhan_summoning_lock:
+  card_id: 580019925
+  definition_id: 632695613
+257_callous_gaiakhan_attack:
+  card_id: 580019925
+  definition_id: 155008980
+  plus: true
+257_callous_gaiakhan_protection:
+  card_id: 580019925
+  definition_id: 567700710
+258_king_sanavaan_summoning_lock:
+  card_id: 457377205
+  definition_id: 632695613
+258_king_sanavaan_attack:
+  card_id: 457377205
+  definition_id: 155008980
+  plus: true
+261_elven_berserker_witch_magic_attack:
+  card_id: 596154385
+  definition_id: 468552885
+261_elven_berserker_witch_dodge_attempt:
+  card_id: 596154385
+  definition_id: 603739320
+262_jade_mimic_sacrifice:
+  card_id: 862421724
+  definition_id: 373885792
+265_goblin_chickenrider_invisibility:
+  card_id: 498230011
+  definition_id: 277591766
+  gains: true
+266_arboreal_wyrm_attack:
+  card_id: 832420957
+  definition_id: 155008980
+  plus: true
+266_arboreal_wyrm_invocation:
+  card_id: 832420957
+  definition_id: 300499897
+268_elven_scout_mistress_magic_attack:
+  card_id: 63944526
+  definition_id: 468552885
+269_berserker_princess_attack:
+  card_id: 416256832
+  definition_id: 155008980
+  plus: true
+269_berserker_princess_dodge_attempt:
+  card_id: 416256832
+  definition_id: 603739320
+270_moggy_howdah_summoning_lock:
+  card_id: 260175589
+  definition_id: 632695613
+270_moggy_howdah_fortress:
+  card_id: 260175589
+  definition_id: 369701777
+270_moggy_howdah_invisibility:
+  card_id: 260175589
+  definition_id: 277591766
+272_mandragora_triplet_magic_attack:
+  card_id: 554266969
+  definition_id: 468552885
+273_wild_dendrovort_summoning_lock:
+  card_id: 215305122
+  definition_id: 632695613
+273_wild_dendrovort_attack:
+  card_id: 215305122
+  definition_id: 155008980
+  plus: true
+274_pope-queen_cyrstin_ii_summoning_lock:
+  card_id: 472721234
+  definition_id: 632695613
+274_pope-queen_cyrstin_ii_attack:
+  card_id: 472721234
+  definition_id: 155008980
+  plus: true
+275_architekt_summoning_lock:
+  card_id: 438184004
+  definition_id: 632695613
+275_architekt_protection:
+  card_id: 438184004
+  definition_id: 567700710
+276_biolith_transmorph_summoning_lock:
+  card_id: 259624941
+  definition_id: 632695613
+276_biolith_transmorph_sacrifice:
+  card_id: 259624941
+  definition_id: 373885792
+277_barrager_summoning_lock:
+  card_id: 221239062
+  definition_id: 632695613
+278_biolith_deathgarden_summoning_lock:
+  card_id: 966575523
+  definition_id: 632695613
+279_toxic_intruder_summoning_lock:
+  card_id: 611511960
+  definition_id: 632695613
+280_biolith_sentry_summoning_lock:
+  card_id: 371299693
+  definition_id: 632695613
+280_biolith_sentry_attack:
+  card_id: 371299693
+  definition_id: 155008980
+  plus: true
+281_biolith_mage_guard_summoning_lock:
+  card_id: 824230064
+  definition_id: 632695613
+282_prototype_behemoth_summoning_lock:
+  card_id: 869865771
+  definition_id: 632695613
+283_scion's_peace_magic_attack:
+  card_id: 925705936
+  definition_id: 468552885
+283_scion's_peace_summoning_lock:
+  card_id: 925705936
+  definition_id: 632695613
+283_scion's_peace_perfect_dodge:
+  card_id: 925705936
+  definition_id: 26233555
+284_centipede_tank_magic_attack:
+  card_id: 192413000
+  definition_id: 468552885
+284_centipede_tank_summoning_lock:
+  card_id: 192413000
+  definition_id: 632695613
+285_kastor_magic_attack:
+  card_id: 802786951
+  definition_id: 468552885
+285_kastor_summoning_lock:
+  card_id: 802786951
+  definition_id: 632695613
+286_pollux_magic_attack:
+  card_id: 722877856
+  definition_id: 468552885
+286_pollux_summoning_lock:
+  card_id: 722877856
+  definition_id: 632695613
+287_atomic_rudra_summoning_lock:
+  card_id: 849777963
+  definition_id: 632695613
+287_atomic_rudra_attack:
+  card_id: 849777963
+  definition_id: 155008980
+  plus: true
+288_romili_reloaded_magic_attack:
+  card_id: 16726301
+  definition_id: 468552885
+288_romili_reloaded_summoning_lock:
+  card_id: 16726301
+  definition_id: 632695613
+299_mourning_reanimation_sacrifice:
+  card_id: 253936604
+  definition_id: 373885792
+307_biolith_infestation_summoning_lock:
+  card_id: 191991400
+  definition_id: 632695613
+311_dioskuri_magic_attack:
+  card_id: 566569949
+  definition_id: 468552885
+311_dioskuri_summoning_lock:
+  card_id: 566569949
+  definition_id: 632695613

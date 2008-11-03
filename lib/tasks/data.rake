@@ -1,4 +1,10 @@
+require 'rubygems'
+require 'hpricot'
+require 'open-uri'
+require 'active_support'
+
 namespace :data do
+  # Android related tasks
   namespace :android do
 
     desc "Creates code to insert all definitions"
@@ -10,4 +16,53 @@ namespace :data do
     end
     
   end
+  
+  # eojinfo.com related tasks
+  namespace :eojinfo do
+
+    desc "Creates code to insert all definitions"
+    task(:special_attributes => :environment) do
+      # page for all cards
+      doc = Hpricot(open("http://eojinfo.com/cards.php"))
+      pages = (doc/"table#cards_table//a").collect{|e| e.attributes['href']}.uniq
+
+      pages.each do |page|
+        # page for 1 card
+        doc = Hpricot(open("http://eojinfo.com/#{page}"))
+        elements = (doc/"td.td_carddetail")
+
+        # set all values
+        number = elements[1].inner_html
+        special_attributes = elements[12].inner_html
+
+        special_attributes.split(',').each do |special_attribute|
+          card = Card.find_by_number(number)
+
+          grants = special_attribute.starts_with? 'Grants'
+          gains = special_attribute.starts_with? 'Gains'
+          plus = special_attribute.ends_with? '+'
+          minus = special_attribute.ends_with? '-'
+
+          definition_name = special_attribute.gsub(/Grants/, '').gsub(/Gains/, '').gsub(/\+/, '').gsub(/-/, '').gsub(/Power/, '')
+          definition_name.gsub!(/&nbsp;/, ' ')
+          definition_name.strip!
+          # some common substitutions
+          definition_name = 'Hit Points (HPs)' if definition_name == 'HP'
+          definition = Definition.find_by_name(definition_name)
+          raise "Invalid definition: *#{definition_name}* *#{special_attribute}*" if definition.nil?
+
+          yml = "#{number}_#{card.title.downcase.gsub(' ', '_')}_#{definition.name.downcase.gsub(' ', '_')}:\n"
+          yml << "  card: #{card.id}\n"
+          yml << "  definition_id: #{definition.id}\n"
+          yml << "  grants: true\n" if grants
+          yml << "  gains: true\n" if gains
+          yml << "  plus: true\n" if plus
+          yml << "  minus: true\n" if minus
+          puts yml
+        end
+      end
+    end
+  
+  end
+  
 end

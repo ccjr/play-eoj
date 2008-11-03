@@ -1,5 +1,6 @@
 class Card < ActiveRecord::Base
   validates_presence_of :number, :title
+  has_many :special_attributes
 
   named_scope :races, :select => 'distinct race', :order => 'race'
   named_scope :affiliations, :select => 'distinct affiliation', :order => 'affiliation', :conditions => 'affiliation IS NOT NULL'
