@@ -30,4 +30,10 @@ module CardsHelper
     end
     return directions.join
   end
+  
+  def special_attributes(card)
+    card.special_attributes.collect do |special_attribute|
+      link_to special_attribute.description, "##{dom_id(special_attribute.definition)}"
+    end.join(', ')
+  end
 end

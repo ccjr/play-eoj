@@ -14,7 +14,7 @@
   %h4.title= link_to "View Card", image_card_path(@card)
  
   .description
-    - unless @card.special_attributes.blank?
-      %p= @card.special_attributes
+    - unless @card.special_attributes.empty?
+      %p= special_attributes(@card)
     - unless @card.body.blank?
       %p= @card.body
