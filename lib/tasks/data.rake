@@ -9,9 +9,17 @@ namespace :data do
 
     desc "Creates code to insert all definitions"
     task(:definitions => :environment) do
-      puts "// GENERATED CODE, CHANGE IN data:android TASK"
+      puts "// GENERATED CODE, CHANGE IN data:android:definitions TASK"
       Definition.all(:order => 'name').each do |definition|
         puts "addDefinition(db, \"#{definition.name}\", \"#{definition.description}\");"
+      end
+    end
+
+    task(:special_attributes => :environment) do
+      puts "// GENERATED CODE, CHANGE IN data:android:special_attributes TASK"
+      SpecialAttribute.all.each do |special_attribute|
+        puts "addSpecialAttribute(db, #{special_attribute.card_id}, #{special_attribute.definition_id}, #{special_attribute.grants?},
+                        #{special_attribute.gains?}, #{special_attribute.plus?}. #{special_attribute.minus?});"
       end
     end
     
