@@ -23,6 +23,17 @@ namespace :data do
       end
     end
     
+    task(:cards => :environment) do
+      puts "// GENERATED CODE, CHANGE IN data:android:special_attributes TASK"
+      Card.all.each do |card|
+        puts "addCard(db, #{card.number}, \"#{card.set}\", \"#{card.title}\", \"#{card.element}\",
+                        \"#{card.race}\", \"#{card.summoning_cost}\", \"#{card.activation_cost}\", \"#{card.health_points}\",
+                        \"#{card.attack}\", \"#{card.rarity}\", \"#{card.card_limit}\", \"#{card.race_limit}\",
+                        \"#{card.body}\", \"#{card.affiliation}\", \"#{card.attack_directions}\", \"#{card.defense_directions}\",
+                        \"#{card.limit}\");"
+      end
+    end
+    
   end
   
   # eojinfo.com related tasks
