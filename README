@@ -8,4 +8,5 @@ You can access this application from your iPhone at http://playeoj.mobi
 
 * Make sure the card database is accurate and complete
   * Remove HTML from body field [ccjr]
+  * User misprint field in cards table [ccjr]
   * Link to other cards in the description of a card [ccjr]
