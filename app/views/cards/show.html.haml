@@ -16,5 +16,6 @@
   .description
     - unless @card.special_attributes.empty?
       %p= special_attributes(@card)
-    - unless @card.body.blank?
-      %p= @card.body
+    %p
+      = @card.body unless @card.body.blank?
+      = misprint_text(@card)

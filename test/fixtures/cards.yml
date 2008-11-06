@@ -2165,7 +2165,8 @@
   rarity: Common
   attack_directions: Selective Arc
   defense_directions: Arc Blind Back
-  body: |    When Dwarf Battlebuggy attacks a non-adjacent enemy, it adds 1 to it's Attack.<br /><br />While there is an allied Dwarf creature adjacent to Dwarf Battlebuggy, Dwarf Battlebuggy gains <i>Decoy</i> for adjacent enemies (Those enemies can only attack creatures with <i>Decoy</i>). <br /><br /><i>Note: The text on the printed card is incorrect.</i>
+  misprint: true
+  body: |    When Dwarf Battlebuggy attacks a non-adjacent enemy, it adds 1 to it's Attack.<br /><br />While there is an allied Dwarf creature adjacent to Dwarf Battlebuggy, Dwarf Battlebuggy gains <i>Decoy</i> for adjacent enemies (Those enemies can only attack creatures with <i>Decoy</i>).
 152_dwarf_warbanner:
   set: 2
   number: 152
@@ -2211,7 +2212,8 @@
   attack_directions: Standard
   defense_directions: Standard Blind Back
   limit: 5 of race
-  body: |    You steal the exit mana of enemy Wood creatures.<br /><br />During <b>your opponent's</b> Resolution Phase, your opponent loses mana equal to the number of allied Water Missionary creatures.<br /><br />Subtract 2 from the Summoning Cost of allied Water Missionary creatures (minimum 1).<br /><br /><i>Note: The printed text on the card is incorrect.</i>
+  misprint: true
+  body: |    You steal the exit mana of enemy Wood creatures.<br /><br />During <b>your opponent's</b> Resolution Phase, your opponent loses mana equal to the number of allied Water Missionary creatures.<br /><br />Subtract 2 from the Summoning Cost of allied Water Missionary creatures (minimum 1).
 155_novogus_sinbearer:
   set: 2
   number: 155
@@ -2287,7 +2289,8 @@
   rarity: Common
   attack_directions: Standard
   defense_directions: Standard Blind Back
-  body: |    When Tree Foxes is summoned, rotate any creature directly in front of it 180 degrees.<br /><br /><i>Note: The printed text on the card is incorrect.</i>
+  misprint: true
+  body: |    When Tree Foxes is summoned, rotate any creature directly in front of it 180 degrees.
 160_elven_soul_hunter:
   set: 2
   number: 160
@@ -2438,7 +2441,8 @@
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   limit: 5 of race
-  body: |    You steal the exit mana of all enemy Earth creatures.<br /><br />During <b>your opponent's</b> Resolution Phase, your opponent must discard a card for each allied Fire Missionary creature on the board. <br /><br />Subtract 2 from the Summoning Cost of allied Fire Missionary creatures (minimum 1).<br /><br /><i>Note: The printed text on the card is incorrect.</i>
+  misprint: true
+  body: |    You steal the exit mana of all enemy Earth creatures.<br /><br />During <b>your opponent's</b> Resolution Phase, your opponent must discard a card for each allied Fire Missionary creature on the board. <br /><br />Subtract 2 from the Summoning Cost of allied Fire Missionary creatures (minimum 1).
 170_alchemist's_lab:
   set: 2
   number: 170
@@ -2669,7 +2673,8 @@
   attack_directions: Standard Magic
   defense_directions: None
   limit: 1 of card
-  body: |    <b>While Biolith Battleship is on a Biolith field,</b> Biolith Battleship intercepts a summoned enemy creature <i>half the time.</i><br /><br /><b>While on a non-Biolith field</b> all other allied creatures add <b>+2</b> <i>Magic Protection.</i><br /><br /><i>Note: The printed text on the card is incorrect.</i>
+  misprint: true
+  body: |    <b>While Biolith Battleship is on a Biolith field,</b> Biolith Battleship intercepts a summoned enemy creature <i>half the time.</i><br /><br /><b>While on a non-Biolith field</b> all other allied creatures add <b>+2</b> <i>Magic Protection.</i>
 185_biolith_temple:
   set: 2
   number: 185
@@ -2929,7 +2934,8 @@
   race: Sorcery
   summoning_cost: 1
   rarity: Rare
-  body: |    Choose creatures from your graveyard that are not Ultra Rare up to the number of cards in your hand.  Discard your hand then return the chosen cards to your hand.<br /><br /><b>Playing this card ends your turn.</b><br /><br /><i>Note: The printed text on the card is incorrect.</i>
+  misprint: true
+  body: |    Choose creatures from your graveyard that are not Ultra Rare up to the number of cards in your hand.  Discard your hand then return the chosen cards to your hand.<br /><br /><b>Playing this card ends your turn.</b>
 209_seer_vizak's_cleansing:
   set: 2
   number: 209
@@ -2938,7 +2944,8 @@
   race: Sorcery
   summoning_cost: 3
   rarity: Rare
-  body: |    Fieldquake all fields whose reverse side is the same as the target field's reverse side. This has no effect on a field whose reverse side is Biolith. Playing this card ends your turn.<br /><br /><i>Note: The printed text on the card is incorrect.</i>
+  misprint: true
+  body: |    Fieldquake all fields whose reverse side is the same as the target field's reverse side. This has no effect on a field whose reverse side is Biolith. Playing this card ends your turn.
 210_benediction_of_juno:
   set: 2
   number: 210
@@ -2947,7 +2954,8 @@
   race: Sorcery
   summoning_cost: 3
   rarity: Rare
-  body: |    Choose a creature on a field.  Until the end of your next turn <b>all creatures of the same element as the target gain <i>Fieldmorph</i>.  Playing this card ends your turn.</b><br /><br /><i>Note: The printed text on the card is incorrect.</i>
+  misprint: true
+  body: |    Choose a creature on a field.  Until the end of your next turn <b>all creatures of the same element as the target gain <i>Fieldmorph</i>.  Playing this card ends your turn.</b>
 211_partmole_gatekeeper:
   set: 3
   number: 211

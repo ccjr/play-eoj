@@ -36,4 +36,8 @@ module CardsHelper
       link_to special_attribute.description, "##{dom_id(special_attribute.definition)}"
     end.join(', ')
   end
+  
+  def misprint_text(card)
+    "<br /><br /><i>Note: The text on the printed card is incorrect.</i>" if card.misprint?
+  end
 end
