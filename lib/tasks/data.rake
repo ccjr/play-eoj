@@ -24,7 +24,7 @@ namespace :data do
     end
     
     task(:cards => :environment) do
-      puts "// GENERATED CODE, CHANGE IN data:android:special_attributes TASK"
+      puts "// GENERATED CODE, CHANGE IN data:android:cards TASK"
       Card.all.each do |card|
         puts "addCard(db, #{card.number}, \"#{card.set}\", \"#{card.title}\", \"#{card.element}\",
                         \"#{card.race}\", \"#{card.summoning_cost}\", \"#{card.activation_cost}\", \"#{card.health_points}\",
