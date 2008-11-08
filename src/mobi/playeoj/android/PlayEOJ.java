@@ -28,7 +28,6 @@ public class PlayEOJ extends ListActivity {
         
         // Use an existing ListAdapter that will map an array of strings to TextViews
         setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, menuStrings));
-        getListView().setTextFilterEnabled(true);
     }
 
     @Override
@@ -37,7 +36,7 @@ public class PlayEOJ extends ListActivity {
 
         switch(position) {
         case MENU_ALL_CARDS:
-            showCard();
+            showAllCards();
             break;
         case MENU_BY_ELEMENT:
             showCard();
@@ -56,12 +55,17 @@ public class PlayEOJ extends ListActivity {
             break;
         }
     }
-    
+
+    private void showAllCards() {
+        Intent i = new Intent(this, ListCards.class);
+        startActivity(i);
+    }
+
     private void showCard() {
         Intent i = new Intent(this, ShowCard.class);
         startActivity(i);
     }
-    
+
     private void showGlossary() {
         Intent i = new Intent(this, ListDefinitions.class);
         startActivity(i);
