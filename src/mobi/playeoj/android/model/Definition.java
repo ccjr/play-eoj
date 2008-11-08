@@ -1,5 +1,7 @@
 package mobi.playeoj.android.model;
 
+import java.util.Arrays;
+
 public class Definition {
     private String name;
     private String description;
@@ -67,10 +69,24 @@ public class Definition {
     public static final Definition[] ALL_DEFINITIONS = { ACTIVATION_COST, ADJACENT, AFFILIATION, ATTACK, ATTACK_COST, ATTACK_ZONES, BLIND_SIDE, BOARD, DECK, DECOY, DEFENSE_ZONES, DESTROYED, DISCARD, DODGE, DODGE_ATTEMPT, DRAW, ELEMENT, ENEMY_CREATURE, EXIT_MANA, FIELD, FIELD_BONUS, FIELD_ORDER, FIELD_PENALTY, FIELDMORPH, FIELDQUAKE, FORTRESS, GRAVEYARD, HALF_THE_TIME, HAND, HIT_POINTS_HPS, INCARNATION, INTERCEPT, INVISIBILITY, INVOCATION, LIBRARY, LOCATION, MAGIC_ATTACK, MAGIC_PROTECTION, MANA, MULLIGAN, ORIENTATION, OWNER, PERFECT_DODGE, PHASE, PHYSICAL_ATTACK, POSSESSION, PRAYER, PROTECTION, QUICKNESS, RACE, RESURRECTION, RETURN, SACRIFICE, SPELL, SUMMONING_CARDS, SUMMONING_COST, SUMMONING_LOCK, TURN };
     public static final String[] ALL_NAMES = { "Activation Cost", "Adjacent", "Affiliation", "Attack", "Attack Cost", "Attack Zones", "Blind side", "Board", "Deck", "Decoy", "Defense Zones", "Destroyed", "Discard", "Dodge", "Dodge Attempt", "Draw", "Element", "Enemy creature", "Exit mana", "Field", "Field bonus", "Field order", "Field penalty", "Fieldmorph", "Fieldquake", "Fortress", "Graveyard", "Half the time", "Hand", "Hit Points (HPs)", "Incarnation", "Intercept", "Invisibility", "Invocation", "Library", "Location", "Magic Attack", "Magic Protection", "Mana", "Mulligan", "Orientation", "Owner", "Perfect Dodge", "Phase", "Physical Attack", "Possession", "Prayer", "Protection", "Quickness", "Race", "Resurrection", "Return", "Sacrifice", "Spell", "Summoning Cards", "Summoning Cost", "Summoning Lock", "Turn" };
 
-    
+    /**
+     * Custom generator that initializes name and description.
+     * @param name
+     * @param description
+     */
     public Definition(String name, String description) {
 	this.name = name;
 	this.description = description;
+    }
+    
+    /**
+     * Find a definition object from the name
+     * @param name
+     * @return
+     */
+    public static Definition findByName(String name) {
+	int index = Arrays.binarySearch(ALL_NAMES, name);
+	return ALL_DEFINITIONS[index];
     }
     
     public String getName() {
