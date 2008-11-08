@@ -29,13 +29,13 @@ namespace :data do
     task(:cards => :environment) do
       puts "// GENERATED CODE, CHANGE IN data:android:cards TASK"
       cards = Card.all(:order => 'number')
-      # TODO: escape double quotes in body field - after removing HTML from body
+      # TODO: escape double quotes in body field - after removing HTML
       cards.each do |card|
         constant = card.title.upcase.gsub(' ', '_').gsub('-', '_').delete('\'').delete(',')
         puts "public static final Card #{constant} = new Card(#{card.number}, \"#{card.title}\", \"#{card.set}\", \"#{card.element}\", \"#{card.race}\", \"#{card.summoning_cost}\", \"#{card.activation_cost}\", \"#{card.health_points}\", \"#{card.attack}\", \"#{card.rarity}\", \"#{card.body}\", \"#{card.affiliation}\", \"#{card.attack_directions}\", \"#{card.defense_directions}\", \"#{card.limit}\");"
       end
+      puts "public static final String[] ALL_TITLES = { #{Card.all(:order => 'title').collect {|d| "\"#{d.title}\""}.join(", ")} };"
     end
-    
   end
   
   # eojinfo.com related tasks
