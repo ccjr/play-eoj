@@ -10,9 +10,12 @@ namespace :data do
     desc "Creates code to insert all definitions"
     task(:definitions => :environment) do
       puts "// GENERATED CODE, CHANGE IN data:android:definitions TASK"
-      Definition.all(:order => 'name').each do |definition|
-        puts "addDefinition(db, \"#{definition.name}\", \"#{definition.description}\");"
+      definitions = Definition.all(:order => 'name')
+      definitions.each do |definition|
+        puts "public static final Definition #{definition.name.upcase.gsub(' ', '_')} = new Definition(\"#{definition.name}\", \"#{definition.description}\");"
       end
+      puts "public static final Definition[] ALL_DEFINITIONS = { #{definitions.collect{|d| d.name.upcase.gsub(' ', '_')}.join(", ")} };"
+      puts "public static final String[] ALL_NAMES = { #{definitions.collect {|d| "\"#{d.name}\""}.join(", ")} };"
     end
 
     task(:special_attributes => :environment) do
@@ -25,6 +28,7 @@ namespace :data do
     
     task(:cards => :environment) do
       puts "// GENERATED CODE, CHANGE IN data:android:cards TASK"
+      # TODO: escape double quotes in body field - after removing HTML from body
       Card.all.each do |card|
         puts "addCard(db, #{card.number}, \"#{card.set}\", \"#{card.title}\", \"#{card.element}\",
                         \"#{card.race}\", \"#{card.summoning_cost}\", \"#{card.activation_cost}\", \"#{card.health_points}\",
