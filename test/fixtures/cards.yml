@@ -1619,7 +1619,6 @@
   rarity: Common
   attack_directions: Arc Longrange Strike
   defense_directions: Arc Blind Back
-
 116_beacon_of_cai-shae:
   set: 2
   number: 116
@@ -1634,7 +1633,7 @@
   rarity: Common
   attack_directions: No Attack
   defense_directions: None
-  body: |    While an allied Did the Enlightened is on the board, all allied creatures gain <i><a href="#definition_834811005">Quickness</a></i>.<br /><br />Subtract 1 from the Summoning Cost of other allied Fire creatures (minimum 1).
+  body: |    While an allied Didi the Enlightened is on the board, all allied creatures gain Quickness.<br /><br />Subtract 1 from the Summoning Cost of other allied Fire creatures (minimum 1).
 117_shrine_of_mourning:
   set: 2
   number: 117
