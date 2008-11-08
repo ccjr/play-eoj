@@ -15,8 +15,8 @@ public class ListDefinitions extends ListActivity {
         this.setTitle("Play EoJ >> Glossary");
         
         // Use an existing ListAdapter that will map an array of strings to TextViews
-        setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, Definition.ALL_DESCRIPTIONS));
-        getListView().setTextFilterEnabled(true);
+        setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, Definition.ALL_NAMES));
+        //getListView().setTextFilterEnabled(true);
     }
         
     protected void onListItemClick(ListView l, View v, int position, long id) {
