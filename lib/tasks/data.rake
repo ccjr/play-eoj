@@ -28,12 +28,11 @@ namespace :data do
     
     task(:cards => :environment) do
       puts "// GENERATED CODE, CHANGE IN data:android:cards TASK"
+      cards = Card.all(:order => 'number')
       # TODO: escape double quotes in body field - after removing HTML from body
-      Card.all.each do |card|
-        puts "addCard(db, #{card.number}, \"#{card.set}\", \"#{card.title}\", \"#{card.element}\",
-                        \"#{card.race}\", \"#{card.summoning_cost}\", \"#{card.activation_cost}\", \"#{card.health_points}\",
-                        \"#{card.attack}\", \"#{card.rarity}\", \"#{card.body}\", \"#{card.affiliation}\",
-                        \"#{card.attack_directions}\", \"#{card.defense_directions}\", \"#{card.limit}\");"
+      cards.each do |card|
+        constant = card.title.upcase.gsub(' ', '_').gsub('-', '_').delete('\'').delete(',')
+        puts "public static final Card #{constant} = new Card(#{card.number}, \"#{card.title}\", \"#{card.set}\", \"#{card.element}\", \"#{card.race}\", \"#{card.summoning_cost}\", \"#{card.activation_cost}\", \"#{card.health_points}\", \"#{card.attack}\", \"#{card.rarity}\", \"#{card.body}\", \"#{card.affiliation}\", \"#{card.attack_directions}\", \"#{card.defense_directions}\", \"#{card.limit}\");"
       end
     end
     
