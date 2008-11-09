@@ -31,10 +31,11 @@ namespace :data do
       cards = Card.all(:order => 'number')
       # TODO: escape double quotes in body field - after removing HTML
       cards.each do |card|
-        constant = card.title.upcase.gsub(' ', '_').gsub('-', '_').delete('\'').delete(',')
-        puts "public static final Card #{constant} = new Card(#{card.number}, \"#{card.title}\", \"#{card.set}\", \"#{card.element}\", \"#{card.race}\", \"#{card.summoning_cost}\", \"#{card.activation_cost}\", \"#{card.health_points}\", \"#{card.attack}\", \"#{card.rarity}\", \"#{card.body}\", \"#{card.affiliation}\", \"#{card.attack_directions}\", \"#{card.defense_directions}\", \"#{card.limit}\");"
+        puts "public static final Card #{card.constant_title} = new Card(#{card.number}, \"#{card.title}\", \"#{card.set}\", \"#{card.element}\", \"#{card.race}\", \"#{card.summoning_cost}\", \"#{card.activation_cost}\", \"#{card.health_points}\", \"#{card.attack}\", \"#{card.rarity}\", \"#{card.body}\", \"#{card.affiliation}\", \"#{card.attack_directions}\", \"#{card.defense_directions}\", \"#{card.limit}\");"
       end
-      puts "public static final String[] ALL_TITLES = { #{Card.all(:order => 'title').collect {|d| "\"#{d.title}\""}.join(", ")} };"
+      # Generate ALL_CARDS constant
+      puts "public static final Definition[] ALL_CARDS = { #{Card.all(:order => 'title').collect{|c| c.constant_title}.join(", ")} };"
+      puts "public static final String[] ALL_TITLES = { #{Card.all(:order => 'title').collect {|c| "\"#{c.title}\""}.join(", ")} };"
     end
   end
   
