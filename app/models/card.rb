@@ -12,6 +12,9 @@ class Card < ActiveRecord::Base
   named_scope :where_affiliation, lambda {|affiliation| { :conditions => ["cards.affiliation = ?", affiliation] }}
   
   ELEMENTS = %w{ Biolith Earth Fire Water Wood Spell }
+  ELEMENTS.each do |element|
+    named_scope element.downcase.to_sym, :conditions => ["cards.element=?", element]
+  end
 
   def self.list(options={})
     order = options[:order] || 'title'
@@ -34,7 +37,12 @@ class Card < ActiveRecord::Base
   def element_class
     self.element.blank? ? 'none' : self.element.downcase
   end
+
   def rarity_class
     "#{self.rarity.gsub(' ','_').downcase}_#{self.set}"
+  end
+
+  def constant_title
+    self.title.upcase.gsub(' ', '_').gsub('-', '_').delete('\'').delete(',')
   end
 end
