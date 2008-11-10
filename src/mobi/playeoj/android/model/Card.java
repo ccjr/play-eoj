@@ -17,7 +17,7 @@ public class Card {
     private String defence_direction;
     private String limit;
     
- // GENERATED CODE, CHANGE IN data:android:cards TASK
+    // GENERATED CODE, CHANGE IN data:android:cards TASK
     public static final Card FLAME_MAGUS = new Card(1, "Flame Magus", "1", "Fire", "Human", "1", "1", "1", "1", "Common", "", "Church of Parmus", "Standard Magic", "None Blind Full", "");
     public static final Card HELLFIRE_SPITTER = new Card(2, "Hellfire Spitter", "1", "Fire", "Bug", "1", "1", "1", "1", "Common", "", "", "Selective Full Circle", "Full", "");
     public static final Card FREEDONIAN_WANDERER = new Card(3, "Freedonian Wanderer", "1", "Fire", "Elemental", "2", "1", "2", "1", "Common", "While Freedonian Wanderer is on a non-Fire field, you gain 1 mana each time you summon an allied creature.", "", "Standard", "Standard Blind Back", "");
@@ -359,91 +359,46 @@ public class Card {
     public int getNumber() {
         return number;
     }
-    public void setNumber(int number) {
-        this.number = number;
-    }
     public String getTitle() {
         return title;
-    }
-    public void setTitle(String title) {
-        this.title = title;
     }
     public String getSet() {
         return set;
     }
-    public void setSet(String set) {
-        this.set = set;
-    }
     public String getElement() {
         return element;
-    }
-    public void setElement(String element) {
-        this.element = element;
     }
     public String getRace() {
         return race;
     }
-    public void setRace(String race) {
-        this.race = race;
-    }
     public String getSummoning_cost() {
         return summoning_cost;
-    }
-    public void setSummoning_cost(String summoning_cost) {
-        this.summoning_cost = summoning_cost;
     }
     public String getActivation_cost() {
         return activation_cost;
     }
-    public void setActivation_cost(String activation_cost) {
-        this.activation_cost = activation_cost;
-    }
     public String getHealth_points() {
         return health_points;
-    }
-    public void setHealth_points(String health_points) {
-        this.health_points = health_points;
     }
     public String getAttack() {
         return attack;
     }
-    public void setAttack(String attack) {
-        this.attack = attack;
-    }
     public String getRarity() {
         return rarity;
-    }
-    public void setRarity(String rarity) {
-        this.rarity = rarity;
     }
     public String getBody() {
         return body;
     }
-    public void setBody(String body) {
-        this.body = body;
-    }
     public String getAffiliation() {
         return affiliation;
-    }
-    public void setAffiliation(String affiliation) {
-        this.affiliation = affiliation;
     }
     public String getAttack_direction() {
         return attack_direction;
     }
-    public void setAttack_direction(String attack_direction) {
-        this.attack_direction = attack_direction;
-    }
     public String getDefence_direction() {
         return defence_direction;
     }
-    public void setDefence_direction(String defence_direction) {
-        this.defence_direction = defence_direction;
-    }
     public String getLimit() {
         return limit;
-    }
-    public void setLimit(String limit) {
-        this.limit = limit;
     }
 }
