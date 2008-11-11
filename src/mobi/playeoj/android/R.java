@@ -24,13 +24,6 @@ public final class R {
     }
     public static final class string {
         public static final int about=0x7f040007;
-        public static final int about_authors=0x7f04000b;
-        public static final int about_credit=0x7f04000c;
-        public static final int about_how=0x7f04000a;
-        public static final int about_open_source=0x7f04000d;
-        /**  About 
-         */
-        public static final int about_why=0x7f040009;
         /**  Menu Options 
          */
         public static final int all_cards=0x7f040002;
