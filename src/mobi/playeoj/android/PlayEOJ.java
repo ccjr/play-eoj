@@ -1,5 +1,6 @@
 package mobi.playeoj.android;
 
+import mobi.playeoj.android.model.Card;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -39,13 +40,13 @@ public class PlayEOJ extends ListActivity {
             showAllCards();
             break;
         case MENU_BY_ELEMENT:
-            showCard();
+            showFilter(Card.ELEMENTS);
             break;
         case MENU_BY_RACE:
-            showCard();
+            showFilter(Card.RACES);
             break;
         case MENU_BY_AFFILIATION:
-            showCard();
+            showFilter(Card.AFFILIATIONS);
             break;
         case MENU_GLOSSARY:
             showGlossary();
@@ -61,13 +62,13 @@ public class PlayEOJ extends ListActivity {
         startActivity(i);
     }
 
-    private void showCard() {
-        Intent i = new Intent(this, ShowCard.class);
-        startActivity(i);
-    }
-
     private void showGlossary() {
         Intent i = new Intent(this, ListDefinitions.class);
+        startActivity(i);
+    }
+    
+    private void showFilter(String[] filter) {
+        Intent i = new Intent(this, ListFilters.class);
         startActivity(i);
     }
 
