@@ -34,8 +34,12 @@ namespace :data do
         puts "public static final Card #{card.constant_title} = new Card(#{card.number}, \"#{card.title}\", \"#{card.set}\", \"#{card.element}\", \"#{card.race}\", \"#{card.summoning_cost}\", \"#{card.activation_cost}\", \"#{card.health_points}\", \"#{card.attack}\", \"#{card.rarity}\", \"#{card.body}\", \"#{card.affiliation}\", \"#{card.attack_directions}\", \"#{card.defense_directions}\", \"#{card.limit}\");"
       end
       # Generate ALL_CARDS constant
-      puts "public static final Definition[] ALL_CARDS = { #{Card.all(:order => 'title').collect{|c| c.constant_title}.join(", ")} };"
+      puts "public static final Card[] ALL_CARDS = { #{Card.all(:order => 'title').collect{|c| c.constant_title}.join(", ")} };"
       puts "public static final String[] ALL_TITLES = { #{Card.all(:order => 'title').collect {|c| "\"#{c.title}\""}.join(", ")} };"
+      # Generate filters
+      puts "public static final String[] ELEMENTS = { #{Card::ELEMENTS.collect{|e| "\"#{e}\""}.join(", ")}};"
+      puts "public static final String[] RACES = { #{Card.races.collect{|c| "\"#{c.race}\""}.join(", ")}};"
+      puts "public static final String[] AFFILIATIONS = { #{Card.affiliations.collect{|c| "\"#{c.affiliation}\""}.join(", ")}};"
     end
   end
   
