@@ -1,6 +1,5 @@
 package mobi.playeoj.android;
 
-import mobi.playeoj.android.model.Card;
 import android.app.ListActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -15,8 +14,9 @@ public class ListFilters extends ListActivity {
         super.onCreate(savedInstanceState);
         this.setTitle("Play EoJ >> Filter cards");
         
+        mFilters = (String[])this.getIntent().getExtras().get("filter");
+        
         // Use an existing ListAdapter that will map an array of strings to TextViews
-        mFilters = Card.ELEMENTS;
         setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, mFilters));
         getListView().setTextFilterEnabled(true);
     }
@@ -25,9 +25,5 @@ public class ListFilters extends ListActivity {
         super.onListItemClick(l, v, position, id);
         
         // Nothing for the time being        
-    }
-
-    public void setFilters(String[] filters) {
-        mFilters = filters;
     }
 }
