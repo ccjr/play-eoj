@@ -24,6 +24,6 @@ public class ListFilters extends ListActivity {
     protected void onListItemClick(ListView l, View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
         
-        // Nothing for the time being        
+        // Nothing for the time being
     }
 }

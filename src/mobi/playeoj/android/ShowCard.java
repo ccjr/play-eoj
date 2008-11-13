@@ -7,7 +7,7 @@ public class ShowCard extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        this.setTitle("Play EoJ >> Card");
+        this.setTitle("Card >> " + this.getIntent().getExtras().getString("title"));
         setContentView(R.layout.show_card);
     }
 }
