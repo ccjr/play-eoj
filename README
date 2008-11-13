@@ -4,7 +4,4 @@ This is the Android version of the Eye Of Judgment application - see http://play
 
 -- To Do list -- 
 
-* Create a list activity that displays results of searches for cards [ccjr]
-* Create an activity for about - see styled resource sample [ccjr]
-* Show the correct image in the card activity [ccjr]
-* Write code to populate cards table [ccjr]
+* Create the card activity based on the iPhone app [ccjr/rbarazi]
