@@ -1,6 +1,5 @@
 package mobi.playeoj.android;
 
-import mobi.playeoj.android.model.Card;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,8 +14,8 @@ public class ListCards extends ListActivity {
         super.onCreate(savedInstanceState);
         this.setTitle("Play EoJ >> Cards");
         
-        // Use an existing ListAdapter that will map an array of strings to TextViews
-        setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, Card.ALL_TITLES));
+        String[] cards = (String[])this.getIntent().getExtras().get("cards");
+        setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, cards));
         getListView().setTextFilterEnabled(true);
     }
     

@@ -59,6 +59,7 @@ public class PlayEOJ extends ListActivity {
 
     private void showAllCards() {
         Intent i = new Intent(this, ListCards.class);
+        i.putExtra("cards", Card.ALL_TITLES);
         startActivity(i);
     }
 
@@ -69,7 +70,6 @@ public class PlayEOJ extends ListActivity {
     
     private void showFilter(String[] filter) {
         Intent i = new Intent(this, ListFilters.class);
-        i.putExtra("filter", filter);
         startActivity(i);
     }
 
