@@ -70,6 +70,7 @@ public class PlayEOJ extends ListActivity {
     
     private void showFilter(String[] filter) {
         Intent i = new Intent(this, ListFilters.class);
+        i.putExtra("filter", filter);
         startActivity(i);
     }
 
