@@ -40,13 +40,13 @@ public class PlayEOJ extends ListActivity {
             showAllCards();
             break;
         case MENU_BY_ELEMENT:
-            showFilter(Card.ELEMENTS);
+            showFilter("Element", Card.ELEMENTS);
             break;
         case MENU_BY_RACE:
-            showFilter(Card.RACES);
+            showFilter("Race", Card.RACES);
             break;
         case MENU_BY_AFFILIATION:
-            showFilter(Card.AFFILIATIONS);
+            showFilter("Affiliation", Card.AFFILIATIONS);
             break;
         case MENU_GLOSSARY:
             showGlossary();
@@ -68,8 +68,9 @@ public class PlayEOJ extends ListActivity {
         startActivity(i);
     }
     
-    private void showFilter(String[] filter) {
+    private void showFilter(String field, String[] filter) {
         Intent i = new Intent(this, ListFilters.class);
+        i.putExtra("field", field);
         i.putExtra("filter", filter);
         startActivity(i);
     }
