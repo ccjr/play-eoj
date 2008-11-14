@@ -1,5 +1,10 @@
 package mobi.playeoj.android.model;
 
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.List;
+
 public class Card {
     private int number;
     private String title;
@@ -357,6 +362,39 @@ public class Card {
 	this.attack_direction = attack_direction;
 	this.defence_direction = defence_direction; 
 	this.limit = limit; 
+    }
+
+    /**
+     * Searches all the cards that matches a value for a specific field
+     * @param field
+     * @param value
+     * @return
+     */
+    public static String[] list(String field, String value) {
+	// find out the method we need to call
+	Class cls = null;
+	Method meth = null;
+	String methodName = "get" + field;
+	try {
+	    cls = Class.forName("mobi.playeoj.android.model.Card");
+	    meth = cls.getMethod(methodName);
+	} catch (Exception e) {
+	    e.printStackTrace();
+	}
+
+	// go over all cards, and get the ones that match
+	List<String> cards = new ArrayList<String>();
+	for(int i=0; i<ALL_CARDS.length; i++) {
+	    Card card = ALL_CARDS[i];
+	    try {
+		if ( ((String)meth.invoke(card)).equals(value)) {
+		    cards.add(card.getTitle());
+		}
+	    } catch (Exception e) {
+		e.printStackTrace();
+	    }
+	}
+	return cards.toArray(new String[0]);
     }
 
     public int getNumber() {
