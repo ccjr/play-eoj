@@ -1,8 +1,8 @@
 package mobi.playeoj.android.model;
 
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Card {
@@ -395,6 +395,16 @@ public class Card {
 	    }
 	}
 	return cards.toArray(new String[0]);
+    }
+    
+    /**
+     * Find a card object from the title
+     * @param title
+     * @return
+     */
+    public static Card findByTitle(String title) {
+	int index = Arrays.binarySearch(ALL_TITLES, title);
+	return ALL_CARDS[index];
     }
 
     public int getNumber() {
