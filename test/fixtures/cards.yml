@@ -1559,7 +1559,7 @@
   rarity: Common
   attack_directions: Standard
   defense_directions: Standard Blind Back
-  body: |    Flame Novice adds 1 to its Attack <i>half the time.</i> Each adjacent enemy gets -1 HP for each of its <i>Dodge</i> attempts.
+  body: |    Flame Novice adds 1 to its Attack half the time. Each adjacent enemy gets -1 HP for each of its Dodge attempts.
 112_flame_guard_recruit:
   set: 2
   number: 112
@@ -1648,7 +1648,7 @@
   rarity: Uncommon
   attack_directions: Standard Magic
   defense_directions: None Blind Back
-  body: |    If there are no enemy Fire creatures on the board, subtract 1 from the Attack of all adjacent enemies. If an allied Cult of Mourning creature would add to its attack <i>half the time</i>, it now always adds to its attack.
+  body: |    If there are no enemy Fire creatures on the board, subtract 1 from the Attack of all adjacent enemies. If an allied Cult of Mourning creature would add to its attack half the time, it now always adds to its attack.
 118_behemorph:
   set: 2
   number: 118
@@ -1724,7 +1724,7 @@
   rarity: Rare
   attack_directions: Magic Nuke
   defense_directions: None Blind Back
-  body: |    Flame Archmage's <i>Magic Attack</i> targets all enemies of the same race as the target. Subtract 1 from the Summoning Cost of other allied Church of Parmus creatures (minimum 1).
+  body: |    Flame Archmage's Magic Attack targets all enemies of the same race as the target. Subtract 1 from the Summoning Cost of other allied Church of Parmus creatures (minimum 1).
 123_flameheart:
   set: 2
   number: 123
@@ -1786,7 +1786,7 @@
   attack_directions: Magic Blast
   defense_directions: None Blind Back
   limit: 1 of race
-  body: |    General Lug's Magic attack targets all enemies on and adjacent to the target Fire field.  While General Lug is on the board, creatures with <i>Invisibility</i> can be attacked as though they didn't have that ability.  Subtract 1 from the Summoning Cost of other allied Fire creatures (minimum 1).
+  body: |    General Lug's Magic attack targets all enemies on and adjacent to the target Fire field.  While General Lug is on the board, creatures with Invisibility can be attacked as though they didn't have that ability.  Subtract 1 from the Summoning Cost of other allied Fire creatures (minimum 1).
 127_cloudrunner_marauder:
   set: 2
   number: 127
@@ -1831,7 +1831,7 @@
   rarity: Common
   attack_directions: Left Right Strike
   defense_directions: Left Right
-  body: |    Frost Guards gain <i>Perfect Dodge</i> when attacked by Fire creatures.
+  body: |    Frost Guards gain Perfect Dodge when attacked by Fire creatures.
 130_venoan_spy:
   set: 2
   number: 130
@@ -1876,7 +1876,7 @@
   rarity: Uncommon
   attack_directions: Standard Magic
   defense_directions: Standard Blind Back
-  body: |    Each adjacent enemy gets -1 HP for each <i>Protection</i> it has. Destroy Aluhja Moving Citadel if it is on a Fire field.
+  body: |    Each adjacent enemy gets -1 HP for each Protection it has. Destroy Aluhja Moving Citadel if it is on a Fire field.
 133_ghost_ship:
   set: 2
   number: 133
@@ -1891,7 +1891,7 @@
   rarity: Common
   attack_directions: No Attack
   defense_directions: None
-  body: |    Ghost Ship gains <i>Possession</i> of enemy creatures on Water fields within the 2 fields in front of it.
+  body: |    Ghost Ship gains Possession of enemy creatures on Water fields within the 2 fields in front of it.
 134_shadow_diver:
   set: 2
   number: 134
@@ -1936,7 +1936,7 @@
   rarity: Rare
   attack_directions: Selective Full Circle
   defense_directions: Full
-  body: |    While Okunada Moving Temple is on a non-Water field, adjacent allied creatures gain <i>Perfect Dodge</i> in your opponent's turn. Destroy Okunada Moving Temple if it is on a Fire field.
+  body: |    While Okunada Moving Temple is on a non-Water field, adjacent allied creatures gain Perfect Dodge in your opponent's turn. Destroy Okunada Moving Temple if it is on a Fire field.
 137_aluhja_zealot:
   set: 2
   number: 137
@@ -1967,7 +1967,7 @@
   rarity: Uncommon
   attack_directions: No Attack
   defense_directions: None
-  body: |    A Wood field adjacent to Queen's Emissary is also treated as a Water field. Queen's Emissary gains <i>Possession</i> of all enemy creatures on adjacent Water fields.
+  body: |    A Wood field adjacent to Queen's Emissary is also treated as a Water field. Queen's Emissary gains Possession of all enemy creatures on adjacent Water fields.
 139_aluhja_inquisitrix:
   set: 2
   number: 139
@@ -2014,7 +2014,7 @@
   attack_directions: Standard
   defense_directions: Standard Blind Back
   limit: 1 of race
-  body: |    Corleo's Attack is equal to 2 plus the number of other allied Corsez Family creatures. Each time an allied creature <i>dodges</i> an attack, steal 1 mana from your opponent for each allied Corsez Family creature. Other allied creatures gain 1 <i>Dodge</i> attempt.
+  body: |    Corleo's Attack is equal to 2 plus the number of other allied Corsez Family creatures. Each time an allied creature dodges an attack, steal 1 mana from your opponent for each allied Corsez Family creature. Other allied creatures gain 1 Dodge attempt.
 142_admiral_belta:
   set: 2
   number: 142
@@ -2060,7 +2060,7 @@
   rarity: Common
   attack_directions: Standard
   defense_directions: Standard Blind Back
-  body: |    While Relentless Skeleton is on a non-Earth field, he gains <i>Resurrection.</i>
+  body: |    While Relentless Skeleton is on a non-Earth field, he gains Resurrection.
 145_far_land_sand_dog:
   set: 2
   number: 145
@@ -2075,7 +2075,7 @@
   rarity: Common
   attack_directions: Standard Ranged
   defense_directions: Standard Blind Back
-  body: |    Far Land Sand Dog gains <i>Decoy</i> for the enemy directly in front of him. (That enemy can only attack creatures with <i>Decoy</i>)
+  body: |    Far Land Sand Dog gains Decoy for the enemy directly in front of him. (That enemy can only attack creatures with Decoy)
 146_dwarf_sniper:
   set: 2
   number: 146
@@ -2090,7 +2090,7 @@
   rarity: Common
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
-  body: |    Enemies within the 2 fields in front of Dwarf Sniper cannot <i>Dodge.</i> While an allied Blackhood Dwarf Vulitra is on the board, Dwarf Sniper gains +1 <i>Protection.</i>
+  body: |    Enemies within the 2 fields in front of Dwarf Sniper cannot Dodge. While an allied Blackhood Dwarf Vulitra is on the board, Dwarf Sniper gains +1 Protection.
 147_battering_ram:
   set: 2
   number: 147
@@ -2105,7 +2105,7 @@
   rarity: Uncommon
   attack_directions: Lancer
   defense_directions: Standard Blind Back
-  body: |    When Battering Ram attacks a Base creature, it adds 3 to its Attack. Adjacent allied creatures gain +1 <i>Protection</i>
+  body: |    When Battering Ram attacks a Base creature, it adds 3 to its Attack. Adjacent allied creatures gain +1 Protection
 148_novogus_bandwagon:
   set: 2
   number: 148
@@ -2120,7 +2120,7 @@
   rarity: Rare
   attack_directions: No Attack
   defense_directions: None
-  body: |    While there is an Undead creature adjacent to Novogus Bandwagon, all other allied Undead creatures gain <i>Decoy</i> for all enemies. (Those enemies can only attack creatures with Decoy) Destroy Novogus Bandwagon if it is on a Wood field.
+  body: |    While there is an Undead creature adjacent to Novogus Bandwagon, all other allied Undead creatures gain Decoy for all enemies. (Those enemies can only attack creatures with Decoy) Destroy Novogus Bandwagon if it is on a Wood field.
 149_novogus_warrior:
   set: 2
   number: 149
@@ -2165,7 +2165,7 @@
   attack_directions: Selective Arc
   defense_directions: Arc Blind Back
   misprint: true
-  body: |    When Dwarf Battlebuggy attacks a non-adjacent enemy, it adds 1 to it's Attack. While there is an allied Dwarf creature adjacent to Dwarf Battlebuggy, Dwarf Battlebuggy gains <i>Decoy</i> for adjacent enemies (Those enemies can only attack creatures with <i>Decoy</i>).
+  body: |    When Dwarf Battlebuggy attacks a non-adjacent enemy, it adds 1 to it's Attack. While there is an allied Dwarf creature adjacent to Dwarf Battlebuggy, Dwarf Battlebuggy gains Decoy for adjacent enemies (Those enemies can only attack creatures with Decoy).
 152_dwarf_warbanner:
   set: 2
   number: 152
@@ -2180,7 +2180,7 @@
   rarity: Uncommon
   attack_directions: No Attack
   defense_directions: None Blind Back
-  body: |    All Dwarf creatures subtract 1 from their Attack and gain +1 <i>Protection</i> for each Dwarf creature on the board.
+  body: |    All Dwarf creatures subtract 1 from their Attack and gain +1 Protection for each Dwarf creature on the board.
 153_dwarf_battle_forge:
   set: 2
   number: 153
@@ -2212,7 +2212,7 @@
   defense_directions: Standard Blind Back
   limit: 5 of race
   misprint: true
-  body: |    You steal the exit mana of enemy Wood creatures. During <b>your opponent's</b> Resolution Phase, your opponent loses mana equal to the number of allied Water Missionary creatures. Subtract 2 from the Summoning Cost of allied Water Missionary creatures (minimum 1).
+  body: |    You steal the exit mana of enemy Wood creatures. During your opponent's Resolution Phase, your opponent loses mana equal to the number of allied Water Missionary creatures. Subtract 2 from the Summoning Cost of allied Water Missionary creatures (minimum 1).
 155_novogus_sinbearer:
   set: 2
   number: 155
@@ -2441,7 +2441,7 @@
   defense_directions: Standard Blind Back
   limit: 5 of race
   misprint: true
-  body: |    You steal the exit mana of all enemy Earth creatures. During <b>your opponent's</b> Resolution Phase, your opponent must discard a card for each allied Fire Missionary creature on the board.  Subtract 2 from the Summoning Cost of allied Fire Missionary creatures (minimum 1).
+  body: |    You steal the exit mana of all enemy Earth creatures. During your opponent's Resolution Phase, your opponent must discard a card for each allied Fire Missionary creature on the board.  Subtract 2 from the Summoning Cost of allied Fire Missionary creatures (minimum 1).
 170_alchemist's_lab:
   set: 2
   number: 170
@@ -2471,7 +2471,7 @@
   rarity: Rare
   attack_directions: Lancer
   defense_directions: Standard Blind Back
-  body: |    Elven Night Rider's Attack is equal to 2 plus the number of Elf creatures on the board. While Elven Night Rider is on a non-Wood field, each time an allied Elf creature is destroyed, Elven Night Rider gains 1 HP. Enemies within the 2 fields in front of Elven Night Rider cannot <i>Dodge</i>.
+  body: |    Elven Night Rider's Attack is equal to 2 plus the number of Elf creatures on the board. While Elven Night Rider is on a non-Wood field, each time an allied Elf creature is destroyed, Elven Night Rider gains 1 HP. Enemies within the 2 fields in front of Elven Night Rider cannot Dodge.
 172_prince_lusirion:
   set: 2
   number: 172
@@ -2640,7 +2640,7 @@
   attack_directions: Full Longrange Strike
   defense_directions: Full
   limit: 1 of card
-  body: |    Battle Master attacks the same target twice. The target's counterattack occurs after the second attack. When Battle Master is summoned, you may take a Scion, Biolith Lord from your library, reveal it to your opponent, and put it into your hand. Then shuffle your library. Enemies within the 2 fields to the front, back, left, and right of battle master add 2 to their Activation Cost and cannot <i>Dodge</i>
+  body: |    Battle Master attacks the same target twice. The target's counterattack occurs after the second attack. When Battle Master is summoned, you may take a Scion, Biolith Lord from your library, reveal it to your opponent, and put it into your hand. Then shuffle your library. Enemies within the 2 fields to the front, back, left, and right of battle master add 2 to their Activation Cost and cannot Dodge
 183_magic_master:
   set: 2
   number: 183
@@ -2673,7 +2673,7 @@
   defense_directions: None
   limit: 1 of card
   misprint: true
-  body: |    <b>While Biolith Battleship is on a Biolith field,</b> Biolith Battleship intercepts a summoned enemy creature <i>half the time.</i> <b>While on a non-Biolith field</b> all other allied creatures add <b>+2</b> <i>Magic Protection.</i>
+  body: |    While Biolith Battleship is on a Biolith field, Biolith Battleship intercepts a summoned enemy creature half the time. While on a non-Biolith field all other allied creatures add +2 Magic Protection.
 185_biolith_temple:
   set: 2
   number: 185
@@ -2705,7 +2705,7 @@
   attack_directions: No Attack
   defense_directions: None
   limit: 1 of race
-  body: |    Each time an enemy is summoned, reveal the top card of your library. If the revealed card is a Biolith creature, you may summon it immediately if you are able. If you do not summon it, put it into your graveyard. That creature cannot attack this turn. Biolith <i>Invocation</i>. Subtract 1 from the Summoning Cost of other allied Biolith creatures (minimum 1).
+  body: |    Each time an enemy is summoned, reveal the top card of your library. If the revealed card is a Biolith creature, you may summon it immediately if you are able. If you do not summon it, put it into your graveyard. That creature cannot attack this turn. Biolith Invocation. Subtract 1 from the Summoning Cost of other allied Biolith creatures (minimum 1).
 187_sword_of_juno:
   set: 2
   number: 187
@@ -2763,7 +2763,7 @@
   attack_directions: Lancer
   defense_directions: Standard Blind Back
   limit: 1 of card
-  body: |    Fist of Juno does not belong to any element. Fist of Juno can use Incarnation on any allied non-Biolith creature. Enemies on Biolith fields and fields adjacent to Biolith fields cannot <i>Dodge</i> attacks.
+  body: |    Fist of Juno does not belong to any element. Fist of Juno can use Incarnation on any allied non-Biolith creature. Enemies on Biolith fields and fields adjacent to Biolith fields cannot Dodge attacks.
 191_absolver_sacrament:
   set: 2
   number: 191
@@ -2829,7 +2829,7 @@
   race: Conjuration
   summoning_cost: 1
   rarity: Common
-  body: |    All enemies are dealt magic damage equal to the number of <i>Dodge</i> attempts they have.
+  body: |    All enemies are dealt magic damage equal to the number of Dodge attempts they have.
 198_mesmer's_envoy:
   set: 2
   number: 198
@@ -2865,7 +2865,7 @@
   race: Conjuration
   summoning_cost: 2
   rarity: Common
-  body: |    Target creature has <i>fieldmorph.</i>
+  body: |    Target creature has fieldmorph.
 202_aluhjan_spellshield:
   set: 2
   number: 202
@@ -2934,7 +2934,7 @@
   summoning_cost: 1
   rarity: Rare
   misprint: true
-  body: |    Choose creatures from your graveyard that are not Ultra Rare up to the number of cards in your hand. Discard your hand then return the chosen cards to your hand. <b>Playing this card ends your turn.</b>
+  body: |    Choose creatures from your graveyard that are not Ultra Rare up to the number of cards in your hand. Discard your hand then return the chosen cards to your hand. Playing this card ends your turn.
 209_seer_vizak's_cleansing:
   set: 2
   number: 209
@@ -2954,7 +2954,7 @@
   summoning_cost: 3
   rarity: Rare
   misprint: true
-  body: |    Choose a creature on a field. Until the end of your next turn <b>all creatures of the same element as the target gain <i>Fieldmorph</i>. Playing this card ends your turn.</b>
+  body: |    Choose a creature on a field. Until the end of your next turn all creatures of the same element as the target gain Fieldmorph. Playing this card ends your turn.
 211_partmole_gatekeeper:
   set: 3
   number: 211
@@ -3072,7 +3072,7 @@
   rarity: Rare
   attack_directions: Selective Front
   defense_directions: Standard Blind Arc
-  body: |    Flame Wyvern's Attack is equal to 1 plus the number of other Fire creatures on the board. While Flame Wyvern is on a Fire field, other allied creatures gain +1 <i>Magic Protection</i>. While an allied Bone Drake is on the board, all allied creatures other than itself gain Dragon Invocation with no Summoning Cost.
+  body: |    Flame Wyvern's Attack is equal to 1 plus the number of other Fire creatures on the board. While Flame Wyvern is on a Fire field, other allied creatures gain +1 Magic Protection. While an allied Bone Drake is on the board, all allied creatures other than itself gain Dragon Invocation with no Summoning Cost.
 219_mourning_cenobite:
   set: 3
   number: 219
@@ -3087,7 +3087,7 @@
   rarity: Common
   attack_directions: Standard Magic
   defense_directions: None Blind Back
-  body: |    Mourning Cenobite adds 2 to its Attack <i>half the time</i>. If Mourning Cenobite attacks from a Fire or Earth field, any damage he inflicts will reduce the target's Attack instead of HPs. If the target's Attack is less than 1, it loses HPs as normal.
+  body: |    Mourning Cenobite adds 2 to its Attack half the time. If Mourning Cenobite attacks from a Fire or Earth field, any damage he inflicts will reduce the target's Attack instead of HPs. If the target's Attack is less than 1, it loses HPs as normal.
 220_mourning_buffalo:
   set: 3
   number: 220
@@ -3102,7 +3102,7 @@
   rarity: Uncommon
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
-  body: |    Adjacent enemy creatures with <i>Invisibility</i> can be attacked as if they did not have that ability. Each time Mourning Buffalo declares an attack action, subtract 1 from the Attack of all non-adjacent enemy creatures. While an allied Cult of Mourning creature is on the board, subtract 1 from Mourning Buffalo's Activation Cost to attack.
+  body: |    Adjacent enemy creatures with Invisibility can be attacked as if they did not have that ability. Each time Mourning Buffalo declares an attack action, subtract 1 from the Attack of all non-adjacent enemy creatures. While an allied Cult of Mourning creature is on the board, subtract 1 from Mourning Buffalo's Activation Cost to attack.
 221_torrid_nightmare:
   set: 3
   number: 221
@@ -3117,7 +3117,7 @@
   rarity: Uncommon
   attack_directions: Magic Nuke
   defense_directions: None Blind Back
-  body: |    Torrid Nightmare's <i>Magic Attack</i> targets all enemies of the same race as the target. If Torrid Nightmare attacks (but does not destroy) a creature, the target loses half of its HP (rounded down). Each time an allied Church of Parmus creature is destroyed, all other allied creatures gain 1 HP.
+  body: |    Torrid Nightmare's Magic Attack targets all enemies of the same race as the target. If Torrid Nightmare attacks (but does not destroy) a creature, the target loses half of its HP (rounded down). Each time an allied Church of Parmus creature is destroyed, all other allied creatures gain 1 HP.
 222_flame_lizard_general:
   set: 3
   number: 222
@@ -3147,7 +3147,7 @@
   rarity: Rare
   attack_directions: Selective Full Circle
   defense_directions: Full
-  body: |    While Partmole Scout Balloon is on a non-Fire field, if an enemy creature is summoned within the Attack Zone of any allied Lizard creature, they intercept the summoned enemy creature <i>half the time</i>. While your creatures outnumber enemy creatures on the board, all other allied creatures gain <i>Quickness</i>
+  body: |    While Partmole Scout Balloon is on a non-Fire field, if an enemy creature is summoned within the Attack Zone of any allied Lizard creature, they intercept the summoned enemy creature half the time. While your creatures outnumber enemy creatures on the board, all other allied creatures gain Quickness
 224_logan_zurtur:
   set: 3
   number: 224
@@ -3178,7 +3178,7 @@
   limit: 1 of card
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
-  body: |    Raging Pyrathrax can only be summoned if 2 or more Fire creatures are on the board. Raging Pyrathrax's Attack is equal to 5 plus the number of other creatures on the board. While Raging Pyrathrax is on a non-Biolith field, all other allied creatures gain +2 <i>Magic Protection</i>. While Raging Pyrathrax is on a non-Biolith field, each time any creature uses an attack action, all enemy creatures adjacent to Raging Pyrathrax take 1 magic damage.
+  body: |    Raging Pyrathrax can only be summoned if 2 or more Fire creatures are on the board. Raging Pyrathrax's Attack is equal to 5 plus the number of other creatures on the board. While Raging Pyrathrax is on a non-Biolith field, all other allied creatures gain +2 Magic Protection. While Raging Pyrathrax is on a non-Biolith field, each time any creature uses an attack action, all enemy creatures adjacent to Raging Pyrathrax take 1 magic damage.
 226_carlo_the_scorched:
   set: 3
   number: 226
@@ -3194,7 +3194,7 @@
   limit: 1 of race
   attack_directions: Standard::Magic Blast
   defense_directions: Standard Blind Back
-  body: |    While two or more enemy creatures are adjacent to Carlo, he must use his secondary <i>Magic Attack</i> which targets all adjacent enemies. If at least one target is a non-Fire creature, Carloís attack is equal to 2 plus the number of fire fields. Subtract 2 from the attack of any enemy Biolith creatures on non-Biolith fields. All adjacent allied Fire creatures gain Fieldmorph.
+  body: |    While two or more enemy creatures are adjacent to Carlo, he must use his secondary Magic Attack which targets all adjacent enemies. If at least one target is a non-Fire creature, Carloís attack is equal to 2 plus the number of fire fields. Subtract 2 from the attack of any enemy Biolith creatures on non-Biolith fields. All adjacent allied Fire creatures gain Fieldmorph.
 227_blue_lycanthrope:
   set: 3
   number: 227
@@ -3209,7 +3209,7 @@
   rarity: Uncommon
   attack_directions: Standard::Selective Front
   defense_directions: Standard Blind Back
-  body: |    When summoned, <i>half the time</i> Blue Lycanthrope adds 1 to her Attack, gains <i>Perfect Dodge</i> and must use her secondary attack. No player can steal mana if Goddess Tritona is in your graveyard.
+  body: |    When summoned, half the time Blue Lycanthrope adds 1 to her Attack, gains Perfect Dodge and must use her secondary attack. No player can steal mana if Goddess Tritona is in your graveyard.
 228_cloudrunner_shipmate:
   set: 3
   number: 228
@@ -3283,7 +3283,7 @@
   rarity: Common
   attack_directions: Selective Full Circle
   defense_directions: Full
-  body: |    While Corsez Moving Castle is on a non-Water field, add 1 to the Summoning Cost of any adjacent enemy creatures. All other allied creatures gain a <i>Dodge</i> attempt against attacks from enemy Biolith creatures on non-Biolith fields. Destroy Corsez Moving Castle if it is on a Fire field.
+  body: |    While Corsez Moving Castle is on a non-Water field, add 1 to the Summoning Cost of any adjacent enemy creatures. All other allied creatures gain a Dodge attempt against attacks from enemy Biolith creatures on non-Biolith fields. Destroy Corsez Moving Castle if it is on a Fire field.
 233_aluhja_prioress:
   set: 3
   number: 233
@@ -3313,7 +3313,7 @@
   rarity: Rare
   attack_directions: Standard Ranged
   defense_directions: Standard Blind Arc
-  body: |    Sea Serpent's Attack is equal to 1 plus the number of other Water creatures on the board. While Sea Serpent is on a Water field, all adjacent allied creatures gain one <i>Dodge</i> attempt. While an allied Arboreal Wyrm is on the board, all allied creatures other than itself gain Dragon <i>Invocation</i> with no Summoning Cost.
+  body: |    Sea Serpent's Attack is equal to 1 plus the number of other Water creatures on the board. While Sea Serpent is on a Water field, all adjacent allied creatures gain one Dodge attempt. While an allied Arboreal Wyrm is on the board, all allied creatures other than itself gain Dragon Invocation with no Summoning Cost.
 235_siam's_sentinel:
   set: 3
   number: 235
@@ -3328,7 +3328,7 @@
   rarity: Uncommon
   attack_directions: Lancer
   defense_directions: Standard Blind Back
-  body: |    While Siam's Sentinel is on a non-Biolith field, all allied creatures with the same orientation as Siam's Sentinel gain <i>Perfect Dodge</i>.
+  body: |    While Siam's Sentinel is on a non-Biolith field, all allied creatures with the same orientation as Siam's Sentinel gain Perfect Dodge.
 236_queen's_commissioner:
   set: 3
   number: 236
@@ -3358,7 +3358,7 @@
   rarity: Common
   attack_directions: Front Back Strike::Full Circle Barrage
   defense_directions: Front Back Blind Left Right
-  body: |    While Don's Double is on a non-Water field, he must use his secondary attack. While on a Water field, Don's Double's Attack is equal to 1 plus the number of cards in your hand. While another allied Corsez Family creature is on the board, each time an allied creature <i>Dodges</i> an attack, steal mana from your opponent equal to the number of <i>Dodge</i> attempts the creature has.
+  body: |    While Don's Double is on a non-Water field, he must use his secondary attack. While on a Water field, Don's Double's Attack is equal to 1 plus the number of cards in your hand. While another allied Corsez Family creature is on the board, each time an allied creature Dodges an attack, steal mana from your opponent equal to the number of Dodge attempts the creature has.
 238_tritonan_sacred_court:
   set: 3
   number: 238
@@ -3373,7 +3373,7 @@
   rarity: Rare
   attack_directions: Magic Nuke
   defense_directions: None Blind Back
-  body: |    Tritonan Sacred Court's <i>Magic Attack</i> targets all enemies of the same element as the target. If at least one creature is summoned in your opponent's turn while Tritonan Sacred Court is on a non-Water field, in their Resolution Phase you must both offer the top card of your libraries to the Eye for <i>Judgment</i>. If you win, steal 1 mana from your opponent. While an enemy Biolith creature is on the board, all other allied non-Biolith creatures get +2 HPs.
+  body: |    Tritonan Sacred Court's Magic Attack targets all enemies of the same element as the target. If at least one creature is summoned in your opponent's turn while Tritonan Sacred Court is on a non-Water field, in their Resolution Phase you must both offer the top card of your libraries to the Eye for Judgment. If you win, steal 1 mana from your opponent. While an enemy Biolith creature is on the board, all other allied non-Biolith creatures get +2 HPs.
 239_missionary_ship:
   set: 3
   number: 239
@@ -3404,7 +3404,7 @@
   attack_directions: Magic Blast
   defense_directions: None Blind Back
   limit: 1 of race
-  body: |    Reverend Father Vlo's <i>Magic Attack</i> targets all enemies on and adjacent to the target Water field. When Reverend Father Vlo is summoned, you may take a Didi the Enlightened from your library, reveal it, and add it to your hand, then shuffle your library. Water <i>Invocation</i> (non-Ultra Rare cards only). While your creatures outnumber enemy creatures, all adjacent alied creatures gain a <i>Dodge</i> attempt and subtract 2 from their Attack.
+  body: |    Reverend Father Vlo's Magic Attack targets all enemies on and adjacent to the target Water field. When Reverend Father Vlo is summoned, you may take a Didi the Enlightened from your library, reveal it, and add it to your hand, then shuffle your library. Water Invocation (non-Ultra Rare cards only). While your creatures outnumber enemy creatures, all adjacent alied creatures gain a Dodge attempt and subtract 2 from their Attack.
 241_capricious_hydromancer:
   set: 3
   number: 241
@@ -3420,7 +3420,7 @@
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   limit: 1 of card
-  body: |    Capricious Hydromancer can only be summoned if 2 or more Water creatures are on the board. Hydromancer's Attack is equal to 5 plus the number of cards in your hand. While Hydromancer is on a non-Biolith field, adjacent allied creatures gain 2 <i>Dodge</i> attempts.<br />While Capricious Hydromancer is on a non-Biolith field, each time either player draws a card outside of their Draw phase, all enemy creatures adjacent to Hydromancer take 1 magic damage.
+  body: |    Capricious Hydromancer can only be summoned if 2 or more Water creatures are on the board. Hydromancer's Attack is equal to 5 plus the number of cards in your hand. While Hydromancer is on a non-Biolith field, adjacent allied creatures gain 2 Dodge attempts. While Capricious Hydromancer is on a non-Biolith field, each time either player draws a card outside of their Draw phase, all enemy creatures adjacent to Hydromancer take 1 magic damage.
 242_clare_wil_the_valiant:
   set: 3
   number: 242
@@ -3452,7 +3452,7 @@
   rarity: Common
   attack_directions: Standard Ranged
   defense_directions: Standard Blind Back
-  body: |    While Skeleton Archer is on a non-Earth field, he gains <i>Resurrection</i>.
+  body: |    While Skeleton Archer is on a non-Earth field, he gains Resurrection.
 244_verzar_defender:
   set: 3
   number: 244
@@ -3467,7 +3467,7 @@
   rarity: Common
   attack_directions: Standard
   defense_directions: Standard Blind Back
-  body: |    Verzar Defender gains +2 <i>Protection</i> if at least one other allied Verzar Defender is on the board.
+  body: |    Verzar Defender gains +2 Protection if at least one other allied Verzar Defender is on the board.
 245_stone_wing_veteran:
   set: 3
   number: 245
@@ -3482,7 +3482,7 @@
   rarity: Common
   attack_directions: Selective Full Circle
   defense_directions: Full
-  body: |    While Stone Wing Veteran is on the board, each time your opponent sacrifices a creature to summon another, you gain mana equal to the number of unoccupied fields. Stone Wing Veteran gains +1 <i>Protection</i> if at least one allied Giant Axe Dwarf is on the board.
+  body: |    While Stone Wing Veteran is on the board, each time your opponent sacrifices a creature to summon another, you gain mana equal to the number of unoccupied fields. Stone Wing Veteran gains +1 Protection if at least one allied Giant Axe Dwarf is on the board.
 246_ochre_mimic:
   set: 3
   number: 246
@@ -3511,7 +3511,7 @@
   rarity: Uncommon
   attack_directions: Standard
   defense_directions: Standard Blind Back
-  body: |    Each tiem a field adjacent to Dwarf Miner is <i>fieldquaked</i>, you gain 1 mana. If Dwarf Miner attacks while adjacent to an allied Dwarf creature, the target's field is <i>fieldquaked</i> and the target creature cannot couterattack.
+  body: |    Each tiem a field adjacent to Dwarf Miner is fieldquaked, you gain 1 mana. If Dwarf Miner attacks while adjacent to an allied Dwarf creature, the target's field is fieldquaked and the target creature cannot couterattack.
 248_forgotten_fortress:
   set: 3
   number: 248
@@ -3526,7 +3526,7 @@
   rarity: Uncommon
   attack_directions: No Attack
   defense_directions: None
-  body: |    While Forgotten Fortress is on a non-Earth field, if an allied Earth creature is summoned adjacent to Forgotten Fortress, or if Forgotten Fortress is summoned adjacent to an allied Earth creature, all Wood fields on the board are <i>fieldquaked</i>. While Forgotten Fortress is on the board, any Biolith creature on a non-Biolith field gets -1HP. Destroy Forgotten Fortress if it is on a Woodl field.
+  body: |    While Forgotten Fortress is on a non-Earth field, if an allied Earth creature is summoned adjacent to Forgotten Fortress, or if Forgotten Fortress is summoned adjacent to an allied Earth creature, all Wood fields on the board are fieldquaked. While Forgotten Fortress is on the board, any Biolith creature on a non-Biolith field gets -1HP. Destroy Forgotten Fortress if it is on a Woodl field.
 249_roving_penitentiary:
   set: 3
   number: 249
@@ -3541,7 +3541,7 @@
   rarity: Common
   attack_directions: Selective Full Circle
   defense_directions: Full
-  body: |    If Roving Penitentiary is destroyed on a Fire, Water or Biolith field, you gain mana equal to the total <i>Protection</i> of all adjacent allied creatures. While Novogus Gravekeeper is in your graveyard, enemy creatures cannot <i>Dodge</i>.<br />Destroy Roving Penitentiary if it is on a Wood field.
+  body: |    If Roving Penitentiary is destroyed on a Fire, Water or Biolith field, you gain mana equal to the total Protection of all adjacent allied creatures. While Novogus Gravekeeper is in your graveyard, enemy creatures cannot Dodge. Destroy Roving Penitentiary if it is on a Wood field.
 250_bone_drake:
   set: 3
   number: 250
@@ -3556,7 +3556,7 @@
   rarity: Rare
   attack_directions: Standard Ranged
   defense_directions: Standard Blind Arc
-  body: |    Bone Drake's Attack is equal to 1 plus the number of other Earth creatures on the board. While Bone Drake is on an Earth field, adjacent allied creatures gain +1 <i>Protection</i>. While an allied Sea Serpent is on the board, all allied creatures other than itself gain Dragon <i>Invocation</i> with no Summoning Cost.
+  body: |    Bone Drake's Attack is equal to 1 plus the number of other Earth creatures on the board. While Bone Drake is on an Earth field, adjacent allied creatures gain +1 Protection. While an allied Sea Serpent is on the board, all allied creatures other than itself gain Dragon Invocation with no Summoning Cost.
 251_blackhood_anti-mystic:
   set: 3
   number: 251
@@ -3571,7 +3571,7 @@
   rarity: Common
   attack_directions: Lancer
   defense_directions: Standard Blind Back
-  body: |    Blackhod Anti-Mystic adds 1 to his Attack if at least one target creature has a <i>Magic Attack</i>. Each time an allied creature is summoned to a Biolith field, <i>fieldquake</i> that field. While an allied Blackhood Caravan is on the board, all allied Dwarf creatures gain +2 <i>Magic Protection</i>.
+  body: |    Blackhod Anti-Mystic adds 1 to his Attack if at least one target creature has a Magic Attack. Each time an allied creature is summoned to a Biolith field, fieldquake that field. While an allied Blackhood Caravan is on the board, all allied Dwarf creatures gain +2 Magic Protection.
 252_novogus_war_mammoth:
   set: 3
   number: 252
@@ -3586,7 +3586,7 @@
   rarity: Uncommon
   attack_directions: Standard::Lancer
   defense_directions: Standard Blind Back
-  body: |    While Novogus War Mammoth is on a non-Earth field, it must use its secondary attack. After Novogus War Mammoth attacks, all target creatures' fields are <i>fieldquaked.</i>. Target creatures cannot counterattack.
+  body: |    While Novogus War Mammoth is on a non-Earth field, it must use its secondary attack. After Novogus War Mammoth attacks, all target creatures' fields are fieldquaked.. Target creatures cannot counterattack.
 253_dark_ozeki_kihomaru:
   set: 3
   number: 253
@@ -3616,7 +3616,7 @@
   rarity: Uncommon
   attack_directions: Full Longrange Strike
   defense_directions: Full
-  body: |    While an allied Dwarf creature is on the board, enemies within 2 fields to the front, back, left and right of Blackhood Caravan cannot <i>Dodge</i>. Each time a field is <i>fieldquaked</i>, any allies within 2 fields to the front, back, left, and right of Blackhood Caravan gain +1 <i>Protection</i>. Destroy Blackhood Caravan if it is on a Wood Field.
+  body: |    While an allied Dwarf creature is on the board, enemies within 2 fields to the front, back, left and right of Blackhood Caravan cannot Dodge. Each time a field is fieldquaked, any allies within 2 fields to the front, back, left, and right of Blackhood Caravan gain +1 Protection. Destroy Blackhood Caravan if it is on a Wood Field.
 255_parmetic_vengeress:
   set: 3
   number: 255
@@ -3630,7 +3630,7 @@
   attack: 2+
   rarity: Rare
   defense_directions: None Blind Back
-  body: |    Parmetic Vengress's <i>Magic Attack</i> only targets enemies within her Attack Zones. Parmetic Vengress's Attack is equal to 2 plus the number of Church of Parmus creatures in your graveyard. If your creatures outnumber enemy creatures, Parmetic Vengress' attack does not damage the target but your opponent loses mana equal to the HPs it would have inflicted. If your opponent's mana was 0, the target loses HPs as normal. Each time an enemy creature is destroyed, you may choose on non-Ultra Rare Church of Parmus creature from your graveyard and return it to your hand.
+  body: |    Parmetic Vengress's Magic Attack only targets enemies within her Attack Zones. Parmetic Vengress's Attack is equal to 2 plus the number of Church of Parmus creatures in your graveyard. If your creatures outnumber enemy creatures, Parmetic Vengress' attack does not damage the target but your opponent loses mana equal to the HPs it would have inflicted. If your opponent's mana was 0, the target loses HPs as normal. Each time an enemy creature is destroyed, you may choose on non-Ultra Rare Church of Parmus creature from your graveyard and return it to your hand.
 256_captain_xerabis:
   set: 3
   number: 256
@@ -3646,7 +3646,7 @@
   limit: 1 of race
   attack_directions: Full Longrange Strike
   defense_directions: Full
-  body: |    Xerabis adds 1 to his Attack if any target creature is on an Earth field. While your creatures outnumber enemies, all other allied creatures get +1 <i>Protection</i> and -1 Attack. While another allied Dwarf creature is on the board, Xerabis gains <i>Decoy</i> for all adjacent enemies.
+  body: |    Xerabis adds 1 to his Attack if any target creature is on an Earth field. While your creatures outnumber enemies, all other allied creatures get +1 Protection and -1 Attack. While another allied Dwarf creature is on the board, Xerabis gains Decoy for all adjacent enemies.
 257_callous_gaiakhan:
   set: 3
   number: 257
@@ -3661,7 +3661,7 @@
   limit: 1 of card
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
-  body: |    Callous Gaiakhan can only be summoned if 2 or more Earth creatures are on the board. Callous Gaiakhan's Attack is equal to 5 plus the total mana of both players. While Callous Gaiakhan is on a non-Biolith field, all adjacent allies gain +2 <i>Protection</i>. While Callous Gaiakhan is on a non-Biolith field, each time either player gains 1 mana outside of the Mana Charge phase, Gaiakhan deals 1 magic damage to all adjacent enemies.
+  body: |    Callous Gaiakhan can only be summoned if 2 or more Earth creatures are on the board. Callous Gaiakhan's Attack is equal to 5 plus the total mana of both players. While Callous Gaiakhan is on a non-Biolith field, all adjacent allies gain +2 Protection. While Callous Gaiakhan is on a non-Biolith field, each time either player gains 1 mana outside of the Mana Charge phase, Gaiakhan deals 1 magic damage to all adjacent enemies.
 258_king_sanavaan:
   set: 3
   number: 258
@@ -3677,7 +3677,7 @@
   limit: 1 of race
   attack_directions: Left Right Strike::Magic Blast
   defense_directions: Left Right
-  body: |    While King Sanavaan is adjecent to 2 or more allied creatures, he must use his secondary <i>Magic Attack</i>, which targets all enemy creatures of the same race as the target. When attacking a non-Earth creature, King Sanavaan's attack is equal to 2 plus the number of Earth fields. While King Sanavaan is on the board, enemy Biolith creatures on non-Biolith fields get -2 HP. All adjacent allied Earth creatures gain Fieldmorph.
+  body: |    While King Sanavaan is adjecent to 2 or more allied creatures, he must use his secondary Magic Attack, which targets all enemy creatures of the same race as the target. When attacking a non-Earth creature, King Sanavaan's attack is equal to 2 plus the number of Earth fields. While King Sanavaan is on the board, enemy Biolith creatures on non-Biolith fields get -2 HP. All adjacent allied Earth creatures gain Fieldmorph.
 259_goblin_fanfare:
   set: 3
   number: 259
@@ -3721,7 +3721,7 @@
   rarity: Common
   attack_directions: Standard Magic
   defense_directions: None Blind Back
-  body: |    While Elven Berserker Witch has exactly 1 HP, she gets +1 Attack and a <i>Dodge</i> attempt.
+  body: |    While Elven Berserker Witch has exactly 1 HP, she gets +1 Attack and a Dodge attempt.
 262_jade_mimic:
   set: 3
   number: 262
@@ -3779,7 +3779,7 @@
   rarity: Common
   attack_directions: Selective Full Circle
   defense_directions: Full
-  body: |    Each time Goblin Chickenrider rotates, he gains <i>Invisibility</i> until the end of the following player's turn. While an allied Preacher Noova is on the board, Goblin Chickenrider subtracts 1 from his Activation Cost to rotate.
+  body: |    Each time Goblin Chickenrider rotates, he gains Invisibility until the end of the following player's turn. While an allied Preacher Noova is on the board, Goblin Chickenrider subtracts 1 from his Activation Cost to rotate.
 266_arboreal_wyrm:
   set: 3
   number: 266
@@ -3794,7 +3794,7 @@
   rarity: Rare
   attack_directions: Selective Front
   defense_directions: Standard Blind Arc
-  body: |    Arboreal Wyrm's Attack is equal to 1 plus the number of other Wood creatures on the board. While Arboreal Wyrm is on a Wood field, adjacent allied creatures get +1 HP. While an allied Flame Wyvern is on the board, all allied creatures other than itself gain Dragon <i>Invocation</i> with no Summoning Cost.
+  body: |    Arboreal Wyrm's Attack is equal to 1 plus the number of other Wood creatures on the board. While Arboreal Wyrm is on a Wood field, adjacent allied creatures get +1 HP. While an allied Flame Wyvern is on the board, all allied creatures other than itself gain Dragon Invocation with no Summoning Cost.
 267_leapfrog_warchief:
   set: 3
   number: 267
@@ -3839,7 +3839,7 @@
   rarity: Uncommon
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
-  body: |    While Berserker Princess has exactly 1 HP, she gets +2 Attack and <i>Dodge</i>. While Berserker Princess is on a non-Biolith field, all non-Elf creatures generate no exit mana.
+  body: |    While Berserker Princess has exactly 1 HP, she gets +2 Attack and Dodge. While Berserker Princess is on a non-Biolith field, all non-Elf creatures generate no exit mana.
 270_moggy_howdah:
   set: 3
   number: 270
@@ -3854,7 +3854,7 @@
   rarity: Uncommon
   attack_directions: Full Longrange Strike
   defense_directions: Full
-  body: |    While Moggy Howdah is on a non-Biolith field, all other allied creatures with the same orientation as Moggy Howdah gain <i>Invisibility</i>. Destroy Moggy Howdah if it is on an Earth field.
+  body: |    While Moggy Howdah is on a non-Biolith field, all other allied creatures with the same orientation as Moggy Howdah gain Invisibility. Destroy Moggy Howdah if it is on an Earth field.
 271_ronin_nagirashu:
   set: 3
   number: 271
@@ -3884,7 +3884,7 @@
   rarity: Ultra Rare
   defense_directions: None Blind Back
   limit: 3 of race
-  body: |    Mandragora Triplet's <i>Magic Attack</i> only targets enemies within her Attack Zones. After Mandragora Triplet attacks, if there is another allied Mandragora Triplet on the board who has not yet attacked and has one of the original targets in her Attack Zones, she will attack without paying the Activation Cost. while enemy creatures outnumber your creatures on the board, all other allied creatures get +1 Attack and +1 Activation Cost.
+  body: |    Mandragora Triplet's Magic Attack only targets enemies within her Attack Zones. After Mandragora Triplet attacks, if there is another allied Mandragora Triplet on the board who has not yet attacked and has one of the original targets in her Attack Zones, she will attack without paying the Activation Cost. while enemy creatures outnumber your creatures on the board, all other allied creatures get +1 Attack and +1 Activation Cost.
 273_wild_dendrovort:
   set: 3
   number: 273
@@ -3914,7 +3914,7 @@
   attack_directions: Standard Ranged::Magic Blast
   defense_directions: Standard Blind Back
   limit: 1 of race
-  body: |    While Pope-Queen Cyrstin II is adjacent to two or more enemy creatures, she must use her secondary <i>Magic Attack</i>, which targets all enemy creatures of the same element as the target. When attacking a non-Wood creature, Pope-Queen Cyrstin II's attack is equal to 2 plus the number of Wood fields. In your opponent's resolution phase, your opponent loses mana equal to the number of enemy Biolith creatures on non-Biolith fields. All adjacent allied Wood creatures gain Fieldmorph.
+  body: |    While Pope-Queen Cyrstin II is adjacent to two or more enemy creatures, she must use her secondary Magic Attack, which targets all enemy creatures of the same element as the target. When attacking a non-Wood creature, Pope-Queen Cyrstin II's attack is equal to 2 plus the number of Wood fields. In your opponent's resolution phase, your opponent loses mana equal to the number of enemy Biolith creatures on non-Biolith fields. All adjacent allied Wood creatures gain Fieldmorph.
 275_architekt:
   set: 3
   number: 275
@@ -3930,7 +3930,7 @@
   attack_directions: No Attack
   defense_directions: None
   limit: 1 of race
-  body: |    All other allied creatures of the same element as the field Architekt is on gain +2 <i>Protection</i> Any creature adjacent to Architekt cannot move or rotate.
+  body: |    All other allied creatures of the same element as the field Architekt is on gain +2 Protection Any creature adjacent to Architekt cannot move or rotate.
 276_biolith_transmorph:
   set: 3
   number: 276
@@ -4020,7 +4020,7 @@
   rarity: Rare
   attack_directions: Magic Nuke
   defense_directions: None Blind Back
-  body: |    Biolith Mage Guard's <i>Magic Attack</i> targets all enemies of the same race as the target. When your opponent casts a spell, you may discard 1 spell card from your hand to cancel the action. Your opponent's Casting Cost is not returned.
+  body: |    Biolith Mage Guard's Magic Attack targets all enemies of the same race as the target. When your opponent casts a spell, you may discard 1 spell card from your hand to cancel the action. Your opponent's Casting Cost is not returned.
 282_prototype_behemoth:
   set: 3
   number: 282
@@ -4035,7 +4035,7 @@
   rarity: Uncommon
   attack_directions: Lancer
   defense_directions: Standard Blind Back
-  body: |    Each time Prototype Behemoth rotates, all fields with the same element as the field it is on are <i>fieldquaked.</i>
+  body: |    Each time Prototype Behemoth rotates, all fields with the same element as the field it is on are fieldquaked.
 283_scion's_peace:
   set: 3
   number: 283
@@ -4050,7 +4050,7 @@
   rarity: Rare
   attack_directions: Standard Magic
   defense_directions: None
-  body: |    Scion's Peace loses 1 HP during each Resolution Phase, unless this would cause it to fall below 1 HP. Scion's Peace adds 1 to its Attack during each Resolution Phase. While Scion's Peace is on a Biolith field, it gains <i>Perfect Dodge</i>
+  body: |    Scion's Peace loses 1 HP during each Resolution Phase, unless this would cause it to fall below 1 HP. Scion's Peace adds 1 to its Attack during each Resolution Phase. While Scion's Peace is on a Biolith field, it gains Perfect Dodge
 284_centipede_tank:
   set: 3
   number: 284
@@ -4065,7 +4065,7 @@
   rarity: Rare
   attack_directions: Arc Barrage::Magic Nuke
   defense_directions: None Blind Back
-  body: |    While Centipede Tank is on a Biolith field, it must use its secondary <i>Magic Attack</i> which targets all creatures of the same race as the target. While Centipede tank is on a non-Biolith field, add 1 to the Summoning Cost of any enemy creature of the same element as the field Centipede Tank is on.
+  body: |    While Centipede Tank is on a Biolith field, it must use its secondary Magic Attack which targets all creatures of the same race as the target. While Centipede tank is on a non-Biolith field, add 1 to the Summoning Cost of any enemy creature of the same element as the field Centipede Tank is on.
 285_kastor:
   set: 3
   number: 285
@@ -4081,7 +4081,7 @@
   attack_directions: Selective Front::Magic Nuke
   defense_directions: Standard Blind Back
   limit: 1 of card
-  body: |    Instead of a rotate action, you may take a Pollux from your library, reveal it, and put it into your hand. Then suffle your library. If Pollux is on the board, instead of taking an attack action, you may place Kastor on top of Pollux. This will create Dioskuri, a creature with the two cards' combined HP, Attack equal to 2 plus both players' combined mana, and a <i>Magic Attack</i> that targets all enemy creatures. If you put Kastor on top of Pollux to creatue Dioskuri, the creature steals exit mana from enemies on Biolith fields.
+  body: |    Instead of a rotate action, you may take a Pollux from your library, reveal it, and put it into your hand. Then suffle your library. If Pollux is on the board, instead of taking an attack action, you may place Kastor on top of Pollux. This will create Dioskuri, a creature with the two cards' combined HP, Attack equal to 2 plus both players' combined mana, and a Magic Attack that targets all enemy creatures. If you put Kastor on top of Pollux to creatue Dioskuri, the creature steals exit mana from enemies on Biolith fields.
 286_pollux:
   set: 3
   number: 286
@@ -4097,7 +4097,7 @@
   attack_directions: Standard Magic::Magic Nuke
   defense_directions: None Blind Back
   limit: 1 of card
-  body: |    Instead of a rotate action, you may take a Kastor from your library, reveal it, and put it into your hand. Then shuffle your library. If Kastor is on the board, instead of taking an attack action, you may place Pollux on top of Kastor. This will create Dioskuri, a creature with the two cards' combined HP, Attack equal to 2 plus both players' combined mana, and a <i>Magic Attack</i> that targets all enemy creatures. If you put Pollus on top of Kastor to create Dioskuri, all other allied creatures on Biolith fields gain 1 HP in each Resolution Phase while Dioskuri is on the board.
+  body: |    Instead of a rotate action, you may take a Kastor from your library, reveal it, and put it into your hand. Then shuffle your library. If Kastor is on the board, instead of taking an attack action, you may place Pollux on top of Kastor. This will create Dioskuri, a creature with the two cards' combined HP, Attack equal to 2 plus both players' combined mana, and a Magic Attack that targets all enemy creatures. If you put Pollus on top of Kastor to create Dioskuri, all other allied creatures on Biolith fields gain 1 HP in each Resolution Phase while Dioskuri is on the board.
 287_atomic_rudra:
   set: 3
   number: 287
@@ -4113,7 +4113,7 @@
   attack_directions: Selective Front
   defense_directions: Standard Blind Back
   limit: 1 of card
-  body: |    Atomic Rudra's Attack is equal to 3 plus the number of other creatures with the same element as the target creature. While Rudra is on the board, any creature on a non-Biolith field loses HP equal to its combined <i>Protection, Magic Protection</i> and <i>Dodge</i> attempts. Each time an allied creature is summoned to a field adjacent to Atomic Rudra, Rudra deals 1 magic damage to all enemy creatures with the same element as the summoned creature.
+  body: |    Atomic Rudra's Attack is equal to 3 plus the number of other creatures with the same element as the target creature. While Rudra is on the board, any creature on a non-Biolith field loses HP equal to its combined Protection, Magic Protection and Dodge attempts. Each time an allied creature is summoned to a field adjacent to Atomic Rudra, Rudra deals 1 magic damage to all enemy creatures with the same element as the summoned creature.
 288_romili_reloaded:
   set: 3
   number: 288
@@ -4128,7 +4128,7 @@
   attack_directions: Magic Nuke
   defense_directions: None Blind Back
   limit: 1 of race
-  body: |    Romili's <i>Magic Attach</i> targets all enemies of the same element as the target. Romili <i>Possesses</i> adjacent enemy creatures on Biolith fields. Subtract 1 from the Activation Cost of any adjacent creature. While an allied Lesser Granvenoa is on the board, fields adjacent to allied Lesser Granvenoa are also treated as Biolith fields.
+  body: |    Romili's Magic Attach targets all enemies of the same element as the target. Romili Possesses adjacent enemy creatures on Biolith fields. Subtract 1 from the Activation Cost of any adjacent creature. While an allied Lesser Granvenoa is on the board, fields adjacent to allied Lesser Granvenoa are also treated as Biolith fields.
 289_scion_triumphant:
   set: 3
   number: 289
@@ -4159,7 +4159,7 @@
   attack_directions: No Attack
   defense_directions: None
   limit: 1 of race
-  body: |    The Eye of Juno does not belong to any element. <i>Incarnation</i> on any allied non-Biolith creature. Each time a creature is summoned, Eye of Juno gains 1 HP. In each Resolution Phase, any enemy creature with the same orientation as The Eye whose Summoning Cost is equal to or less than The Eye's HP is destroyed. Each time any creature is destroyed, you may search your library for a Sacred creature, reveal it and put it in your hand. Then shuffle your library.
+  body: |    The Eye of Juno does not belong to any element. Incarnation on any allied non-Biolith creature. Each time a creature is summoned, Eye of Juno gains 1 HP. In each Resolution Phase, any enemy creature with the same orientation as The Eye whose Summoning Cost is equal to or less than The Eye's HP is destroyed. Each time any creature is destroyed, you may search your library for a Sacred creature, reveal it and put it in your hand. Then shuffle your library.
 291_venoan_hard_bargain:
   set: 3
   number: 291
@@ -4169,7 +4169,7 @@
   summoning_cost: 0
   rarity: Uncommon
   limit: 1 of card
-  body: |    Both players reveal the top card of their libraries for <i>Judgment</i>. If you win, you gain mana equal to the number of enemy creatures on the board. If you lose, your opponent gains 1 mana. If it's a tie, nothing happens.
+  body: |    Both players reveal the top card of their libraries for Judgment. If you win, you gain mana equal to the number of enemy creatures on the board. If you lose, your opponent gains 1 mana. If it's a tie, nothing happens.
 292_corsez_oath:
   set: 3
   number: 292
@@ -4234,7 +4234,7 @@
   race: Conjuration
   summoning_cost: 3
   rarity: Common
-  body: |    <i>Fieldquake</i> any one field and the adjacent field in front of it.
+  body: |    Fieldquake any one field and the adjacent field in front of it.
 299_mourning_reanimation:
   set: 3
   number: 299
@@ -4347,7 +4347,7 @@
   race: Sorcery
   summoning_cost: 3
   rarity: Rare
-  body: |    Choose a creature on the board. While it is on the board, any fields whose reverse side is the same element as the creature are <i>fieldquaked</i> in either player's Resolution Phase. This spell has no effect on creatures with no element. Playing this card ends your turn.
+  body: |    Choose a creature on the board. While it is on the board, any fields whose reverse side is the same element as the creature are fieldquaked in either player's Resolution Phase. This spell has no effect on creatures with no element. Playing this card ends your turn.
 311_dioskuri:
   set: 3
   number: 311
@@ -4363,4 +4363,4 @@
   attack_directions: Magic Nuke
   defense_directions: None Blind Back
   limit: 1 of card
-  body: |    This creature can only be summoned by Incarnation on either allied Pollux or allied Kastor. Dioskuri's <i>Magic Attack</i> targets all enemy creatures. Dioskuri's Attack is equal to 2 plus both players' combined mana. If you put Dioskuri on top of Pollux to create Dioskuri, the creature steals exit mana from enemies on Biolith fields. If you put Dioskuri on top of Kastor to create Dioskuri, all other allied creatures on Biolith fields gain 1 HP in each Resolution Phase while Dioskuri is on the board.
+  body: |    This creature can only be summoned by Incarnation on either allied Pollux or allied Kastor. Dioskuri's Magic Attack targets all enemy creatures. Dioskuri's Attack is equal to 2 plus both players' combined mana. If you put Dioskuri on top of Pollux to create Dioskuri, the creature steals exit mana from enemies on Biolith fields. If you put Dioskuri on top of Kastor to create Dioskuri, all other allied creatures on Biolith fields gain 1 HP in each Resolution Phase while Dioskuri is on the board.
