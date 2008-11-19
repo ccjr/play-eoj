@@ -22,11 +22,11 @@ public final class R {
         public static final int wood=0x7f020008;
     }
     public static final class id {
-        public static final int card_activation_cost=0x7f050004;
+        public static final int card_activation_cost=0x7f050003;
         public static final int card_description=0x7f050006;
-        public static final int card_element=0x7f050002;
+        public static final int card_element=0x7f050004;
         public static final int card_race=0x7f050005;
-        public static final int card_summoning_cost=0x7f050003;
+        public static final int card_summoning_cost=0x7f050002;
         public static final int card_title=0x7f050001;
         public static final int webview=0x7f050000;
     }
