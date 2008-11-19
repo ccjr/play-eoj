@@ -9,25 +9,19 @@
               android:text="Title"
               android:textSize="20sp"
               android:layout_height="wrap_content"/>
-              
-    <TableLayout
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content">
+
+    <TableLayout android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
     	<TextView android:id="@+id/card_summoning_cost"
-        	  android:layout_width="fill_parent" 
-              android:text="Summ cost"
-        	  android:layout_height="wrap_content"/>
+              android:text="Summ cost"/>
     	<TextView android:id="@+id/card_activation_cost"
-              android:layout_width="fill_parent" 
-              android:text="Actv cost"
-              android:layout_height="wrap_content"/>
+              android:text="Actv cost"/>
     </TableLayout>
-    
+
     <ImageView android:id="@+id/card_element"
                android:adjustViewBounds="true"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content" />
-
 
     <TextView android:id="@+id/card_race"
         	  android:layout_width="fill_parent" 
