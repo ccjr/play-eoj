@@ -7,4 +7,5 @@ You can access this application from your iPhone at http://playeoj.mobi
 -- To Do list -- 
 
 * Make sure the card database is accurate and complete
+  * Add special attribute information in card data task [ccjr]
   * Link to other cards in the description of a card [ccjr]
