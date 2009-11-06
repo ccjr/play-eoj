@@ -10,4 +10,5 @@ Rails::Initializer.run do |config|
     :session_key => '_eoj-card-browser_session',
     :secret      => '9081ed221f9509a7027a6bc34608ee2a94b793a76be3c618cc5be597428a9443eda28fc27108f3c33cece4819392b2b05dd379c09491b4ce370782e43af7e75a'
   }
+  config.gem "haml"
 end
