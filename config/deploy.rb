@@ -1,7 +1,9 @@
 set :domain,      "spinbits.com"
-set :deploy_to,   "/mnt/www/rails/eoj"
 set :scm,         "git"
 set :repository,  "git://github.com/ccjr/play-eoj.git"
+
+set :domain,    "ec2.rida.me"
+set :deploy_to, "/vol/www/apps/playeoj"
 
 namespace :vlad do
   desc 'Runs vlad:update, vlad:migrate, vlad:restart_passenger'

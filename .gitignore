@@ -5,3 +5,5 @@ config/database.yml
 db/*.sqlite3
 db/schema.rb
 public/cards
+.settings
+bin
